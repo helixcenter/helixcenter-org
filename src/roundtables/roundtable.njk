@@ -1,0 +1,170 @@
+---
+pagination:
+  data: roundtables
+  size: 1
+  alias: rt
+permalink: "/roundtables/{{ rt.slug }}/index.html"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ rt.title }}"
+  pageTitle: "{{ rt.title }}"
+  description: "{{ rt.description | truncate(160) }}"
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{ rt.title }}",
+  "description": "{{ rt.description | truncate(300) }}",
+  {% if rt.date %}"startDate": "{{ rt.date }}",{% endif %}
+  "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "{{ site.address.venue }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.address.street }}",
+      "addressLocality": "{{ site.address.city }}",
+      "addressRegion": "{{ site.address.state }}",
+      "postalCode": "{{ site.address.zip }}"
+    }
+  },
+  "organizer": {
+    "@type": "EducationalOrganization",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "isAccessibleForFree": true
+  {% if rt.speakers and rt.speakers.length %},
+  "performer": [{% for name in rt.speakers %}{% if loop.index0 > 0 %},{% endif %}
+    {"@type": "Person", "name": "{{ name }}"}{% endfor %}
+  ]{% endif %}
+}
+</script>
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Roundtable Discussion{% if rt.year %} &middot; {{ rt.year }}{% endif %}</div>
+    <h1>{{ rt.title }}</h1>
+    <div class="gold-divider"></div>
+    {% if rt.date %}
+    <p class="section-subtitle">{{ rt.date }}{% if rt.status %} &middot; {{ rt.status }}{% endif %}</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/roundtables/">Roundtables</a></li>
+    <li>{{ rt.title | truncate(50) }}</li>
+  </ol>
+</div>
+
+<section class="detail-page">
+  <div class="container">
+    {% if rt.imageFile %}
+    <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" class="rt-featured-image" loading="lazy">
+    {% endif %}
+
+    <div class="detail-meta">
+      {% if rt.date %}<span><strong>Date:</strong> {{ rt.date }}</span>{% endif %}
+      <span><strong>Location:</strong> {{ site.address.venue }}</span>
+      <span><strong>Admission:</strong> Free</span>
+    </div>
+
+    {% if rt.tags and rt.tags.length %}
+    <div class="tag-list">
+      {% for tag in rt.tags %}
+      <span class="tag-pill">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if rt.description %}
+    <div class="detail-body">
+      <p>{{ rt.description }}</p>
+    </div>
+    {% endif %}
+
+    {% if rt.speakers and rt.speakers.length %}
+    <h2>Speakers</h2>
+    <div class="speakers-grid" style="margin-top: 1.5rem;">
+      {% for name in rt.speakers %}
+      {% set matchedSpeaker = speakers | findSpeaker(name) %}
+      {% set sd = rt.speakerDetails | find('name', name) %}
+      {% if matchedSpeaker %}
+      <a href="{{ matchedSpeaker.name | speakerUrl }}" class="speaker-card">
+        <div class="speaker-discipline-icon" title="{{ matchedSpeaker.domain }}">{% set iconDiscipline = matchedSpeaker.domain %}{% include "partials/discipline-icon.njk" %}</div>
+        <div class="speaker-card-header">
+          {% if matchedSpeaker.photo %}
+          <img src="{{ matchedSpeaker.photo }}" alt="{{ matchedSpeaker.name }}" class="speaker-photo-thumb" loading="lazy">
+          {% else %}
+          <div class="speaker-card-initials">{{ matchedSpeaker.name | initials }}</div>
+          {% endif %}
+          <div>
+            <div class="speaker-name">{{ matchedSpeaker.name }}</div>
+            {% if sd and sd.role %}
+            <div class="speaker-title">{{ sd.role }}</div>
+            {% elif matchedSpeaker.institution and matchedSpeaker.institution != "Unknown" %}
+            <div class="speaker-title">{{ matchedSpeaker.institution }}</div>
+            {% endif %}
+          </div>
+        </div>
+        {% if sd and sd.bio %}
+        <div class="speaker-rt-bio">{{ sd.bio | truncate(200) }}</div>
+        {% endif %}
+        <div class="speaker-tags">
+          <span class="speaker-tag">{{ matchedSpeaker.domain }}</span>
+        </div>
+      </a>
+      {% else %}
+      <div class="speaker-card">
+        <div class="speaker-card-header">
+          <div class="speaker-card-initials">{{ name | initials }}</div>
+          <div>
+            <div class="speaker-name">{{ name }}</div>
+            {% if sd and sd.role %}
+            <div class="speaker-title">{{ sd.role }}</div>
+            {% endif %}
+          </div>
+        </div>
+        {% if sd and sd.bio %}
+        <div class="speaker-rt-bio">{{ sd.bio | truncate(200) }}</div>
+        {% endif %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if rt.videoId %}
+    <h2>Watch</h2>
+    <div class="rt-video-embed" style="margin-top: 1.5rem;">
+      <div class="video-thumbnail">
+        <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/{{ rt.videoId }}?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy" title="{{ rt.title }} — Helix Center Roundtable"></iframe>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if rt.hasAudio and rt.audioFile %}
+    <h2>Media</h2>
+    <p style="margin-top: 0.75rem;">
+      <span class="rt-media-badge" style="font-size: 0.85rem;">&#9654; Audio recording available: {{ rt.audioFile }}</span>
+    </p>
+    {% endif %}
+
+    {% if rt.url %}
+    <div style="margin-top: 2.5rem;">
+      <a href="{{ rt.url }}" class="btn btn-outline-dark" target="_blank" rel="noopener">View on helixcenter.org &rarr;</a>
+    </div>
+    {% endif %}
+  </div>
+</section>

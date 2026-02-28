@@ -1,0 +1,113 @@
+---
+layout: layouts/base.njk
+title: About
+pageTitle: About The Helix Center
+description: "The Helix Center for Interdisciplinary Investigation is a 501(c)(3) nonprofit founded in 2012 by Dr. Edward Nersessian, hosting free roundtable discussions in New York City."
+permalink: /about/
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">About</div>
+    <h1>About The Helix Center</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">A university without walls, founded in 2012 in New York City</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li>About</li></ol>
+</div>
+
+<section class="cream">
+  <div class="container">
+    <div class="mission-grid">
+      <div class="mission-text">
+        <p>
+          The Helix Center for Interdisciplinary Investigation was founded in 2012 by
+          <strong>{{ site.founder }}</strong>, a psychoanalyst and clinical professor of psychiatry who
+          observed how narrow specialization and the grant process were constraining creativity at
+          professional scientific meetings. What began as an experiment in
+          <span class="highlight">"a university without walls"</span> has grown into one of New York
+          City's most distinctive intellectual institutions.
+        </p>
+        <p>
+          Over {{ site.stats.seasons }} seasons, The Helix Center has convened <strong>{{ site.stats.speakers }} distinguished speakers</strong>
+          from <strong>{{ site.stats.institutions }} institutions</strong> &mdash; including Columbia, NYU, Princeton, Yale, Harvard,
+          MIT, Oxford, Cambridge, and University College London &mdash; for its signature
+          <strong>Theaetetus Table</strong> roundtable discussions. These extempore (unscripted)
+          conversations bring five experts from different fields together to explore a single question
+          at the boundaries of human knowledge.
+        </p>
+        <p>
+          Every event is completely free and open to the public &mdash; an act of intellectual generosity
+          made possible by donors who believe in the enduring value of cross-disciplinary inquiry.
+        </p>
+      </div>
+      <div class="mission-principles">
+        <div class="principle">
+          <div class="principle-icon">&#8734;</div>
+          <div>
+            <h4>Interdisciplinary by Design</h4>
+            <p>Every roundtable unites voices from multiple fields &mdash; {{ site.stats.disciplines }} disciplines from neuroscience to poetry.</p>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-icon">&#9733;</div>
+          <div>
+            <h4>Exceptional Caliber</h4>
+            <p>{{ site.stats.nobelLaureates }} Nobel laureates, {{ site.stats.macarthurFellows }} MacArthur Fellows, and the most-cited neuroscientist in history.</p>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-icon">&#9881;</div>
+          <div>
+            <h4>Unrehearsed &amp; Authentic</h4>
+            <p>No scripts, no pre-arranged positions. Five scholars sit together and think out loud.</p>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-icon">&#9825;</div>
+          <div>
+            <h4>Free &amp; Open to All</h4>
+            <p>Every event is free. Our entire archive is freely accessible online.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dark theaetetus">
+  <div class="container-narrow">
+    <div class="section-label text-center">The Signature Format</div>
+    <h2 class="text-center" style="color: var(--cream);">The Theaetetus Table</h2>
+    <div class="gold-divider"></div>
+    <p class="theaetetus-quote">
+      Named for the Platonic dialogue investigating the nature of knowledge, the Theaetetus Table
+      seats five distinguished participants &mdash; each a leader in their field &mdash; for extempore
+      interdisciplinary conversation. The five symbolize the Platonic solids and the five qualities
+      of mind the Center seeks to cultivate.
+    </p>
+    <div class="theaetetus-qualities">
+      <div class="quality"><span class="quality-icon">&#10024;</span><span class="quality-word">Curiosity</span><span class="quality-desc">Tetrahedron</span></div>
+      <div class="quality"><span class="quality-icon">&#9672;</span><span class="quality-word">Playfulness</span><span class="quality-desc">Cube</span></div>
+      <div class="quality"><span class="quality-icon">&#9830;</span><span class="quality-word">Inspiration</span><span class="quality-desc">Octahedron</span></div>
+      <div class="quality"><span class="quality-icon">&#10038;</span><span class="quality-word">Reflection</span><span class="quality-desc">Dodecahedron</span></div>
+      <div class="quality"><span class="quality-icon">&#10022;</span><span class="quality-word">Wonder</span><span class="quality-desc">Icosahedron</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container-narrow">
+    <div class="section-label text-center">Location</div>
+    <h2 class="text-center">{{ site.address.venue }}</h2>
+    <div class="gold-divider"></div>
+    <p style="font-family: var(--serif); font-size: 1.08rem; color: var(--text-mid); line-height: 1.85; text-align: center; margin-top: 2rem;">
+      {{ site.address.street }}<br>
+      {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}<br><br>
+      All events are free and open to the public. First-come seating. Live streams available for every roundtable.
+    </p>
+  </div>
+</section>

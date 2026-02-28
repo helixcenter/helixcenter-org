@@ -1,0 +1,413 @@
+{
+  "advisors": [
+    {
+      "name": "Cristina Alberini",
+      "credentials": "Ph.D.",
+      "field": "Neuroscience / Memory"
+    },
+    {
+      "name": "Mark Alford",
+      "credentials": "Ph.D.",
+      "field": "Physics"
+    },
+    {
+      "name": "Francois Ansermet",
+      "credentials": "M.D.",
+      "field": "Psychiatry / Psychoanalysis"
+    },
+    {
+      "name": "Elizabeth Auchincloss",
+      "credentials": "M.D.",
+      "field": "Psychiatry / Psychoanalysis"
+    },
+    {
+      "name": "Michael Bess",
+      "credentials": "Ph.D.",
+      "field": "History of Science"
+    },
+    {
+      "name": "Akeel Bilgrami",
+      "credentials": "Ph.D.",
+      "field": "Philosophy"
+    },
+    {
+      "name": "Alberto Bisin",
+      "credentials": "Ph.D.",
+      "field": "Economics"
+    },
+    {
+      "name": "Ned Block",
+      "credentials": "Ph.D.",
+      "field": "Philosophy of Mind"
+    },
+    {
+      "name": "Greg Calbi",
+      "credentials": "",
+      "field": "Music / Audio Engineering"
+    },
+    {
+      "name": "Thomas Carew",
+      "credentials": "Ph.D.",
+      "field": "Neuroscience"
+    },
+    {
+      "name": "C. Sue Carter",
+      "credentials": "Ph.D.",
+      "field": "Biology / Neuroscience"
+    },
+    {
+      "name": "Anne Cattaneo",
+      "credentials": "",
+      "field": "Dramaturgy / Theater"
+    },
+    {
+      "name": "David Chalmers",
+      "credentials": "Ph.D.",
+      "field": "Philosophy of Mind"
+    },
+    {
+      "name": "Deepak Chopra",
+      "credentials": "M.D.",
+      "field": "Integrative Medicine"
+    },
+    {
+      "name": "Heather Dubrow",
+      "credentials": "Ph.D.",
+      "field": "English Literature"
+    },
+    {
+      "name": "Annaik Feve",
+      "credentials": "M.D., Ph.D.",
+      "field": "Medicine"
+    },
+    {
+      "name": "Stuart Firestein",
+      "credentials": "Ph.D.",
+      "field": "Neuroscience / Biology"
+    },
+    {
+      "name": "Robert H. Frank",
+      "credentials": "Ph.D.",
+      "field": "Economics"
+    },
+    {
+      "name": "David Freedberg",
+      "credentials": "Ph.D.",
+      "field": "Art History"
+    },
+    {
+      "name": "Serge Frisch",
+      "credentials": "M.D.",
+      "field": "Medicine / Psychoanalysis"
+    },
+    {
+      "name": "Paul Fry",
+      "credentials": "Ph.D.",
+      "field": "Literary Theory"
+    },
+    {
+      "name": "Vittorio Gallese",
+      "credentials": "M.D.",
+      "field": "Neuroscience / Mirror Neurons"
+    },
+    {
+      "name": "Rebecca Goldstein",
+      "credentials": "Ph.D.",
+      "field": "Philosophy / Literature"
+    },
+    {
+      "name": "Anne Harrington",
+      "credentials": "Ph.D.",
+      "field": "History of Science"
+    },
+    {
+      "name": "Piet Hut",
+      "credentials": "Ph.D.",
+      "field": "Astrophysics / Computational Science"
+    },
+    {
+      "name": "Chris Impey",
+      "credentials": "Ph.D.",
+      "field": "Astronomy"
+    },
+    {
+      "name": "Ioannis Karatzas",
+      "credentials": "Ph.D.",
+      "field": "Mathematics"
+    },
+    {
+      "name": "Joseph LeDoux",
+      "credentials": "Ph.D.",
+      "field": "Neuroscience / Emotion"
+    },
+    {
+      "name": "Francis Lee",
+      "credentials": "Ph.D.",
+      "field": "Neuroscience / Psychiatry"
+    },
+    {
+      "name": "Peter Loewenberg",
+      "credentials": "Ph.D.",
+      "field": "History / Psychoanalysis"
+    },
+    {
+      "name": "Pierre Magistretti",
+      "credentials": "M.D., Ph.D.",
+      "field": "Neuroscience"
+    },
+    {
+      "name": "Tim Maudlin",
+      "credentials": "Ph.D.",
+      "field": "Philosophy of Physics"
+    },
+    {
+      "name": "Barry Mazur",
+      "credentials": "Ph.D.",
+      "field": "Mathematics"
+    },
+    {
+      "name": "Grace Dane Mazur",
+      "credentials": "M.F.A.",
+      "field": "Fiction Writing"
+    },
+    {
+      "name": "Patrick Miller",
+      "credentials": "M.D.",
+      "field": "Psychiatry"
+    },
+    {
+      "name": "Jeffrey Miron",
+      "credentials": "Ph.D.",
+      "field": "Economics"
+    },
+    {
+      "name": "Mark Mitton",
+      "credentials": "",
+      "field": "Theater / Puppetry"
+    },
+    {
+      "name": "Priyamvada Natarajan",
+      "credentials": "Ph.D.",
+      "field": "Astrophysics"
+    },
+    {
+      "name": "Mark Norell",
+      "credentials": "Ph.D.",
+      "field": "Paleontology"
+    },
+    {
+      "name": "Nils Noren",
+      "credentials": "",
+      "field": "Culinary Arts"
+    },
+    {
+      "name": "Timothy O'Connor",
+      "credentials": "Ph.D.",
+      "field": "Philosophy"
+    },
+    {
+      "name": "Tristan Perich",
+      "credentials": "",
+      "field": "Music / Electronic Art"
+    },
+    {
+      "name": "Bridgette Peucker",
+      "credentials": "Ph.D.",
+      "field": "Film Studies / Literature"
+    },
+    {
+      "name": "Donald Pfaff",
+      "credentials": "Ph.D.",
+      "field": "Neuroscience / Neuroendocrinology"
+    },
+    {
+      "name": "Stephen Porges",
+      "credentials": "Ph.D.",
+      "field": "Neuroscience / Polyvagal Theory"
+    },
+    {
+      "name": "Diana Reiss",
+      "credentials": "Ph.D.",
+      "field": "Animal Cognition / Psychology"
+    },
+    {
+      "name": "Harvey Rich",
+      "credentials": "M.D.",
+      "field": "Psychiatry"
+    },
+    {
+      "name": "Arnold Richards",
+      "credentials": "M.D.",
+      "field": "Psychoanalysis"
+    },
+    {
+      "name": "Carol Rovane",
+      "credentials": "Ph.D.",
+      "field": "Philosophy"
+    },
+    {
+      "name": "Eva Schmid-Gloor",
+      "credentials": "M.D.",
+      "field": "Medicine"
+    },
+    {
+      "name": "Maxine Sheets-Johnstone",
+      "credentials": "Ph.D.",
+      "field": "Philosophy / Movement Studies"
+    },
+    {
+      "name": "Paul Steinhardt",
+      "credentials": "Ph.D.",
+      "field": "Physics / Cosmology"
+    },
+    {
+      "name": "Tyler Volk",
+      "credentials": "Ph.D.",
+      "field": "Biology / Environmental Science"
+    },
+    {
+      "name": "Steven Wein",
+      "credentials": "M.D.",
+      "field": "Medicine"
+    },
+    {
+      "name": "Richard Weiss",
+      "credentials": "M.D.",
+      "field": "Medicine"
+    },
+    {
+      "name": "Joan Williams",
+      "credentials": "J.D.",
+      "field": "Law"
+    }
+  ],
+  "directors": [
+    {
+      "name": "Edward Nersessian",
+      "role": "Chairman",
+      "notes": "Director of The Helix Center"
+    },
+    {
+      "name": "Antonio Beltramini",
+      "role": "Treasurer",
+      "notes": ""
+    },
+    {
+      "name": "Kim Brizzolara",
+      "role": "Director",
+      "notes": ""
+    },
+    {
+      "name": "Gerald Hurowitz",
+      "role": "Director",
+      "notes": "Also serves as Associate Director on Executive Committee"
+    },
+    {
+      "name": "Ruth M. Baer Maetzener",
+      "role": "Director",
+      "notes": ""
+    },
+    {
+      "name": "Daniel Vasella",
+      "role": "Director",
+      "notes": ""
+    },
+    {
+      "name": "Steven Wein",
+      "role": "Director",
+      "notes": "Also on Board of Advisors"
+    }
+  ],
+  "executive": [
+    {
+      "name": "Edward Nersessian",
+      "role": "Director"
+    },
+    {
+      "name": "Gerald Hurowitz",
+      "role": "Associate Director"
+    },
+    {
+      "name": "Kim Brizzolara",
+      "role": "Committee Member"
+    },
+    {
+      "name": "Jon Chun",
+      "role": "Committee Member"
+    },
+    {
+      "name": "Katherine Elkins",
+      "role": "Committee Member"
+    },
+    {
+      "name": "Ellen Gilbert",
+      "role": "Committee Member"
+    },
+    {
+      "name": "Anne-Marie Levine",
+      "role": "Committee Member"
+    },
+    {
+      "name": "Mary Luallen",
+      "role": "Committee Member"
+    },
+    {
+      "name": "Farzad Mahootian",
+      "role": "Committee Member"
+    },
+    {
+      "name": "Joe Peyronnin",
+      "role": "Committee Member"
+    },
+    {
+      "name": "John Williams",
+      "role": "Committee Member"
+    },
+    {
+      "name": "Beverley Zabriskie",
+      "role": "Committee Member"
+    }
+  ],
+  "filmProgram": [
+    {
+      "name": "Matthew von Unwerth",
+      "role": "Coordinator"
+    },
+    {
+      "name": "Anne-Marie Levine",
+      "role": "Member"
+    }
+  ],
+  "musicProgram": [
+    {
+      "name": "Anna Balas",
+      "credentials": "",
+      "notes": ""
+    },
+    {
+      "name": "Jane Ira Bloom",
+      "credentials": "",
+      "notes": "Jazz saxophonist"
+    },
+    {
+      "name": "Stephanie Chase",
+      "credentials": "",
+      "notes": "Violinist"
+    },
+    {
+      "name": "Eric Jacobson",
+      "credentials": "",
+      "notes": "Conductor"
+    },
+    {
+      "name": "Tristan Perich",
+      "credentials": "",
+      "notes": "Electronic musician / artist (also on Board of Advisors)"
+    },
+    {
+      "name": "Lewis Porter",
+      "credentials": "Ph.D.",
+      "notes": "Musicologist"
+    }
+  ]
+}

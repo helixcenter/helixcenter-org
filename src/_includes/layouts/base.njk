@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ pageTitle or title }} | {{ site.shortName }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ pageTitle or title }} | {{ site.shortName }}">
+<meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.shortName }}">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@HelixCenter">
+<meta name="twitter:title" content="{{ pageTitle or title }}">
+<meta name="twitter:description" content="{{ description or site.description }}">
+
+<!-- Additional SEO -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="{{ site.name }}">
+<meta name="geo.placename" content="New York, NY">
+<meta name="geo.region" content="US-NY">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+{% include "partials/nav.njk" %}
+
+<div class="nav-mobile" id="mobile-nav">
+  <a href="/about/">About</a>
+  <a href="/speakers/">Speakers</a>
+  <a href="/roundtables/">Roundtables</a>
+  <a href="/disciplines/">Disciplines</a>
+  <a href="/leadership/">Leadership</a>
+  <a href="/media/">Media</a>
+  <a href="/faq/">FAQ</a>
+  <a href="/donate/">Donate</a>
+</div>
+
+{{ content | safe }}
+
+{% include "partials/footer.njk" %}
+
+<script src="/js/main.js"></script>
+</body>
+</html>

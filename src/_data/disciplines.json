@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Other/Interdisciplinary",
+    "count": 129,
+    "topSpeakers": [
+      "Rob Hopkins",
+      "Eric Klinenberg",
+      "Jennifer Jacquet"
+    ],
+    "slug": "otherinterdisciplinary"
+  },
+  {
+    "name": "Literature & Writing",
+    "count": 75,
+    "topSpeakers": [
+      "Yiyun Li",
+      "Siri Hustvedt",
+      "Katherine Elkins"
+    ],
+    "slug": "literature-writing"
+  },
+  {
+    "name": "Biology & Medicine",
+    "count": 56,
+    "topSpeakers": [
+      "Andrea Califano",
+      "Robert Klitzman",
+      "Raul Rabadan"
+    ],
+    "slug": "biology-medicine"
+  },
+  {
+    "name": "Philosophy & Ethics",
+    "count": 47,
+    "topSpeakers": [
+      "David Chalmers",
+      "Michael S. Turner",
+      "Joel David Hamkins"
+    ],
+    "slug": "philosophy-ethics"
+  },
+  {
+    "name": "Neuroscience & Cognition",
+    "count": 45,
+    "topSpeakers": [
+      "Eric Kandel",
+      "Karl Friston",
+      "György Buzsáki"
+    ],
+    "slug": "neuroscience-cognition"
+  },
+  {
+    "name": "History & Cultural Studies",
+    "count": 26,
+    "topSpeakers": [
+      "Anthony Grafton",
+      "David Freedberg",
+      "Deborah Coen"
+    ],
+    "slug": "history-cultural-studies"
+  },
+  {
+    "name": "Creative & Performing Arts",
+    "count": 25,
+    "topSpeakers": [
+      "Vijay Iyer",
+      "Suzanne Anker",
+      "John Kress"
+    ],
+    "slug": "creative-performing-arts"
+  },
+  {
+    "name": "Mathematics & Computer Science",
+    "count": 23,
+    "topSpeakers": [
+      "Barry Mazur",
+      "Graciela Chichilnisky",
+      "Thomas Callister Hales"
+    ],
+    "slug": "mathematics-computer-science"
+  },
+  {
+    "name": "Psychology & Psychoanalysis",
+    "count": 21,
+    "topSpeakers": [
+      "Daniel Kahneman",
+      "Peter Loewenberg",
+      "Jessica Benjamin"
+    ],
+    "slug": "psychology-psychoanalysis"
+  },
+  {
+    "name": "Physics & Cosmology",
+    "count": 20,
+    "topSpeakers": [
+      "Paul J. Steinhardt",
+      "Sara Seager",
+      "Sylvester James Gates"
+    ],
+    "slug": "physics-cosmology"
+  },
+  {
+    "name": "Social Sciences",
+    "count": 19,
+    "topSpeakers": [
+      "Jeffrey Alexander",
+      "Liah Greenfeld",
+      "Tracey Meares"
+    ],
+    "slug": "social-sciences"
+  },
+  {
+    "name": "Technology & Engineering",
+    "count": 10,
+    "topSpeakers": [
+      "Rosalind Picard",
+      "Katepalli Sreenivasan",
+      "Adrian Bejan"
+    ],
+    "slug": "technology-engineering"
+  },
+  {
+    "name": "Journalism & Media",
+    "count": 10,
+    "topSpeakers": [
+      "R. Luke DuBois",
+      "Adam Kirsch",
+      "David Lichtenstein"
+    ],
+    "slug": "journalism-media"
+  }
+]

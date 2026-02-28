@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+title: Contact
+pageTitle: "Contact The Helix Center"
+description: "Contact The Helix Center for Interdisciplinary Investigation. Located at 247 East 82nd Street, New York, NY 10028."
+permalink: /contact/
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Get in Touch</div>
+    <h1>Contact Us</h1>
+    <div class="gold-divider"></div>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li>Contact</li></ol>
+</div>
+
+<section>
+  <div class="container-narrow">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-top: 2rem;">
+      <div>
+        <h3>Visit Us</h3>
+        <p style="font-family: var(--serif); font-size: 1.05rem; color: var(--text-mid); line-height: 1.85; margin-top: 1rem;">
+          <strong>{{ site.address.venue }}</strong><br>
+          {{ site.address.street }}<br>
+          {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-mid); margin-top: 1.5rem;">
+          Roundtables are typically held on Saturdays at 2:30 PM.<br>
+          All events are free and open to the public. First-come seating.
+        </p>
+      </div>
+      <div>
+        <h3>Connect Online</h3>
+        <div style="margin-top: 1rem;">
+          <p style="margin-bottom: 0.6rem;"><a href="{{ site.social.facebook }}" style="color: var(--gold-dark); text-decoration: none;">Facebook &rarr;</a></p>
+          <p style="margin-bottom: 0.6rem;"><a href="{{ site.social.twitter }}" style="color: var(--gold-dark); text-decoration: none;">Twitter &rarr;</a></p>
+          <p style="margin-bottom: 0.6rem;"><a href="{{ site.social.youtube }}" style="color: var(--gold-dark); text-decoration: none;">YouTube &rarr;</a></p>
+          <p style="margin-bottom: 0.6rem;"><a href="{{ site.social.instagram }}" style="color: var(--gold-dark); text-decoration: none;">Instagram &rarr;</a></p>
+          <p style="margin-bottom: 0.6rem;"><a href="{{ site.social.podcast }}" style="color: var(--gold-dark); text-decoration: none;">Podcast &rarr;</a></p>
+          <p style="margin-bottom: 0.6rem;"><a href="https://www.helixcenter.org/contact/" style="color: var(--gold-dark); text-decoration: none;">Contact Form on helixcenter.org &rarr;</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

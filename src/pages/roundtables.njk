@@ -1,0 +1,62 @@
+---
+layout: layouts/base.njk
+title: Roundtable Archive
+pageTitle: Roundtable Discussions
+description: "Browse 134+ interdisciplinary roundtable discussions from The Helix Center, featuring Nobel laureates and 506 distinguished scholars. All free to watch."
+pagination:
+  data: roundtables
+  size: 18
+  alias: items
+permalink: "/roundtables/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Archive</div>
+    <h1>Roundtable Discussions</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">{{ roundtables | length }} interdisciplinary discussions spanning {{ site.stats.seasons }} seasons, all free and open to the public</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li>Roundtables</li></ol>
+</div>
+
+<section>
+  <div class="container">
+    <div class="filter-bar">
+      <input type="text" id="search-input" placeholder="Search roundtables by title, topic, or speaker...">
+      <select id="filter-select">
+        <option value="">All Years</option>
+        {% for year in roundtables | uniqueValues('year') | reverse %}
+        <option value="{{ year }}">{{ year }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="listing-grid">
+      {% for rt in items %}
+      {% include "partials/roundtable-card.njk" %}
+      {% endfor %}
+    </div>
+
+    {% if pagination.pages | length > 1 %}
+    <div class="pagination">
+      {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}">&laquo; Prev</a>
+      {% endif %}
+      {% for pageEntry in pagination.pages %}
+      {% if pagination.pageNumber == loop.index0 %}
+      <span class="current">{{ loop.index }}</span>
+      {% else %}
+      <a href="{{ pagination.hrefs[loop.index0] }}">{{ loop.index }}</a>
+      {% endif %}
+      {% endfor %}
+      {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}">Next &raquo;</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>

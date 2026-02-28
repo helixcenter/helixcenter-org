@@ -1,0 +1,104 @@
+---
+pagination:
+  data: speakers
+  size: 1
+  alias: speaker
+permalink: "/speakers/{{ speaker.slug }}/index.html"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ speaker.name }}"
+  pageTitle: "{{ speaker.name }}"
+  description: "{{ speaker.name }}{% if speaker.institution and speaker.institution != 'Unknown' %} — {{ speaker.institution }}{% endif %}{% if speaker.achievement %}. {{ speaker.achievement | truncate(120) }}{% endif %}"
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ speaker.name }}",
+  {% if speaker.title %}"jobTitle": "{{ speaker.title }}",{% endif %}
+  {% if speaker.institution and speaker.institution != "Unknown" %}"worksFor": { "@type": "Organization", "name": "{{ speaker.institution }}" },{% endif %}
+  {% if speaker.achievement %}"description": "{{ speaker.achievement }}",{% endif %}
+  {% if speaker.wikipedia %}"sameAs": ["{{ speaker.wikipedia }}"],{% endif %}
+  "memberOf": {
+    "@type": "EducationalOrganization",
+    "name": "{{ site.name }}"
+  }
+}
+</script>
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Speaker Profile</div>
+    <h1>{{ speaker.name }}</h1>
+    <div class="gold-divider"></div>
+    {% if speaker.title %}
+    <p class="section-subtitle">{{ speaker.title }}</p>
+    {% elif speaker.institution and speaker.institution != "Unknown" %}
+    <p class="section-subtitle">{{ speaker.institution }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/speakers/">Speakers</a></li>
+    <li>{{ speaker.name }}</li>
+  </ol>
+</div>
+
+<section class="detail-page">
+  <div class="container">
+    <div class="speaker-detail-header">
+      {% if speaker.photo %}
+      <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="speaker-photo" loading="lazy">
+      {% else %}
+      <div class="speaker-detail-avatar">{{ speaker.name | initials }}</div>
+      {% endif %}
+      <div class="speaker-detail-info">
+        <h1>{{ speaker.name }}</h1>
+        <div class="speaker-meta">
+          {% if speaker.title %}<p><strong>Title:</strong> {{ speaker.title }}</p>{% endif %}
+          {% if speaker.institution and speaker.institution != "Unknown" %}<p><strong>Institution:</strong> {{ speaker.institution }}</p>{% endif %}
+          <p><strong>Discipline:</strong> {{ speaker.domain }}</p>
+          <p><strong>Appearances:</strong> {{ speaker.appearances }}</p>
+          {% if speaker.achievement %}<p><strong>Achievement:</strong> {{ speaker.achievement }}</p>{% endif %}
+        </div>
+        {% if speaker.wikipedia %}
+        <div style="margin-top: 1rem;">
+          <a href="{{ speaker.wikipedia }}" class="btn btn-outline-dark" target="_blank" rel="noopener">Wikipedia &rarr;</a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if speaker.bio %}
+    <div class="speaker-bio">
+      <div class="speaker-bio-label">Biography</div>
+      <p>{{ speaker.bio }}</p>
+    </div>
+    {% endif %}
+
+    {% if speaker.roundtables and speaker.roundtables.length %}
+    <h2>Roundtable Appearances</h2>
+    <div class="listing-grid" style="margin-top: 1.5rem;">
+      {% for rtTitle in speaker.roundtables %}
+      {% set matchedRt = roundtables | find('title', rtTitle) %}
+      {% if matchedRt %}
+      {% set rt = matchedRt %}
+      {% include "partials/roundtable-card.njk" %}
+      {% else %}
+      <div class="rt-card">
+        <div class="rt-title">{{ rtTitle }}</div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div style="margin-top: 3rem; text-align: center;">
+      <a href="/speakers/" class="btn btn-outline-dark">&larr; Back to All Speakers</a>
+    </div>
+  </div>
+</section>

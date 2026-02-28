@@ -1,0 +1,33 @@
+{#- Discipline SVG icon partial
+    Usage: {% set iconDiscipline = "Neuroscience & Cognition" %}{% include "partials/discipline-icon.njk" %}
+    Renders an inline SVG sized by the parent container (use .speaker-discipline-icon or .domain-icon)
+-#}
+{%- if iconDiscipline == "Other/Interdisciplinary" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="18" r="13" stroke="#1a2744" stroke-width="1.3"/><path d="M18 5v26M5 18h26M9 9l18 18M27 9L9 27" stroke="#1a2744" stroke-width="0.9" opacity="0.5"/><circle cx="18" cy="18" r="4" fill="#c9a84c" opacity="0.5"/></svg>
+{%- elif iconDiscipline == "Literature & Writing" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 6c0 0 4 2 10 2s10-2 10-2v22c0 0-4 2-10 2s-10-2-10-2z" stroke="#1a2744" stroke-width="1.3" fill="none"/><path d="M18 8v22" stroke="#1a2744" stroke-width="1"/><path d="M12 12h4M12 16h4M20 11h4M20 15h4" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/></svg>
+{%- elif iconDiscipline == "Biology & Medicine" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 3v8M18 11c-4 0-8 2.5-8 6.5v2.5c0 1.3.7 2.5 2 3.2L14 31h8l2-5.8c1.3-.7 2-1.9 2-3.2v-2.5c0-4-4-6.5-8-6.5z" stroke="#1a2744" stroke-width="1.3" fill="none"/><path d="M13 17h10" stroke="#c9a84c" stroke-width="1"/><circle cx="10" cy="7" r="1.3" fill="#c9a84c" opacity="0.5"/><circle cx="26" cy="7" r="1.3" fill="#c9a84c" opacity="0.5"/></svg>
+{%- elif iconDiscipline == "Philosophy & Ethics" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="14" r="8" stroke="#1a2744" stroke-width="1.3" fill="none"/><path d="M18 22v8M15 32h6" stroke="#1a2744" stroke-width="1.3"/><text x="14" y="18" font-size="12" font-family="serif" fill="#c9a84c">?</text></svg>
+{%- elif iconDiscipline == "Neuroscience & Cognition" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 4c-3 0-5.5 1.5-7 4-1.5 2.5-1.5 5.5 0 8l2 3c1 1.5 1.5 3.2 1.5 5v5h7v-5c0-1.8.5-3.5 1.5-5l2-3c1.5-2.5 1.5-5.5 0-8-1.5-2.5-4-4-7-4z" stroke="#1a2744" stroke-width="1.5" fill="none"/><path d="M14 26h8M15 29h6" stroke="#1a2744" stroke-width="1.2"/><circle cx="12" cy="12" r="1.5" fill="#c9a84c" opacity="0.6"/><circle cx="22" cy="10" r="1.5" fill="#c9a84c" opacity="0.6"/><circle cx="16" cy="8" r="1" fill="#c9a84c" opacity="0.6"/><path d="M10 14c-2 1-3 0-4-1M26 14c2 1 3 0 4-1M9 9c-1-2-3-2-4-1M27 9c1-2 3-2 4-1" stroke="#1a2744" stroke-width="1" opacity="0.5"/></svg>
+{%- elif iconDiscipline == "Creative & Performing Arts" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 28V10l16-4v18" stroke="#1a2744" stroke-width="1.5" fill="none"/><circle cx="9" cy="28" r="3.5" stroke="#1a2744" stroke-width="1.3" fill="none"/><circle cx="25" cy="24" r="3.5" stroke="#1a2744" stroke-width="1.3" fill="none"/><path d="M12 14l16-4" stroke="#c9a84c" stroke-width="1" opacity="0.6"/></svg>
+{%- elif iconDiscipline == "History & Cultural Studies" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="7" width="26" height="21" rx="2" stroke="#1a2744" stroke-width="1.3"/><path d="M5 13h26" stroke="#1a2744" stroke-width="0.9"/><path d="M10 18h7M10 22h10M10 26h8" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/><circle cx="27" cy="10" r="1.3" fill="#c9a84c" opacity="0.5"/></svg>
+{%- elif iconDiscipline == "Mathematics & Computer Science" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="4" y="17" font-size="11" font-family="serif" fill="#1a2744">&#8747;</text><text x="14" y="26" font-size="14" font-family="serif" fill="#1a2744">&#960;</text><text x="24" y="14" font-size="11" font-family="serif" fill="#c9a84c">&#8734;</text></svg>
+{%- elif iconDiscipline == "Psychology & Psychoanalysis" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="5" y="30" font-size="28" font-family="serif" fill="#1a2744">&#968;</text></svg>
+{%- elif iconDiscipline == "Physics & Cosmology" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="18" cy="18" rx="14" ry="5" stroke="#1a2744" stroke-width="1.3" transform="rotate(-30 18 18)"/><ellipse cx="18" cy="18" rx="14" ry="5" stroke="#1a2744" stroke-width="1.3" transform="rotate(30 18 18)"/><ellipse cx="18" cy="18" rx="14" ry="5" stroke="#1a2744" stroke-width="1.3" transform="rotate(90 18 18)"/><circle cx="18" cy="18" r="2.5" fill="#c9a84c"/></svg>
+{%- elif iconDiscipline == "Social Sciences" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="13" cy="13" r="5.5" stroke="#1a2744" stroke-width="1.2"/><circle cx="23" cy="13" r="5.5" stroke="#1a2744" stroke-width="1.2"/><circle cx="18" cy="22" r="5.5" stroke="#1a2744" stroke-width="1.2"/><circle cx="18" cy="16" r="2" fill="#c9a84c" opacity="0.4"/></svg>
+{%- elif iconDiscipline == "Journalism & Media" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="7" y="7" width="22" height="16" rx="2" stroke="#1a2744" stroke-width="1.3"/><path d="M13 28h10M18 23v5" stroke="#1a2744" stroke-width="1.2"/><path d="M11 13h5M11 17h8" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/></svg>
+{%- elif iconDiscipline == "Technology & Engineering" -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="8" width="20" height="16" rx="2" stroke="#1a2744" stroke-width="1.3"/><path d="M13 28h10M18 24v4" stroke="#1a2744" stroke-width="1.3"/><circle cx="14" cy="16" r="2" stroke="#c9a84c" stroke-width="1"/><circle cx="22" cy="16" r="2" stroke="#c9a84c" stroke-width="1"/><path d="M14 16h8" stroke="#c9a84c" stroke-width="0.8" stroke-dasharray="1.5 1"/><rect x="4" y="12" width="3" height="1.5" fill="#1a2744" opacity="0.4"/><rect x="29" y="12" width="3" height="1.5" fill="#1a2744" opacity="0.4"/><rect x="4" y="18" width="3" height="1.5" fill="#1a2744" opacity="0.4"/><rect x="29" y="18" width="3" height="1.5" fill="#1a2744" opacity="0.4"/></svg>
+{%- else -%}
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="18" r="13" stroke="#1a2744" stroke-width="1.3"/><circle cx="18" cy="18" r="4" fill="#c9a84c" opacity="0.5"/></svg>
+{%- endif -%}

@@ -1,0 +1,144 @@
+---
+layout: layouts/base.njk
+title: Media
+pageTitle: "Videos, Podcasts & Media"
+description: "Watch and listen to Helix Center roundtable discussions. 126 roundtable videos, 146 podcast episodes, all free to access."
+permalink: /media/
+---
+
+{% set rtWithVideo = roundtables | where("hasVideo", true) %}
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Watch &amp; Listen</div>
+    <h1>Videos, Podcasts &amp; Media</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">{{ rtWithVideo | length }} roundtable videos and {{ podcasts | length }} podcast episodes, all free to access</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li>Media</li></ol>
+</div>
+
+<!-- Roundtable Videos -->
+<section>
+  <div class="container">
+    <div class="media-section">
+      <div class="section-label">Videos</div>
+      <h2>Roundtable Video Archive</h2>
+      <div class="gold-divider" style="margin-left: 0;"></div>
+      <p style="font-family: var(--serif); font-size: 1.02rem; color: var(--text-mid); margin-bottom: 2rem;">
+        {{ rtWithVideo | length }} roundtable recordings on the <a href="{{ site.social.youtube }}" style="color: var(--gold-dark);">Helix Center YouTube channel</a>, spanning {{ roundtables[roundtables | length - 1].year }}–{{ roundtables[0].year }}.
+      </p>
+
+      {# Featured: most recent 3 videos #}
+      <div class="video-grid">
+        {% for rt in rtWithVideo | limit(1) %}
+        <div class="video-card featured">
+          <div class="video-thumbnail">
+            <iframe src="https://www.youtube-nocookie.com/embed/{{ rt.videoId }}?rel=0" allowfullscreen loading="lazy" title="{{ rt.title }}"></iframe>
+          </div>
+          <div class="video-info">
+            <div class="video-topic">Latest &middot; {{ rt.date }}</div>
+            <div class="video-title">{{ rt.title }}</div>
+            <a href="/roundtables/{{ rt.slug }}/" style="font-size: 0.8rem; color: var(--gold-dark);">View roundtable &rarr;</a>
+          </div>
+        </div>
+        {% endfor %}
+        {% for rt in rtWithVideo %}
+        {% if loop.index0 >= 1 and loop.index0 <= 2 %}
+        <a href="/roundtables/{{ rt.slug }}/" class="video-card">
+          <div class="video-thumbnail" style="padding-top:0; height:180px; background: var(--navy);">
+            {% if rt.imageFile %}
+            <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" style="width:100%; height:100%; object-fit:cover; opacity:0.7;" loading="lazy">
+            {% endif %}
+            <div class="video-play-overlay">
+              <span class="video-play-icon">&#9654;</span>
+              <span class="video-play-label">Watch</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <div class="video-topic">{{ rt.date }}</div>
+            <div class="video-title">{{ rt.title }}</div>
+          </div>
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+      {# Filter bar #}
+      <div class="filter-bar" style="margin-top: 3rem; margin-bottom: 1rem;">
+        <input type="text" id="video-search" placeholder="Search videos by title or year...">
+        <select id="video-year-filter">
+          <option value="">All Years</option>
+          {% for year in rtWithVideo | uniqueValues("year") | reverse %}
+          <option value="{{ year }}">{{ year }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <h3>Complete Video Library ({{ rtWithVideo | length }})</h3>
+      <div class="media-grid" id="video-library" style="margin-top: 1rem;">
+        {% for rt in rtWithVideo %}
+        <a href="/roundtables/{{ rt.slug }}/" class="media-card video-library-card" data-searchable="{{ rt.title | lower }} {{ rt.year }}" data-year="{{ rt.year }}" style="text-decoration: none; color: inherit;">
+          {% if rt.imageFile %}
+          <div class="media-card-thumb">
+            <img src="{{ rt.imageFile }}" alt="" loading="lazy">
+            <span class="media-card-play">&#9654;</span>
+          </div>
+          {% endif %}
+          <h4>{{ rt.title }}</h4>
+          <div class="media-meta">{{ rt.date }}{% if rt.speakers | length %} &middot; {{ rt.speakers | length }} speakers{% endif %}</div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Podcasts -->
+<section class="cream">
+  <div class="container">
+    <div class="media-section">
+      <div class="section-label">Podcasts</div>
+      <h2>Podcast Episodes</h2>
+      <div class="gold-divider" style="margin-left: 0;"></div>
+      <p style="font-family: var(--serif); font-size: 1.02rem; color: var(--text-mid); margin-bottom: 2rem;">
+        {{ podcasts | length }} episodes available on <a href="{{ site.social.podcast }}" style="color: var(--gold-dark);">Apple Podcasts</a>, Spotify, and other platforms.
+      </p>
+      <div class="media-grid">
+        {% for ep in podcasts %}
+        <div class="media-card">
+          <h4>{{ ep.title }}</h4>
+          <div class="media-meta">
+            {{ ep.date }}{% if ep.duration %} &middot; {{ ep.duration }}{% endif %}
+          </div>
+          {% if ep.description %}
+          <p style="font-size: 0.82rem; color: var(--text-mid); margin-top: 0.5rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">{{ ep.description }}</p>
+          {% endif %}
+          {% if ep.audioUrl %}
+          <a href="{{ ep.audioUrl }}" style="font-size: 0.75rem; color: var(--gold-dark); margin-top: 0.4rem; display: inline-block;">&#9654; Listen</a>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Social -->
+<section>
+  <div class="container-narrow text-center">
+    <div class="section-label">Connect</div>
+    <h2>Follow The Helix Center</h2>
+    <div class="gold-divider"></div>
+    <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-top: 2rem;">
+      <a href="{{ site.social.youtube }}" class="btn btn-outline-dark" target="_blank" rel="noopener">YouTube</a>
+      <a href="{{ site.social.facebook }}" class="btn btn-outline-dark" target="_blank" rel="noopener">Facebook</a>
+      <a href="{{ site.social.twitter }}" class="btn btn-outline-dark" target="_blank" rel="noopener">Twitter</a>
+      <a href="{{ site.social.instagram }}" class="btn btn-outline-dark" target="_blank" rel="noopener">Instagram</a>
+      <a href="{{ site.social.podcast }}" class="btn btn-outline-dark" target="_blank" rel="noopener">Podcast</a>
+    </div>
+  </div>
+</section>

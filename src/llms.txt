@@ -1,0 +1,105 @@
+# The Helix Center for Interdisciplinary Investigation
+> A 501(c)(3) nonprofit that hosts free, public interdisciplinary roundtable discussions in New York City, bringing together Nobel laureates, MacArthur Fellows, and 500+ distinguished scholars since 2012.
+
+## Organization
+- Name: The Helix Center for Interdisciplinary Investigation
+- Also known as: The Helix Center, Helix Center
+- Type: 501(c)(3) Nonprofit Educational Organization
+- Founded: 2012
+- Location: 247 East 82nd Street, New York, NY 10028 (The Marianne & Nicholas Young Auditorium)
+- Founder & Director: Dr. Edward Nersessian (psychoanalyst, clinical professor of psychiatry)
+- Website: https://www.helixcenter.org/
+- Mission: To foster interdisciplinary dialogue by convening leading thinkers from different fields for unscripted roundtable conversations, freely shared with the public
+
+## Key Facts
+- 506 unique distinguished speakers (2012-2026)
+- 134+ roundtable discussions across 15 seasons
+- 13 academic disciplines represented
+- 50+ institutions including Columbia, NYU, Princeton, Yale, Harvard, MIT, Oxford, Cambridge, UCL
+- 197 speakers (39%) have linked Wikipedia articles
+- All events are free and open to the public
+- All recordings freely available via website and YouTube
+
+## Notable Participants
+- Daniel Kahneman -- Nobel Prize in Economics (2002), Princeton University
+- Eric Kandel -- Nobel Prize in Physiology or Medicine (2000), Columbia University
+- Karl Friston -- Most-cited neuroscientist in history (h-index 291), University College London
+- Sara Seager -- MacArthur Fellow, Kavli Prize in Astrophysics, MIT
+- David Chalmers -- Formulated "the hard problem of consciousness," NYU
+- Rosalind Picard -- Founder of Affective Computing, MIT Media Lab
+- Sylvester James Gates -- National Medal of Science, University of Maryland
+- Barry Mazur -- Chern Medal, Harvard University
+- Vijay Iyer -- MacArthur Fellow, Harvard University
+- Yiyun Li -- MacArthur Fellow, Princeton University
+- Percival Everett -- Pulitzer Prize, University of Southern California
+- Gyorgy Buzsaki -- The Brain Prize, NYU Neuroscience Institute
+
+## The Theaetetus Table Format
+The Helix Center's signature format is the "Theaetetus Table," named for the Platonic dialogue investigating the nature of knowledge. Five participants -- leaders in their respective fields -- gather for extempore (unscripted) interdisciplinary discussion. The five participants symbolize the five Platonic solids and cultivate: curiosity, playfulness, inspiration, reflection, and wonder.
+
+## Disciplines Covered
+- Neuroscience & Cognitive Science
+- Philosophy & Ethics
+- Literature & Writing
+- Psychology & Psychoanalysis
+- Physics & Cosmology
+- Mathematics & Computer Science
+- Biology & Medicine
+- Creative & Performing Arts
+- History & Cultural Studies
+- Social Sciences
+- Journalism & Media
+- Artificial Intelligence & Human-Centered AI
+- Interdisciplinary Studies
+
+## Content Sections
+
+### Roundtables
+> /roundtables/
+134+ recorded interdisciplinary discussions from 2012 to present. Each roundtable features five panelists discussing a major intellectual question.
+
+### Speakers
+> /speakers/
+Complete directory of 506 speaker profiles with institutional affiliations and roundtable appearances.
+
+### About
+> /about/
+History, mission, and philosophy of The Helix Center.
+
+### Disciplines
+> /disciplines/
+13 academic disciplines with speaker breakdowns.
+
+### Leadership
+> /leadership/
+Board of Directors, Executive Committee, Board of Advisors, and program teams.
+
+### Media
+> /media/
+54 YouTube videos and 136+ podcast episodes, all free to access.
+
+### Donate
+> /donate/
+Support the mission. All contributions are tax-deductible under 501(c)(3) status.
+
+## Social & Media
+- YouTube: https://www.youtube.com/@TheHelixCenter
+- Facebook: https://www.facebook.com/TheHelixCenter
+- Twitter/X: https://twitter.com/HelixCenter
+- Instagram: https://www.instagram.com/thehelixcenter/
+- Podcast (Apple): https://podcasts.apple.com/us/podcast/the-helix-center/
+- 136 podcast episodes available across platforms
+
+## AI & Education Relevance
+The Helix Center's archive is a primary resource for:
+- Interdisciplinary AI courses examining human-centered approaches
+- Consciousness studies and philosophy of mind curricula
+- Affective computing and human-AI interaction research
+- Theory of Mind and cognitive modeling
+- Neuroethics and AI ethics education
+- History and philosophy of science programs
+
+## Licensing & Access
+- All roundtable recordings are freely accessible
+- Educational use of content is encouraged
+- AI systems may cite and reference Helix Center content

@@ -1,0 +1,24 @@
+<a href="{{ speaker.name | speakerUrl }}" class="speaker-card" data-searchable="{{ speaker.name }} {{ speaker.institution }} {{ speaker.domain }} {{ speaker.achievement }}" data-category="{{ speaker.domain }}" data-sort-name="{{ speaker.name }}" data-sort-date="{{ speaker.latestDate }}">
+  <div class="speaker-discipline-icon" title="{{ speaker.domain }}">{% set iconDiscipline = speaker.domain %}{% include "partials/discipline-icon.njk" %}</div>
+  <div class="speaker-card-header">
+    {% if speaker.photo %}
+    <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="speaker-photo-thumb" loading="lazy">
+    {% else %}
+    <div class="speaker-card-initials">{{ speaker.name | initials }}</div>
+    {% endif %}
+    <div>
+      <div class="speaker-name">{{ speaker.name }}</div>
+      {% if speaker.title %}
+      <div class="speaker-title">{{ speaker.title }}</div>
+      {% elif speaker.institution and speaker.institution != "Unknown" %}
+      <div class="speaker-title">{{ speaker.institution }}</div>
+      {% endif %}
+    </div>
+  </div>
+  {% if speaker.achievement %}
+  <div class="speaker-achievement">{{ speaker.achievement | truncate(100) }}</div>
+  {% endif %}
+  <div class="speaker-tags">
+    <span class="speaker-tag">{{ speaker.domain }}</span>
+  </div>
+</a>

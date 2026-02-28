@@ -1,0 +1,1014 @@
+---
+layout: layouts/base.njk
+title: Interdisciplinary Roundtable Discussions in NYC
+pageTitle: Where the World's Leading Minds Converge
+description: "The Helix Center hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 506 distinguished scholars across 13 disciplines. Founded 2012 in New York City."
+permalink: /
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "https://www.helixcenter.org/#organization",
+  "name": "{{ site.name }}",
+  "alternateName": ["The Helix Center", "Helix Center"],
+  "url": "{{ site.url }}/",
+  "description": "{{ site.description }}",
+  "foundingDate": "{{ site.founded }}",
+  "founder": {
+    "@type": "Person",
+    "name": "{{ site.founder }}",
+    "jobTitle": "Founder & Director"
+  },
+  "nonprofitStatus": "Nonprofit501c3",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.address.street }}",
+    "addressLocality": "{{ site.address.city }}",
+    "addressRegion": "{{ site.address.state }}",
+    "postalCode": "{{ site.address.zip }}",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "{{ site.social.facebook }}",
+    "{{ site.social.twitter }}",
+    "{{ site.social.youtube }}",
+    "{{ site.social.instagram }}",
+    "{{ site.social.linkedin }}"
+  ],
+  "isAccessibleForFree": true
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EventSeries",
+  "name": "The Helix Center Roundtable Discussions",
+  "description": "Free, public interdisciplinary roundtable discussions bringing together five distinguished participants from different fields for unrehearsed intellectual exchange.",
+  "organizer": { "@id": "https://www.helixcenter.org/#organization" },
+  "startDate": "2012-01-01",
+  "isAccessibleForFree": true
+}
+</script>
+{% if speakers | length %}
+<script type="application/ld+json">
+[{% for speaker in speakers | sortBy('score', 'desc') | limit(8) %}{% if loop.index0 > 0 %},{% endif %}
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ speaker.name }}",
+    {% if speaker.title %}"jobTitle": "{{ speaker.title }}",{% endif %}
+    {% if speaker.institution and speaker.institution != "Unknown" %}"worksFor": { "@type": "Organization", "name": "{{ speaker.institution }}" },{% endif %}
+    {% if speaker.achievement %}"description": "{{ speaker.achievement }}",{% endif %}
+    {% if speaker.wikipedia %}"sameAs": ["{{ speaker.wikipedia }}"]{% endif %}
+  }{% endfor %}
+]
+</script>
+{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is The Helix Center?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Helix Center for Interdisciplinary Investigation is a 501(c)(3) nonprofit organization founded in 2012 in New York City. It hosts free, public interdisciplinary roundtable discussions called Theaetetus Tables that bring together five distinguished scholars from different fields for unrehearsed intellectual exchange."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Helix Center events free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all Helix Center events are completely free and open to the public. You can attend in person or watch via free live stream. All past roundtables are archived and freely accessible online."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Theaetetus Table?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Theaetetus Table is The Helix Center's signature roundtable format, named for the Platonic dialogue investigating the nature of knowledge. Each Table seats five participants for extempore interdisciplinary discussion, symbolizing the five Platonic solids and cultivating curiosity, playfulness, inspiration, reflection, and wonder."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="section-label">{{ site.name }}</div>
+      <h1>Where the World's Leading Minds <span class="gold">Converge</span></h1>
+      <p class="hero-tagline">
+        A university without walls &mdash; drawing together Nobel laureates, MacArthur Fellows,
+        and pioneering thinkers from every discipline for unrehearsed intellectual exchange.
+      </p>
+      <p class="hero-description">
+        Since 2012, The Helix Center has hosted {{ site.stats.speakers }} of the world's most distinguished scholars,
+        scientists, artists, and public intellectuals for free interdisciplinary roundtable discussions
+        at the {{ site.address.venue }} on Manhattan's Upper East Side. Every event
+        is free, open to the public, and archived for the world.
+      </p>
+      <div class="hero-cta">
+        <a href="/roundtables/where-have-all-the-isms-gone-on-the-evolution-of-knowledge/" class="btn btn-gold">Attend Our Next Roundtable</a>
+        <a href="/roundtables/" class="btn btn-outline">Watch Past Discussions</a>
+      </div>
+    </div>
+    <div class="hero-stats hero-stats-3col">
+      <div class="stat-card stat-card-clickable" data-stat-modal="nobel">
+        <div class="stat-number">{{ site.stats.nobelLaureates }}</div>
+        <div class="stat-label">Nobel Laureates</div>
+        <div class="stat-detail">Kahneman &amp; Kandel</div>
+      </div>
+      <div class="stat-card stat-card-clickable" data-stat-modal="macarthur">
+        <div class="stat-number">{{ site.stats.macarthurFellows }}</div>
+        <div class="stat-label">MacArthur Fellows</div>
+        <div class="stat-detail">"Genius Grant" recipients</div>
+      </div>
+      <div class="stat-card stat-card-clickable" data-stat-modal="nas">
+        <div class="stat-number">5</div>
+        <div class="stat-label">NAS Members</div>
+        <div class="stat-detail">National Academy of Sciences</div>
+      </div>
+      <div class="stat-card stat-card-clickable" data-stat-modal="guggenheim">
+        <div class="stat-number">13</div>
+        <div class="stat-label">Guggenheim Fellows</div>
+        <div class="stat-detail">John Simon Guggenheim Foundation</div>
+      </div>
+      <div class="stat-card stat-card-clickable" data-stat-modal="bestselling">
+        <div class="stat-number">3</div>
+        <div class="stat-label">Bestselling Authors</div>
+        <div class="stat-detail">O'Neil, Kahneman, Suzuki</div>
+      </div>
+      <div class="stat-card stat-card-clickable" data-stat-modal="disciplines">
+        <div class="stat-number">{{ site.stats.disciplines }}</div>
+        <div class="stat-label">Disciplines</div>
+        <div class="stat-detail">Sciences, arts, humanities</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT STRIP -->
+<section class="dark" style="padding: 0;">
+  <div class="container">
+    <div class="impact-strip">
+      <div class="impact-item">
+        <div class="impact-number">{{ site.stats.speakers }}</div>
+        <div class="impact-label">Speakers</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-number">14</div>
+        <div class="impact-label">Years</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-number">107+</div>
+        <div class="impact-label">Roundtables</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-number">{{ site.stats.institutions }}</div>
+        <div class="impact-label">Institutions</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-number">$0</div>
+        <div class="impact-label">Admission</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT / MISSION -->
+<section id="about" class="cream fade-in">
+  <div class="container">
+    <div class="section-label">Our Mission</div>
+    <h2>A Rare Space for Curiosity, Wonder, and Rigorous Exchange</h2>
+    <div class="gold-divider" style="margin-left:0;"></div>
+    <div class="mission-grid">
+      <div class="mission-text">
+        <p>
+          The Helix Center for Interdisciplinary Investigation was founded in 2012 by
+          <strong>{{ site.founder }}</strong>, a psychoanalyst who observed how narrow specialization
+          and the grant process were constraining creativity at professional scientific meetings.
+          What began as an experiment in <span class="highlight">"a university without walls"</span>
+          has grown into one of New York City's most distinctive intellectual institutions.
+        </p>
+        <p>
+          Over {{ site.stats.seasons }} seasons, The Helix Center has convened <strong>{{ site.stats.speakers }} distinguished speakers</strong>
+          from <strong>{{ site.stats.institutions }} institutions</strong> &mdash; including Columbia, NYU, Princeton, Yale, Harvard,
+          MIT, Oxford, Cambridge, and University College London &mdash; for its signature
+          <strong>Theaetetus Table</strong> roundtable discussions. These extempore (unscripted) conversations
+          bring five experts from different fields together to explore a single question at the boundaries
+          of human knowledge.
+        </p>
+        <p>
+          Every event is completely free and open to the public &mdash; an act of intellectual generosity
+          made possible by donors who believe in the enduring value of cross-disciplinary inquiry.
+        </p>
+      </div>
+      <div class="mission-principles">
+        <div class="principle">
+          <div class="principle-icon">&#8734;</div>
+          <div>
+            <h4>Interdisciplinary by Design</h4>
+            <p>Every roundtable unites voices from multiple fields &mdash; {{ site.stats.disciplines }} disciplines from neuroscience to poetry, physics to psychoanalysis.</p>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-icon">&#9733;</div>
+          <div>
+            <h4>Exceptional Caliber</h4>
+            <p>Our {{ site.stats.speakers }} speakers include {{ site.stats.nobelLaureates }} Nobel laureates, {{ site.stats.macarthurFellows }} MacArthur Fellows, National Medal of Science recipients, and the most-cited neuroscientist in history.</p>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-icon">&#9881;</div>
+          <div>
+            <h4>Unrehearsed &amp; Authentic</h4>
+            <p>No scripts, no pre-arranged positions. Five scholars sit together and think out loud. The result is genuine intellectual discovery.</p>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-icon">&#9825;</div>
+          <div>
+            <h4>Free &amp; Open to All</h4>
+            <p>Every event &mdash; in person or via live stream &mdash; is free. Our entire 107+ roundtable archive is freely accessible online.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THEAETETUS TABLE -->
+<section class="dark theaetetus fade-in">
+  <div class="container-narrow">
+    <div class="section-label text-center">The Signature Format</div>
+    <h2 class="text-center" style="color: var(--cream);">The Theaetetus Table</h2>
+    <div class="gold-divider"></div>
+    <p class="theaetetus-quote">
+      Named for the Platonic dialogue investigating the nature of knowledge, the Theaetetus Table
+      seats five distinguished participants &mdash; each a leader in their field &mdash; for extempore
+      interdisciplinary conversation. The five symbolize the Platonic solids and the five qualities
+      of mind the Center seeks to cultivate.
+    </p>
+    <div class="theaetetus-qualities">
+      <div class="quality">
+        <div class="quality-icon">
+          {# Tetrahedron — 4 triangular faces, 4 vertices, 6 edges #}
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="24" y1="4" x2="8" y2="40" stroke="var(--gold)" stroke-width="1.5"/>
+            <line x1="24" y1="4" x2="40" y2="40" stroke="var(--gold)" stroke-width="1.5"/>
+            <line x1="24" y1="4" x2="24" y2="36" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="8" y1="40" x2="40" y2="40" stroke="var(--gold)" stroke-width="1.5"/>
+            <line x1="8" y1="40" x2="24" y2="36" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="40" y1="40" x2="24" y2="36" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <circle cx="24" cy="4" r="2" fill="var(--gold)"/><circle cx="8" cy="40" r="2" fill="var(--gold)"/>
+            <circle cx="40" cy="40" r="2" fill="var(--gold)"/><circle cx="24" cy="36" r="1.5" fill="var(--gold)" opacity="0.5"/>
+          </svg>
+        </div>
+        <span class="quality-word">Curiosity</span>
+        <span class="quality-desc">Tetrahedron</span>
+      </div>
+      <div class="quality">
+        <div class="quality-icon">
+          {# Cube — 6 square faces, 8 vertices, 12 edges #}
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="10,14 32,14 32,36 10,36" stroke="var(--gold)" stroke-width="1.5" fill="none"/>
+            <polygon points="16,8 38,8 38,30 16,30" stroke="var(--gold)" stroke-width="1" fill="none" opacity="0.5"/>
+            <line x1="10" y1="14" x2="16" y2="8" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="32" y1="14" x2="38" y2="8" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="32" y1="36" x2="38" y2="30" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="10" y1="36" x2="16" y2="30" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <circle cx="10" cy="14" r="2" fill="var(--gold)"/><circle cx="32" cy="14" r="2" fill="var(--gold)"/>
+            <circle cx="32" cy="36" r="2" fill="var(--gold)"/><circle cx="10" cy="36" r="2" fill="var(--gold)"/>
+            <circle cx="16" cy="8" r="1.5" fill="var(--gold)" opacity="0.5"/><circle cx="38" cy="8" r="1.5" fill="var(--gold)" opacity="0.5"/>
+            <circle cx="38" cy="30" r="1.5" fill="var(--gold)" opacity="0.5"/><circle cx="16" cy="30" r="1.5" fill="var(--gold)" opacity="0.5"/>
+          </svg>
+        </div>
+        <span class="quality-word">Playfulness</span>
+        <span class="quality-desc">Cube</span>
+      </div>
+      <div class="quality">
+        <div class="quality-icon">
+          {# Octahedron — 8 triangular faces, 6 vertices, 12 edges #}
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="24" y1="3" x2="6" y2="24" stroke="var(--gold)" stroke-width="1.5"/>
+            <line x1="24" y1="3" x2="42" y2="24" stroke="var(--gold)" stroke-width="1.5"/>
+            <line x1="24" y1="3" x2="30" y2="20" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="24" y1="3" x2="18" y2="20" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="6" y1="24" x2="42" y2="24" stroke="var(--gold)" stroke-width="1.5"/>
+            <line x1="6" y1="24" x2="18" y2="20" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="42" y1="24" x2="30" y2="20" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="18" y1="20" x2="30" y2="20" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="24" y1="45" x2="6" y2="24" stroke="var(--gold)" stroke-width="1.5"/>
+            <line x1="24" y1="45" x2="42" y2="24" stroke="var(--gold)" stroke-width="1.5"/>
+            <line x1="24" y1="45" x2="18" y2="20" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="24" y1="45" x2="30" y2="20" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <circle cx="24" cy="3" r="2" fill="var(--gold)"/><circle cx="24" cy="45" r="2" fill="var(--gold)"/>
+            <circle cx="6" cy="24" r="2" fill="var(--gold)"/><circle cx="42" cy="24" r="2" fill="var(--gold)"/>
+            <circle cx="18" cy="20" r="1.5" fill="var(--gold)" opacity="0.5"/><circle cx="30" cy="20" r="1.5" fill="var(--gold)" opacity="0.5"/>
+          </svg>
+        </div>
+        <span class="quality-word">Inspiration</span>
+        <span class="quality-desc">Octahedron</span>
+      </div>
+      <div class="quality">
+        <div class="quality-icon">
+          {# Dodecahedron — 12 pentagonal faces, 20 vertices, 30 edges #}
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="24,2 42,14 38,34 10,34 6,14" stroke="var(--gold)" stroke-width="1.5" fill="none"/>
+            <polygon points="24,8 35,16 32,30 16,30 13,16" stroke="var(--gold)" stroke-width="1" fill="none" opacity="0.5"/>
+            <line x1="24" y1="2" x2="24" y2="8" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="42" y1="14" x2="35" y2="16" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="38" y1="34" x2="32" y2="30" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="10" y1="34" x2="16" y2="30" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="6" y1="14" x2="13" y2="16" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="16" y1="30" x2="10" y2="44" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="32" y1="30" x2="38" y2="44" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="10" y1="44" x2="38" y2="44" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+            <line x1="10" y1="44" x2="24" y2="46" stroke="var(--gold)" stroke-width="0.7" opacity="0.35"/>
+            <line x1="38" y1="44" x2="24" y2="46" stroke="var(--gold)" stroke-width="0.7" opacity="0.35"/>
+            <circle cx="24" cy="2" r="2" fill="var(--gold)"/><circle cx="42" cy="14" r="2" fill="var(--gold)"/>
+            <circle cx="38" cy="34" r="2" fill="var(--gold)"/><circle cx="10" cy="34" r="2" fill="var(--gold)"/>
+            <circle cx="6" cy="14" r="2" fill="var(--gold)"/>
+            <circle cx="24" cy="8" r="1.5" fill="var(--gold)" opacity="0.5"/><circle cx="35" cy="16" r="1.5" fill="var(--gold)" opacity="0.5"/>
+            <circle cx="32" cy="30" r="1.5" fill="var(--gold)" opacity="0.5"/><circle cx="16" cy="30" r="1.5" fill="var(--gold)" opacity="0.5"/>
+            <circle cx="13" cy="16" r="1.5" fill="var(--gold)" opacity="0.5"/>
+          </svg>
+        </div>
+        <span class="quality-word">Reflection</span>
+        <span class="quality-desc">Dodecahedron</span>
+      </div>
+      <div class="quality">
+        <div class="quality-icon">
+          {# Icosahedron — 20 triangular faces, 12 vertices, 30 edges #}
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="24,2 42,14 42,34 24,46 6,34 6,14" stroke="var(--gold)" stroke-width="1.5" fill="none"/>
+            <line x1="24" y1="2" x2="6" y2="34" stroke="var(--gold)" stroke-width="0.8" opacity="0.4"/>
+            <line x1="24" y1="2" x2="42" y2="34" stroke="var(--gold)" stroke-width="0.8" opacity="0.4"/>
+            <line x1="42" y1="14" x2="6" y2="14" stroke="var(--gold)" stroke-width="0.8" opacity="0.4"/>
+            <line x1="42" y1="14" x2="24" y2="46" stroke="var(--gold)" stroke-width="0.8" opacity="0.4"/>
+            <line x1="6" y1="14" x2="24" y2="46" stroke="var(--gold)" stroke-width="0.8" opacity="0.4"/>
+            <line x1="6" y1="14" x2="42" y2="34" stroke="var(--gold)" stroke-width="0.8" opacity="0.4"/>
+            <line x1="42" y1="14" x2="6" y2="34" stroke="var(--gold)" stroke-width="0.8" opacity="0.4"/>
+            <line x1="6" y1="34" x2="42" y2="34" stroke="var(--gold)" stroke-width="0.8" opacity="0.4"/>
+            <circle cx="24" cy="2" r="2" fill="var(--gold)"/><circle cx="42" cy="14" r="2" fill="var(--gold)"/>
+            <circle cx="42" cy="34" r="2" fill="var(--gold)"/><circle cx="24" cy="46" r="2" fill="var(--gold)"/>
+            <circle cx="6" cy="34" r="2" fill="var(--gold)"/><circle cx="6" cy="14" r="2" fill="var(--gold)"/>
+          </svg>
+        </div>
+        <span class="quality-word">Wonder</span>
+        <span class="quality-desc">Icosahedron</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED SPEAKERS -->
+<section id="speakers" class="fade-in">
+  <div class="container">
+    <div class="section-label text-center">Distinguished Participants</div>
+    <h2 class="text-center">Featured Speakers</h2>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle text-center">
+      From a community of {{ site.stats.speakers }} scholars, scientists, and artists across {{ site.stats.institutions }} leading institutions,
+      these are among our most distinguished participants.
+      <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--text-light); font-style: normal;">Roundtables curated by <a href="/speakers/edward-nersessian/" style="color: var(--gold-dark); text-decoration: none;">Dr. Edward Nersessian</a>, Founder &amp; Director</span>
+    </p>
+    <div class="speakers-grid">
+      {% for speaker in speakers | sortBy('score', 'desc') | limit(12) %}
+      {% set s = speaker %}
+      {% include "partials/speaker-card.njk" %}
+      {% endfor %}
+    </div>
+    <div class="text-center" style="margin-top: 2.5rem;">
+      <a href="/speakers/" class="btn btn-outline-dark">View All {{ site.stats.speakers }} Speakers &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- INSTITUTIONS BAR -->
+<section class="warm" style="padding: 2.5rem 0;">
+  <div class="container text-center">
+    <div class="section-label text-center">Our Speakers Come From</div>
+    <div class="marquee-wrapper">
+      <div class="marquee-track">
+        <span class="inst-logo lg" style="font-variant:small-caps;">Columbia</span>
+        <span class="inst-logo sm">NYU</span>
+        <span class="inst-logo lg" style="font-style:italic;">Princeton</span>
+        <span class="inst-logo lg">Yale</span>
+        <span class="inst-logo lg" style="font-variant:small-caps;">Harvard</span>
+        <span class="inst-logo sm" style="font-weight:700; letter-spacing:0.12em;">MIT</span>
+        <span class="inst-logo lg" style="font-style:italic;">Cornell</span>
+        <span class="inst-logo lg">Rutgers</span>
+        <span class="inst-logo sm">CUNY</span>
+        <span class="inst-logo lg" style="font-style:italic;">Oxford</span>
+        <span class="inst-logo lg">Cambridge</span>
+        <span class="inst-logo sm">UCL</span>
+        <span class="inst-logo lg" style="font-variant:small-caps;">Stanford</span>
+        <span class="inst-logo sm">Rockefeller</span>
+        <span class="inst-logo lg" style="font-style:italic;">Brown</span>
+        <span class="inst-logo lg">Penn</span>
+        <!-- duplicate set for seamless loop -->
+        <span class="inst-logo lg" style="font-variant:small-caps;">Columbia</span>
+        <span class="inst-logo sm">NYU</span>
+        <span class="inst-logo lg" style="font-style:italic;">Princeton</span>
+        <span class="inst-logo lg">Yale</span>
+        <span class="inst-logo lg" style="font-variant:small-caps;">Harvard</span>
+        <span class="inst-logo sm" style="font-weight:700; letter-spacing:0.12em;">MIT</span>
+        <span class="inst-logo lg" style="font-style:italic;">Cornell</span>
+        <span class="inst-logo lg">Rutgers</span>
+        <span class="inst-logo sm">CUNY</span>
+        <span class="inst-logo lg" style="font-style:italic;">Oxford</span>
+        <span class="inst-logo lg">Cambridge</span>
+        <span class="inst-logo sm">UCL</span>
+        <span class="inst-logo lg" style="font-variant:small-caps;">Stanford</span>
+        <span class="inst-logo sm">Rockefeller</span>
+        <span class="inst-logo lg" style="font-style:italic;">Brown</span>
+        <span class="inst-logo lg">Penn</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED ROUNDTABLES / VIDEO SHOWCASE -->
+<section id="roundtables" class="fade-in">
+  <div class="container">
+    <div class="section-label text-center">Watch</div>
+    <h2 class="text-center">Featured Roundtable Discussions</h2>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle text-center">
+      A curated selection from over 107 archived discussions &mdash; every one free to watch.
+    </p>
+
+    <div class="video-grid">
+      <div class="video-card featured">
+        <div class="video-thumbnail" style="padding-top:0;">
+          <img src="https://www.helixcenter.org/wp-content/uploads/2026/02/School-of-Athens-detail.jpg" alt="School of Athens detail — Where Have All the Isms Gone roundtable" style="width:100%; height:100%; object-fit:cover; display:block; aspect-ratio:16/9;">
+          <a href="/roundtables/where-have-all-the-isms-gone-on-the-evolution-of-knowledge/" style="position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; background:linear-gradient(transparent 40%, rgba(10,22,40,0.7)); text-decoration:none; padding:1.5rem;">
+            <span style="background:var(--gold); color:var(--navy); font-family:var(--sans); font-size:0.72rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.35rem 1rem; border-radius:3px;">Upcoming Event &middot; March 7</span>
+          </a>
+        </div>
+        <div class="video-info">
+          <div class="video-topic">Upcoming &middot; March 2026</div>
+          <div class="video-title">Where Have All the Isms Gone?: On the Evolution of Knowledge</div>
+          <div class="video-desc">Not very long ago the History of Ideas was organized according to movements within each field. Post-structuralism and postmodernism each appeared as "the next big thing." What has replaced them?</div>
+          <div class="video-meta">Saturday, March 7, 2026 &middot; 2:30 PM EST &middot; Free admission</div>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-thumbnail">
+          <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/RPAe8sa6TGo?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy" title="Resurgence of Freud — Helix Center Roundtable"></iframe>
+        </div>
+        <div class="video-info">
+          <div class="video-topic">Neuroscience &middot; September 2025</div>
+          <div class="video-title">Resurgence of Freud</div>
+          <div class="video-desc">Reconsidering psychoanalytic theory in light of advances in brain biology and psychotropic medication.</div>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-thumbnail">
+          <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Tmre07OAj0s?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy" title="Neurodiversity — Helix Center Roundtable"></iframe>
+        </div>
+        <div class="video-info">
+          <div class="video-topic">Cognitive Science &middot; May 2025</div>
+          <div class="video-title">Neurodiversity</div>
+          <div class="video-desc">Recognizing variations in neurological function &mdash; challenging conventional notions of deficit and embracing cognitive diversity.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center" style="margin-top: 2.5rem;">
+      <a href="/roundtables/" class="btn btn-outline-dark">Browse Full Archive &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- DISCIPLINES -->
+{% if disciplines | length %}
+<section id="disciplines" class="cream fade-in">
+  <div class="container">
+    <div class="section-label text-center">Interdisciplinary Breadth</div>
+    <h2 class="text-center">{{ site.stats.disciplines }} Disciplines, One Conversation</h2>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle text-center">
+      The Helix Center's roundtables bridge every major field of human inquiry &mdash;
+      from quantum physics to poetry, from neuroscience to ethics.
+    </p>
+    <div class="domains-grid">
+      {% for d in disciplines %}
+      <a href="/disciplines/#{{ d.slug }}" class="domain-card">
+        <div class="domain-icon">{% set iconDiscipline = d.name %}{% include "partials/discipline-icon.njk" %}</div>
+        <div class="domain-count">{{ d.count }}</div>
+        <div class="domain-name">{{ d.name }}</div>
+        <div class="domain-top">{{ d.topSpeakers | join(', ') | truncate(40) }}</div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- INTELLECTUAL SALON / ARCHIVE -->
+<section class="fade-in">
+  <div class="container-narrow">
+    <div class="section-label text-center">A Real &amp; Virtual Intellectual Salon</div>
+    <h2 class="text-center">A Living Archive for Interdisciplinary Enquiry</h2>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle text-center">
+      Part intellectual salon, part open archive &mdash; The Helix Center is both a place where
+      ideas are forged in real time and a growing library of over a decade of cross-disciplinary dialogue.
+    </p>
+    <p style="font-family: var(--serif); font-size: 1.02rem; color: var(--text-mid); line-height: 1.85; margin-top: 2rem; text-align: center;">
+      In the tradition of the great European salons and the founding seminars of the Institute for
+      Advanced Study, The Helix Center creates conditions for genuine intellectual surprise &mdash;
+      where a neuroscientist's insight reframes a philosopher's question, where a poet's language
+      unlocks a physicist's intuition. Our 107+ archived roundtables form an unparalleled resource
+      for educators, researchers, students, and the intellectually curious public &mdash; spanning
+      consciousness, AI and ethics, the nature of creativity, cosmology, memory, beauty, free will,
+      psychoanalysis, mathematics, and far beyond.
+    </p>
+
+    <div class="ai-topics">
+      <span class="ai-topic">Consciousness</span>
+      <span class="ai-topic">Artificial Intelligence &amp; Ethics</span>
+      <span class="ai-topic">Free Energy Principle</span>
+      <span class="ai-topic">Nature of Creativity</span>
+      <span class="ai-topic">Theory of Mind</span>
+      <span class="ai-topic">Memory &amp; Forgetting</span>
+      <span class="ai-topic">Philosophy of Mind</span>
+      <span class="ai-topic">Cognitive Modeling</span>
+      <span class="ai-topic">Neuroaesthetics</span>
+      <span class="ai-topic">Behavioral Economics</span>
+      <span class="ai-topic">Free Will &amp; Determinism</span>
+      <span class="ai-topic">Literature &amp; Science</span>
+      <span class="ai-topic">Psychoanalysis &amp; Neuroscience</span>
+      <span class="ai-topic">Cosmology &amp; Physics</span>
+      <span class="ai-topic">Decision Science</span>
+      <span class="ai-topic">Beauty &amp; Aesthetics</span>
+      <span class="ai-topic">Neurodiversity</span>
+      <span class="ai-topic">Human-Machine Interaction</span>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section id="leadership" class="warm fade-in">
+  <div class="container-narrow">
+    <div class="section-label text-center">Leadership</div>
+    <h2 class="text-center">Board of Directors &amp; Advisory</h2>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle text-center">
+      The Helix Center's leadership draws from the highest levels of academia, medicine, and the arts.
+    </p>
+
+    <div class="leader-grid">
+      <div class="leader-item">
+        <div class="leader-avatar">EN</div>
+        <div>
+          <div class="leader-name">Dr. Edward Nersessian</div>
+          <div class="leader-role">Founder &amp; Director</div>
+          <div class="leader-bio">
+            Psychoanalyst and clinical professor of psychiatry. Co-founder of the Philoctetes Center for the
+            Multidisciplinary Study of the Imagination. Recipient of the American Psychoanalytic Association's
+            Distinguished Service Award. Author of numerous publications on psychoanalytic theory and
+            interdisciplinary inquiry.
+          </div>
+        </div>
+      </div>
+      <div class="leader-item">
+        <div class="leader-avatar">MY</div>
+        <div>
+          <div class="leader-name">Marianne Young</div>
+          <div class="leader-role">Board Chair</div>
+          <div class="leader-bio">
+            Philanthropist and longtime supporter of arts and education in New York City. The Helix Center's
+            auditorium &mdash; The Marianne &amp; Nicholas Young Auditorium &mdash; is named in honor of her family's
+            founding patronage of the institution.
+          </div>
+        </div>
+      </div>
+      <div class="leader-item">
+        <div class="leader-avatar">MS</div>
+        <div>
+          <div class="leader-name">Dr. Mark Solms</div>
+          <div class="leader-role">Advisory Board</div>
+          <div class="leader-bio">
+            Neuroscientist and psychoanalyst. Chair of Neuropsychology at the University of Cape Town.
+            Founder of the field of neuropsychoanalysis and director of the International
+            Neuropsychoanalysis Society. Editor of the Revised Standard Edition of Freud.
+          </div>
+        </div>
+      </div>
+      <div class="leader-item">
+        <div class="leader-avatar">JW</div>
+        <div>
+          <div class="leader-name">Dr. Jamieson Webster</div>
+          <div class="leader-role">Advisory Board</div>
+          <div class="leader-bio">
+            Psychoanalyst and clinical associate professor at the NYU Postdoctoral Program in Psychotherapy
+            and Psychoanalysis. Author of <em>The Life and Death of Psychoanalysis</em>. Contributing
+            writer for The New Yorker and The New York Review of Books.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center" style="margin-top: 2rem;">
+      <a href="/leadership/" class="btn btn-outline-dark">View Full Board &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- PARTICIPATE -->
+<section id="participate" class="dark fade-in">
+  <div class="container">
+    <div class="section-label text-center">Join Us</div>
+    <h2 class="text-center" style="color: var(--cream);">Participate in the Conversation</h2>
+    <div class="gold-divider"></div>
+
+    <div class="participate-grid">
+      <div class="participate-card">
+        <h3>For Prospective Speakers</h3>
+        <p>
+          The Helix Center invites distinguished scholars, scientists, artists, and public intellectuals
+          to participate in our Theaetetus Table roundtables. Our panelists have included two Nobel laureates,
+          five MacArthur Fellows, National Medal of Science recipients, and leading voices across every discipline.
+        </p>
+        <ul>
+          <li>Unrehearsed, intellectually rigorous conversation with peers from other fields</li>
+          <li>Professionally produced video recording shared freely with global audiences</li>
+          <li>A legacy archive joining {{ site.stats.speakers }} of the world's leading minds</li>
+          <li>The intimate setting of the {{ site.address.venue }}</li>
+          <li>An engaged live audience and active post-discussion Q&amp;A</li>
+        </ul>
+      </div>
+      <div class="participate-card">
+        <h3>For Audiences &amp; Students</h3>
+        <p>
+          All Helix Center events are completely free and open to the public. Whether you attend in person
+          at {{ site.address.street }} or watch our live streams, you'll experience world-class interdisciplinary
+          dialogue unavailable anywhere else.
+        </p>
+        <ul>
+          <li>Attend in person &mdash; free, no ticket required (first-come seating)</li>
+          <li>Watch live streams of every roundtable</li>
+          <li>Access our complete video archive of 107+ past discussions</li>
+          <li>Engage in Q&amp;A with panelists after each roundtable</li>
+          <li>Subscribe for notifications of upcoming events</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UPCOMING EVENT -->
+<section id="upcoming" class="fade-in">
+  <div class="container">
+    <div class="section-label text-center">Next Event</div>
+    <h2 class="text-center">Upcoming Roundtable</h2>
+    <div class="gold-divider"></div>
+
+    <div class="upcoming-event">
+      <div>
+        <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Where Have All the Isms Gone?: On the Evolution of Knowledge</h3>
+        <p style="font-family: var(--serif); font-size: 1.02rem; color: var(--text-mid); line-height: 1.75; margin-bottom: 1.5rem;">
+          Not very long ago the History of Ideas was organized according to movements within each field.
+          Post-structuralism and postmodernism each appeared as "the next big thing." These terms are
+          familiar to many of us today, yet have been superseded. What has replaced them?
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-mid); margin-bottom: 0.35rem;">
+          <strong>Location:</strong> {{ site.address.venue }}<br>
+          {{ site.address.street }}, {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}
+        </p>
+        <p style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 1.5rem;">
+          Free and open to the public &middot; Live stream available
+        </p>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <button type="button" class="btn btn-gold" id="register-btn">Register to Attend</button>
+          <a href="{{ site.social.youtube }}" class="btn btn-outline-dark">Watch Live Stream</a>
+        </div>
+      </div>
+      <div class="event-date">
+        <div class="event-month">March</div>
+        <div class="event-day">7</div>
+        <div class="event-month">2026</div>
+        <div class="event-time">Saturday &middot; 2:30 PM</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Registration modal #}
+<div class="register-modal-overlay" id="register-modal-overlay">
+  <div class="register-modal">
+    <button class="register-modal-close" aria-label="Close">&times;</button>
+    <h2>Attend This Roundtable</h2>
+    <h3 style="font-family: var(--serif); font-weight: 400; font-size: 1.05rem; color: var(--gold-dark); margin-bottom: 1.5rem;">
+      Where Have All the Isms Gone?: On the Evolution of Knowledge
+    </h3>
+
+    <div class="register-details">
+      <div class="register-detail-row">
+        <strong>Date:</strong> Saturday, March 7, 2026 &middot; 2:30 PM EST
+      </div>
+      <div class="register-detail-row">
+        <strong>Location:</strong> {{ site.address.venue }}<br>
+        {{ site.address.street }}, {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}
+      </div>
+      <div class="register-detail-row">
+        <strong>Admission:</strong> Free &mdash; open to the public
+      </div>
+    </div>
+
+    <div class="register-policies">
+      <h4>Attendance Policies</h4>
+      <ul>
+        <li>Seating is limited and available on a first-come, first-served basis. Doors open at 2:00 PM.</li>
+        <li>Please arrive by 2:15 PM to secure your seat. Late arrivals will be admitted as space permits.</li>
+        <li>The discussion begins promptly at 2:30 PM and runs approximately 90 minutes, followed by audience Q&amp;A.</li>
+        <li>Please silence all mobile devices during the discussion.</li>
+        <li>Professional video recording is in progress; by attending, you consent to appear in the archived recording.</li>
+        <li>A live stream will be available on our <a href="{{ site.social.youtube }}" target="_blank" rel="noopener" style="color: var(--gold-dark);">YouTube channel</a> for those unable to attend in person.</li>
+      </ul>
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="https://www.eventbrite.com/o/the-helix-center-8028498869" class="btn btn-gold" target="_blank" rel="noopener" style="padding: 0.85rem 2.5rem; font-size: 0.9rem;">
+        Reserve on Eventbrite &rarr;
+      </a>
+      <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 0.75rem;">
+        Registration is free but encouraged to help us plan seating.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- SUPPORT / DONATE -->
+<section id="support" class="cream fade-in">
+  <div class="container">
+    <div class="section-label text-center">Support Our Mission</div>
+    <h2 class="text-center">Invest in the Life of the Mind</h2>
+    <div class="gold-divider"></div>
+    <div class="donor-content">
+      <div class="donor-text">
+        <p>
+          The Helix Center is a 501(c)(3) tax-exempt non-profit organization. For over a decade,
+          we have provided completely free access to world-class intellectual programming &mdash;
+          from Nobel laureate conversations to poetry readings &mdash; supported entirely by the
+          generosity of donors who believe in the power of interdisciplinary inquiry.
+        </p>
+        <p>
+          Your contribution directly supports the curation of groundbreaking roundtable discussions,
+          professional video production and archiving, live-streaming infrastructure for global access,
+          and educational outreach programs for teachers and schools.
+        </p>
+        <p>
+          In an era of increasing specialization and polarization, the Helix Center stands as a rare
+          space where curiosity, wonder, and rigorous cross-disciplinary exchange flourish &mdash;
+          free and open to all.
+        </p>
+        <div style="margin-top: 1.5rem;">
+          <a href="/donate/" class="btn btn-gold">Make a Tax-Deductible Donation</a>
+        </div>
+      </div>
+      <div class="donor-impact">
+        <h4>Your Impact at a Glance</h4>
+        <div class="impact-line"><span>Seasons of programming</span><span class="impact-value">{{ site.stats.seasons }}</span></div>
+        <div class="impact-line"><span>Distinguished speakers hosted</span><span class="impact-value">{{ site.stats.speakers }}</span></div>
+        <div class="impact-line"><span>Nobel laureates</span><span class="impact-value">{{ site.stats.nobelLaureates }}</span></div>
+        <div class="impact-line"><span>MacArthur Fellows</span><span class="impact-value">{{ site.stats.macarthurFellows }}</span></div>
+        <div class="impact-line"><span>Roundtables archived</span><span class="impact-value">107+</span></div>
+        <div class="impact-line"><span>Institutions represented</span><span class="impact-value">{{ site.stats.institutions }}</span></div>
+        <div class="impact-line"><span>Admission cost to audience</span><span class="impact-value">$0</span></div>
+        <div class="impact-line"><span>Tax deductibility</span><span class="impact-value">501(c)(3)</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="fade-in">
+  <div class="container-narrow">
+    <div class="section-label text-center">Common Questions</div>
+    <h2 class="text-center">Frequently Asked Questions</h2>
+    <div class="gold-divider"></div>
+    <div style="margin-top: 2.5rem;">
+      <details class="faq-item">
+        <summary>What is The Helix Center?</summary>
+        <p class="faq-answer">
+          The Helix Center for Interdisciplinary Investigation is a <strong>501(c)(3) nonprofit organization
+          founded in 2012</strong> in New York City. It hosts free, public interdisciplinary roundtable
+          discussions called "Theaetetus Tables" that bring together five distinguished scholars,
+          scientists, and artists from different fields for unrehearsed intellectual exchange. Over
+          <strong>{{ site.stats.seasons }} seasons</strong>, it has featured <strong>{{ site.stats.speakers }} speakers</strong> from institutions
+          including Columbia, NYU, Princeton, Yale, Harvard, and MIT &mdash; with participants including
+          <strong>Nobel laureates Daniel Kahneman and Eric Kandel</strong>, MacArthur Fellows Sara Seager,
+          Vijay Iyer, Yiyun Li, and Tracey Meares, and National Medal of Science recipient Sylvester James Gates.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>Are Helix Center events free to attend?</summary>
+        <p class="faq-answer">
+          Yes. <strong>All Helix Center events are completely free and open to the public.</strong> You can attend
+          in person at {{ site.address.venue }} ({{ site.address.street }}, {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}) or
+          watch via free live stream. All <strong>107+ past roundtables</strong> are archived and freely viewable
+          on the website and <a href="{{ site.social.youtube }}">YouTube channel</a>.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>What is a Theaetetus Table?</summary>
+        <p class="faq-answer">
+          The Theaetetus Table is The Helix Center's signature roundtable format, named for the Platonic dialogue
+          investigating the nature of knowledge. Each Table seats <strong>five participants</strong> &mdash;
+          leaders in their respective fields &mdash; for extempore (unscripted) interdisciplinary discussion.
+          The five participants symbolize the five Platonic solids and the five qualities of mind the Center
+          cultivates: <em>curiosity, playfulness, inspiration, reflection, and wonder</em>.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>Who are some notable speakers who have participated?</summary>
+        <p class="faq-answer">
+          The Helix Center's <strong>{{ site.stats.speakers }} speakers</strong> include: Nobel laureates <strong>Daniel Kahneman</strong>
+          (Economics, 2002) and <strong>Eric Kandel</strong> (Medicine, 2000); MacArthur Fellows
+          <strong>Sara Seager</strong> (astrophysics), <strong>Vijay Iyer</strong> (music),
+          <strong>Yiyun Li</strong> (literature), and <strong>Tracey Meares</strong> (law);
+          National Medal of Science recipients <strong>Sylvester James Gates</strong> and <strong>Barry Mazur</strong>;
+          the most-cited neuroscientist in history <strong>Karl Friston</strong> (h-index 291);
+          philosopher <strong>David Chalmers</strong> (who coined "the hard problem of consciousness");
+          affective computing founder <strong>Rosalind Picard</strong>;
+          The Brain Prize winner <strong>Gy&ouml;rgy Buzs&aacute;ki</strong>;
+          and Pulitzer Prize winner <strong>Percival Everett</strong>.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>Who founded The Helix Center and why?</summary>
+        <p class="faq-answer">
+          The Helix Center was founded in <strong>2012</strong> by <strong>{{ site.founder }}</strong>, a
+          psychoanalyst and clinical professor of psychiatry who observed how narrow specialization and the
+          grant process were constraining creativity at professional scientific meetings. He previously
+          co-founded the Philoctetes Center for the Multidisciplinary Study of the Imagination, then
+          established The Helix Center for Interdisciplinary Investigation to create what he calls
+          "a university without walls."
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>How can I support The Helix Center?</summary>
+        <p class="faq-answer">
+          The Helix Center is a <strong>501(c)(3) tax-exempt nonprofit</strong> supported entirely by
+          tax-deductible donations. You can donate via the
+          <a href="/donate/">donation page</a>. Your contribution supports
+          roundtable curation, professional video production, live-streaming infrastructure, and
+          educational outreach.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- STAT CARD MODALS -->
+<div class="stat-modal-overlay" id="stat-modal-overlay">
+  <div class="stat-modal" id="stat-modal">
+    <button class="stat-modal-close" aria-label="Close">&times;</button>
+    <div class="stat-modal-content" id="stat-modal-content"></div>
+  </div>
+</div>
+
+<template id="modal-nobel">
+  <div class="stat-modal-header">
+    <h3>Nobel Laureates</h3>
+    <p class="stat-modal-subtitle">{{ site.stats.nobelLaureates }} Nobel Prize winners have participated in Helix Center roundtables</p>
+  </div>
+  <div class="stat-modal-list">
+    {% for speaker in speakers | whereMatches('achievement', 'nobel') | sortBy('name') %}
+    <a href="{{ speaker.name | speakerUrl }}" class="stat-modal-person">
+      {% if speaker.photo %}<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="stat-modal-photo">{% else %}<div class="stat-modal-initials">{{ speaker.name | initials }}</div>{% endif %}
+      <div>
+        <div class="stat-modal-name">{{ speaker.name }}</div>
+        <div class="stat-modal-role">{{ speaker.achievement }}</div>
+        <div class="stat-modal-inst">{{ speaker.institution }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</template>
+
+<template id="modal-macarthur">
+  <div class="stat-modal-header">
+    <h3>MacArthur Fellows</h3>
+    <p class="stat-modal-subtitle">{{ site.stats.macarthurFellows }} "Genius Grant" recipients have participated</p>
+  </div>
+  <div class="stat-modal-list">
+    {% for speaker in speakers | whereMatches('achievement', 'macarthur') | sortBy('name') %}
+    <a href="{{ speaker.name | speakerUrl }}" class="stat-modal-person">
+      {% if speaker.photo %}<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="stat-modal-photo">{% else %}<div class="stat-modal-initials">{{ speaker.name | initials }}</div>{% endif %}
+      <div>
+        <div class="stat-modal-name">{{ speaker.name }}</div>
+        <div class="stat-modal-role">{{ speaker.achievement }}</div>
+        <div class="stat-modal-inst">{{ speaker.institution }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</template>
+
+<template id="modal-nas">
+  <div class="stat-modal-header">
+    <h3>National Academy of Sciences Members</h3>
+    <p class="stat-modal-subtitle">5 NAS Members have participated in Helix Center roundtables</p>
+  </div>
+  <div class="stat-modal-list">
+    {% for speaker in speakers | whereMatches('achievement', 'NAS Member|National Academy of Sci') | sortBy('name') %}
+    <a href="{{ speaker.name | speakerUrl }}" class="stat-modal-person">
+      {% if speaker.photo %}<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="stat-modal-photo">{% else %}<div class="stat-modal-initials">{{ speaker.name | initials }}</div>{% endif %}
+      <div>
+        <div class="stat-modal-name">{{ speaker.name }}</div>
+        <div class="stat-modal-role">{{ speaker.achievement }}</div>
+        <div class="stat-modal-inst">{{ speaker.institution }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</template>
+
+<template id="modal-guggenheim">
+  <div class="stat-modal-header">
+    <h3>Guggenheim Fellows</h3>
+    <p class="stat-modal-subtitle">13 John Simon Guggenheim Memorial Foundation Fellows</p>
+  </div>
+  <div class="stat-modal-list">
+    {% for speaker in speakers | whereMatches('achievement', 'guggenheim') | sortBy('name') %}
+    <a href="{{ speaker.name | speakerUrl }}" class="stat-modal-person">
+      {% if speaker.photo %}<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="stat-modal-photo">{% else %}<div class="stat-modal-initials">{{ speaker.name | initials }}</div>{% endif %}
+      <div>
+        <div class="stat-modal-name">{{ speaker.name }}</div>
+        <div class="stat-modal-role">{{ speaker.achievement }}</div>
+        <div class="stat-modal-inst">{{ speaker.institution }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</template>
+
+<template id="modal-bestselling">
+  <div class="stat-modal-header">
+    <h3>Bestselling Authors</h3>
+    <p class="stat-modal-subtitle">New York Times bestselling authors who have participated</p>
+  </div>
+  <div class="stat-modal-list">
+    {% for speaker in speakers | whereMatches('achievement', 'bestsell|NYT') | sortBy('name') %}
+    <a href="{{ speaker.name | speakerUrl }}" class="stat-modal-person">
+      {% if speaker.photo %}<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="stat-modal-photo">{% else %}<div class="stat-modal-initials">{{ speaker.name | initials }}</div>{% endif %}
+      <div>
+        <div class="stat-modal-name">{{ speaker.name }}</div>
+        <div class="stat-modal-role">{{ speaker.achievement }}</div>
+        <div class="stat-modal-inst">{{ speaker.institution }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</template>
+
+<template id="modal-disciplines">
+  <div class="stat-modal-header">
+    <h3>{{ site.stats.disciplines }} Disciplines</h3>
+    <p class="stat-modal-subtitle">The Helix Center spans every major field of human inquiry</p>
+  </div>
+  <div class="stat-modal-list">
+    {% for d in disciplines %}
+    <a href="/disciplines/#{{ d.slug }}" class="stat-modal-person">
+      <div class="stat-modal-disc-icon">{% set iconDiscipline = d.name %}{% include "partials/discipline-icon.njk" %}</div>
+      <div>
+        <div class="stat-modal-name">{{ d.name }}</div>
+        <div class="stat-modal-role">{{ d.count }} speakers</div>
+        <div class="stat-modal-inst">{{ d.topSpeakers | join(', ') | truncate(60) }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</template>
+
+<!-- TRUST STRIP -->
+<section class="dark" style="padding: 2.75rem 0;">
+  <div class="container">
+    <div class="trust-strip">
+      <div><div class="trust-item-label">Tax Status</div><div class="trust-item-value">501(c)(3) Nonprofit</div></div>
+      <div class="trust-divider"></div>
+      <div><div class="trust-item-label">Founded</div><div class="trust-item-value">2012 &middot; New York City</div></div>
+      <div class="trust-divider"></div>
+      <div><div class="trust-item-label">Transparency</div><div class="trust-item-value">GuideStar Profile</div></div>
+      <div class="trust-divider"></div>
+      <div><div class="trust-item-label">Admission</div><div class="trust-item-value">Always Free</div></div>
+      <div class="trust-divider"></div>
+      <div><div class="trust-item-label">Archive</div><div class="trust-item-value">107+ Roundtables</div></div>
+    </div>
+  </div>
+</section>

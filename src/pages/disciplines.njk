@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+title: Disciplines
+pageTitle: "13 Disciplines, One Conversation"
+description: "The Helix Center's roundtables bridge 13 academic disciplines from neuroscience to poetry, physics to psychoanalysis."
+permalink: /disciplines/
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Interdisciplinary Breadth</div>
+    <h1>13 Disciplines, One Conversation</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">The Helix Center's roundtables bridge every major field of human inquiry</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li>Disciplines</li></ol>
+</div>
+
+<section>
+  <div class="container">
+    {% for d in disciplines %}
+    <div id="{{ d.slug }}" style="margin-bottom: 3rem; padding-top: 1rem;">
+      <h2>{{ d.name }}</h2>
+      <p style="font-size: 0.9rem; color: var(--text-mid); margin: 0.5rem 0 1.5rem;">{{ d.count }} speakers</p>
+      <div class="speakers-grid">
+        {% for speaker in speakers | where('domain', d.name) | sortBy('score', 'desc') | limit(8) %}
+        {% include "partials/speaker-card.njk" %}
+        {% endfor %}
+      </div>
+      {% if (speakers | where('domain', d.name)).length > 8 %}
+      <div style="margin-top: 1rem;">
+        <a href="/speakers/?domain={{ d.name | urlencode }}" class="btn btn-outline-dark" style="font-size: 0.75rem; padding: 0.6rem 1.5rem;">View All {{ d.count }} &rarr;</a>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

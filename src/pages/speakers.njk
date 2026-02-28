@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+title: Speaker Directory
+pageTitle: Distinguished Speakers
+description: "Browse 506 distinguished speakers who have participated in Helix Center roundtable discussions, including Nobel laureates, MacArthur Fellows, and leading scholars."
+permalink: "/speakers/"
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Participants</div>
+    <h1>Distinguished Speakers</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">{{ speakers | length }} scholars, scientists, and artists across {{ site.stats.disciplines }} disciplines</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li>Speakers</li></ol>
+</div>
+
+<section>
+  <div class="container">
+    <div class="filter-bar">
+      <input type="text" id="search-input" placeholder="Search speakers by name, institution, or field...">
+      <select id="filter-select">
+        <option value="">All Disciplines</option>
+        {% for d in disciplines %}
+        <option value="{{ d.name }}">{{ d.name }} ({{ d.count }})</option>
+        {% endfor %}
+      </select>
+      <div class="sort-toggle" id="sort-toggle">
+        <button class="sort-btn active" data-sort="alpha">A&ndash;Z</button>
+        <select id="domain-jump" class="sort-btn">
+          <option value="">by Domain</option>
+          {% for d in disciplines %}
+          <option value="{{ d.name }}">{{ d.name }} ({{ d.count }})</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+
+    <div class="speakers-grid listing-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
+      {% for speaker in speakers %}
+      {% include "partials/speaker-card.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
