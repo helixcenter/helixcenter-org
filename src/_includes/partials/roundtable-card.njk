@@ -1,6 +1,6 @@
 <a href="/roundtables/{{ rt.slug }}/" class="rt-card" data-searchable="{{ rt.title }} {{ rt.description }} {{ rt.speakers | join(' ') }}" data-category="{{ rt.year }}">
   {% if rt.imageFile %}
-  <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" class="rt-thumbnail" loading="lazy">
+  <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" class="rt-thumbnail" loading="lazy" width="400" height="225">
   {% endif %}
   <div class="rt-date">{{ rt.date }}{% if rt.hasAudio %} &middot; <span class="rt-media-badge">&#9654; Audio</span>{% endif %}</div>
   <div class="rt-title">{{ rt.title }}</div>

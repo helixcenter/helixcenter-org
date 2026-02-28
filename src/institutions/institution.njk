@@ -1,0 +1,48 @@
+---
+pagination:
+  data: institutions
+  size: 1
+  alias: inst
+permalink: "/institutions/{{ inst.slug }}/index.html"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ inst.name }}"
+  pageTitle: "{{ inst.name }}"
+  description: "{{ inst.count }} Helix Center speakers from {{ inst.name }}."
+  breadcrumbSection: "Speakers"
+  breadcrumbPage: "{{ inst.name }}"
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Institution</div>
+    <h1>{{ inst.name }}</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">{{ inst.count }} speaker{% if inst.count != 1 %}s{% endif %} affiliated with {{ inst.name }}</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/speakers/">Speakers</a></li>
+    <li>{{ inst.shortName }}</li>
+  </ol>
+</div>
+
+<section class="detail-page">
+  <div class="container">
+    <div class="listing-grid" style="margin-top: 1.5rem;">
+      {% for speakerName in inst.speakers %}
+      {% set speaker = speakers | findSpeaker(speakerName) %}
+      {% if speaker %}
+      {% include "partials/speaker-card.njk" %}
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <div style="margin-top: 3rem; text-align: center;">
+      <a href="/speakers/" class="btn btn-outline-dark">&larr; Back to All Speakers</a>
+    </div>
+  </div>
+</section>

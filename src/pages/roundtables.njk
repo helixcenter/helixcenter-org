@@ -1,13 +1,15 @@
 ---
 layout: layouts/base.njk
 title: Roundtable Archive
-pageTitle: Roundtable Discussions
-description: "Browse 134+ interdisciplinary roundtable discussions from The Helix Center, featuring Nobel laureates and 506 distinguished scholars. All free to watch."
 pagination:
   data: roundtables
   size: 18
   alias: items
 permalink: "/roundtables/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+eleventyComputed:
+  pageTitle: "Roundtable Discussions{% if pagination.pageNumber > 0 %} — Page {{ pagination.pageNumber + 1 }}{% endif %}"
+  description: "Browse {{ roundtables | length }}+ interdisciplinary roundtable discussions from The Helix Center{% if pagination.pageNumber > 0 %} — page {{ pagination.pageNumber + 1 }} of {{ pagination.pages | length }}{% endif %}. Featuring Nobel laureates and {{ site.stats.speakers }} distinguished scholars. All free to watch."
+  breadcrumbSection: "Roundtables"
 ---
 
 <div class="page-header">

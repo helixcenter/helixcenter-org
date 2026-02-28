@@ -331,6 +331,19 @@ nav.scrolled { background: rgba(10, 22, 40, 0.99); box-shadow: 0 2px 20px rgba(0
 
 /* ---- HERO 3-COL STATS ---- */
 .hero-stats-3col { grid-template-columns: repeat(3, 1fr); }
+.hero-distinctions-link {
+  grid-column: 2; text-align: center; margin-top: 1rem;
+}
+.hero-distinctions-link a {
+  font-family: var(--serif); font-style: italic;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  color: var(--gold-light); text-decoration: none;
+  border-bottom: 1px solid rgba(201,168,76,0.3);
+  transition: all var(--transition);
+}
+.hero-distinctions-link a:hover {
+  color: var(--gold); border-bottom-color: var(--gold);
+}
 
 /* ---- INSTITUTIONS ---- */
 .institutions-bar {
@@ -357,7 +370,7 @@ nav.scrolled { background: rgba(10, 22, 40, 0.99); box-shadow: 0 2px 20px rgba(0
 .marquee-wrapper::after { right: 0; background: linear-gradient(to left, var(--warm-gray), transparent); }
 .marquee-track {
   display: flex; align-items: center; gap: 3rem;
-  animation: marquee-scroll 30s linear infinite; width: max-content;
+  animation: marquee-scroll 60s linear infinite; width: max-content;
   padding: 0.75rem 0;
 }
 .marquee-track:hover { animation-play-state: paused; }
@@ -366,6 +379,7 @@ nav.scrolled { background: rgba(10, 22, 40, 0.99); box-shadow: 0 2px 20px rgba(0
   height: 44px; padding: 0 0.5rem; white-space: nowrap; flex-shrink: 0;
   font-family: var(--serif); font-weight: 600;
   color: #b0ada6; letter-spacing: 0.04em;
+  text-decoration: none;
   transition: all 0.3s ease;
   filter: grayscale(100%); opacity: 0.55; font-size: 0.95rem;
 }
@@ -525,6 +539,87 @@ nav.scrolled { background: rgba(10, 22, 40, 0.99); box-shadow: 0 2px 20px rgba(0
 }
 .trust-item-value { font-family: var(--serif); font-size: 1.05rem; color: var(--gold); }
 .trust-divider { width: 1px; height: 36px; background: rgba(250,248,244,0.08); }
+
+/* ---- AWARDS PAGE ---- */
+.awards-category { margin-bottom: 3rem; }
+.awards-category-header { margin-bottom: 1.25rem; }
+.awards-category-header h2 { margin-bottom: 0.25rem; }
+.awards-count { font-weight: 400; color: var(--gold-dark); font-size: 0.75em; }
+.awards-subtitle { font-family: var(--serif); font-size: 0.95rem; color: var(--text-mid); font-style: italic; }
+.awards-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.75rem;
+}
+.awards-person {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 1rem; border-radius: var(--radius);
+  border: 1px solid var(--border); text-decoration: none; color: inherit;
+  transition: all var(--transition);
+}
+.awards-person:hover { border-color: var(--gold); background: var(--gold-muted); }
+.awards-photo {
+  width: 44px; height: 44px; border-radius: 50%;
+  object-fit: cover; border: 2px solid var(--gold-muted); flex-shrink: 0;
+}
+.awards-initials {
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--navy); color: var(--gold);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); font-size: 0.85rem; font-weight: 600; flex-shrink: 0;
+}
+.awards-person-name { font-family: var(--serif); font-size: 0.95rem; font-weight: 600; color: var(--navy); }
+.awards-person-inst { font-size: 0.78rem; color: var(--text-light); }
+
+/* Awards page: tier headings */
+.awards-tier { margin-bottom: 3rem; }
+.awards-tier-heading {
+  font-family: var(--serif); font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  color: var(--navy); margin-bottom: 0.35rem;
+}
+
+/* Awards page: single-winner compact row */
+.award-single {
+  display: flex; align-items: center; gap: 0.85rem;
+  padding: 0.65rem 0; border-bottom: 1px solid var(--border);
+}
+.award-single:last-child { border-bottom: none; }
+.award-single + .awards-category { margin-top: 1.5rem; }
+.awards-category + .award-single { margin-top: 0.5rem; }
+.award-single-photo-link { flex-shrink: 0; }
+.award-single-photo {
+  width: 40px; height: 40px; border-radius: 50%;
+  object-fit: cover; border: 2px solid var(--gold-muted);
+}
+.award-single-initials {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--navy); color: var(--gold);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); font-size: 0.8rem; font-weight: 600;
+}
+.award-single-info {
+  display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.25rem 0.5rem;
+  min-width: 0;
+}
+.award-single-name {
+  font-family: var(--serif); font-size: 0.95rem; font-weight: 600;
+  color: var(--navy); white-space: nowrap;
+}
+.award-single-desc {
+  font-size: 0.82rem; color: var(--text-mid); font-style: italic;
+}
+.award-single-sep { color: var(--text-light); font-size: 0.82rem; }
+.award-single-speaker {
+  font-family: var(--serif); font-size: 0.9rem; font-weight: 600;
+  color: var(--gold-dark); text-decoration: none;
+  border-bottom: 1px solid transparent; transition: all var(--transition);
+}
+.award-single-speaker:hover {
+  color: var(--navy); border-bottom-color: var(--gold);
+}
+@media (max-width: 600px) {
+  .award-single-info { flex-direction: column; gap: 0.1rem; }
+  .award-single-sep { display: none; }
+}
 
 /* ---- FOOTER ---- */
 footer { background: var(--navy); color: var(--cream); padding: 0 0 2rem; }
@@ -1017,6 +1112,7 @@ select.sort-btn.active {
   .hero-content { grid-template-columns: 1fr; gap: 2.5rem; }
   .hero-stats { grid-template-columns: 1fr 1fr; }
   .hero-stats-3col { grid-template-columns: 1fr 1fr; }
+  .hero-distinctions-link { grid-column: 1; }
   .mission-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .video-grid { grid-template-columns: 1fr; }
   .video-card.featured { grid-row: span 1; }
@@ -1054,4 +1150,82 @@ select.sort-btn.active {
   .leader-avatar { display: none; }
   .filter-bar { flex-direction: column; }
   .filter-bar input { min-width: 100%; }
+  .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+/* ---- SEO / CWV OPTIMIZATIONS ---- */
+
+/* Prevent CLS from images loading without dimensions */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.speaker-photo-thumb {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.rt-thumbnail {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+}
+.rt-featured-image {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+}
+.speaker-photo {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Video iframe responsive container */
+.video-thumbnail iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
+}
+
+/* Fix duplicate H1 on speaker detail pages */
+.speaker-detail-name {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+/* Contact page responsive grid */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+/* Prose styling for privacy/terms pages */
+.prose h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+.prose h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.prose p {
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  color: var(--text-mid);
+  line-height: 1.85;
+  margin-bottom: 1rem;
+}
+.prose ul {
+  margin: 0.5rem 0 1rem 1.5rem;
+  font-family: var(--serif);
+  font-size: 1rem;
+  color: var(--text-mid);
+  line-height: 1.75;
+}
+.prose li {
+  margin-bottom: 0.4rem;
 }

@@ -2,7 +2,7 @@
   <div class="speaker-discipline-icon" title="{{ speaker.domain }}">{% set iconDiscipline = speaker.domain %}{% include "partials/discipline-icon.njk" %}</div>
   <div class="speaker-card-header">
     {% if speaker.photo %}
-    <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="speaker-photo-thumb" loading="lazy">
+    <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="speaker-photo-thumb" loading="lazy" width="80" height="80">
     {% else %}
     <div class="speaker-card-initials">{{ speaker.name | initials }}</div>
     {% endif %}

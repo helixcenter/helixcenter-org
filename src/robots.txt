@@ -1,8 +1,11 @@
 User-agent: *
 Allow: /
-Sitemap: https://helixcenterorg.surge.sh/sitemap.xml
+Sitemap: https://www.helixcenter.org/sitemap.xml
 
 User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
@@ -18,4 +21,19 @@ User-agent: PerplexityBot
 Allow: /
 
 User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Cohere-ai
 Allow: /

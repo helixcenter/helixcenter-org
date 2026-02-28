@@ -9,20 +9,35 @@ eleventyComputed:
   title: "{{ speaker.name }}"
   pageTitle: "{{ speaker.name }}"
   description: "{{ speaker.name }}{% if speaker.institution and speaker.institution != 'Unknown' %} — {{ speaker.institution }}{% endif %}{% if speaker.achievement %}. {{ speaker.achievement | truncate(120) }}{% endif %}"
+  breadcrumbSection: "Speakers"
+  breadcrumbPage: "{{ speaker.name }}"
 ---
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "{{ site.url }}/speakers/{{ speaker.slug }}/#person",
   "name": "{{ speaker.name }}",
+  "url": "{{ site.url }}/speakers/{{ speaker.slug }}/",
   {% if speaker.title %}"jobTitle": "{{ speaker.title }}",{% endif %}
   {% if speaker.institution and speaker.institution != "Unknown" %}"worksFor": { "@type": "Organization", "name": "{{ speaker.institution }}" },{% endif %}
-  {% if speaker.achievement %}"description": "{{ speaker.achievement }}",{% endif %}
+  {% if speaker.bio %}"description": "{{ speaker.bio | truncate(300) | jsonEscape }}",{% endif %}
+  {% if speaker.photo %}"image": "{{ speaker.photo }}",{% endif %}
+  {% if speaker.domain %}"knowsAbout": "{{ speaker.domain }}",{% endif %}
+  {% if speaker.achievement %}"award": "{{ speaker.achievement | jsonEscape }}",{% endif %}
   {% if speaker.wikipedia %}"sameAs": ["{{ speaker.wikipedia }}"],{% endif %}
   "memberOf": {
     "@type": "EducationalOrganization",
-    "name": "{{ site.name }}"
+    "@id": "{{ site.url }}/#organization"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}/speakers/{{ speaker.slug }}/"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".speaker-bio", ".speaker-meta", "h1"]
   }
 }
 </script>
@@ -52,12 +67,12 @@ eleventyComputed:
   <div class="container">
     <div class="speaker-detail-header">
       {% if speaker.photo %}
-      <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="speaker-photo" loading="lazy">
+      <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="speaker-photo" loading="lazy" width="400" height="400">
       {% else %}
       <div class="speaker-detail-avatar">{{ speaker.name | initials }}</div>
       {% endif %}
       <div class="speaker-detail-info">
-        <h1>{{ speaker.name }}</h1>
+        <div class="speaker-detail-name">{{ speaker.name }}</div>
         <div class="speaker-meta">
           {% if speaker.title %}<p><strong>Title:</strong> {{ speaker.title }}</p>{% endif %}
           {% if speaker.institution and speaker.institution != "Unknown" %}<p><strong>Institution:</strong> {{ speaker.institution }}</p>{% endif %}

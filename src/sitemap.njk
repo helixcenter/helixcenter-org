@@ -1,0 +1,45 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.w3.org/2000/sitemaps.org/schemas/sitemap/0.9">
+  {%- set today = "" | toISODate %}
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ today }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {%- set staticPages = ["/about/", "/speakers/", "/roundtables/", "/disciplines/", "/leadership/", "/media/", "/faq/", "/donate/", "/contact/", "/awards/", "/privacy/", "/terms/"] %}
+  {%- for pg in staticPages %}
+  <url>
+    <loc>{{ site.url }}{{ pg }}</loc>
+    <lastmod>{{ today }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- endfor %}
+  {%- for speaker in speakers %}
+  <url>
+    <loc>{{ site.url }}/speakers/{{ speaker.slug }}/</loc>
+    <lastmod>{{ today }}</lastmod>
+    <priority>0.6</priority>
+  </url>
+  {%- endfor %}
+  {%- for rt in roundtables %}
+  <url>
+    <loc>{{ site.url }}/roundtables/{{ rt.slug }}/</loc>
+    <lastmod>{% if rt.date %}{{ rt.date | toISODate }}{% else %}{{ today }}{% endif %}</lastmod>
+    <priority>0.7</priority>
+  </url>
+  {%- endfor %}
+  {%- for inst in institutions %}
+  <url>
+    <loc>{{ site.url }}/institutions/{{ inst.slug }}/</loc>
+    <lastmod>{{ today }}</lastmod>
+    <priority>0.5</priority>
+  </url>
+  {%- endfor %}
+</urlset>

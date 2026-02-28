@@ -4,8 +4,10 @@ module.exports = function(eleventyConfig) {
   // Passthrough copy
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/llms.txt");
+  eleventyConfig.addPassthroughCopy("src/_headers");
 
   // Filters
   eleventyConfig.addFilter("slug", function(str) {
@@ -56,6 +58,18 @@ module.exports = function(eleventyConfig) {
     const d = new Date(dateStr);
     if (isNaN(d.getTime())) return dateStr;
     return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  });
+
+  eleventyConfig.addFilter("toISODate", function(dateStr) {
+    if (!dateStr) return new Date().toISOString().split('T')[0];
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return new Date().toISOString().split('T')[0];
+    return d.toISOString().split('T')[0];
+  });
+
+  eleventyConfig.addFilter("jsonEscape", function(str) {
+    if (!str) return '';
+    return str.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '');
   });
 
   eleventyConfig.addFilter("year", function(dateStr) {

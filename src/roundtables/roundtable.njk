@@ -9,16 +9,22 @@ eleventyComputed:
   title: "{{ rt.title }}"
   pageTitle: "{{ rt.title }}"
   description: "{{ rt.description | truncate(160) }}"
+  breadcrumbSection: "Roundtables"
+  breadcrumbPage: "{{ rt.title }}"
 ---
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Event",
+  "@id": "{{ site.url }}/roundtables/{{ rt.slug }}/#event",
   "name": "{{ rt.title }}",
-  "description": "{{ rt.description | truncate(300) }}",
-  {% if rt.date %}"startDate": "{{ rt.date }}",{% endif %}
+  "description": "{{ rt.description | truncate(300) | jsonEscape }}",
+  "url": "{{ site.url }}/roundtables/{{ rt.slug }}/",
+  {% if rt.date %}"startDate": "{{ rt.date | toISODate }}",{% endif %}
+  "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+  {% if rt.imageFile %}"image": "{{ rt.imageFile }}",{% endif %}
   "location": {
     "@type": "Place",
     "name": "{{ site.address.venue }}",
@@ -27,27 +33,51 @@ eleventyComputed:
       "streetAddress": "{{ site.address.street }}",
       "addressLocality": "{{ site.address.city }}",
       "addressRegion": "{{ site.address.state }}",
-      "postalCode": "{{ site.address.zip }}"
+      "postalCode": "{{ site.address.zip }}",
+      "addressCountry": "US"
     }
   },
-  "organizer": {
-    "@type": "EducationalOrganization",
-    "name": "{{ site.name }}",
-    "url": "{{ site.url }}"
-  },
+  "organizer": { "@id": "{{ site.url }}/#organization" },
+  "superEvent": { "@id": "{{ site.url }}/#eventseries" },
   "offers": {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock"
+    "availability": "https://schema.org/InStock",
+    "url": "{{ site.url }}/roundtables/{{ rt.slug }}/"
   },
-  "isAccessibleForFree": true
+  "isAccessibleForFree": true,
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".detail-body", ".detail-meta", "h1"]
+  }
   {% if rt.speakers and rt.speakers.length %},
   "performer": [{% for name in rt.speakers %}{% if loop.index0 > 0 %},{% endif %}
-    {"@type": "Person", "name": "{{ name }}"}{% endfor %}
+    {
+      "@type": "Person",
+      "name": "{{ name }}",
+      "url": "{{ site.url }}{{ name | speakerUrl }}"
+    }{% endfor %}
   ]{% endif %}
 }
 </script>
+{% if rt.videoId %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ rt.title }} — Helix Center Roundtable",
+  "description": "{{ rt.description | truncate(300) | jsonEscape }}",
+  "thumbnailUrl": "https://img.youtube.com/vi/{{ rt.videoId }}/maxresdefault.jpg",
+  {% if rt.date %}"uploadDate": "{{ rt.date | toISODate }}",{% endif %}
+  "contentUrl": "https://www.youtube.com/watch?v={{ rt.videoId }}",
+  "embedUrl": "https://www.youtube-nocookie.com/embed/{{ rt.videoId }}",
+  "publisher": { "@id": "{{ site.url }}/#organization" },
+  "isAccessibleForFree": true,
+  "inLanguage": "en"
+}
+</script>
+{% endif %}
 
 <div class="page-header">
   <div class="container">
@@ -71,7 +101,7 @@ eleventyComputed:
 <section class="detail-page">
   <div class="container">
     {% if rt.imageFile %}
-    <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" class="rt-featured-image" loading="lazy">
+    <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" class="rt-featured-image" loading="lazy" width="800" height="450">
     {% endif %}
 
     <div class="detail-meta">
@@ -105,7 +135,7 @@ eleventyComputed:
         <div class="speaker-discipline-icon" title="{{ matchedSpeaker.domain }}">{% set iconDiscipline = matchedSpeaker.domain %}{% include "partials/discipline-icon.njk" %}</div>
         <div class="speaker-card-header">
           {% if matchedSpeaker.photo %}
-          <img src="{{ matchedSpeaker.photo }}" alt="{{ matchedSpeaker.name }}" class="speaker-photo-thumb" loading="lazy">
+          <img src="{{ matchedSpeaker.photo }}" alt="{{ matchedSpeaker.name }}" class="speaker-photo-thumb" loading="lazy" width="80" height="80">
           {% else %}
           <div class="speaker-card-initials">{{ matchedSpeaker.name | initials }}</div>
           {% endif %}
@@ -149,7 +179,7 @@ eleventyComputed:
     <h2>Watch</h2>
     <div class="rt-video-embed" style="margin-top: 1.5rem;">
       <div class="video-thumbnail">
-        <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/{{ rt.videoId }}?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy" title="{{ rt.title }} — Helix Center Roundtable"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ rt.videoId }}?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy" title="{{ rt.title }} — Helix Center Roundtable"></iframe>
       </div>
     </div>
     {% endif %}
