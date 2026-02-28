@@ -1,132 +1,158 @@
 [
   {
     "name": "Other/Interdisciplinary",
+    "slug": "other-interdisciplinary",
     "count": 129,
     "topSpeakers": [
       "Rob Hopkins",
       "Eric Klinenberg",
-      "Jennifer Jacquet"
-    ],
-    "slug": "otherinterdisciplinary"
+      "Jennifer Jacquet",
+      "Thomas DaCosta Kaufmann",
+      "Amy Cook"
+    ]
   },
   {
     "name": "Literature & Writing",
-    "count": 75,
+    "slug": "literature-writing",
+    "count": 74,
     "topSpeakers": [
       "Yiyun Li",
       "Siri Hustvedt",
-      "Katherine Elkins"
-    ],
-    "slug": "literature-writing"
+      "Percival Everett",
+      "Rosanne Cash",
+      "Amitav Ghosh"
+    ]
   },
   {
     "name": "Biology & Medicine",
+    "slug": "biology-medicine",
     "count": 56,
     "topSpeakers": [
       "Andrea Califano",
       "Robert Klitzman",
-      "Raul Rabadan"
-    ],
-    "slug": "biology-medicine"
+      "Raul Rabadan",
+      "Irene Pepperberg",
+      "Robert Michels"
+    ]
   },
   {
     "name": "Philosophy & Ethics",
+    "slug": "philosophy-ethics",
     "count": 47,
     "topSpeakers": [
       "David Chalmers",
       "Michael S. Turner",
-      "Joel David Hamkins"
-    ],
-    "slug": "philosophy-ethics"
+      "Joel David Hamkins",
+      "Simon Critchley",
+      "Vardit Ravitsky"
+    ]
   },
   {
     "name": "Neuroscience & Cognition",
+    "slug": "neuroscience-cognition",
     "count": 45,
     "topSpeakers": [
       "Eric Kandel",
       "Karl Friston",
-      "György Buzsáki"
-    ],
-    "slug": "neuroscience-cognition"
+      "György Buzsáki",
+      "Joseph LeDoux",
+      "Daniela Schiller"
+    ]
   },
   {
     "name": "History & Cultural Studies",
+    "slug": "history-cultural-studies",
     "count": 26,
     "topSpeakers": [
       "Anthony Grafton",
       "David Freedberg",
-      "Deborah Coen"
-    ],
-    "slug": "history-cultural-studies"
+      "Deborah Coen",
+      "Brigid Doherty",
+      "Edward Tenner"
+    ]
   },
   {
     "name": "Creative & Performing Arts",
+    "slug": "creative-performing-arts",
     "count": 25,
     "topSpeakers": [
       "Vijay Iyer",
       "Suzanne Anker",
-      "John Kress"
-    ],
-    "slug": "creative-performing-arts"
+      "John Kress",
+      "Christopher Cerrone",
+      "Jane Ira Bloom"
+    ]
   },
   {
     "name": "Mathematics & Computer Science",
-    "count": 23,
+    "slug": "mathematics-computer-science",
+    "count": 22,
     "topSpeakers": [
       "Barry Mazur",
       "Graciela Chichilnisky",
-      "Thomas Callister Hales"
-    ],
-    "slug": "mathematics-computer-science"
+      "Thomas Callister Hales",
+      "Rayid Ghani",
+      "Tina Eliassi-Rad"
+    ]
   },
   {
     "name": "Psychology & Psychoanalysis",
+    "slug": "psychology-psychoanalysis",
     "count": 21,
     "topSpeakers": [
       "Daniel Kahneman",
       "Peter Loewenberg",
-      "Jessica Benjamin"
-    ],
-    "slug": "psychology-psychoanalysis"
+      "Jessica Benjamin",
+      "Robert Kurzban",
+      "Shimon Edelman"
+    ]
   },
   {
     "name": "Physics & Cosmology",
+    "slug": "physics-cosmology",
     "count": 20,
     "topSpeakers": [
       "Paul J. Steinhardt",
       "Sara Seager",
-      "Sylvester James Gates"
-    ],
-    "slug": "physics-cosmology"
+      "Sylvester James Gates",
+      "Steve Hsu",
+      "Priyamvada Natarajan"
+    ]
   },
   {
     "name": "Social Sciences",
+    "slug": "social-sciences",
     "count": 19,
     "topSpeakers": [
       "Jeffrey Alexander",
       "Liah Greenfeld",
-      "Tracey Meares"
-    ],
-    "slug": "social-sciences"
+      "Tracey Meares",
+      "Robert H. Frank",
+      "Richard A. Shweder"
+    ]
   },
   {
     "name": "Technology & Engineering",
-    "count": 10,
+    "slug": "technology-engineering",
+    "count": 12,
     "topSpeakers": [
       "Rosalind Picard",
       "Katepalli Sreenivasan",
-      "Adrian Bejan"
-    ],
-    "slug": "technology-engineering"
+      "Katherine Elkins",
+      "Adrian Bejan",
+      "Natalie Jeremijenko"
+    ]
   },
   {
     "name": "Journalism & Media",
+    "slug": "journalism-media",
     "count": 10,
     "topSpeakers": [
       "R. Luke DuBois",
       "Adam Kirsch",
-      "David Lichtenstein"
-    ],
-    "slug": "journalism-media"
+      "David Lichtenstein",
+      "Mark Hansen",
+      "Jack Z. Bratich"
+    ]
   }
 ]
