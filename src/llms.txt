@@ -23,6 +23,7 @@
 ## Notable Participants
 - Daniel Kahneman -- Nobel Prize in Economics (2002), Princeton University
 - Eric Kandel -- Nobel Prize in Physiology or Medicine (2000), Columbia University
+- David J. Gross -- Nobel Prize in Physics (2004), UC Santa Barbara
 - Karl Friston -- Most-cited neuroscientist in history (h-index 291), University College London
 - Sara Seager -- MacArthur Fellow, Kavli Prize in Astrophysics, MIT
 - David Chalmers -- Formulated "the hard problem of consciousness," NYU
