@@ -26,7 +26,7 @@ eleventyComputed:
   {% if speaker.photo %}"image": "{{ speaker.photo }}",{% endif %}
   {% if speaker.domain %}"knowsAbout": "{{ speaker.domain }}",{% endif %}
   {% if speaker.achievement %}"award": "{{ speaker.achievement | jsonEscape }}",{% endif %}
-  {% if speaker.wikipedia %}"sameAs": ["{{ speaker.wikipedia }}"],{% endif %}
+  {% if speaker.wikipedia or speaker.website or speaker.googleScholar %}"sameAs": [{% if speaker.wikipedia %}"{{ speaker.wikipedia }}"{% endif %}{% if speaker.website %}{% if speaker.wikipedia %},{% endif %}"{{ speaker.website }}"{% endif %}{% if speaker.googleScholar %}{% if speaker.wikipedia or speaker.website %},{% endif %}"{{ speaker.googleScholar }}"{% endif %}],{% endif %}
   "memberOf": {
     "@type": "EducationalOrganization",
     "@id": "{{ site.url }}/#organization"
@@ -80,9 +80,26 @@ eleventyComputed:
           <p><strong>Appearances:</strong> {{ speaker.appearances }}</p>
           {% if speaker.achievement %}<p><strong>Achievement:</strong> {{ speaker.achievement }}</p>{% endif %}
         </div>
-        {% if speaker.wikipedia %}
-        <div style="margin-top: 1rem;">
-          <a href="{{ speaker.wikipedia }}" class="btn btn-outline-dark" target="_blank" rel="noopener">Wikipedia &rarr;</a>
+        {% if speaker.wikipedia or speaker.website or speaker.googleScholar %}
+        <div class="speaker-external-links">
+          {% if speaker.wikipedia %}
+          <a href="{{ speaker.wikipedia }}" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12.09 13.119c-.936 1.932-2.217 4.548-2.853 5.728-.616 1.074-1.127.914-1.661 0-.347-.58-4.91-11.252-5.225-12.035-.313-.782-.636-1.368-.29-1.368h2.356c.545 0 .636.326.834.865.456 1.262 2.654 6.773 3.137 7.846.14-.272 1.02-2.05 1.95-4.023.272-.58.303-.762.069-1.29C9.86 7.58 9.299 6.255 8.908 5.444c-.326-.672-.443-.983.223-.983h2.356c.476 0 .665.183.852.659l2.2 5.615 2.136-5.595c.183-.477.399-.68.853-.68h2.232c.476 0 .636.399.333 1.054l-3.53 7.226c.55 1.128 2.79 6.252 3.365 7.488.274.585-.196.893-.634.543-.395-.316-2.11-3.036-3.023-5.034-.335.67-1.07 2.142-1.748 3.381z"/></svg>
+            Wikipedia
+          </a>
+          {% endif %}
+          {% if speaker.website %}
+          <a href="{{ speaker.website }}" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Website
+          </a>
+          {% endif %}
+          {% if speaker.googleScholar %}
+          <a href="{{ speaker.googleScholar }}" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            Google Scholar
+          </a>
+          {% endif %}
         </div>
         {% endif %}
       </div>

@@ -31,7 +31,7 @@
 <meta name="twitter:image" content="{{ ogImage or site.url + '/img/helix-center-og.jpg' }}">
 
 <!-- Additional SEO -->
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">{% endif %}
 <meta name="author" content="{{ site.name }}">
 <meta name="geo.placename" content="New York, NY">
 <meta name="geo.region" content="US-NY">

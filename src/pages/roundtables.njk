@@ -27,6 +27,11 @@ eleventyComputed:
 
 <section>
   <div class="container">
+    {% set rtWithVideo = roundtables | where("hasVideo", true) %}
+    <p style="font-family: var(--serif); font-size: 1.02rem; color: var(--text-mid); margin-bottom: 0.5rem;">
+      {{ rtWithVideo | length }} roundtable recordings on the <a href="https://www.youtube.com/@helixcenter" style="color: var(--gold-dark);">Helix Center YouTube channel</a>, spanning {{ roundtables[roundtables | length - 1].year }}&ndash;{{ roundtables[0].year }}.
+    </p>
+
     <div class="filter-bar">
       <input type="text" id="search-input" placeholder="Search roundtables by title, topic, or speaker...">
       <select id="filter-select">

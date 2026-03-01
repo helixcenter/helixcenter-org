@@ -804,6 +804,17 @@ footer { background: var(--navy); color: var(--cream); padding: 0 0 2rem; }
 .speaker-detail-info .speaker-meta {
   font-size: 0.9rem; color: var(--text-mid); line-height: 1.6;
 }
+.speaker-external-links {
+  display: flex; gap: 1.25rem; flex-wrap: wrap; margin-top: 1rem;
+}
+.speaker-external-links a {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-size: 0.85rem; color: var(--gold-dark); text-decoration: none;
+  padding: 0.3rem 0; border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.speaker-external-links a:hover { border-bottom-color: var(--gold); }
+.speaker-external-links svg { flex-shrink: 0; opacity: 0.7; }
 
 /* ---- FILTER BAR ---- */
 .filter-bar {
@@ -887,7 +898,7 @@ select.sort-btn.active {
   background: var(--navy); color: var(--gold);
   border: 1px solid var(--navy);
 }
-.pagination .dots { border: none; color: var(--text-light); }
+.pagination .dots, .pagination .pagination-ellipsis { border: none; color: var(--text-light); }
 
 /* ---- RELATED CARDS ---- */
 .related-grid {

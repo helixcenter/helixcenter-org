@@ -21,7 +21,7 @@ eleventyComputed:
   "name": "{{ rt.title }}",
   "description": "{{ rt.description | truncate(300) | jsonEscape }}",
   "url": "{{ site.url }}/roundtables/{{ rt.slug }}/",
-  {% if rt.date %}"startDate": "{{ rt.date | toISODate }}",{% endif %}
+  {% if rt.date %}"startDate": "{{ rt.date | toISODate }}T14:30:00-05:00",{% endif %}
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
   {% if rt.imageFile %}"image": "{{ rt.imageFile }}",{% endif %}

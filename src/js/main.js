@@ -160,6 +160,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const query = searchInput.value.toLowerCase().trim();
       const filterValue = filterSelect ? filterSelect.value : '';
       const cards = listingGrid.querySelectorAll('[data-searchable]');
+      const isSearching = query || filterValue;
+
+      // When searching/filtering on speakers page, disable pagination to show all matches
+      if (speakersPagination && isSearching) {
+        if (speakersPagination) speakersPagination.style.display = 'none';
+      }
 
       cards.forEach(card => {
         const text = card.dataset.searchable.toLowerCase();
@@ -179,6 +185,11 @@ document.addEventListener('DOMContentLoaded', () => {
           header.style.display = empty ? 'none' : '';
         }
       });
+
+      // Re-enable pagination when search is cleared (if in A-Z mode)
+      if (speakersPagination && !isSearching && speakersPaginationActive) {
+        showSpeakersPage(1);
+      }
     };
 
     searchInput.addEventListener('input', filterItems);
@@ -189,6 +200,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const sortToggle = document.getElementById('sort-toggle');
   const domainJump = document.getElementById('domain-jump');
   const alphaBtn = sortToggle ? sortToggle.querySelector('[data-sort="alpha"]') : null;
+  const speakersPagination = document.getElementById('speakers-pagination');
+  const SPEAKERS_PER_PAGE = 48;
+  let speakersCurrentPage = 1;
+  let speakersPaginationActive = true;
 
   // Extract last name from full name for sorting
   function lastNameKey(fullName) {
@@ -203,11 +218,68 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!listingGrid) return;
     listingGrid.querySelectorAll('.domain-group-header').forEach(h => h.remove());
     listingGrid.querySelectorAll('.domain-group-grid').forEach(g => {
-      // Move cards back to listingGrid before removing sub-grid
       while (g.firstChild) listingGrid.appendChild(g.firstChild);
       g.remove();
     });
     listingGrid.style.display = '';
+  }
+
+  // Show a specific page of speaker cards (A-Z view only)
+  function showSpeakersPage(page) {
+    if (!listingGrid || !speakersPagination) return;
+    const cards = [...listingGrid.querySelectorAll('[data-sort-name]')];
+    // Filter to only visible cards (respects search/filter)
+    const visibleCards = cards.filter(c => c.style.display !== 'none' || !c.style.display);
+    const totalPages = Math.ceil(visibleCards.length / SPEAKERS_PER_PAGE);
+    page = Math.max(1, Math.min(page, totalPages));
+    speakersCurrentPage = page;
+
+    const start = (page - 1) * SPEAKERS_PER_PAGE;
+    const end = start + SPEAKERS_PER_PAGE;
+    cards.forEach((card, i) => {
+      card.style.display = (i >= start && i < end) ? '' : 'none';
+    });
+
+    // Build pagination UI
+    let html = '';
+    if (totalPages > 1) {
+      if (page > 1) html += '<a href="#" data-page="' + (page - 1) + '">&laquo; Prev</a>';
+      const startPage = Math.max(1, page - 3);
+      const endPage = Math.min(totalPages, page + 3);
+      if (startPage > 1) { html += '<a href="#" data-page="1">1</a>'; if (startPage > 2) html += '<span class="pagination-ellipsis">&hellip;</span>'; }
+      for (let i = startPage; i <= endPage; i++) {
+        html += i === page ? '<span class="current">' + i + '</span>' : '<a href="#" data-page="' + i + '">' + i + '</a>';
+      }
+      if (endPage < totalPages) { if (endPage < totalPages - 1) html += '<span class="pagination-ellipsis">&hellip;</span>'; html += '<a href="#" data-page="' + totalPages + '">' + totalPages + '</a>'; }
+      if (page < totalPages) html += '<a href="#" data-page="' + (page + 1) + '">Next &raquo;</a>';
+    }
+    speakersPagination.innerHTML = html;
+    speakersPagination.style.display = totalPages > 1 ? '' : 'none';
+
+    // Bind page clicks
+    speakersPagination.querySelectorAll('a[data-page]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        showSpeakersPage(parseInt(a.dataset.page));
+        const grid = document.getElementById('speakers-grid');
+        if (grid) { const top = grid.getBoundingClientRect().top + window.scrollY - 100; window.scrollTo({ top, behavior: 'smooth' }); }
+      });
+    });
+  }
+
+  // Disable pagination (show all cards)
+  function disableSpeakersPagination() {
+    speakersPaginationActive = false;
+    if (speakersPagination) speakersPagination.style.display = 'none';
+    if (listingGrid) {
+      listingGrid.querySelectorAll('[data-sort-name]').forEach(c => { c.style.display = ''; });
+    }
+  }
+
+  // Enable pagination (A-Z mode)
+  function enableSpeakersPagination() {
+    speakersPaginationActive = true;
+    showSpeakersPage(1);
   }
 
   // Build domain-grouped view, return map of domain -> header element
@@ -216,7 +288,6 @@ document.addEventListener('DOMContentLoaded', () => {
     clearDomainView();
 
     const cards = [...listingGrid.querySelectorAll('[data-sort-name]')];
-    // Sort by domain alpha, then last name within domain
     cards.sort((a, b) => {
       const domA = (a.dataset.category || 'ZZZ').toLowerCase();
       const domB = (b.dataset.category || 'ZZZ').toLowerCase();
@@ -230,6 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let groupGrid = null;
 
     cards.forEach(card => {
+      card.style.display = '';
       const domain = card.dataset.category || 'Other/Interdisciplinary';
       if (domain !== currentDomain) {
         currentDomain = domain;
@@ -252,6 +324,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (sortToggle && listingGrid) {
+    // Initialize A-Z pagination on page load
+    if (speakersPagination) {
+      const cards = [...listingGrid.querySelectorAll('[data-sort-name]')];
+      cards.sort((a, b) => (a.dataset.sortName || '').localeCompare(b.dataset.sortName || ''));
+      cards.forEach(card => listingGrid.appendChild(card));
+      showSpeakersPage(1);
+    }
+
     // A-Z button click
     if (alphaBtn) {
       alphaBtn.addEventListener('click', () => {
@@ -261,6 +341,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const cards = [...listingGrid.querySelectorAll('[data-sort-name]')];
         cards.sort((a, b) => (a.dataset.sortName || '').localeCompare(b.dataset.sortName || ''));
         cards.forEach(card => listingGrid.appendChild(card));
+        enableSpeakersPagination();
       });
     }
 
@@ -270,10 +351,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const selected = domainJump.value;
         if (alphaBtn) alphaBtn.classList.remove('active');
         domainJump.classList.add('active');
+        disableSpeakersPagination();
 
         const headers = buildDomainView();
 
-        // Scroll to selected domain if one was picked
         if (selected && headers[selected]) {
           const offset = 100;
           const top = headers[selected].getBoundingClientRect().top + window.scrollY - offset;

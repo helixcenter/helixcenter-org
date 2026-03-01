@@ -40,10 +40,12 @@ permalink: "/speakers/"
       </div>
     </div>
 
-    <div class="speakers-grid listing-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
+    <div class="speakers-grid listing-grid" id="speakers-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
       {% for speaker in speakers %}
       {% include "partials/speaker-card.njk" %}
       {% endfor %}
     </div>
+
+    <div class="pagination" id="speakers-pagination" style="display: none;"></div>
   </div>
 </section>
