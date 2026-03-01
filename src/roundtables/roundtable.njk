@@ -209,5 +209,19 @@ eleventyComputed:
       <a href="{{ rt.url }}" class="btn btn-outline-dark" target="_blank" rel="noopener">View on helixcenter.org &rarr;</a>
     </div>
     {% endif %}
+
+    {% if rt.transcript %}
+    <div class="rt-transcript" style="margin-top: 3rem;">
+      <h2>Transcript</h2>
+      <details>
+        <summary style="cursor: pointer; padding: 0.75rem 0; font-weight: 500; color: var(--gold-dark, #8B7355);">Show full transcript</summary>
+        <div class="transcript-content" style="margin-top: 1rem; line-height: 1.8; color: var(--text-muted, #555); font-size: 0.95rem;">
+          {% for para in rt.transcript | split("\n\n") %}
+          <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+      </details>
+    </div>
+    {% endif %}
   </div>
 </section>

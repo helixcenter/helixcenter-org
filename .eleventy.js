@@ -181,6 +181,11 @@ module.exports = function(eleventyConfig) {
     return `/speakers/${slug}/`;
   });
 
+  eleventyConfig.addFilter("split", function(str, sep) {
+    if (!str) return [];
+    return str.split(sep);
+  });
+
   eleventyConfig.addFilter("rtUrl", function(title) {
     if (!title) return '/roundtables/';
     const slug = title.toString().toLowerCase()
