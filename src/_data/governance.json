@@ -409,5 +409,31 @@
       "credentials": "Ph.D.",
       "notes": "Musicologist"
     }
+  ],
+  "featured": [
+    {
+      "name": "Dr. Edward Nersessian",
+      "initials": "EN",
+      "role": "Founder & Director",
+      "bio": "Psychoanalyst and clinical professor of psychiatry. Co-founder of the Philoctetes Center for the Multidisciplinary Study of the Imagination. Recipient of the American Psychoanalytic Association's Distinguished Service Award. Author of numerous publications on psychoanalytic theory and interdisciplinary inquiry."
+    },
+    {
+      "name": "Marianne Young",
+      "initials": "MY",
+      "role": "Board Chair",
+      "bio": "Philanthropist and longtime supporter of arts and education in New York City. The Helix Center's auditorium &mdash; The Marianne &amp; Nicholas Young Auditorium &mdash; is named in honor of her family's founding patronage of the institution."
+    },
+    {
+      "name": "Dr. Mark Solms",
+      "initials": "MS",
+      "role": "Advisory Board",
+      "bio": "Neuroscientist and psychoanalyst. Chair of Neuropsychology at the University of Cape Town. Founder of the field of neuropsychoanalysis and director of the International Neuropsychoanalysis Society. Editor of the Revised Standard Edition of Freud."
+    },
+    {
+      "name": "Dr. Jamieson Webster",
+      "initials": "JW",
+      "role": "Advisory Board",
+      "bio": "Psychoanalyst and clinical associate professor at the NYU Postdoctoral Program in Psychotherapy and Psychoanalysis. Author of <em>The Life and Death of Psychoanalysis</em>. Contributing writer for The New Yorker and The New York Review of Books."
+    }
   ]
 }

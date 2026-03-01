@@ -8,6 +8,26 @@ permalink: /media/
 
 {% set rtWithVideo = roundtables | where("hasVideo", true) %}
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PodcastSeries",
+  "name": "The Helix Center Roundtable Discussions",
+  "url": "{{ site.social.podcast }}",
+  "description": "Interdisciplinary roundtable discussions featuring Nobel laureates, MacArthur Fellows, and leading scholars across {{ site.stats.disciplines }} disciplines. {{ podcasts | length }} episodes spanning {{ site.stats.seasons }} seasons.",
+  "webFeed": "{{ site.social.rss }}",
+  "inLanguage": "en",
+  "genre": ["Science", "Philosophy", "Interdisciplinary"],
+  "publisher": { "@id": "{{ site.url }}/#organization" },
+  "author": { "@id": "{{ site.url }}/#organization" },
+  "numberOfEpisodes": {{ podcasts | length }},
+  "sameAs": [
+    "{{ site.social.podcast }}",
+    "{{ site.social.youtube }}"
+  ]
+}
+</script>
+
 <div class="page-header">
   <div class="container">
     <div class="section-label">Watch &amp; Listen</div>

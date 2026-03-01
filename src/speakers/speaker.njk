@@ -44,7 +44,7 @@ eleventyComputed:
 
 <div class="page-header">
   <div class="container">
-    <div class="section-label">Speaker Profile</div>
+    <div class="section-label">Speaker Profile{% if speaker.roundtables and speaker.roundtables.length %} &middot; {{ speaker.appearances }} appearance{% if speaker.appearances != 1 %}s{% endif %}{% endif %}</div>
     <h1>{{ speaker.name }}</h1>
     <div class="gold-divider"></div>
     {% if speaker.title %}

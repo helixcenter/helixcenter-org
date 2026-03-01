@@ -2,7 +2,7 @@
   "name": "The Helix Center for Interdisciplinary Investigation",
   "shortName": "The Helix Center",
   "url": "https://www.helixcenter.org",
-  "description": "A 501(c)(3) nonprofit that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 506 distinguished scholars across 13 disciplines. Founded 2012 in New York City.",
+  "description": "A 501(c)(3) nonprofit that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 507 distinguished scholars across 13 disciplines. Founded 2012 in New York City.",
   "founder": "Dr. Edward Nersessian",
   "founded": "2012",
   "address": {
@@ -22,9 +22,9 @@
     "rss": "https://www.helixcenter.org/feed/"
   },
   "stats": {
-    "speakers": 506,
+    "speakers": 507,
     "roundtables": "134+",
-    "nobelLaureates": 3,
+    "nobelLaureates": 4,
     "macarthurFellows": 5,
     "seasons": 14,
     "wikipediaNotable": 229,

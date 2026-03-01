@@ -140,6 +140,26 @@ module.exports = function(eleventyConfig) {
     return arr.filter(item => item[key] && re.test(item[key]));
   });
 
+  // Find related roundtables by shared speakers and tags
+  eleventyConfig.addFilter("relatedRoundtables", function(allRoundtables, currentRt, limit) {
+    if (!allRoundtables || !currentRt) return [];
+    limit = limit || 4;
+    const currentSpeakers = new Set(currentRt.speakers || []);
+    const currentTags = new Set((currentRt.tags || []).map(t => t.toLowerCase()));
+
+    return allRoundtables
+      .filter(rt => rt.id !== currentRt.id)
+      .map(rt => {
+        const sharedSpeakers = (rt.speakers || []).filter(s => currentSpeakers.has(s)).length;
+        const sharedTags = (rt.tags || []).filter(t => currentTags.has(t.toLowerCase())).length;
+        return { rt, score: sharedSpeakers * 3 + sharedTags };
+      })
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score || (b.rt.year || 0) - (a.rt.year || 0))
+      .slice(0, limit)
+      .map(item => item.rt);
+  });
+
   eleventyConfig.addFilter("truncate", function(str, len) {
     if (!str || str.length <= len) return str;
     return str.substring(0, len).replace(/\s+\S*$/, '') + '...';

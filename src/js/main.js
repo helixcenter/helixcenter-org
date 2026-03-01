@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (videoYearFilter) videoYearFilter.addEventListener('change', filterVideos);
   }
 
-  /* ---- Footer newsletter subscription ---- */
+  /* ---- Footer newsletter subscription (Netlify Forms) ---- */
   const subForm = document.getElementById('footer-subscribe-form');
   const subThankYou = document.getElementById('subscribe-thank-you');
 
@@ -315,26 +315,25 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.textContent = 'Signing up...';
       btn.disabled = true;
 
-      const data = new FormData(subForm);
-      const entry = {
-        firstName: data.get('firstName'),
-        lastName: data.get('lastName'),
-        email: data.get('email'),
-      };
+      const formData = new URLSearchParams(new FormData(subForm)).toString();
 
-      fetch('/api/subscribe', {
+      fetch('/', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(entry),
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: formData,
       })
-        .then(res => res.json())
-        .then(() => {
-          subForm.style.display = 'none';
-          subThankYou.style.display = 'block';
+        .then(res => {
+          if (res.ok) {
+            subForm.style.display = 'none';
+            subThankYou.style.display = 'block';
+          } else {
+            btn.textContent = 'Try again';
+            btn.disabled = false;
+          }
         })
         .catch(() => {
-          subForm.style.display = 'none';
-          subThankYou.style.display = 'block';
+          btn.textContent = 'Try again';
+          btn.disabled = false;
         });
     });
   }

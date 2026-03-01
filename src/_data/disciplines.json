@@ -1,158 +1,140 @@
 [
   {
-    "name": "Other/Interdisciplinary",
-    "slug": "other-interdisciplinary",
-    "count": 129,
-    "topSpeakers": [
-      "Rob Hopkins",
-      "Eric Klinenberg",
-      "Jennifer Jacquet",
-      "Thomas DaCosta Kaufmann",
-      "Amy Cook"
-    ]
-  },
-  {
     "name": "Literature & Writing",
-    "slug": "literature-writing",
-    "count": 74,
+    "count": 82,
     "topSpeakers": [
       "Yiyun Li",
       "Siri Hustvedt",
-      "Percival Everett",
-      "Rosanne Cash",
-      "Amitav Ghosh"
-    ]
+      "Percival Everett"
+    ],
+    "slug": "literature-writing"
   },
   {
     "name": "Biology & Medicine",
-    "slug": "biology-medicine",
-    "count": 56,
+    "count": 70,
     "topSpeakers": [
       "Andrea Califano",
       "Robert Klitzman",
-      "Raul Rabadan",
-      "Irene Pepperberg",
-      "Robert Michels"
-    ]
-  },
-  {
-    "name": "Philosophy & Ethics",
-    "slug": "philosophy-ethics",
-    "count": 47,
-    "topSpeakers": [
-      "David Chalmers",
-      "Michael S. Turner",
-      "Joel David Hamkins",
-      "Simon Critchley",
-      "Vardit Ravitsky"
-    ]
+      "Raul Rabadan"
+    ],
+    "slug": "biology-medicine"
   },
   {
     "name": "Neuroscience & Cognition",
-    "slug": "neuroscience-cognition",
-    "count": 45,
+    "count": 53,
     "topSpeakers": [
       "Eric Kandel",
       "Karl Friston",
-      "György Buzsáki",
-      "Joseph LeDoux",
-      "Daniela Schiller"
-    ]
+      "György Buzsáki"
+    ],
+    "slug": "neuroscience-cognition"
   },
   {
-    "name": "History & Cultural Studies",
-    "slug": "history-cultural-studies",
-    "count": 26,
+    "name": "Philosophy & Ethics",
+    "count": 53,
     "topSpeakers": [
-      "Anthony Grafton",
-      "David Freedberg",
-      "Deborah Coen",
-      "Brigid Doherty",
-      "Edward Tenner"
-    ]
-  },
-  {
-    "name": "Creative & Performing Arts",
-    "slug": "creative-performing-arts",
-    "count": 25,
-    "topSpeakers": [
-      "Vijay Iyer",
-      "Suzanne Anker",
-      "John Kress",
-      "Christopher Cerrone",
-      "Jane Ira Bloom"
-    ]
-  },
-  {
-    "name": "Mathematics & Computer Science",
-    "slug": "mathematics-computer-science",
-    "count": 22,
-    "topSpeakers": [
-      "Barry Mazur",
-      "Graciela Chichilnisky",
-      "Thomas Callister Hales",
-      "Rayid Ghani",
-      "Tina Eliassi-Rad"
-    ]
+      "David Chalmers",
+      "Michael S. Turner",
+      "Joel David Hamkins"
+    ],
+    "slug": "philosophy-ethics"
   },
   {
     "name": "Psychology & Psychoanalysis",
-    "slug": "psychology-psychoanalysis",
-    "count": 21,
+    "count": 50,
     "topSpeakers": [
       "Daniel Kahneman",
       "Peter Loewenberg",
-      "Jessica Benjamin",
-      "Robert Kurzban",
-      "Shimon Edelman"
-    ]
+      "Jessica Benjamin"
+    ],
+    "slug": "psychology-psychoanalysis"
   },
   {
-    "name": "Physics & Cosmology",
-    "slug": "physics-cosmology",
-    "count": 20,
+    "name": "Creative & Performing Arts",
+    "count": 38,
     "topSpeakers": [
-      "Paul J. Steinhardt",
-      "Sara Seager",
-      "Sylvester James Gates",
-      "Steve Hsu",
-      "Priyamvada Natarajan"
-    ]
+      "Vijay Iyer",
+      "Suzanne Anker",
+      "John Kress"
+    ],
+    "slug": "creative-performing-arts"
   },
   {
     "name": "Social Sciences",
-    "slug": "social-sciences",
-    "count": 19,
+    "count": 33,
     "topSpeakers": [
       "Jeffrey Alexander",
       "Liah Greenfeld",
-      "Tracey Meares",
-      "Robert H. Frank",
-      "Richard A. Shweder"
-    ]
+      "Tracey Meares"
+    ],
+    "slug": "social-sciences"
   },
   {
-    "name": "Technology & Engineering",
-    "slug": "technology-engineering",
-    "count": 12,
+    "name": "History & Cultural Studies",
+    "count": 32,
     "topSpeakers": [
-      "Rosalind Picard",
-      "Katepalli Sreenivasan",
-      "Katherine Elkins",
-      "Adrian Bejan",
-      "Natalie Jeremijenko"
-    ]
+      "Anthony Grafton",
+      "David Freedberg",
+      "Deborah Coen"
+    ],
+    "slug": "history-cultural-studies"
+  },
+  {
+    "name": "Physics & Cosmology",
+    "count": 24,
+    "topSpeakers": [
+      "Paul J. Steinhardt",
+      "Sara Seager",
+      "Sylvester James Gates"
+    ],
+    "slug": "physics-cosmology"
+  },
+  {
+    "name": "Mathematics & Computer Science",
+    "count": 24,
+    "topSpeakers": [
+      "Barry Mazur",
+      "Graciela Chichilnisky",
+      "Thomas Callister Hales"
+    ],
+    "slug": "mathematics-computer-science"
+  },
+  {
+    "name": "Other/Interdisciplinary",
+    "count": 17,
+    "topSpeakers": [
+      "Carol Mandel",
+      "Simon Deng",
+      "Tarah Rhoda"
+    ],
+    "slug": "otherinterdisciplinary"
   },
   {
     "name": "Journalism & Media",
-    "slug": "journalism-media",
-    "count": 10,
+    "count": 15,
     "topSpeakers": [
       "R. Luke DuBois",
       "Adam Kirsch",
-      "David Lichtenstein",
-      "Mark Hansen",
-      "Jack Z. Bratich"
-    ]
+      "David Lichtenstein"
+    ],
+    "slug": "journalism-media"
+  },
+  {
+    "name": "Technology & Engineering",
+    "count": 14,
+    "topSpeakers": [
+      "Rosalind Picard",
+      "Katepalli Sreenivasan",
+      "Adrian Bejan"
+    ],
+    "slug": "technology-engineering"
+  },
+  {
+    "name": "Artificial Intelligence & Humanities",
+    "count": 1,
+    "topSpeakers": [
+      "Katherine Elkins"
+    ],
+    "slug": "artificial-intelligence-humanities"
   }
 ]

@@ -191,6 +191,19 @@ eleventyComputed:
     </p>
     {% endif %}
 
+    {% set related = roundtables | relatedRoundtables(rt, 4) %}
+    {% set pageRt = rt %}
+    {% if related.length %}
+    <h2>Related Roundtables</h2>
+    <div class="listing-grid" style="margin-top: 1.5rem;">
+      {% for relRt in related %}
+      {% set rt = relRt %}
+      {% include "partials/roundtable-card.njk" %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% set rt = pageRt %}
+
     {% if rt.url %}
     <div style="margin-top: 2.5rem;">
       <a href="{{ rt.url }}" class="btn btn-outline-dark" target="_blank" rel="noopener">View on helixcenter.org &rarr;</a>
