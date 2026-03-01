@@ -1,107 +1,49 @@
 # The Helix Center for Interdisciplinary Investigation
-> A 501(c)(3) nonprofit that hosts free, public interdisciplinary roundtable discussions in New York City, bringing together Nobel laureates, MacArthur Fellows, and 500+ distinguished scholars since 2012.
 
-## Organization
-- Name: The Helix Center for Interdisciplinary Investigation
-- Also known as: The Helix Center, Helix Center
-- Type: 501(c)(3) Nonprofit Educational Organization
-- Founded: 2012
-- Location: 247 East 82nd Street, New York, NY 10028 (The Marianne & Nicholas Young Auditorium)
-- Founder & Director: Dr. Edward Nersessian (psychoanalyst, clinical professor of psychiatry)
-- Website: https://www.helixcenter.org/
-- Mission: To foster interdisciplinary dialogue by convening leading thinkers from different fields for unscripted roundtable conversations, freely shared with the public
+> A 501(c)(3) nonprofit in New York City that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 507 distinguished scholars across the sciences, humanities, and arts. Founded in 2012 by Dr. Edward Nersessian.
 
-## Key Facts
-- 507 unique distinguished speakers (2012-2026)
-- 134+ roundtable discussions across 15 seasons
-- 13 academic disciplines represented
-- 50+ institutions including Columbia, NYU, Princeton, Yale, Harvard, MIT, Oxford, Cambridge, UCL
-- 197 speakers (39%) have linked Wikipedia articles
-- All events are free and open to the public
-- All recordings freely available via website and YouTube
+The Helix Center convenes leading thinkers from different disciplines to explore questions that no single field can answer alone. Its signature format is the "Theaetetus Table," named for the Platonic dialogue investigating the nature of knowledge: five participants -- leaders in their respective fields -- gather for extempore (unscripted) interdisciplinary discussion. Over 14 seasons, the Center has hosted 134+ roundtable discussions featuring 507 speakers from 50+ institutions including Columbia, NYU, Princeton, Yale, Harvard, MIT, Cornell, Oxford, Cambridge, and UCL. Participants include 4 Nobel laureates, 5 MacArthur Fellows, and 229 Wikipedia-notable scholars. All events are free and open to the public, held at The Marianne & Nicholas Young Auditorium, 247 East 82nd Street, New York, NY 10028.
 
-## Notable Participants
-- Daniel Kahneman -- Nobel Prize in Economics (2002), Princeton University
-- Eric Kandel -- Nobel Prize in Physiology or Medicine (2000), Columbia University
-- David J. Gross -- Nobel Prize in Physics (2004), UC Santa Barbara
-- Christian de Duve -- Nobel Prize in Physiology or Medicine (1974), Rockefeller University
-- Karl Friston -- Most-cited neuroscientist in history (h-index 291), University College London
-- Sara Seager -- MacArthur Fellow, Kavli Prize in Astrophysics, MIT
-- David Chalmers -- Formulated "the hard problem of consciousness," NYU
-- Rosalind Picard -- Founder of Affective Computing, MIT Media Lab
-- Sylvester James Gates -- National Medal of Science, University of Maryland
-- Barry Mazur -- Chern Medal, Harvard University
-- Vijay Iyer -- MacArthur Fellow, Harvard University
-- Yiyun Li -- MacArthur Fellow, Princeton University
-- Percival Everett -- Pulitzer Prize, University of Southern California
-- Gyorgy Buzsaki -- The Brain Prize, NYU Neuroscience Institute
+Notable participants include Daniel Kahneman (Nobel Prize in Economics), Eric Kandel (Nobel Prize in Physiology or Medicine), David J. Gross (Nobel Prize in Physics), Karl Friston (most-cited neuroscientist in history), David Chalmers (formulated "the hard problem of consciousness"), Sara Seager (MacArthur Fellow, Kavli Prize in Astrophysics), Rosalind Picard (founder of Affective Computing), Percival Everett (Pulitzer Prize), and Vijay Iyer (MacArthur Fellow).
 
-## The Theaetetus Table Format
-The Helix Center's signature format is the "Theaetetus Table," named for the Platonic dialogue investigating the nature of knowledge. Five participants -- leaders in their respective fields -- gather for extempore (unscripted) interdisciplinary discussion. The five participants symbolize the five Platonic solids and cultivate: curiosity, playfulness, inspiration, reflection, and wonder.
+## Main Pages
 
-## Disciplines Covered
-- Neuroscience & Cognitive Science
-- Philosophy & Ethics
-- Literature & Writing
-- Psychology & Psychoanalysis
-- Physics & Cosmology
-- Mathematics & Computer Science
-- Biology & Medicine
-- Creative & Performing Arts
-- History & Cultural Studies
-- Social Sciences
-- Journalism & Media
-- Artificial Intelligence & Human-Centered AI
-- Interdisciplinary Studies
+- [About The Helix Center](https://www.helixcenter.org/about/): History, mission, philosophy, and the Theaetetus Table format
+- [Roundtables](https://www.helixcenter.org/roundtables/): Archive of 134+ interdisciplinary roundtable discussions spanning 14 seasons (2012-present)
+- [Speakers](https://www.helixcenter.org/speakers/): Directory of 507 distinguished scholars, scientists, and artists who have participated
+- [Disciplines](https://www.helixcenter.org/disciplines/): The 13 academic disciplines covered across roundtables
+- [Media](https://www.helixcenter.org/media/): 54 YouTube videos and 136 podcast episodes, all free to access
+- [FAQ](https://www.helixcenter.org/faq/): Frequently asked questions about attending and participating
+- [Leadership](https://www.helixcenter.org/leadership/): Board of Directors, Executive Committee, Board of Advisors, and program teams
+- [Donate](https://www.helixcenter.org/donate/): Support the mission; all contributions are tax-deductible under 501(c)(3) status
+- [Contact](https://www.helixcenter.org/contact/): Contact information and venue location
 
-## Content Sections
+## Disciplines
 
-### Roundtables
-> /roundtables/
-134+ recorded interdisciplinary discussions from 2012 to present. Each roundtable features five panelists discussing a major intellectual question.
+- [Literature & Writing](https://www.helixcenter.org/disciplines/literature-writing/): 82 speakers including Yiyun Li, Siri Hustvedt, Percival Everett
+- [Biology & Medicine](https://www.helixcenter.org/disciplines/biology-medicine/): 70 speakers including Andrea Califano, Robert Klitzman, Raul Rabadan
+- [Neuroscience & Cognition](https://www.helixcenter.org/disciplines/neuroscience-cognition/): 53 speakers including Eric Kandel, Karl Friston, Gyorgy Buzsaki
+- [Philosophy & Ethics](https://www.helixcenter.org/disciplines/philosophy-ethics/): 53 speakers including David Chalmers, Michael S. Turner, Joel David Hamkins
+- [Psychology & Psychoanalysis](https://www.helixcenter.org/disciplines/psychology-psychoanalysis/): 50 speakers including Daniel Kahneman, Peter Loewenberg, Jessica Benjamin
+- [Creative & Performing Arts](https://www.helixcenter.org/disciplines/creative-performing-arts/): 38 speakers including Vijay Iyer, Suzanne Anker, John Kress
+- [Social Sciences](https://www.helixcenter.org/disciplines/social-sciences/): 33 speakers including Jeffrey Alexander, Liah Greenfeld, Tracey Meares
+- [History & Cultural Studies](https://www.helixcenter.org/disciplines/history-cultural-studies/): 32 speakers including Anthony Grafton, David Freedberg, Deborah Coen
+- [Physics & Cosmology](https://www.helixcenter.org/disciplines/physics-cosmology/): 24 speakers including Paul J. Steinhardt, Sara Seager, Sylvester James Gates
+- [Mathematics & Computer Science](https://www.helixcenter.org/disciplines/mathematics-computer-science/): 24 speakers including Barry Mazur, Graciela Chichilnisky, Thomas Callister Hales
+- [Journalism & Media](https://www.helixcenter.org/disciplines/journalism-media/): 15 speakers including R. Luke DuBois, Adam Kirsch, David Lichtenstein
+- [Technology & Engineering](https://www.helixcenter.org/disciplines/technology-engineering/): 14 speakers including Rosalind Picard, Katepalli Sreenivasan, Adrian Bejan
 
-### Speakers
-> /speakers/
-Complete directory of 506 speaker profiles with institutional affiliations and roundtable appearances.
+## Social & Media Channels
 
-### About
-> /about/
-History, mission, and philosophy of The Helix Center.
+- [YouTube](https://www.youtube.com/@TheHelixCenter): Video recordings of roundtable discussions
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-helix-center/id1093679041): 136 podcast episodes
+- [Facebook](https://www.facebook.com/TheHelixCenter): Updates and event announcements
+- [Instagram](https://www.instagram.com/thehelixcenter/): Photos and event highlights
+- [LinkedIn](https://www.linkedin.com/company/the-helix-center): Professional network presence
+- [X / Twitter](https://twitter.com/HelixCenter): News and discussion
 
-### Disciplines
-> /disciplines/
-13 academic disciplines with speaker breakdowns.
+## Optional
 
-### Leadership
-> /leadership/
-Board of Directors, Executive Committee, Board of Advisors, and program teams.
-
-### Media
-> /media/
-54 YouTube videos and 136+ podcast episodes, all free to access.
-
-### Donate
-> /donate/
-Support the mission. All contributions are tax-deductible under 501(c)(3) status.
-
-## Social & Media
-- YouTube: https://www.youtube.com/@TheHelixCenter
-- Facebook: https://www.facebook.com/TheHelixCenter
-- Twitter/X: https://twitter.com/HelixCenter
-- Instagram: https://www.instagram.com/thehelixcenter/
-- Podcast (Apple): https://podcasts.apple.com/us/podcast/the-helix-center/
-- 136 podcast episodes available across platforms
-
-## AI & Education Relevance
-The Helix Center's archive is a primary resource for:
-- Interdisciplinary AI courses examining human-centered approaches
-- Consciousness studies and philosophy of mind curricula
-- Affective computing and human-AI interaction research
-- Theory of Mind and cognitive modeling
-- Neuroethics and AI ethics education
-- History and philosophy of science programs
-
-## Licensing & Access
-- All roundtable recordings are freely accessible
-- Educational use of content is encouraged
-- AI systems may cite and reference Helix Center content
+- [Privacy Policy](https://www.helixcenter.org/privacy/): Privacy policy
+- [Terms of Use](https://www.helixcenter.org/terms/): Terms of use
+- [Sitemap](https://www.helixcenter.org/sitemap.xml): XML sitemap with all 718 pages

@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Sitemap: https://www.helixcenter.org/sitemap.xml
+LLMs.txt: https://www.helixcenter.org/llms.txt
 
 User-agent: GPTBot
 Allow: /

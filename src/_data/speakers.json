@@ -15,7 +15,9 @@
     "roundtables": [
       "\"Fake\" Knowledge: Knowing and the Illusion of Knowing"
     ],
-    "latestDate": "October 14, 2017"
+    "latestDate": "October 14, 2017",
+    "website": "https://kahneman.scholar.princeton.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=ImhakoAAAAAJ&hl=en"
   },
   {
     "rank": 2,
@@ -33,7 +35,8 @@
     "roundtables": [
       "\"Fake\" Knowledge: Knowing and the Illusion of Knowing"
     ],
-    "latestDate": "October 14, 2017"
+    "latestDate": "October 14, 2017",
+    "website": "https://zuckermaninstitute.columbia.edu/eric-r-kandel-md"
   },
   {
     "rank": 3,
@@ -51,7 +54,9 @@
     "roundtables": [
       "Where Does It End?"
     ],
-    "latestDate": "May 19, 2012"
+    "latestDate": "May 19, 2012",
+    "website": "https://paulsteinhardt.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=LUbmYqgAAAAJ&hl=en"
   },
   {
     "rank": 4,
@@ -69,7 +74,8 @@
     "roundtables": [
       "Life Beyond Earth: When and How Will it be Found?"
     ],
-    "latestDate": "April 8, 2023"
+    "latestDate": "April 8, 2023",
+    "website": "https://www.saraseager.com/"
   },
   {
     "rank": 5,
@@ -87,7 +93,9 @@
     "roundtables": [
       "Emotion"
     ],
-    "latestDate": "September 23, 2023"
+    "latestDate": "September 23, 2023",
+    "website": "https://www.media.mit.edu/people/picard/overview/",
+    "googleScholar": "https://scholar.google.com/citations?user=hH3DA2YAAAAJ&hl=en"
   },
   {
     "rank": 6,
@@ -105,7 +113,9 @@
     "roundtables": [
       "Apprehending Consciousness"
     ],
-    "latestDate": "March 7, 2015"
+    "latestDate": "March 7, 2015",
+    "website": "https://www.fil.ion.ucl.ac.uk/~karl/",
+    "googleScholar": "https://scholar.google.com/citations?user=q_4u0aoAAAAJ&hl=en"
   },
   {
     "rank": 7,
@@ -120,7 +130,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Gy%C3%B6rgy_Buzs%C3%A1ki",
     "photo": "https://buzsakilab.com/wp/wp-content/uploads/2017/07/GyruiPortrait.jpg",
     "bio": "Hungarian neuroscientist, the Biggs Professor of Neuroscience at New York University School of Medicine",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://buzsakilab.com/wp/buzsaki/",
+    "googleScholar": "https://scholar.google.com/citations?user=DVl9E8YAAAAJ&hl=en"
   },
   {
     "rank": 8,
@@ -142,7 +154,9 @@
       "The Topology of Fear",
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2"
     ],
-    "latestDate": "March 22, 2025"
+    "latestDate": "March 22, 2025",
+    "website": "https://www.joseph-ledoux.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=iAqJssMAAAAJ&hl=en"
   },
   {
     "rank": 9,
@@ -161,7 +175,9 @@
       "Coding and the New Human Phenotype: Is the Universe a Metaverse?",
       "Apprehending Consciousness"
     ],
-    "latestDate": "October 16, 2022"
+    "latestDate": "October 16, 2022",
+    "website": "https://consc.net/",
+    "googleScholar": "https://scholar.google.com/citations?user=o8AfF3MAAAAJ&hl=en"
   },
   {
     "rank": 10,
@@ -179,7 +195,9 @@
     "roundtables": [
       "Music to Whose Ears II: Embodied Cognition"
     ],
-    "latestDate": "January 24, 2015"
+    "latestDate": "January 24, 2015",
+    "website": "https://vijay-iyer.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=sIkcSHcAAAAJ&hl=en"
   },
   {
     "rank": 11,
@@ -197,7 +215,8 @@
     "roundtables": [
       "Emergence of Empathy: Encountering The Other Through Fiction"
     ],
-    "latestDate": "November 16, 2019"
+    "latestDate": "November 16, 2019",
+    "website": "https://arts.princeton.edu/people/yiyun-li/"
   },
   {
     "rank": 12,
@@ -216,7 +235,8 @@
       "Permanence and Impermanence of Mathematical Concepts",
       "The Beauty and Unity of Mathematics"
     ],
-    "latestDate": "October 21, 2023"
+    "latestDate": "October 21, 2023",
+    "website": "https://people.math.harvard.edu/~mazur/"
   },
   {
     "rank": 13,
@@ -234,7 +254,8 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Is the Universe a Metaverse?"
     ],
-    "latestDate": "October 16, 2022"
+    "latestDate": "October 16, 2022",
+    "website": "https://sites.brown.edu/sjgates/"
   },
   {
     "rank": 14,
@@ -252,7 +273,9 @@
     "roundtables": [
       "Creative Turbulence (Roundtable)"
     ],
-    "latestDate": "June 14, 2018"
+    "latestDate": "June 14, 2018",
+    "website": "https://engineering.nyu.edu/faculty/katepalli-sreenivasan",
+    "googleScholar": "https://scholar.google.com/citations?user=gOGE-38AAAAJ&hl=en"
   },
   {
     "rank": 15,
@@ -271,7 +294,9 @@
       "See Memory",
       "The Techne of Memory"
     ],
-    "latestDate": "October 4, 2025"
+    "latestDate": "October 4, 2025",
+    "website": "https://labs.neuroscience.mssm.edu/project/schiller-lab/",
+    "googleScholar": "https://scholar.google.com/citations?user=bLNKcB8AAAAJ&hl=en"
   },
   {
     "rank": 16,
@@ -289,7 +314,9 @@
     "roundtables": [
       "Coding and the New Phenotype: In Search for Lost Time"
     ],
-    "latestDate": "October 15, 2022, 10:00 AM EST"
+    "latestDate": "October 15, 2022, 10:00 AM EST",
+    "website": "https://www.columbiapsychiatry.org/profile/david-sulzer-phd",
+    "googleScholar": "https://scholar.google.com/citations?user=suRNRnAAAAAJ&hl=en"
   },
   {
     "rank": 17,
@@ -310,7 +337,8 @@
       "Curiosity",
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2"
     ],
-    "latestDate": "February 11, 2023"
+    "latestDate": "February 11, 2023",
+    "website": "https://sirihustvedt.net/"
   },
   {
     "rank": 18,
@@ -330,7 +358,9 @@
       "The Topology of Fear",
       "Why Do Economists Disagree?"
     ],
-    "latestDate": "May 17, 2014"
+    "latestDate": "May 17, 2014",
+    "website": "https://chichilnisky.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=usqnvhIAAAAJ&hl=en"
   },
   {
     "rank": 19,
@@ -349,7 +379,9 @@
       "Cancer: Body & Mind",
       "Synthetic and Systems Biology: Reinventing the Code of Life"
     ],
-    "latestDate": "October 11, 2014"
+    "latestDate": "October 11, 2014",
+    "website": "http://califano.c2b2.columbia.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=NxBuRgcAAAAJ&hl=en"
   },
   {
     "rank": 20,
@@ -389,7 +421,9 @@
     "roundtables": [
       "Populism"
     ],
-    "latestDate": "February 20, 2021"
+    "latestDate": "February 20, 2021",
+    "website": "https://sociology.yale.edu/people/jeffrey-alexander",
+    "googleScholar": "https://scholar.google.com/citations?user=PxY1nWoAAAAJ&hl=en"
   },
   {
     "rank": 22,
@@ -407,7 +441,9 @@
     "roundtables": [
       "The Realm of Mystery"
     ],
-    "latestDate": "October 24, 2015"
+    "latestDate": "October 24, 2015",
+    "website": "https://kavlicosmo.uchicago.edu/people/profile/michael-turner/",
+    "googleScholar": "https://scholar.google.com/citations?user=MiNQZ4MAAAAJ&hl=en"
   },
   {
     "rank": 23,
@@ -425,7 +461,8 @@
     "roundtables": [
       "Biology of Mind"
     ],
-    "latestDate": "February 22, 2014"
+    "latestDate": "February 22, 2014",
+    "website": "https://garymarcus.substack.com/"
   },
   {
     "rank": 24,
@@ -443,7 +480,8 @@
     "roundtables": [
       "Emergence of Empathy: Encountering The Other Through Fiction"
     ],
-    "latestDate": "November 16, 2019"
+    "latestDate": "November 16, 2019",
+    "website": "https://dornsife.usc.edu/profile/percival-everett/"
   },
   {
     "rank": 25,
@@ -461,7 +499,8 @@
     "roundtables": [
       "Music and Mind"
     ],
-    "latestDate": "March 22, 2025"
+    "latestDate": "March 22, 2025",
+    "website": "https://www.rosannecash.com/"
   },
   {
     "rank": 26,
@@ -480,7 +519,9 @@
       "Designer Genes",
       "Panacea or Poison: Placebos and Nocebos in Modern Medicine"
     ],
-    "latestDate": "December 4, 2021"
+    "latestDate": "December 4, 2021",
+    "website": "https://www.klitzman.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=aqhbwSMAAAAJ&hl=en"
   },
   {
     "rank": 27,
@@ -498,7 +539,10 @@
     "roundtables": [
       "Mechanization of Math"
     ],
-    "latestDate": "October 5, 2019"
+    "latestDate": "October 5, 2019",
+    "website": "https://www.mathematics.pitt.edu/people/thomas-hales",
+    "googleScholar": "https://scholar.google.com/citations?user=N2DOguAAAAAJ&hl=en",
+    "github": "https://github.com/thalesant"
   },
   {
     "rank": 28,
@@ -516,7 +560,8 @@
     "roundtables": [
       "Living in the Anthropocene"
     ],
-    "latestDate": "April 27, 2019"
+    "latestDate": "April 27, 2019",
+    "website": "https://amitavghosh.com/"
   },
   {
     "rank": 29,
@@ -534,7 +579,8 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2"
     ],
-    "latestDate": "October 13, 9:30 AM - 4:15 PM, 2013"
+    "latestDate": "October 13, 9:30 AM - 4:15 PM, 2013",
+    "website": "https://history.ucla.edu/person/peter-loewenberg/"
   },
   {
     "rank": 30,
@@ -552,7 +598,9 @@
     "roundtables": [
       "Complexity and Emergence"
     ],
-    "latestDate": "November 15, 2014"
+    "latestDate": "November 15, 2014",
+    "website": "https://www.rabadanlab.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=TILWyT0AAAAJ&hl=en"
   },
   {
     "rank": 31,
@@ -570,7 +618,8 @@
     "roundtables": [
       "Human and Nonhuman Minds: Continuities and Discontinuities"
     ],
-    "latestDate": "May 16, 2015"
+    "latestDate": "May 16, 2015",
+    "website": "https://alexfoundation.org/about/dr-irene-pepperberg/"
   },
   {
     "rank": 32,
@@ -588,7 +637,9 @@
     "roundtables": [
       "The Span of Infinity"
     ],
-    "latestDate": "October 25, 2014"
+    "latestDate": "October 25, 2014",
+    "website": "https://jdh.hamkins.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=MHLQDYQAAAAJ&hl=en"
   },
   {
     "rank": 33,
@@ -606,7 +657,9 @@
     "roundtables": [
       "The Library as Reality and Metaphor"
     ],
-    "latestDate": "January 28, 2017"
+    "latestDate": "January 28, 2017",
+    "website": "https://history.princeton.edu/people/anthony-grafton",
+    "googleScholar": "https://scholar.google.com/citations?user=P1xiuDwAAAAJ&hl=en"
   },
   {
     "rank": 34,
@@ -624,7 +677,8 @@
     "roundtables": [
       "Covid and Literature"
     ],
-    "latestDate": "February 10, 2024"
+    "latestDate": "February 10, 2024",
+    "website": "https://simon-critchley.com/"
   },
   {
     "rank": 35,
@@ -642,7 +696,8 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1"
     ],
-    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013"
+    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013",
+    "website": "https://arthistory.columbia.edu/content/david-freedberg"
   },
   {
     "rank": 36,
@@ -660,7 +715,9 @@
     "roundtables": [
       "Designer Genes"
     ],
-    "latestDate": "December 4, 2021"
+    "latestDate": "December 4, 2021",
+    "website": "https://www.thehastingscenter.org/team/vardit-ravitsky/",
+    "googleScholar": "https://scholar.google.com/citations?user=fRlqB0kAAAAJ&hl=en"
   },
   {
     "rank": 37,
@@ -678,7 +735,8 @@
     "roundtables": [
       "The Future of Psychiatry"
     ],
-    "latestDate": "November 10, 2018"
+    "latestDate": "November 10, 2018",
+    "website": "https://weillcornell.org/robertmichels"
   },
   {
     "rank": 38,
@@ -696,7 +754,9 @@
     "roundtables": [
       "Understanding Genius"
     ],
-    "latestDate": "October 3, 2015"
+    "latestDate": "October 3, 2015",
+    "website": "https://stevehsu.substack.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=8-KGcykAAAAJ&hl=en"
   },
   {
     "rank": 39,
@@ -717,7 +777,9 @@
       "Transhumanist Predictions and the Human Predicament",
       "Embodied AI"
     ],
-    "latestDate": "October 16, 2022"
+    "latestDate": "October 16, 2022",
+    "website": "https://research.ibm.com/people/francesca-rossi",
+    "googleScholar": "https://scholar.google.com/citations?user=Zp41vKYAAAAJ&hl=en"
   },
   {
     "rank": 40,
@@ -738,7 +800,9 @@
       "Knowledge and Limitations",
       "Women and Science"
     ],
-    "latestDate": "March 9, 2019"
+    "latestDate": "March 9, 2019",
+    "website": "https://campuspress.yale.edu/priya/",
+    "googleScholar": "https://scholar.google.com/citations?user=vX2gN-kAAAAJ&hl=en"
   },
   {
     "rank": 41,
@@ -759,7 +823,9 @@
       "Knowledge and Limitations",
       "Where Does It Begin?"
     ],
-    "latestDate": "May 12, 2018"
+    "latestDate": "May 12, 2018",
+    "website": "https://as.nyu.edu/faculty/tim-maudlin.html",
+    "googleScholar": "https://scholar.google.com/citations?user=WGu-WUIAAAAJ&hl=en"
   },
   {
     "rank": 42,
@@ -780,7 +846,8 @@
       "Curiosity",
       "Particle Fever / The Quest"
     ],
-    "latestDate": "November 16, 2019"
+    "latestDate": "November 16, 2019",
+    "website": "https://www.manguel.de/"
   },
   {
     "rank": 43,
@@ -798,7 +865,10 @@
     "roundtables": [
       "Ethics & AI"
     ],
-    "latestDate": "September 26, 2020"
+    "latestDate": "September 26, 2020",
+    "website": "https://www.rayidghani.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=_ufWH4IAAAAJ&hl=en",
+    "github": "https://github.com/rayidghani"
   },
   {
     "rank": 44,
@@ -818,7 +888,9 @@
       "Embodied AI",
       "What Can Mathematics Teach Us About Mind/Brain?"
     ],
-    "latestDate": "October 16, 2022"
+    "latestDate": "October 16, 2022",
+    "website": "https://www.nedblock.us/",
+    "googleScholar": "https://scholar.google.com/citations?user=0pZiZ7wAAAAJ&hl=en"
   },
   {
     "rank": 45,
@@ -836,7 +908,8 @@
     "roundtables": [
       "Shame"
     ],
-    "latestDate": "May 18, 2019"
+    "latestDate": "May 18, 2019",
+    "website": "https://cathyoneil.org/"
   },
   {
     "rank": 46,
@@ -851,7 +924,8 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Suzanne_Anker",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/11/suzanne-anker-sq-suzanne-anker_orig.png",
     "bio": "Visual artist exploring intersections of science, art, and biology",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.suzanneanker.com/"
   },
   {
     "rank": 47,
@@ -869,7 +943,9 @@
     "roundtables": [
       "Ethics & AI"
     ],
-    "latestDate": "September 26, 2020"
+    "latestDate": "September 26, 2020",
+    "website": "https://eliassi.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=TXb5Ym8AAAAJ&hl=en"
   },
   {
     "rank": 48,
@@ -887,7 +963,9 @@
     "roundtables": [
       "Design in Nature"
     ],
-    "latestDate": "April 22, 2017"
+    "latestDate": "April 22, 2017",
+    "website": "https://mems.duke.edu/people/adrian-bejan/",
+    "googleScholar": "https://scholar.google.com/citations?user=Inu2EBwAAAAJ&hl=en"
   },
   {
     "rank": 49,
@@ -905,7 +983,8 @@
     "roundtables": [
       "Ignorance and Curiosity"
     ],
-    "latestDate": "April 27, 2013"
+    "latestDate": "April 27, 2013",
+    "website": "https://www.heatherberlin.com/"
   },
   {
     "rank": 50,
@@ -923,7 +1002,8 @@
     "roundtables": [
       "The Realm of Mystery"
     ],
-    "latestDate": "October 24, 2015"
+    "latestDate": "October 24, 2015",
+    "website": "https://wolfson.faculty.religion.ucsb.edu/about.html"
   },
   {
     "rank": 51,
@@ -941,7 +1021,8 @@
     "roundtables": [
       "Particle Fever / The Quest"
     ],
-    "latestDate": "February 21, 2015"
+    "latestDate": "February 21, 2015",
+    "website": "https://jeanstrouse.com/"
   },
   {
     "rank": 52,
@@ -959,7 +1040,9 @@
     "roundtables": [
       "Where Does It End?"
     ],
-    "latestDate": "May 19, 2012"
+    "latestDate": "May 19, 2012",
+    "website": "https://as.nyu.edu/faculty/michael-rampino.html",
+    "googleScholar": "https://scholar.google.com/citations?user=FyhRqdYAAAAJ&hl=en"
   },
   {
     "rank": 53,
@@ -979,7 +1062,9 @@
       "Design in Nature",
       "Complexity and Emergence"
     ],
-    "latestDate": "March 9, 2019"
+    "latestDate": "March 9, 2019",
+    "website": "http://www.calebscharf.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=ZC8RzcwAAAAJ&hl=en"
   },
   {
     "rank": 54,
@@ -997,7 +1082,9 @@
     "roundtables": [
       "Identity and Fanaticism"
     ],
-    "latestDate": "March 1, 2014"
+    "latestDate": "March 1, 2014",
+    "website": "https://liahgreenfeld.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=wd3fs7AAAAAJ&hl=en"
   },
   {
     "rank": 55,
@@ -1015,7 +1102,9 @@
     "roundtables": [
       "Elizabeth Bishop: A Conversation about Her Poetry"
     ],
-    "latestDate": "March 16, 2013"
+    "latestDate": "March 16, 2013",
+    "website": "https://www.poetryfoundation.org/poets/lloyd-schwartz",
+    "googleScholar": "https://scholar.google.com/citations?user=PWarQR0AAAAJ&hl=en"
   },
   {
     "rank": 56,
@@ -1033,7 +1122,9 @@
     "roundtables": [
       "Ethics & AI"
     ],
-    "latestDate": "September 26, 2020"
+    "latestDate": "September 26, 2020",
+    "website": "https://law.yale.edu/tracey-l-meares",
+    "googleScholar": "https://scholar.google.com/citations?user=XsT0avwAAAAJ&hl=en"
   },
   {
     "rank": 57,
@@ -1052,7 +1143,8 @@
       "Responses: Poetry with Jean Valentine and Patrick Rosal",
       "Elizabeth Bishop: A Conversation about Her Poetry"
     ],
-    "latestDate": "June 14, 2014"
+    "latestDate": "June 14, 2014",
+    "website": "https://jeanvalentine.com/bio15.html"
   },
   {
     "rank": 58,
@@ -1070,7 +1162,8 @@
     "roundtables": [
       "Male-Male Competition: Globalization, War, and Violence"
     ],
-    "latestDate": "October 27, 2012"
+    "latestDate": "October 27, 2012",
+    "website": "https://johnhorgan.org/"
   },
   {
     "rank": 59,
@@ -1092,7 +1185,9 @@
       "Synchronicity: On the Spectrum of Mind and Matter",
       "Synchronicity and Other Mind Matter Conjectures"
     ],
-    "latestDate": "April 27, 2024"
+    "latestDate": "April 27, 2024",
+    "website": "https://mae.princeton.edu/people/edgar-choueiri",
+    "googleScholar": "https://scholar.google.com/citations?user=T4FAPAIAAAAJ&hl=en"
   },
   {
     "rank": 60,
@@ -1110,7 +1205,10 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Are Natural Language Generators for Real?"
     ],
-    "latestDate": "October 16, 2022"
+    "latestDate": "October 16, 2022",
+    "website": "https://kyunghyuncho.me/",
+    "googleScholar": "https://scholar.google.com/citations?user=0RAmmIAAAAAJ&hl=en",
+    "github": "https://github.com/kyunghyuncho"
   },
   {
     "rank": 61,
@@ -1128,7 +1226,8 @@
     "roundtables": [
       "Curiosity"
     ],
-    "latestDate": "March 14, 2015"
+    "latestDate": "March 14, 2015",
+    "website": "http://www.mariehowe.com/"
   },
   {
     "rank": 62,
@@ -1143,7 +1242,8 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Natalie_Jeremijenko",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/screen-shot-2017-09-01-at-10-16-42-am.png",
     "bio": "Artist and inventor known for environmental and participatory art projects",
-    "roundtables": []
+    "roundtables": [],
+    "googleScholar": "https://scholar.google.com/citations?user=QAM4NuwAAAAJ&hl=en"
   },
   {
     "rank": 63,
@@ -1161,7 +1261,8 @@
     "roundtables": [
       "Otherness"
     ],
-    "latestDate": "November 16, 2024"
+    "latestDate": "November 16, 2024",
+    "website": "http://www.danielposnermd.com/"
   },
   {
     "rank": 64,
@@ -1179,7 +1280,8 @@
     "roundtables": [
       "Otherness"
     ],
-    "latestDate": "November 16, 2024"
+    "latestDate": "November 16, 2024",
+    "website": "https://as.nyu.edu/faculty/jessica-benjamin.html"
   },
   {
     "rank": 65,
@@ -1194,7 +1296,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Roger_Malina",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/portraitonthefly-roger-malina-2016-01-24-22-13-00-7-roger-malina_orig.jpeg",
     "bio": "b. 1950; American physicist and astronomer; B.S. MIT Physics (1972); Ph.D. Astronomy Berkeley (1979); Focus on art-science connections; Son of Frank Malina (JPL director and kinetic artist)",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://profiles.utdallas.edu/roger.malina",
+    "googleScholar": "https://scholar.google.com/citations?user=7vijkbQAAAAJ&hl=en"
   },
   {
     "rank": 66,
@@ -1212,7 +1316,9 @@
     "roundtables": [
       "Music to Whose Ears III: Music and Healing"
     ],
-    "latestDate": "March 11, 2017"
+    "latestDate": "March 11, 2017",
+    "website": "https://www.evlab.mit.edu/about-ev",
+    "googleScholar": "https://scholar.google.com/citations?user=1CgET20AAAAJ&hl=en"
   },
   {
     "rank": 67,
@@ -1230,7 +1336,9 @@
     "roundtables": [
       "Happiness"
     ],
-    "latestDate": "September 24, 2016"
+    "latestDate": "September 24, 2016",
+    "website": "https://www.wendysuzuki.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=laHg1dUAAAAJ&hl=en"
   },
   {
     "rank": 68,
@@ -1249,7 +1357,8 @@
       "Living in the Anthropocene",
       "The Changing Nature of Free Will"
     ],
-    "latestDate": "April 27, 2019"
+    "latestDate": "April 27, 2019",
+    "website": "https://philosophy.columbia.edu/content/akeel-bilgrami"
   },
   {
     "rank": 69,
@@ -1264,7 +1373,8 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Alexis_Gambis",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/11/screen-shot-2017-08-28-at-12-04-33-pm_orig.png",
     "bio": "Alexis Gambis is a French-Venezuelan filmmaker, biologist, and Assistant Professor of Biology, Film, and New Media at NYU Abu Dhabi. He holds a doctorate in Molecular Biology and Genetics from Rockefeller University and an MFA in film from NYU. He founded the Imagine Science Film Festival in 2008 and the streaming platform Labocine in 2016, and is best known for his feature films The Fly Room and Son of Monarchs, the latter of which premiered at the 2021 Sundance Film Festival.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://nyuad.nyu.edu/en/academics/divisions/science/faculty/alexis-gambis.html"
   },
   {
     "rank": 70,
@@ -1282,7 +1392,9 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Is the Universe a Metaverse?"
     ],
-    "latestDate": "October 16, 2022"
+    "latestDate": "October 16, 2022",
+    "website": "https://www.physics.umb.edu/Research/QBism/chris.html",
+    "googleScholar": "https://scholar.google.com/citations?user=fe9uXzkAAAAJ&hl=en"
   },
   {
     "rank": 71,
@@ -1300,7 +1412,9 @@
     "roundtables": [
       "Where Have All the Isms Gone?: On the Evolution of Knowledge"
     ],
-    "latestDate": "March 7, 2026"
+    "latestDate": "March 7, 2026",
+    "website": "https://sociology.columbia.edu/content/gil-eyal",
+    "googleScholar": "https://scholar.google.com/citations?user=yf7DjpEAAAAJ&hl=en"
   },
   {
     "rank": 72,
@@ -1318,7 +1432,8 @@
     "roundtables": [
       "Mathematics and Other Realities"
     ],
-    "latestDate": "December 7, 2019"
+    "latestDate": "December 7, 2019",
+    "website": "https://as.nyu.edu/faculty/hartry-field.html"
   },
   {
     "rank": 73,
@@ -1336,7 +1451,8 @@
     "roundtables": [
       "Why We Write"
     ],
-    "latestDate": "February 21, 2026"
+    "latestDate": "February 21, 2026",
+    "website": "https://www.honormoore.com/"
   },
   {
     "rank": 74,
@@ -1354,7 +1470,9 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Coding, Fiction, Metafiction -- the Parcellation of What Isn't There"
     ],
-    "latestDate": "October 15, 2022"
+    "latestDate": "October 15, 2022",
+    "website": "https://sciences.utsa.edu/faculty/profiles/salingaros-nikos.html",
+    "googleScholar": "https://scholar.google.com/citations?user=HkbM7WoAAAAJ&hl=en"
   },
   {
     "rank": 75,
@@ -1373,7 +1491,8 @@
       "Shame",
       "Secrecy and Transparency"
     ],
-    "latestDate": "May 18, 2019"
+    "latestDate": "May 18, 2019",
+    "website": "https://www.michaellewiswrites.com/"
   },
   {
     "rank": 76,
@@ -1391,7 +1510,8 @@
     "roundtables": [
       "Where Have All the Isms Gone?: On the Evolution of Knowledge"
     ],
-    "latestDate": "March 7, 2026"
+    "latestDate": "March 7, 2026",
+    "website": "https://hshm.yale.edu/people/deborah-coen"
   },
   {
     "rank": 77,
@@ -1409,7 +1529,9 @@
     "roundtables": [
       "Life and Movement"
     ],
-    "latestDate": "October 26, 2012"
+    "latestDate": "October 26, 2012",
+    "website": "https://www.fau.edu/science/directory/skelso/",
+    "googleScholar": "https://scholar.google.com/citations?user=-VlkX4YAAAAJ&hl=en"
   },
   {
     "rank": 78,
@@ -1427,7 +1549,10 @@
     "roundtables": [
       "Creative Turbulence (Roundtable)"
     ],
-    "latestDate": "June 14, 2018"
+    "latestDate": "June 14, 2018",
+    "website": "https://www.lukedubois.com",
+    "googleScholar": "https://scholar.google.com/citations?user=n40B-jEAAAAJ&hl=en",
+    "github": "https://github.com/rev3rend"
   },
   {
     "rank": 79,
@@ -1445,7 +1570,8 @@
     "roundtables": [
       "Emotion"
     ],
-    "latestDate": "September 23, 2023"
+    "latestDate": "September 23, 2023",
+    "website": "https://www.robhopkins.net/"
   },
   {
     "rank": 80,
@@ -1463,7 +1589,9 @@
     "roundtables": [
       "How Deep Do We Go? Behavior, Mind, and The 4-Billion-Year History of Life"
     ],
-    "latestDate": "February 29, 2020"
+    "latestDate": "February 29, 2020",
+    "website": "http://labs.plantbio.cornell.edu/niklas/",
+    "googleScholar": "https://scholar.google.com/citations?user=x94oxBIAAAAJ&hl=en"
   },
   {
     "rank": 81,
@@ -1499,7 +1627,8 @@
     "roundtables": [
       "Music and Mind"
     ],
-    "latestDate": "March 22, 2025"
+    "latestDate": "March 22, 2025",
+    "website": "https://neuroimaging.bwh.harvard.edu/staff-member/david-silbersweig/"
   },
   {
     "rank": 83,
@@ -1517,7 +1646,9 @@
     "roundtables": [
       "Why War?"
     ],
-    "latestDate": "January 11, 2025"
+    "latestDate": "January 11, 2025",
+    "website": "https://www.dayulinlab.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=TU_s3xAAAAAJ&hl=en"
   },
   {
     "rank": 84,
@@ -1535,7 +1666,8 @@
     "roundtables": [
       "Responses: Poetry with Jean Valentine and Patrick Rosal"
     ],
-    "latestDate": "June 14, 2014"
+    "latestDate": "June 14, 2014",
+    "website": "https://www.patrickrosal.com/"
   },
   {
     "rank": 85,
@@ -1553,7 +1685,8 @@
     "roundtables": [
       "Where Have All the Isms Gone?: On the Evolution of Knowledge"
     ],
-    "latestDate": "March 7, 2026"
+    "latestDate": "March 7, 2026",
+    "website": "https://bdoherty.scholar.princeton.edu/"
   },
   {
     "rank": 86,
@@ -1571,7 +1704,9 @@
     "roundtables": [
       "A =/= B -> Taste & Discernment"
     ],
-    "latestDate": "March 23, 2024"
+    "latestDate": "March 23, 2024",
+    "website": "https://philosophy.umd.edu/directory/jerrold-levinson",
+    "googleScholar": "https://scholar.google.com/citations?user=HqzmTgYAAAAJ&hl=en"
   },
   {
     "rank": 87,
@@ -1589,7 +1724,9 @@
     "roundtables": [
       "Transhumanist Predictions and the Human Predicament"
     ],
-    "latestDate": "March 10, 2018"
+    "latestDate": "March 10, 2018",
+    "website": "https://molbio.princeton.edu/people/lee-m-silver",
+    "googleScholar": "https://scholar.google.com/citations?user=ZG722EEAAAAJ&hl=en"
   },
   {
     "rank": 88,
@@ -1607,7 +1744,9 @@
     "roundtables": [
       "Mathematics and Other Realities"
     ],
-    "latestDate": "December 7, 2019"
+    "latestDate": "December 7, 2019",
+    "website": "https://markus-gabriel.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=WgQMRykAAAAJ&hl=de"
   },
   {
     "rank": 89,
@@ -1622,7 +1761,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Martin_Hägglund",
     "photo": "https://humanities.yale.edu/sites/default/files/styles/2_3_480/public/2024-09/Martin%20Hagglund%20profile.jpg?h=999fed2f&itok=A5IwHBMy",
     "bio": "Humanist scholar at Yale specializing in comparative literature and critical theory.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://martinhagglund.se/",
+    "googleScholar": "https://scholar.google.com/citations?user=bzXoluQAAAAJ&hl=en"
   },
   {
     "rank": 90,
@@ -1642,7 +1783,9 @@
       "Human and Nonhuman Minds: Continuities and Discontinuities",
       "Ignorance and Curiosity"
     ],
-    "latestDate": "November 8, 2025"
+    "latestDate": "November 8, 2025",
+    "website": "https://biology.columbia.edu/content/stuart-firestein",
+    "googleScholar": "https://scholar.google.com/citations?user=ohOOcAEAAAAJ&hl=en"
   },
   {
     "rank": 91,
@@ -1660,7 +1803,9 @@
     "roundtables": [
       "Genes, Computers, and Medicine"
     ],
-    "latestDate": "February 20, 2016"
+    "latestDate": "February 20, 2016",
+    "website": "https://dahlmanlab.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=aFaC4Y0AAAAJ&hl=en"
   },
   {
     "rank": 92,
@@ -1679,7 +1824,8 @@
       "People & Things in Motion: Economics and the Future",
       "Why Do Economists Disagree?"
     ],
-    "latestDate": "February 26, 2022"
+    "latestDate": "February 26, 2022",
+    "website": "https://economics.cornell.edu/robert-h-frank"
   },
   {
     "rank": 93,
@@ -1697,7 +1843,9 @@
     "roundtables": [
       "Music and Mind"
     ],
-    "latestDate": "March 22, 2025"
+    "latestDate": "March 22, 2025",
+    "website": "https://philosophy.columbia.edu/content/lydia-goehr",
+    "googleScholar": "https://scholar.google.com/citations?user=UOa6QDkAAAAJ&hl=en"
   },
   {
     "rank": 94,
@@ -1715,7 +1863,8 @@
     "roundtables": [
       "Autism and the Mind/Brain"
     ],
-    "latestDate": "November 5, 2016"
+    "latestDate": "November 5, 2016",
+    "website": "https://nurturescienceprogram.org/nsp-team/martha-welch/"
   },
   {
     "rank": 95,
@@ -1733,7 +1882,8 @@
     "roundtables": [
       "Shame"
     ],
-    "latestDate": "May 18, 2019"
+    "latestDate": "May 18, 2019",
+    "website": "https://humdev.uchicago.edu/directory/richard-shweder"
   },
   {
     "rank": 96,
@@ -1752,7 +1902,8 @@
       "Otherness",
       "Mind Matters: Past, Present, and Future"
     ],
-    "latestDate": "November 16, 2024"
+    "latestDate": "November 16, 2024",
+    "website": "https://www.georgemakari.com/"
   },
   {
     "rank": 97,
@@ -1770,7 +1921,8 @@
     "roundtables": [
       "Happiness"
     ],
-    "latestDate": "September 24, 2016"
+    "latestDate": "September 24, 2016",
+    "googleScholar": "https://scholar.google.com/citations?user=kmcQMRwAAAAJ&hl=en"
   },
   {
     "rank": 98,
@@ -1788,7 +1940,8 @@
     "roundtables": [
       "Translation Matters"
     ],
-    "latestDate": "November 21, 2015"
+    "latestDate": "November 21, 2015",
+    "website": "https://complit.princeton.edu/people/david-bellos"
   },
   {
     "rank": 99,
@@ -1806,7 +1959,8 @@
     "roundtables": [
       "Living in Difficult Times"
     ],
-    "latestDate": "November 19, 2022"
+    "latestDate": "November 19, 2022",
+    "website": "https://www.edwardtenner.com/"
   },
   {
     "rank": 100,
@@ -1824,7 +1978,9 @@
     "roundtables": [
       "Why Do Economists Disagree?"
     ],
-    "latestDate": "October 13, 2012"
+    "latestDate": "October 13, 2012",
+    "website": "https://scholar.harvard.edu/miron/home",
+    "googleScholar": "https://scholar.google.com/citations?user=td_6bTUAAAAJ&hl=en"
   },
   {
     "rank": 101,
@@ -1839,7 +1995,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Stephen_G._Post",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2018/02/unnamed-1.jpg",
     "bio": "Stephen G. Post has held teaching positions at the University of Chicago Medical School, Case Western Reserve University School of Medicine (1988-2008), and currently at Stony Brook University School of Medicine. He is an elected member of the College of Physicians of Philadelphia, the New York Academy of Medicine, and the Royal Society of Medicine in London. Post addressed the U.S. Congress on volunteerism and public health, receiving the Congressional Certificate of Special Recognition for Outstanding Achievement. He received the Kama Book Award in Medical Humanities from World Literacy Canada in 2008. Post co-authored the bestseller \"Why Good Things Happen to Good People: How to Live a Longer, Healthier, Happier Life by the Simple Act of Giving\" (with Jill Neimark). His work \"The Moral Challenge of Alzheimer Disease: Ethical Issues from Diagnosis to Dying\" was designated a \"medical classic of the century\" by the British Medical Journal (2009). He served as Editor-in-Chief of the 5-volume Encyclopedia of Bioethics (2004), which won the American Library Association's \"Best Reference Work\" award.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.stephengpost.com/",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=OBy_KXwAAAAJ"
   },
   {
     "rank": 102,
@@ -1861,7 +2019,9 @@
       "Biology of Mind",
       "What Can Mathematics Teach Us About Mind/Brain?"
     ],
-    "latestDate": "May 11, 2024"
+    "latestDate": "May 11, 2024",
+    "website": "https://ctn.zuckermaninstitute.columbia.edu/Ken",
+    "googleScholar": "https://scholar.google.com/citations?user=-5ZxgGsAAAAJ&hl=en"
   },
   {
     "rank": 103,
@@ -1882,7 +2042,9 @@
       "Mechanization of Math",
       "The Beauty and Unity of Mathematics"
     ],
-    "latestDate": "October 21, 2023"
+    "latestDate": "October 21, 2023",
+    "website": "https://www.math.columbia.edu/~harris/",
+    "googleScholar": "https://scholar.google.com/citations?user=QN1bH0gAAAAJ&hl=en"
   },
   {
     "rank": 104,
@@ -1901,7 +2063,9 @@
       "Mind Matters: Past, Present, and Future",
       "Biology of Mind"
     ],
-    "latestDate": "February 10, 2018"
+    "latestDate": "February 10, 2018",
+    "website": "https://www.blam-lab-jhu.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=hcZrVwYAAAAJ&hl=en"
   },
   {
     "rank": 105,
@@ -1920,7 +2084,9 @@
       "Come Out Wherever You Are: In Search of Consciousness",
       "\"Fake\" Knowledge: Knowing and the Illusion of Knowing"
     ],
-    "latestDate": "September 21, 2024"
+    "latestDate": "September 21, 2024",
+    "website": "https://paulboghossian.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=V-GEil8AAAAJ&hl=en"
   },
   {
     "rank": 106,
@@ -1938,7 +2104,9 @@
     "roundtables": [
       "Life Beyond Earth: When and How Will it be Found?"
     ],
-    "latestDate": "April 8, 2023"
+    "latestDate": "April 8, 2023",
+    "website": "https://www.lisakaltenegger.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=c6-XTB8AAAAJ&hl=en"
   },
   {
     "rank": 107,
@@ -1956,7 +2124,9 @@
     "roundtables": [
       "Covid and Literature"
     ],
-    "latestDate": "February 10, 2024"
+    "latestDate": "February 10, 2024",
+    "website": "https://www.ericklinenberg.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=z1QFm1EAAAAJ&hl=en"
   },
   {
     "rank": 108,
@@ -1971,7 +2141,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Erik_Hoel",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/screen-shot-2017-08-24-at-11-38-06-am-erik-hoel_orig.png",
     "bio": "Erik Hoel is an American neuroscientist, neurophilosopher, and author who earned his doctorate studying consciousness under Giulio Tononi at the University of Wisconsin-Madison. He completed postdoctoral research at Columbia University and was a professor at Tufts University before leaving academia to write full-time. He is the author of the novel The Revelations (2021) and the nonfiction book The World Behind the World, and writes the popular Substack newsletter The Intrinsic Perspective.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.theintrinsicperspective.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=kQX3m7kAAAAJ&hl=en"
   },
   {
     "rank": 109,
@@ -1989,7 +2161,9 @@
     "roundtables": [
       "People & Things in Motion: Economics and the Future"
     ],
-    "latestDate": "February 26, 2022"
+    "latestDate": "February 26, 2022",
+    "website": "https://jenniferjacquet.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=5bNq9W4AAAAJ&hl=en"
   },
   {
     "rank": 110,
@@ -2007,7 +2181,8 @@
     "roundtables": [
       "The Poetry of Aging"
     ],
-    "latestDate": "November 2, 2024"
+    "latestDate": "November 2, 2024",
+    "website": "https://www.rachelhadas.net/"
   },
   {
     "rank": 111,
@@ -2062,7 +2237,8 @@
     "roundtables": [
       "Living in the Anthropocene"
     ],
-    "latestDate": "April 27, 2019"
+    "latestDate": "April 27, 2019",
+    "googleScholar": "https://scholar.google.com/citations?user=v85IXUMAAAAJ&hl=en"
   },
   {
     "rank": 114,
@@ -2080,7 +2256,8 @@
     "roundtables": [
       "Women and Science"
     ],
-    "latestDate": "April 26, 2014"
+    "latestDate": "April 26, 2014",
+    "googleScholar": "https://scholar.google.com/citations?user=UsW4ViYAAAAJ&hl=en"
   },
   {
     "rank": 115,
@@ -2098,7 +2275,8 @@
     "roundtables": [
       "Apprehending Consciousness"
     ],
-    "latestDate": "March 7, 2015"
+    "latestDate": "March 7, 2015",
+    "googleScholar": "https://scholar.google.com/citations?user=8v-z95oAAAAJ&hl=en"
   },
   {
     "rank": 116,
@@ -2116,7 +2294,9 @@
     "roundtables": [
       "The Topology of Fear"
     ],
-    "latestDate": "March 9, 2013"
+    "latestDate": "March 9, 2013",
+    "website": "https://www.neuroeconomicslab.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=9TR_db8AAAAJ&hl=en"
   },
   {
     "rank": 117,
@@ -2134,7 +2314,9 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2"
     ],
-    "latestDate": "October 13, 9:30 AM - 4:15 PM, 2013"
+    "latestDate": "October 13, 9:30 AM - 4:15 PM, 2013",
+    "website": "https://www.kaust.edu.sa/en/study/faculty/pierre-magistretti",
+    "googleScholar": "https://scholar.google.com/citations?user=yv-sp_MAAAAJ&hl=en"
   },
   {
     "rank": 118,
@@ -2152,7 +2334,9 @@
     "roundtables": [
       "Apprehending Consciousness"
     ],
-    "latestDate": "March 7, 2015"
+    "latestDate": "March 7, 2015",
+    "website": "https://www.ias.edu/piet",
+    "googleScholar": "https://scholar.google.com/citations?user=7WREYwoAAAAJ&hl=en"
   },
   {
     "rank": 119,
@@ -2167,7 +2351,8 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Robert_Kurzban",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2016/04/DSC_7193.jpg",
     "bio": "Robert Kurzban is an evolutionary psychologist who was a tenured professor at the University of Pennsylvania, where he studied the nature of evolved cognitive adaptations for social life, including cooperation, morality, and mate choice. Trained by John Tooby and Leda Cosmides at UC Santa Barbara's Center for Evolutionary Psychology, he is the author of Why Everyone (Else) Is a Hypocrite: Evolution and the Modular Mind. His research focused on applying evolutionary approaches to understanding human social behavior.",
-    "roundtables": []
+    "roundtables": [],
+    "googleScholar": "https://scholar.google.com/citations?user=YK6rUSwAAAAJ&hl=en"
   },
   {
     "rank": 120,
@@ -2185,7 +2370,9 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1"
     ],
-    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013"
+    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013",
+    "website": "https://kaufmann.scholar.princeton.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=Q266Y-4AAAAJ&hl=en"
   },
   {
     "rank": 121,
@@ -2203,7 +2390,10 @@
     "roundtables": [
       "The Displaced and The Other"
     ],
-    "latestDate": "February 25, 2017"
+    "latestDate": "February 25, 2017",
+    "website": "https://hassonlab.princeton.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=VRw8v4kAAAAJ&hl=en",
+    "github": "https://github.com/hassonlab"
   },
   {
     "rank": 122,
@@ -2223,7 +2413,9 @@
       "The Search for Immortality",
       "Where Does It Begin?"
     ],
-    "latestDate": "April 8, 2023"
+    "latestDate": "April 8, 2023",
+    "website": "http://chrisimpey-astronomy.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=OrRLRQ4AAAAJ&hl=en"
   },
   {
     "rank": 123,
@@ -2241,7 +2433,8 @@
     "roundtables": [
       "Come Out Wherever You Are: In Search of Consciousness"
     ],
-    "latestDate": "September 21, 2024"
+    "latestDate": "September 21, 2024",
+    "googleScholar": "https://scholar.google.com/citations?user=AvAJ_QQAAAAJ&hl=en"
   },
   {
     "rank": 124,
@@ -2259,7 +2452,10 @@
     "roundtables": [
       "Metaphysics"
     ],
-    "latestDate": "April 30, 2022"
+    "latestDate": "April 30, 2022",
+    "website": "https://hanshalvorson.dk/",
+    "googleScholar": "https://scholar.google.com/citations?user=yBknLPkAAAAJ&hl=en",
+    "github": "https://github.com/hhalvors"
   },
   {
     "rank": 125,
@@ -2274,7 +2470,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Jill_Bargonetti",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/screen-shot-2017-08-28-at-12-31-13-pm_orig.png",
     "bio": "Jill Bargonetti is a Professor of Biology at Hunter College, City University of New York, with a joint appointment at the CUNY Graduate Center. Her research focuses on the tumor suppressor protein p53 and its role in breast cancer, working to activate cell death pathways that can overcome treatment resistance. She received the Presidential Early Career Award for Scientists and Engineers from President Bill Clinton in 1997 and the Outstanding Woman Scientist Award from the Association for Women in Science.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "http://bargonetti.bioweb.hunter.cuny.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=r_YCLysAAAAJ"
   },
   {
     "rank": 126,
@@ -2292,7 +2490,10 @@
     "roundtables": [
       "Happiness"
     ],
-    "latestDate": "September 24, 2016"
+    "latestDate": "September 24, 2016",
+    "website": "https://shimon-edelman.github.io/",
+    "googleScholar": "https://scholar.google.com/citations?user=Ddfev5kAAAAJ",
+    "github": "https://github.com/shimon-edelman"
   },
   {
     "rank": 127,
@@ -2310,7 +2511,9 @@
     "roundtables": [
       "Coding and the Human Phenotype: Manipulated Perception? Fakery, Authenticity, and the Birth of NFTs"
     ],
-    "latestDate": "October 15, 2022"
+    "latestDate": "October 15, 2022",
+    "website": "http://smc.neuralcorrelate.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=HTZqsuUAAAAJ"
   },
   {
     "rank": 128,
@@ -2328,7 +2531,8 @@
     "roundtables": [
       "Translation Matters"
     ],
-    "latestDate": "November 21, 2015"
+    "latestDate": "November 21, 2015",
+    "website": "https://www.subversivescribe.com/"
   },
   {
     "rank": 129,
@@ -2349,7 +2553,8 @@
       "The Techne of Memory",
       "Living in Difficult Times"
     ],
-    "latestDate": "October 4, 2025"
+    "latestDate": "October 4, 2025",
+    "website": "https://campuspress.yale.edu/rjohnwilliams/"
   },
   {
     "rank": 130,
@@ -2368,7 +2573,9 @@
       "The Many Minds of Memory",
       "Human and Nonhuman Minds: Continuities and Discontinuities"
     ],
-    "latestDate": "January 30, 2021"
+    "latestDate": "January 30, 2021",
+    "website": "https://alexandrahorowitz.net/",
+    "googleScholar": "https://scholar.google.com/citations?user=lw-z-p8AAAAJ"
   },
   {
     "rank": 131,
@@ -2387,7 +2594,8 @@
       "Human and Nonhuman Minds: Continuities and Discontinuities",
       "Animal Language"
     ],
-    "latestDate": "May 16, 2015"
+    "latestDate": "May 16, 2015",
+    "googleScholar": "https://scholar.google.com/citations?user=-UFWntUAAAAJ"
   },
   {
     "rank": 132,
@@ -2405,7 +2613,8 @@
     "roundtables": [
       "The Search for Immortality"
     ],
-    "latestDate": "December 13, 2014"
+    "latestDate": "December 13, 2014",
+    "googleScholar": "https://scholar.google.com/citations?user=VpjTUG0AAAAJ"
   },
   {
     "rank": 133,
@@ -2420,7 +2629,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/04/Lutz.jpeg",
     "bio": "Amy Lutz is a historian of medicine and bioethicist whose research focuses on severe intellectual and developmental disability, challenging the social model of disability. She is also the mother of a profoundly autistic son, which informs her advocacy and scholarship.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "http://www.amysflutz.com/"
   },
   {
     "rank": 134,
@@ -2438,7 +2648,9 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1"
     ],
-    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013"
+    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013",
+    "website": "https://neuroaesthetics.med.upenn.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=nTyY6W0AAAAJ"
   },
   {
     "rank": 135,
@@ -2456,7 +2668,8 @@
     "roundtables": [
       "Striking a Chord: Hearing and Space"
     ],
-    "latestDate": "April 27, 2024"
+    "latestDate": "April 27, 2024",
+    "website": "https://christophercerrone.com/"
   },
   {
     "rank": 136,
@@ -2474,7 +2687,8 @@
     "roundtables": [
       "Status"
     ],
-    "latestDate": "June 8, 2019"
+    "latestDate": "June 8, 2019",
+    "website": "http://davidlevine.art/"
   },
   {
     "rank": 137,
@@ -2492,7 +2706,9 @@
     "roundtables": [
       "Understanding Genius"
     ],
-    "latestDate": "October 3, 2015"
+    "latestDate": "October 3, 2015",
+    "website": "https://simonton.faculty.ucdavis.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=R70qDtIAAAAJ"
   },
   {
     "rank": 138,
@@ -2510,7 +2726,9 @@
     "roundtables": [
       "Epigenetics at Work"
     ],
-    "latestDate": "September 12, 2015"
+    "latestDate": "September 12, 2015",
+    "website": "https://labs.la.utexas.edu/champagne/",
+    "googleScholar": "https://scholar.google.com/citations?user=gX8uRToAAAAJ"
   },
   {
     "rank": 139,
@@ -2528,7 +2746,8 @@
     "roundtables": [
       "The Many Minds of Memory"
     ],
-    "latestDate": "January 30, 2021"
+    "latestDate": "January 30, 2021",
+    "website": "https://nybrain.org/"
   },
   {
     "rank": 140,
@@ -2564,7 +2783,9 @@
     "roundtables": [
       "Metaphysics"
     ],
-    "latestDate": "April 30, 2022"
+    "latestDate": "April 30, 2022",
+    "website": "https://math.bu.edu/people/jaeger/jaeger.html",
+    "googleScholar": "https://scholar.google.com/citations?user=80xLWOgAAAAJ"
   },
   {
     "rank": 142,
@@ -2582,7 +2803,9 @@
     "roundtables": [
       "Designer Genes"
     ],
-    "latestDate": "December 4, 2021"
+    "latestDate": "December 4, 2021",
+    "website": "https://law.stanford.edu/henry-t-greely/",
+    "googleScholar": "https://scholar.google.com/citations?user=0tVFZ8MAAAAJ"
   },
   {
     "rank": 143,
@@ -2600,7 +2823,9 @@
     "roundtables": [
       "Boredom"
     ],
-    "latestDate": "April 21, 2018"
+    "latestDate": "April 21, 2018",
+    "website": "https://www.gottlieblab.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=Q7Iqo-4AAAAJ"
   },
   {
     "rank": 144,
@@ -2618,7 +2843,8 @@
     "roundtables": [
       "Music and Mind"
     ],
-    "latestDate": "March 22, 2025"
+    "latestDate": "March 22, 2025",
+    "website": "https://www.janeirabloom.com/"
   },
   {
     "rank": 145,
@@ -2636,7 +2862,8 @@
     "roundtables": [
       "Shakespeare Forever"
     ],
-    "latestDate": "April 22, 2023"
+    "latestDate": "April 22, 2023",
+    "website": "https://jdolven.princeton.edu/"
   },
   {
     "rank": 146,
@@ -2654,7 +2881,8 @@
     "roundtables": [
       "Where Does It Begin?"
     ],
-    "latestDate": "May 5, 2012"
+    "latestDate": "May 5, 2012",
+    "website": "https://www.math.princeton.edu/people/joseph-kohn"
   },
   {
     "rank": 147,
@@ -2672,7 +2900,9 @@
     "roundtables": [
       "Life in the Universe"
     ],
-    "latestDate": "March 9, 2019"
+    "latestDate": "March 9, 2019",
+    "website": "https://dillgroup.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=t3u4Y3EAAAAJ"
   },
   {
     "rank": 148,
@@ -2690,7 +2920,9 @@
     "roundtables": [
       "Apprehending Consciousness"
     ],
-    "latestDate": "March 7, 2015"
+    "latestDate": "March 7, 2015",
+    "website": "https://kenpaller.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=8wmO6l0AAAAJ"
   },
   {
     "rank": 149,
@@ -2708,7 +2940,9 @@
     "roundtables": [
       "Panacea or Poison: Placebos and Nocebos in Modern Medicine"
     ],
-    "latestDate": "March 20, 2021"
+    "latestDate": "March 20, 2021",
+    "website": "https://colloca.wixsite.com/colloca-lab",
+    "googleScholar": "https://scholar.google.com/citations?user=X-sH8K8AAAAJ"
   },
   {
     "rank": 150,
@@ -2726,7 +2960,8 @@
     "roundtables": [
       "Coding and the New Phenotype: In Search for Lost Time"
     ],
-    "latestDate": "October 15, 2022, 10:00 AM EST"
+    "latestDate": "October 15, 2022, 10:00 AM EST",
+    "website": "https://history.columbia.edu/person/marc-van-de-mieroop/"
   },
   {
     "rank": 151,
@@ -2744,7 +2979,8 @@
     "roundtables": [
       "Complexity and Emergence"
     ],
-    "latestDate": "November 15, 2014"
+    "latestDate": "November 15, 2014",
+    "googleScholar": "https://scholar.google.com/citations?user=b0_or68AAAAJ&hl=en"
   },
   {
     "rank": 152,
@@ -2762,7 +2998,8 @@
     "roundtables": [
       "Why We Write"
     ],
-    "latestDate": "February 21, 2026"
+    "latestDate": "February 21, 2026",
+    "website": "https://michaelfrank.com/"
   },
   {
     "rank": 153,
@@ -2780,7 +3017,8 @@
     "roundtables": [
       "Designer Genes"
     ],
-    "latestDate": "December 4, 2021"
+    "latestDate": "December 4, 2021",
+    "website": "https://nathanielcomfort.com/"
   },
   {
     "rank": 154,
@@ -2798,7 +3036,8 @@
     "roundtables": [
       "Male-Male Competition: Globalization, War, and Violence"
     ],
-    "latestDate": "October 27, 2012"
+    "latestDate": "October 27, 2012",
+    "website": "https://anthropology.rutgers.edu/people/non-departmental-grad-faculty-members/111-r-brian-ferguson"
   },
   {
     "rank": 155,
@@ -2816,7 +3055,9 @@
     "roundtables": [
       "Life Beyond Earth: When and How Will it be Found?"
     ],
-    "latestDate": "April 8, 2023"
+    "latestDate": "April 8, 2023",
+    "website": "https://beccasubstellar.com/about",
+    "googleScholar": "https://scholar.google.com/citations?user=wFzL8fwAAAAJ&hl=en"
   },
   {
     "rank": 156,
@@ -2834,7 +3075,8 @@
     "roundtables": [
       "Particle Fever / The Quest"
     ],
-    "latestDate": "February 21, 2015"
+    "latestDate": "February 21, 2015",
+    "website": "https://physics.yale.edu/people/sarah-demers"
   },
   {
     "rank": 157,
@@ -2855,7 +3097,8 @@
       "Synchronicity: On the Spectrum of Mind and Matter",
       "Synchronicity and Other Mind Matter Conjectures"
     ],
-    "latestDate": "April 30, 2022"
+    "latestDate": "April 30, 2022",
+    "googleScholar": "https://scholar.google.com/citations?user=L0uPYrQAAAAJ&hl=en"
   },
   {
     "rank": 158,
@@ -2873,7 +3116,9 @@
     "roundtables": [
       "Altruism and Empathy"
     ],
-    "latestDate": "June 8, 2013"
+    "latestDate": "June 8, 2013",
+    "website": "https://ruccs.rutgers.edu/aleslie",
+    "googleScholar": "https://scholar.google.com/citations?user=2It_59kAAAAJ&hl=en"
   },
   {
     "rank": 159,
@@ -2891,7 +3136,9 @@
     "roundtables": [
       "The Mind of a Child"
     ],
-    "latestDate": "April 18, 2015"
+    "latestDate": "April 18, 2015",
+    "website": "https://www.colinphillips.net/",
+    "googleScholar": "https://scholar.google.com/citations?user=2ygPrpsAAAAJ&hl=en"
   },
   {
     "rank": 160,
@@ -2909,7 +3156,8 @@
     "roundtables": [
       "Music to Whose Ears III: Music and Healing"
     ],
-    "latestDate": "March 11, 2017"
+    "latestDate": "March 11, 2017",
+    "website": "https://imnf.org/"
   },
   {
     "rank": 161,
@@ -2927,7 +3175,9 @@
     "roundtables": [
       "Living in the Anthropocene"
     ],
-    "latestDate": "April 27, 2019"
+    "latestDate": "April 27, 2019",
+    "website": "https://as.nyu.edu/faculty/dale-jamieson.html",
+    "googleScholar": "https://scholar.google.com/citations?user=8wXPH5EAAAAJ&hl=en"
   },
   {
     "rank": 162,
@@ -2945,7 +3195,8 @@
     "roundtables": [
       "Otherness"
     ],
-    "latestDate": "November 16, 2024"
+    "latestDate": "November 16, 2024",
+    "website": "https://www.danielsgoldin.com/"
   },
   {
     "rank": 163,
@@ -2963,7 +3214,9 @@
     "roundtables": [
       "Complexity and Emergence II: Visions of Cosmic Order, from Particles to People"
     ],
-    "latestDate": "May 20, 2017"
+    "latestDate": "May 20, 2017",
+    "website": "https://funkyscience.net/home/",
+    "googleScholar": "https://scholar.google.com/citations?user=swWy0KMAAAAJ&hl=en"
   },
   {
     "rank": 164,
@@ -2981,7 +3234,10 @@
     "roundtables": [
       "Life Beyond Earth: When and How Will it be Found?"
     ],
-    "latestDate": "April 8, 2023"
+    "latestDate": "April 8, 2023",
+    "website": "https://www.coolworldslab.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=UXY08zEAAAAJ&hl=en",
+    "github": "https://github.com/davidkipping"
   },
   {
     "rank": 165,
@@ -2999,7 +3255,8 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1"
     ],
-    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013"
+    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013",
+    "website": "https://www.dorothearockburne.com/"
   },
   {
     "rank": 166,
@@ -3017,7 +3274,8 @@
     "roundtables": [
       "The Realm of Mystery"
     ],
-    "latestDate": "October 24, 2015"
+    "latestDate": "October 24, 2015",
+    "website": "https://www.meganabbott.com/"
   },
   {
     "rank": 167,
@@ -3035,7 +3293,9 @@
     "roundtables": [
       "Permanence and Impermanence of Mathematical Concepts"
     ],
-    "latestDate": "October 21, 2023"
+    "latestDate": "October 21, 2023",
+    "website": "https://www.sfu.ca/education/faculty-profiles/nsinclair.html",
+    "googleScholar": "https://scholar.google.com/citations?user=eNPq-Y0AAAAJ&hl=en"
   },
   {
     "rank": 168,
@@ -3053,7 +3313,9 @@
     "roundtables": [
       "The Beauty and Unity of Mathematics"
     ],
-    "latestDate": "December 1, 2018"
+    "latestDate": "December 1, 2018",
+    "website": "http://peterpesic.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=6vrD5XUAAAAJ&hl=en"
   },
   {
     "rank": 169,
@@ -3071,7 +3333,8 @@
     "roundtables": [
       "Covid and Literature"
     ],
-    "latestDate": "February 10, 2024"
+    "latestDate": "February 10, 2024",
+    "website": "https://english.yale.edu/people/adjunct-professors-and-senior-lecturers-full-part-time-lecturers-creative-writers/richard"
   },
   {
     "rank": 170,
@@ -3089,7 +3352,9 @@
     "roundtables": [
       "The Changing Nature of Free Will"
     ],
-    "latestDate": "April 25, 2015"
+    "latestDate": "April 25, 2015",
+    "website": "https://www.math.princeton.edu/people/simon-kochen",
+    "googleScholar": "https://scholar.google.com/citations?user=StzKipcAAAAJ&hl=en"
   },
   {
     "rank": 171,
@@ -3109,7 +3374,8 @@
       "Understanding Genius II: Women",
       "Understanding Genius"
     ],
-    "latestDate": "June 8, 2019"
+    "latestDate": "June 8, 2019",
+    "website": "https://darrinmcmahon.com/"
   },
   {
     "rank": 172,
@@ -3128,7 +3394,8 @@
       "Why We Write",
       "The Sublime Experience"
     ],
-    "latestDate": "February 21, 2026"
+    "latestDate": "February 21, 2026",
+    "website": "https://english.yale.edu/people/professors-emeritus/paul-fry"
   },
   {
     "rank": 173,
@@ -3147,7 +3414,9 @@
       "Come Out Wherever You Are: In Search of Consciousness",
       "Mind Matters: Past, Present, and Future"
     ],
-    "latestDate": "September 21, 2024"
+    "latestDate": "September 21, 2024",
+    "website": "https://barbaramontero.wordpress.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=8eFTyp8AAAAJ&hl=en"
   },
   {
     "rank": 174,
@@ -3166,7 +3435,9 @@
       "Design in Nature",
       "Where Does It Begin?"
     ],
-    "latestDate": "April 22, 2017"
+    "latestDate": "April 22, 2017",
+    "website": "https://www.amnh.org/research/staff-directory/mark-a-norell",
+    "googleScholar": "https://scholar.google.com/citations?user=9rhTp_0AAAAJ&hl=en"
   },
   {
     "rank": 175,
@@ -3184,7 +3455,8 @@
     "roundtables": [
       "Fail Again, Fail Better"
     ],
-    "latestDate": "November 8, 2025"
+    "latestDate": "November 8, 2025",
+    "website": "http://artarchives.net/artarchives/nancyprincenthal.html"
   },
   {
     "rank": 176,
@@ -3202,7 +3474,8 @@
     "roundtables": [
       "Understanding Genius II: Women"
     ],
-    "latestDate": "March 26, 2016"
+    "latestDate": "March 26, 2016",
+    "website": "https://scholar.harvard.edu/joycechaplin/home"
   },
   {
     "rank": 177,
@@ -3220,7 +3493,9 @@
     "roundtables": [
       "Embodied AI"
     ],
-    "latestDate": "October 22, 2016"
+    "latestDate": "October 22, 2016",
+    "website": "https://michaelbess.net/",
+    "googleScholar": "https://scholar.google.com/citations?user=ZVCVYWEAAAAJ&hl=en"
   },
   {
     "rank": 178,
@@ -3238,7 +3513,10 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Coding, Fiction, Metafiction -- the Parcellation of What Isn't There"
     ],
-    "latestDate": "October 15, 2022"
+    "latestDate": "October 15, 2022",
+    "website": "https://cci.mit.edu/pgloor/",
+    "googleScholar": "https://scholar.google.com/citations?user=L4CxNO8AAAAJ&hl=en",
+    "github": "https://github.com/petergloor"
   },
   {
     "rank": 179,
@@ -3256,7 +3534,9 @@
     "roundtables": [
       "Shakespeare Forever"
     ],
-    "latestDate": "April 22, 2023"
+    "latestDate": "April 22, 2023",
+    "website": "https://english.princeton.edu/people/rhodri-lewis",
+    "googleScholar": "https://scholar.google.com/citations?user=FVV14wrkLi4C&hl=en"
   },
   {
     "rank": 180,
@@ -3274,7 +3554,9 @@
     "roundtables": [
       "\"Fake\" Knowledge: Knowing and the Illusion of Knowing"
     ],
-    "latestDate": "October 14, 2017"
+    "latestDate": "October 14, 2017",
+    "website": "http://www.cog.brown.edu/sloman/",
+    "googleScholar": "https://scholar.google.com/citations?user=YL5RTcUAAAAJ&hl=en"
   },
   {
     "rank": 181,
@@ -3292,7 +3574,9 @@
     "roundtables": [
       "What Can Mathematics Teach Us About Mind/Brain?"
     ],
-    "latestDate": "September 15, 2012"
+    "latestDate": "September 15, 2012",
+    "website": "https://www.cns.nyu.edu/wanglab/",
+    "googleScholar": "https://scholar.google.com/citations?user=cv-YgL0AAAAJ&hl=en"
   },
   {
     "rank": 182,
@@ -3310,7 +3594,9 @@
     "roundtables": [
       "Emotion"
     ],
-    "latestDate": "September 23, 2023"
+    "latestDate": "September 23, 2023",
+    "website": "https://sociology.cornell.edu/mabel-berezin",
+    "googleScholar": "https://scholar.google.com/citations?user=8DiIJlsAAAAJ&hl=en"
   },
   {
     "rank": 183,
@@ -3325,7 +3611,8 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Fishman",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/MCF-Preferred-Head-Shot-Feb-2013.jpeg",
     "bio": "Mark Fishman is a professor in the Harvard Department of Stem Cell and Regenerative Biology and was the founding President of the Novartis Institutes for BioMedical Research (NIBR) from 2002 to 2016. Previously Chief of Cardiology at Massachusetts General Hospital and Professor of Medicine at Harvard Medical School, he is known for pioneering the use of zebrafish as a model for human disease. He is a member of the National Academy of Medicine and a Fellow of the American Academy of Arts and Sciences.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://hscrb.harvard.edu/people/mark-fishman/"
   },
   {
     "rank": 184,
@@ -3343,7 +3630,9 @@
     "roundtables": [
       "Understanding Genius"
     ],
-    "latestDate": "October 3, 2015"
+    "latestDate": "October 3, 2015",
+    "website": "https://www.rexjung.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=cccJpl0AAAAJ&hl=en"
   },
   {
     "rank": 185,
@@ -3361,7 +3650,8 @@
     "roundtables": [
       "Speak, Memory"
     ],
-    "latestDate": "November 7, 2015"
+    "latestDate": "November 7, 2015",
+    "website": "https://www.faculty.uci.edu/profile/?facultyId=5364"
   },
   {
     "rank": 186,
@@ -3380,7 +3670,8 @@
       "The Future of Psychiatry",
       "Genes, Computers, and Medicine"
     ],
-    "latestDate": "November 10, 2018"
+    "latestDate": "November 10, 2018",
+    "website": "https://leelab.weill.cornell.edu/"
   },
   {
     "rank": 187,
@@ -3399,7 +3690,9 @@
       "Ethics & AI",
       "Mechanization of Math"
     ],
-    "latestDate": "September 26, 2020"
+    "latestDate": "September 26, 2020",
+    "website": "https://fitelson.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=guuEvwUAAAAJ&hl=en"
   },
   {
     "rank": 188,
@@ -3418,7 +3711,8 @@
       "Why We Write",
       "Emergence of Empathy: Encountering The Other Through Fiction"
     ],
-    "latestDate": "February 21, 2026"
+    "latestDate": "February 21, 2026",
+    "website": "https://josephluzzi.com/"
   },
   {
     "rank": 189,
@@ -3433,7 +3727,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/03/Andrea-R-Jain.jpg",
     "bio": "Andrea R. Jain is a Professor of Religious Studies at Indiana University Indianapolis and editor of the Journal of the American Academy of Religion. A leading scholar of South Asian religions and yoga studies, she is the author of Selling Yoga: From Counterculture to Pop Culture (2014) and Peace Love Yoga: The Politics of Global Spirituality (2020). Her research examines the intersections of capitalism, religion, gender, and spirituality in the contemporary world.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.andreajain.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=HpvjF9AAAAAJ&hl=en"
   },
   {
     "rank": 190,
@@ -3451,7 +3747,9 @@
     "roundtables": [
       "Creative Turbulence (Roundtable)"
     ],
-    "latestDate": "June 14, 2018"
+    "latestDate": "June 14, 2018",
+    "website": "https://denispelli.com/welcome.html",
+    "googleScholar": "https://scholar.google.com/citations?user=EO6eQRkAAAAJ&hl=en"
   },
   {
     "rank": 191,
@@ -3469,7 +3767,9 @@
     "roundtables": [
       "What Can Mathematics Teach Us About Mind/Brain?"
     ],
-    "latestDate": "September 15, 2012"
+    "latestDate": "September 15, 2012",
+    "website": "https://sites.pitt.edu/~phase/",
+    "googleScholar": "https://scholar.google.com/citations?user=E73icgUAAAAJ&hl=en"
   },
   {
     "rank": 192,
@@ -3487,7 +3787,9 @@
     "roundtables": [
       "Math Models Mind"
     ],
-    "latestDate": "January 19, 2019"
+    "latestDate": "January 19, 2019",
+    "website": "https://johndmurray.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=LCAIVIUAAAAJ&hl=en"
   },
   {
     "rank": 193,
@@ -3505,7 +3807,9 @@
     "roundtables": [
       "Boredom"
     ],
-    "latestDate": "April 21, 2018"
+    "latestDate": "April 21, 2018",
+    "website": "https://josefarosvelasco.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=4gnCUcwAAAAJ&hl=en"
   },
   {
     "rank": 194,
@@ -3523,7 +3827,8 @@
     "roundtables": [
       "Design in Nature"
     ],
-    "latestDate": "April 22, 2017"
+    "latestDate": "April 22, 2017",
+    "website": "https://www.messiah.edu/dept-brps/our-faculty/profiles/collins-robin"
   },
   {
     "rank": 195,
@@ -3541,7 +3846,9 @@
     "roundtables": [
       "Women and Science"
     ],
-    "latestDate": "April 26, 2014"
+    "latestDate": "April 26, 2014",
+    "website": "https://directory.seas.upenn.edu/tal-rabin/",
+    "googleScholar": "https://scholar.google.com/citations?user=18exh0MAAAAJ&hl=en"
   },
   {
     "rank": 196,
@@ -3559,7 +3866,9 @@
     "roundtables": [
       "Complexity and Emergence II: Visions of Cosmic Order, from Particles to People"
     ],
-    "latestDate": "May 20, 2017"
+    "latestDate": "May 20, 2017",
+    "website": "https://as.nyu.edu/faculty/tyler-volk.html",
+    "googleScholar": "https://scholar.google.com/citations?user=2mkaUvkAAAAJ&hl=en"
   },
   {
     "rank": 197,
@@ -3577,7 +3886,8 @@
     "roundtables": [
       "Animal Language"
     ],
-    "latestDate": "November 17, 2012"
+    "latestDate": "November 17, 2012",
+    "website": "https://www.birds.cornell.edu/ccb/christopher-w-clark/"
   },
   {
     "rank": 198,
@@ -3595,7 +3905,9 @@
     "roundtables": [
       "A =/= B -> Taste & Discernment"
     ],
-    "latestDate": "March 23, 2024"
+    "latestDate": "March 23, 2024",
+    "website": "https://monell.org/danielle-reed/",
+    "googleScholar": "https://scholar.google.com/citations?user=EnMx8a0AAAAJ&hl=en"
   },
   {
     "rank": 199,
@@ -3613,7 +3925,8 @@
     "roundtables": [
       "Why We Write"
     ],
-    "latestDate": "February 21, 2026"
+    "latestDate": "February 21, 2026",
+    "website": "https://www.uvm.edu/cas/english/profile/eric-lindstrom"
   },
   {
     "rank": 200,
@@ -3631,7 +3944,8 @@
     "roundtables": [
       "Where Have All the Isms Gone?: On the Evolution of Knowledge"
     ],
-    "latestDate": "March 7, 2026"
+    "latestDate": "March 7, 2026",
+    "website": "https://history.wisc.edu/people/ratner-rosenhagen-jennifer/"
   },
   {
     "rank": 201,
@@ -3649,7 +3963,8 @@
     "roundtables": [
       "French Surrealism: A Revolution of the Mind"
     ],
-    "latestDate": "December 6, 2014"
+    "latestDate": "December 6, 2014",
+    "website": "https://maryanncaws.com/"
   },
   {
     "rank": 202,
@@ -3667,7 +3982,8 @@
     "roundtables": [
       "Animal Language"
     ],
-    "latestDate": "November 17, 2012"
+    "latestDate": "November 17, 2012",
+    "website": "https://as.nyu.edu/faculty/ray-dougherty.html"
   },
   {
     "rank": 203,
@@ -3685,7 +4001,8 @@
     "roundtables": [
       "The Beauty and Unity of Mathematics"
     ],
-    "latestDate": "December 1, 2018"
+    "latestDate": "December 1, 2018",
+    "website": "https://www.bard.edu/faculty/details/?id=392"
   },
   {
     "rank": 204,
@@ -3703,7 +4020,8 @@
     "roundtables": [
       "Collaborations: Jazz and Poetry"
     ],
-    "latestDate": "October 14, 2012"
+    "latestDate": "October 14, 2012",
+    "website": "https://www.lewisporter.com/"
   },
   {
     "rank": 205,
@@ -3721,7 +4039,9 @@
     "roundtables": [
       "Lying"
     ],
-    "latestDate": "September 21, 2019"
+    "latestDate": "September 21, 2019",
+    "website": "http://neilgarrett.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=SLdvvsQAAAAJ&hl=en"
   },
   {
     "rank": 206,
@@ -3739,7 +4059,9 @@
     "roundtables": [
       "People & Things in Motion: Economics and the Future"
     ],
-    "latestDate": "February 26, 2022"
+    "latestDate": "February 26, 2022",
+    "website": "https://neconomides.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=0dR6RYoAAAAJ&hl=en"
   },
   {
     "rank": 207,
@@ -3757,7 +4079,9 @@
     "roundtables": [
       "Complexity and Emergence"
     ],
-    "latestDate": "November 15, 2014"
+    "latestDate": "November 15, 2014",
+    "website": "https://toconnor.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=UKttW0MAAAAJ&hl=en"
   },
   {
     "rank": 208,
@@ -3778,7 +4102,8 @@
       "Synchronicity: On the Spectrum of Mind and Matter",
       "Synchronicity and Other Mind Matter Conjectures"
     ],
-    "latestDate": "March 7, 2026"
+    "latestDate": "March 7, 2026",
+    "website": "https://liberalstudies.nyu.edu/about/faculty-listing/farzad-mahootian.html"
   },
   {
     "rank": 209,
@@ -3797,7 +4122,8 @@
       "Math Models Mind",
       "Autism and the Mind/Brain"
     ],
-    "latestDate": "January 19, 2019"
+    "latestDate": "January 19, 2019",
+    "website": "https://www.austenriggs.org/blog-post/andrew-gerber-md-phd-joins-staff-medical-directorceo"
   },
   {
     "rank": 210,
@@ -3815,7 +4141,8 @@
     "roundtables": [
       "The Span of Infinity"
     ],
-    "latestDate": "October 25, 2014"
+    "latestDate": "October 25, 2014",
+    "website": "https://www.stonybrook.edu/commcms/physics/people/_profiles/goldhabera"
   },
   {
     "rank": 211,
@@ -3833,7 +4160,9 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1"
     ],
-    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013"
+    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013",
+    "website": "https://wp.nyu.edu/christopherwood/",
+    "googleScholar": "https://scholar.google.com/citations?user=3rzbzL0AAAAJ&hl=en"
   },
   {
     "rank": 212,
@@ -3851,7 +4180,8 @@
     "roundtables": [
       "Covid and Literature"
     ],
-    "latestDate": "February 10, 2024"
+    "latestDate": "February 10, 2024",
+    "website": "https://www.daphne-merkin.com/"
   },
   {
     "rank": 213,
@@ -3887,7 +4217,8 @@
     "roundtables": [
       "Discovering the What and the Wherefore: Scents and Sensibility"
     ],
-    "latestDate": "April 13, 2024"
+    "latestDate": "April 13, 2024",
+    "website": "https://sc.edu/study/colleges_schools/artsandsciences/history/our_people/directory/smith_m_mark.php"
   },
   {
     "rank": 215,
@@ -3905,7 +4236,9 @@
     "roundtables": [
       "Biology of Mind"
     ],
-    "latestDate": "February 22, 2014"
+    "latestDate": "February 22, 2014",
+    "website": "https://matthewstone.ai/",
+    "googleScholar": "https://scholar.google.com/citations?user=3siz6_0AAAAJ&hl=en"
   },
   {
     "rank": 216,
@@ -3923,7 +4256,8 @@
     "roundtables": [
       "Fail Again, Fail Better"
     ],
-    "latestDate": "November 8, 2025"
+    "latestDate": "November 8, 2025",
+    "website": "http://michaelcoffey.net/"
   },
   {
     "rank": 217,
@@ -3944,7 +4278,8 @@
       "Women and Science",
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2"
     ],
-    "latestDate": "January 30, 2021"
+    "latestDate": "January 30, 2021",
+    "website": "https://www.alberinilab.org/"
   },
   {
     "rank": 218,
@@ -3963,7 +4298,8 @@
       "The Completeness of Physics",
       "The Realm of Mystery"
     ],
-    "latestDate": "May 12, 2018"
+    "latestDate": "May 12, 2018",
+    "website": "https://philosophy.columbia.edu/content/carol-rovane"
   },
   {
     "rank": 219,
@@ -3982,7 +4318,8 @@
       "Why War?",
       "Stress"
     ],
-    "latestDate": "January 11, 2025"
+    "latestDate": "January 11, 2025",
+    "website": "https://nyulangone.org/doctors/1962502054/charles-r-marmar"
   },
   {
     "rank": 220,
@@ -4002,7 +4339,8 @@
       "The Completeness of Physics",
       "Mind Matters: Past, Present, and Future"
     ],
-    "latestDate": "October 15, 2022"
+    "latestDate": "October 15, 2022",
+    "website": "https://english.yale.edu/people/tenured-and-tenure-track-faculty-professors/jonathan-kramnick"
   },
   {
     "rank": 221,
@@ -4020,7 +4358,9 @@
     "roundtables": [
       "Psychedelics"
     ],
-    "latestDate": "March 12, 2022"
+    "latestDate": "March 12, 2022",
+    "website": "https://alexkwanlab.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=cmqewL4AAAAJ&hl=en"
   },
   {
     "rank": 222,
@@ -4038,7 +4378,9 @@
     "roundtables": [
       "The Span of Infinity"
     ],
-    "latestDate": "October 25, 2014"
+    "latestDate": "October 25, 2014",
+    "website": "https://www.csi.cuny.edu/campus-directory/charles-liu",
+    "googleScholar": "https://scholar.google.com/citations?user=Zu6xQqgAAAAJ&hl=en"
   },
   {
     "rank": 223,
@@ -4053,7 +4395,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/04/Claudia-Lugo-Candelas-7400103-scaled.jpg",
     "bio": "Licensed clinical psychologist specializing in the perinatal programming of risk and resilience for neurodevelopmental disorders. She uses MRI to study structural and functional brain changes in children across development and how prenatal factors affect brain development and mental disorder onset.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.columbiapsychiatry.org/research-labs/lugo-lab",
+    "googleScholar": "https://scholar.google.com/citations?user=wJZLcU0AAAAJ&hl=en"
   },
   {
     "rank": 224,
@@ -4072,7 +4416,9 @@
       "The Mind of a Child",
       "Ignorance and Curiosity"
     ],
-    "latestDate": "April 18, 2015"
+    "latestDate": "April 18, 2015",
+    "website": "https://www.gse.harvard.edu/faculty/paul-harris",
+    "googleScholar": "https://scholar.google.com/citations?user=lfETb9oAAAAJ&hl=en"
   },
   {
     "rank": 225,
@@ -4090,7 +4436,9 @@
     "roundtables": [
       "The Meditative State"
     ],
-    "latestDate": "March 12, 2016"
+    "latestDate": "March 12, 2016",
+    "website": "https://scholar.harvard.edu/sara_lazar/home",
+    "googleScholar": "https://scholar.google.com/citations?user=Y0qQluMAAAAJ&hl=en"
   },
   {
     "rank": 226,
@@ -4108,7 +4456,8 @@
     "roundtables": [
       "Shakespeare Forever"
     ],
-    "latestDate": "April 22, 2023"
+    "latestDate": "April 22, 2023",
+    "website": "https://english.yale.edu/people/professors-emeritus/david-kastan"
   },
   {
     "rank": 227,
@@ -4126,7 +4475,10 @@
     "roundtables": [
       "Epigenetics at Work"
     ],
-    "latestDate": "September 12, 2015"
+    "latestDate": "September 12, 2015",
+    "website": "https://profiles.stanford.edu/fei-fei-li",
+    "googleScholar": "https://scholar.google.com/citations?user=rDfyQnIAAAAJ&hl=en",
+    "github": "https://github.com/feifeili"
   },
   {
     "rank": 228,
@@ -4144,7 +4496,8 @@
     "roundtables": [
       "Urdu Poetry: Ghalib and the Ghazal"
     ],
-    "latestDate": "February 16, 2013"
+    "latestDate": "February 16, 2013",
+    "website": "http://franpritchett.com/"
   },
   {
     "rank": 229,
@@ -4162,7 +4515,8 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1"
     ],
-    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013"
+    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013",
+    "website": "https://cral.ehess.fr/membres/georges-didi-huberman"
   },
   {
     "rank": 230,
@@ -4180,7 +4534,8 @@
     "roundtables": [
       "The Future of Psychiatry"
     ],
-    "latestDate": "November 10, 2018"
+    "latestDate": "November 10, 2018",
+    "website": "https://www.columbiapsychiatry.org/profile/michael-b-first-md"
   },
   {
     "rank": 231,
@@ -4198,7 +4553,8 @@
     "roundtables": [
       "Synthetic and Systems Biology: Reinventing the Code of Life"
     ],
-    "latestDate": "May 11, 2013"
+    "latestDate": "May 11, 2013",
+    "website": "https://tavazoielab.c2b2.columbia.edu/lab/"
   },
   {
     "rank": 232,
@@ -4234,7 +4590,8 @@
     "roundtables": [
       "The Realm of Mystery"
     ],
-    "latestDate": "October 24, 2015"
+    "latestDate": "October 24, 2015",
+    "website": "https://english.princeton.edu/people/susan-wolfson"
   },
   {
     "rank": 234,
@@ -4254,7 +4611,8 @@
       "Coding and the New Human Phenotype: Is the Universe a Metaverse?",
       "Psychedelics"
     ],
-    "latestDate": "February 11, 2023"
+    "latestDate": "February 11, 2023",
+    "website": "https://www.eliasdakwar.org/"
   },
   {
     "rank": 235,
@@ -4272,7 +4630,9 @@
     "roundtables": [
       "Metaphysics"
     ],
-    "latestDate": "April 30, 2022"
+    "latestDate": "April 30, 2022",
+    "website": "https://web.ics.purdue.edu/~plotnits/",
+    "googleScholar": "https://scholar.google.com/citations?user=BN3JK58AAAAJ&hl=en"
   },
   {
     "rank": 236,
@@ -4290,7 +4650,8 @@
     "roundtables": [
       "French Surrealism: A Revolution of the Mind"
     ],
-    "latestDate": "December 6, 2014"
+    "latestDate": "December 6, 2014",
+    "website": "https://www.poetryfoundation.org/poets/bill-zavatsky"
   },
   {
     "rank": 237,
@@ -4326,7 +4687,9 @@
     "roundtables": [
       "\"Fake\" Knowledge: Knowing and the Illusion of Knowing"
     ],
-    "latestDate": "October 14, 2017"
+    "latestDate": "October 14, 2017",
+    "website": "https://shohamylab.zuckermaninstitute.columbia.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=JFlQGZAAAAAJ&hl=en"
   },
   {
     "rank": 239,
@@ -4344,7 +4707,10 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Are Natural Language Generators for Real?"
     ],
-    "latestDate": "October 16, 2022"
+    "latestDate": "October 16, 2022",
+    "website": "https://dennistenen.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=isXWi9wAAAAJ&hl=en",
+    "github": "https://github.com/denten"
   },
   {
     "rank": 240,
@@ -4362,7 +4728,8 @@
     "roundtables": [
       "Populism"
     ],
-    "latestDate": "February 20, 2021"
+    "latestDate": "February 20, 2021",
+    "website": "https://www.dhananjayj.com/"
   },
   {
     "rank": 241,
@@ -4377,7 +4744,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2014/08/Dorothea-700x467.jpg",
     "bio": "Von Mucke holds a Ph.D. in Comparative Literature from Stanford University and has taught at Columbia since 1988, with visiting professorships in Berlin and Giessen. She specializes in eighteenth-century literature, Romantic literature, and literary theory. Her publications include three books: Virtue and the Veil of Illusion (1991), Body and Text in the Eighteenth Century (1994, co-edited), and The Seduction of the Occult and the Rise of the Fantastic Tale (2003). She co-edited The New History of German Literature (2004) and completed The Practices of the Enlightenment: Aesthetics, Authorship and Audiences, published by Columbia University Press in May 2015.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://germanic.columbia.edu/people/faculty/dorothea-von-mucke"
   },
   {
     "rank": 242,
@@ -4395,7 +4763,9 @@
     "roundtables": [
       "Life in the Universe"
     ],
-    "latestDate": "March 9, 2019"
+    "latestDate": "March 9, 2019",
+    "website": "https://www.astro.princeton.edu/~elt/",
+    "googleScholar": "https://scholar.google.com/citations?user=lfOp26EAAAAJ&hl=en"
   },
   {
     "rank": 243,
@@ -4413,7 +4783,8 @@
     "roundtables": [
       "Identity and Fanaticism"
     ],
-    "latestDate": "March 1, 2014"
+    "latestDate": "March 1, 2014",
+    "website": "https://polisci.columbia.edu/content/elise-giuliano"
   },
   {
     "rank": 244,
@@ -4431,7 +4802,9 @@
     "roundtables": [
       "Metaphysics"
     ],
-    "latestDate": "April 30, 2022"
+    "latestDate": "April 30, 2022",
+    "website": "https://elizabethbarnesphilosophy.weebly.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=pKGGvzoAAAAJ&hl=en"
   },
   {
     "rank": 245,
@@ -4449,7 +4822,8 @@
     "roundtables": [
       "Why We Write"
     ],
-    "latestDate": "February 21, 2026"
+    "latestDate": "February 21, 2026",
+    "website": "https://www.elizabethbirkelund.com/"
   },
   {
     "rank": 246,
@@ -4467,7 +4841,8 @@
     "roundtables": [
       "Populism"
     ],
-    "latestDate": "February 20, 2021"
+    "latestDate": "February 20, 2021",
+    "website": "https://history.unc.edu/person/harry-l-watson/"
   },
   {
     "rank": 247,
@@ -4485,7 +4860,9 @@
     "roundtables": [
       "Permanence and Impermanence of Mathematical Concepts"
     ],
-    "latestDate": "October 21, 2023"
+    "latestDate": "October 21, 2023",
+    "website": "https://sites.google.com/view/jared-weinstein/home",
+    "googleScholar": "https://scholar.google.com/citations?user=FAeKAYIAAAAJ&hl=en"
   },
   {
     "rank": 248,
@@ -4503,7 +4880,9 @@
     "roundtables": [
       "Autism and the Mind/Brain"
     ],
-    "latestDate": "November 5, 2016"
+    "latestDate": "November 5, 2016",
+    "website": "https://www.columbiapsychiatry.org/profile/jeremy-m-veenstra-vanderweele-md",
+    "googleScholar": "https://scholar.google.com/citations?user=XBpqJNoAAAAJ&hl=en"
   },
   {
     "rank": 249,
@@ -4521,7 +4900,9 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Coding, Fiction, Metafiction -- the Parcellation of What Isn't There"
     ],
-    "latestDate": "October 15, 2022"
+    "latestDate": "October 15, 2022",
+    "website": "https://journalism.columbia.edu/faculty/mark-hansen",
+    "googleScholar": "https://scholar.google.com/citations?user=AtPg1iUAAAAJ&hl=en"
   },
   {
     "rank": 250,
@@ -4539,7 +4920,9 @@
     "roundtables": [
       "Synthetic and Systems Biology: Reinventing the Code of Life"
     ],
-    "latestDate": "May 11, 2013"
+    "latestDate": "May 11, 2013",
+    "website": "https://hecht.princeton.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=l8RaE9YAAAAJ&hl=en"
   },
   {
     "rank": 251,
@@ -4557,7 +4940,9 @@
     "roundtables": [
       "Autism and the Mind/Brain"
     ],
-    "latestDate": "November 5, 2016"
+    "latestDate": "November 5, 2016",
+    "website": "https://www.nmr.mgh.harvard.edu/nouchinelab/",
+    "googleScholar": "https://scholar.google.com/citations?user=Orvj_lMAAAAJ&hl=en"
   },
   {
     "rank": 252,
@@ -4575,7 +4960,9 @@
     "roundtables": [
       "Psychedelics"
     ],
-    "latestDate": "March 12, 2022"
+    "latestDate": "March 12, 2022",
+    "website": "https://patriciadailey.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=mMZcuXAAAAAJ&hl=en"
   },
   {
     "rank": 253,
@@ -4593,7 +4980,8 @@
     "roundtables": [
       "The Search for Immortality"
     ],
-    "latestDate": "December 13, 2014"
+    "latestDate": "December 13, 2014",
+    "website": "https://young-eisendrath.com/"
   },
   {
     "rank": 254,
@@ -4611,7 +4999,8 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2"
     ],
-    "latestDate": "October 13, 9:30 AM - 4:15 PM, 2013"
+    "latestDate": "October 13, 9:30 AM - 4:15 PM, 2013",
+    "website": "https://soa.princeton.edu/content/spyros-papapetros"
   },
   {
     "rank": 255,
@@ -4629,7 +5018,8 @@
     "roundtables": [
       "Status"
     ],
-    "latestDate": "June 8, 2019"
+    "latestDate": "June 8, 2019",
+    "website": "https://www.tc.columbia.edu/faculty/wwb3/"
   },
   {
     "rank": 256,
@@ -4647,7 +5037,9 @@
     "roundtables": [
       "Happiness"
     ],
-    "latestDate": "September 24, 2016"
+    "latestDate": "September 24, 2016",
+    "website": "https://wp.nyu.edu/albertobisin/",
+    "googleScholar": "https://scholar.google.com/citations?user=H3G-Q9sAAAAJ&hl=en"
   },
   {
     "rank": 257,
@@ -4665,7 +5057,8 @@
     "roundtables": [
       "Elizabeth Bishop: A Conversation about Her Poetry"
     ],
-    "latestDate": "March 16, 2013"
+    "latestDate": "March 16, 2013",
+    "website": "https://www.penguinrandomhouse.com/authors/2156194/alice-quinn/"
   },
   {
     "rank": 258,
@@ -4683,7 +5076,9 @@
     "roundtables": [
       "Why Do Economists Disagree?"
     ],
-    "latestDate": "October 13, 2012"
+    "latestDate": "October 13, 2012",
+    "website": "https://mises.org/profile/joseph-t-salerno",
+    "googleScholar": "https://scholar.google.com/citations?user=aK3EjcMAAAAJ&hl=en"
   },
   {
     "rank": 259,
@@ -4701,7 +5096,9 @@
     "roundtables": [
       "The Changing Nature of Free Will"
     ],
-    "latestDate": "April 25, 2015"
+    "latestDate": "April 25, 2015",
+    "website": "http://luiscabral.net/",
+    "googleScholar": "https://scholar.google.com/citations?user=I7HjkvUAAAAJ&hl=en"
   },
   {
     "rank": 260,
@@ -4719,7 +5116,8 @@
     "roundtables": [
       "The Future of Psychiatry"
     ],
-    "latestDate": "November 10, 2018"
+    "latestDate": "November 10, 2018",
+    "website": "https://gradschool.weill.cornell.edu/faculty/miklos-toth"
   },
   {
     "rank": 261,
@@ -4737,7 +5135,9 @@
     "roundtables": [
       "Women and the Work World"
     ],
-    "latestDate": "May 17, 2014"
+    "latestDate": "May 17, 2014",
+    "website": "https://www.business.rutgers.edu/faculty/nancy-ditomaso",
+    "googleScholar": "https://scholar.google.com/citations?user=XwY6lrsAAAAJ&hl=en"
   },
   {
     "rank": 262,
@@ -4755,7 +5155,9 @@
     "roundtables": [
       "Synthetic Consciousness: Seeing and Believing"
     ],
-    "latestDate": "May 11, 2024"
+    "latestDate": "May 11, 2024",
+    "website": "https://linton.vision/",
+    "googleScholar": "https://scholar.google.co.uk/citations?user=ehDBNgsAAAAJ&hl=en"
   },
   {
     "rank": 263,
@@ -4773,7 +5175,8 @@
     "roundtables": [
       "The Effects of Media"
     ],
-    "latestDate": "February 24, 2024"
+    "latestDate": "February 24, 2024",
+    "website": "https://www.paulamcdowell.com/"
   },
   {
     "rank": 264,
@@ -4791,7 +5194,9 @@
     "roundtables": [
       "Pain"
     ],
-    "latestDate": "February 11, 2017"
+    "latestDate": "February 11, 2017",
+    "website": "https://seal-lab.squarespace.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=Hn7sPk0AAAAJ&hl=en"
   },
   {
     "rank": 265,
@@ -4809,7 +5214,8 @@
     "roundtables": [
       "Cancer: Body & Mind"
     ],
-    "latestDate": "October 11, 2014"
+    "latestDate": "October 11, 2014",
+    "website": "https://gradschool.weill.cornell.edu/faculty/selina-chen-kiang"
   },
   {
     "rank": 266,
@@ -4827,7 +5233,8 @@
     "roundtables": [
       "From Children's Sights to Our Insights: Ethiopian Children's Drawings, Stories and Inner Lives"
     ],
-    "latestDate": "January 25, 2014"
+    "latestDate": "January 25, 2014",
+    "website": "https://weillcornell.org/theodoreshapiro"
   },
   {
     "rank": 267,
@@ -4846,7 +5253,8 @@
       "Permanence and Impermanence of Mathematical Concepts",
       "Mathematics and Other Realities"
     ],
-    "latestDate": "October 21, 2023"
+    "latestDate": "October 21, 2023",
+    "website": "https://history.columbia.edu/person/alma-steingart/"
   },
   {
     "rank": 268,
@@ -4865,7 +5273,9 @@
       "How Deep Do We Go? Behavior, Mind, and The 4-Billion-Year History of Life",
       "Biology of Mind"
     ],
-    "latestDate": "February 29, 2020"
+    "latestDate": "February 29, 2020",
+    "website": "https://sites.google.com/site/davidrosenthal12/",
+    "googleScholar": "https://scholar.google.com/citations?user=ZmFEFW0AAAAJ&hl=en"
   },
   {
     "rank": 269,
@@ -4883,7 +5293,8 @@
     "roundtables": [
       "Math Models Mind"
     ],
-    "latestDate": "January 19, 2019"
+    "latestDate": "January 19, 2019",
+    "website": "https://math.nyu.edu/people/profiles/RANGAN_Aaditya.html"
   },
   {
     "rank": 270,
@@ -4901,7 +5312,9 @@
     "roundtables": [
       "The Sublime Experience"
     ],
-    "latestDate": "February 7, 2015"
+    "latestDate": "February 7, 2015",
+    "website": "https://prod.bc.edu/bc-web/schools/morrissey/departments/english/people/retired-faculty/alan--richardson.html",
+    "googleScholar": "https://scholar.google.com/citations?user=ozpVVjoAAAAJ&hl=en"
   },
   {
     "rank": 271,
@@ -4919,7 +5332,8 @@
     "roundtables": [
       "Secrecy and Transparency"
     ],
-    "latestDate": "December 7, 2013"
+    "latestDate": "December 7, 2013",
+    "website": "https://knightcolumbia.org/bios/view/alex-abdo"
   },
   {
     "rank": 272,
@@ -4937,7 +5351,8 @@
     "roundtables": [
       "Touch as the Ur-Sense: From Presence to Poesy"
     ],
-    "latestDate": "March 9, 2024"
+    "latestDate": "March 9, 2024",
+    "website": "https://www.andreagadberry.com/"
   },
   {
     "rank": 273,
@@ -4955,7 +5370,8 @@
     "roundtables": [
       "Discovering the What and the Wherefore: Scents and Sensibility"
     ],
-    "latestDate": "April 13, 2024"
+    "latestDate": "April 13, 2024",
+    "googleScholar": "https://scholar.google.com/citations?user=QooMeTMAAAAJ&hl=en"
   },
   {
     "rank": 274,
@@ -4973,7 +5389,8 @@
     "roundtables": [
       "Lying"
     ],
-    "latestDate": "September 21, 2019"
+    "latestDate": "September 21, 2019",
+    "website": "https://directory.weill.cornell.edu/person/profile/anb2001"
   },
   {
     "rank": 275,
@@ -4991,7 +5408,9 @@
     "roundtables": [
       "Pain"
     ],
-    "latestDate": "February 11, 2017"
+    "latestDate": "February 11, 2017",
+    "website": "http://apkarianlab.northwestern.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=WnQ_AssAAAAJ&hl=en"
   },
   {
     "rank": 276,
@@ -5009,7 +5428,9 @@
     "roundtables": [
       "Discovering the What and the Wherefore: Scents and Sensibility"
     ],
-    "latestDate": "April 13, 2024"
+    "latestDate": "April 13, 2024",
+    "website": "https://www.rinberglab.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=Uce_ZF4AAAAJ&hl=en"
   },
   {
     "rank": 277,
@@ -5024,7 +5445,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2016/04/image.jpeg",
     "bio": "Eric R. Marcus is a psychiatrist and psychoanalyst who directs the Columbia University Center for Psychoanalytic Training and Research. His research involves symbolic alterations of reality in psychotic and near psychotic phenomena, and psychodynamic social science research using medical student dreams to study the development of medical empathy. He is a distinguished life fellow of the American Psychiatric Association and past president of the Association for Psychoanalytic Medicine.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.columbiapsychiatry.org/profile/eric-r-marcus-md"
   },
   {
     "rank": 278,
@@ -5042,7 +5464,9 @@
     "roundtables": [
       "The Effects of Media"
     ],
-    "latestDate": "February 24, 2024"
+    "latestDate": "February 24, 2024",
+    "website": "https://www.roblesanderson.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=FDpXTiMAAAAJ&hl=en"
   },
   {
     "rank": 279,
@@ -5060,7 +5484,9 @@
     "roundtables": [
       "Animal Language"
     ],
-    "latestDate": "November 17, 2012"
+    "latestDate": "November 17, 2012",
+    "website": "https://www.nyuprimatology.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=BkXokq0AAAAJ&hl=en"
   },
   {
     "rank": 280,
@@ -5078,7 +5504,9 @@
     "roundtables": [
       "Panacea or Poison: Placebos and Nocebos in Modern Medicine"
     ],
-    "latestDate": "March 20, 2021"
+    "latestDate": "March 20, 2021",
+    "website": "https://prevmed.bwh.harvard.edu/kathryn-t-hall-phd-mph/",
+    "googleScholar": "https://scholar.google.com/citations?user=mZEmBQQAAAAJ&hl=en"
   },
   {
     "rank": 281,
@@ -5096,7 +5524,9 @@
     "roundtables": [
       "How Deep Do We Go? Behavior, Mind, and The 4-Billion-Year History of Life"
     ],
-    "latestDate": "February 29, 2020"
+    "latestDate": "February 29, 2020",
+    "website": "http://www.kristenalindquist.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=_Qz2gi8AAAAJ&hl=en"
   },
   {
     "rank": 282,
@@ -5114,7 +5544,9 @@
     "roundtables": [
       "Math Models Mind"
     ],
-    "latestDate": "January 19, 2019"
+    "latestDate": "January 19, 2019",
+    "website": "https://www.columbiapsychiatry.org/profile/larry-v-amsel-md",
+    "googleScholar": "https://scholar.google.com/citations?user=lkMvDCwAAAAJ&hl=en"
   },
   {
     "rank": 283,
@@ -5132,7 +5564,8 @@
     "roundtables": [
       "The Future of Psychiatry"
     ],
-    "latestDate": "November 10, 2018"
+    "latestDate": "November 10, 2018",
+    "website": "https://medicine.umich.edu/dept/psychiatry/laura-hirshbein-md-phd"
   },
   {
     "rank": 284,
@@ -5150,7 +5583,8 @@
     "roundtables": [
       "The Topology of Fear"
     ],
-    "latestDate": "March 9, 2013"
+    "latestDate": "March 9, 2013",
+    "website": "http://comet.lehman.cuny.edu/keenl/"
   },
   {
     "rank": 285,
@@ -5168,7 +5602,9 @@
     "roundtables": [
       "Striking a Chord: Hearing and Space"
     ],
-    "latestDate": "April 27, 2024"
+    "latestDate": "April 27, 2024",
+    "website": "https://med.nyu.edu/faculty/mahan-azadpour",
+    "googleScholar": "https://scholar.google.com/citations?user=9jhpLB4AAAAJ&hl=en"
   },
   {
     "rank": 286,
@@ -5186,7 +5622,8 @@
     "roundtables": [
       "The Mind of a Child"
     ],
-    "latestDate": "April 18, 2015"
+    "latestDate": "April 18, 2015",
+    "website": "https://www.paulozelinsky.com/"
   },
   {
     "rank": 287,
@@ -5204,7 +5641,9 @@
     "roundtables": [
       "Speak, Memory"
     ],
-    "latestDate": "November 7, 2015"
+    "latestDate": "November 7, 2015",
+    "website": "https://profiles.cardiff.ac.uk/staff/lewisp8",
+    "googleScholar": "https://scholar.google.com/citations?user=6RE51EcAAAAJ&hl=en"
   },
   {
     "rank": 288,
@@ -5222,7 +5661,9 @@
     "roundtables": [
       "Why War?"
     ],
-    "latestDate": "January 11, 2025"
+    "latestDate": "January 11, 2025",
+    "website": "https://polisci.columbia.edu/content/richard-k-betts",
+    "googleScholar": "https://scholar.google.com/citations?user=vRfn6CoAAAAJ&hl=en"
   },
   {
     "rank": 289,
@@ -5258,7 +5699,8 @@
     "roundtables": [
       "Resurgence of Freud"
     ],
-    "latestDate": "September 20, 2025"
+    "latestDate": "September 20, 2025",
+    "website": "https://steinhardt.nyu.edu/people/ben-kafka"
   },
   {
     "rank": 291,
@@ -5276,7 +5718,8 @@
     "roundtables": [
       "Elizabeth Bishop: A Conversation about Her Poetry"
     ],
-    "latestDate": "March 16, 2013"
+    "latestDate": "March 16, 2013",
+    "website": "https://www.bu.edu/english/profile/bonnie-costello/"
   },
   {
     "rank": 292,
@@ -5294,7 +5737,8 @@
     "roundtables": [
       "Life in the Universe"
     ],
-    "latestDate": "March 9, 2019"
+    "latestDate": "March 9, 2019",
+    "website": "https://dennisoverbye.com/"
   },
   {
     "rank": 293,
@@ -5327,7 +5771,9 @@
     "roundtables": [
       "Ethics & AI"
     ],
-    "latestDate": "September 26, 2020"
+    "latestDate": "September 26, 2020",
+    "website": "https://www.gmjohnson.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=ekIzCzEAAAAJ&hl=en"
   },
   {
     "rank": 295,
@@ -5345,7 +5791,8 @@
     "roundtables": [
       "Where Does It End?"
     ],
-    "latestDate": "May 19, 2012"
+    "latestDate": "May 19, 2012",
+    "website": "https://americanstudies.yale.edu/people/james-berger"
   },
   {
     "rank": 296,
@@ -5363,7 +5810,8 @@
     "roundtables": [
       "The Sublime Experience"
     ],
-    "latestDate": "February 7, 2015"
+    "latestDate": "February 7, 2015",
+    "website": "https://www.jamesjudd.net/"
   },
   {
     "rank": 297,
@@ -5381,7 +5829,8 @@
     "roundtables": [
       "Striking a Chord: Hearing and Space"
     ],
-    "latestDate": "April 27, 2024"
+    "latestDate": "April 27, 2024",
+    "website": "https://www.colby.edu/people/people-directory/jill-gordon/"
   },
   {
     "rank": 298,
@@ -5399,7 +5848,9 @@
     "roundtables": [
       "Come Out Wherever You Are: In Search of Consciousness"
     ],
-    "latestDate": "September 21, 2024"
+    "latestDate": "September 21, 2024",
+    "website": "https://sasn.rutgers.edu/katalin-balog",
+    "googleScholar": "https://scholar.google.com/citations?user=t6UIFfMAAAAJ&hl=en"
   },
   {
     "rank": 299,
@@ -5417,7 +5868,8 @@
     "roundtables": [
       "The Mind of a Child"
     ],
-    "latestDate": "April 18, 2015"
+    "latestDate": "April 18, 2015",
+    "website": "https://psychology.emory.edu/people/faculty/bauer-patricia-j.html"
   },
   {
     "rank": 300,
@@ -5435,7 +5887,9 @@
     "roundtables": [
       "The Techne of Memory"
     ],
-    "latestDate": "March 18, 2023"
+    "latestDate": "March 18, 2023",
+    "website": "https://actcompthink.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=1YohER8AAAAJ&hl=en"
   },
   {
     "rank": 301,
@@ -5453,7 +5907,8 @@
     "roundtables": [
       "The Sublime Experience"
     ],
-    "latestDate": "February 7, 2015"
+    "latestDate": "February 7, 2015",
+    "website": "https://hunter.cuny.edu/people/sandra-shapshay/"
   },
   {
     "rank": 302,
@@ -5472,7 +5927,9 @@
       "The Body and Psychosis",
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1"
     ],
-    "latestDate": "February 11, 2023"
+    "latestDate": "February 11, 2023",
+    "website": "https://unipr.academia.edu/VittorioGallese",
+    "googleScholar": "https://scholar.google.com/citations?user=kGHDzZEAAAAJ&hl=en"
   },
   {
     "rank": 303,
@@ -5490,7 +5947,9 @@
     "roundtables": [
       "Coding and the Human Phenotype: Manipulated Perception? Fakery, Authenticity, and the Birth of NFTs"
     ],
-    "latestDate": "October 15, 2022"
+    "latestDate": "October 15, 2022",
+    "website": "https://andyguess.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=qqSMoiUAAAAJ&hl=en"
   },
   {
     "rank": 304,
@@ -5508,7 +5967,8 @@
     "roundtables": [
       "Pain"
     ],
-    "latestDate": "February 11, 2017"
+    "latestDate": "February 11, 2017",
+    "website": "https://www.anesthesiology.cuimc.columbia.edu/profile/anis-dizdarevic-md"
   },
   {
     "rank": 305,
@@ -5526,7 +5986,9 @@
     "roundtables": [
       "The Library as Reality and Metaphor"
     ],
-    "latestDate": "January 28, 2017"
+    "latestDate": "January 28, 2017",
+    "website": "https://library.nyu.edu/people/carol-mandel/",
+    "googleScholar": "https://scholar.google.com/citations?user=uvbFhXkAAAAJ&hl=en"
   },
   {
     "rank": 306,
@@ -5544,7 +6006,8 @@
     "roundtables": [
       "Happiness"
     ],
-    "latestDate": "September 24, 2016"
+    "latestDate": "September 24, 2016",
+    "website": "https://www.brooklyn.cuny.edu/web/academics/faculty/faculty_profile.jsp?faculty=661"
   },
   {
     "rank": 307,
@@ -5562,7 +6025,8 @@
     "roundtables": [
       "The Library as Reality and Metaphor"
     ],
-    "latestDate": "January 28, 2017"
+    "latestDate": "January 28, 2017",
+    "website": "https://sloan.org/about/staff/daniel-l-goroff"
   },
   {
     "rank": 308,
@@ -5580,7 +6044,8 @@
     "roundtables": [
       "Male-Male Competition: Globalization, War, and Violence"
     ],
-    "latestDate": "October 27, 2012"
+    "latestDate": "October 27, 2012",
+    "website": "https://gwu.academia.edu/EJamesLieberman"
   },
   {
     "rank": 309,
@@ -5598,7 +6063,9 @@
     "roundtables": [
       "Design in Nature"
     ],
-    "latestDate": "April 22, 2017"
+    "latestDate": "April 22, 2017",
+    "website": "http://www.fishfiles.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=TzlgaoQAAAAJ&hl=en"
   },
   {
     "rank": 310,
@@ -5616,7 +6083,9 @@
     "roundtables": [
       "Lying"
     ],
-    "latestDate": "September 21, 2019"
+    "latestDate": "September 21, 2019",
+    "website": "https://www.chicagobooth.edu/faculty/directory/l/emma-levine",
+    "googleScholar": "https://scholar.google.com/citations?user=uyp6s88AAAAJ&hl=en"
   },
   {
     "rank": 311,
@@ -5634,7 +6103,9 @@
     "roundtables": [
       "Women and the Work World"
     ],
-    "latestDate": "May 17, 2014"
+    "latestDate": "May 17, 2014",
+    "website": "https://www.ereuben.net/",
+    "googleScholar": "https://scholar.google.com/citations?user=ULMitTMAAAAJ&hl=en"
   },
   {
     "rank": 312,
@@ -5652,7 +6123,8 @@
     "roundtables": [
       "Discovering the What and the Wherefore: Scents and Sensibility"
     ],
-    "latestDate": "April 13, 2024"
+    "latestDate": "April 13, 2024",
+    "website": "https://mcgannlab.github.io/"
   },
   {
     "rank": 313,
@@ -5670,7 +6142,9 @@
     "roundtables": [
       "Coding and the New Phenotype: In Search for Lost Time"
     ],
-    "latestDate": "October 15, 2022, 10:00 AM EST"
+    "latestDate": "October 15, 2022, 10:00 AM EST",
+    "website": "https://brooklyn-cuny.academia.edu/KarenStern",
+    "googleScholar": "https://scholar.google.com/citations?user=u5bs_IYAAAAJ&hl=en"
   },
   {
     "rank": 314,
@@ -5688,7 +6162,9 @@
     "roundtables": [
       "Coding and the New Phenotype: In Search for Lost Time"
     ],
-    "latestDate": "October 15, 2022, 10:00 AM EST"
+    "latestDate": "October 15, 2022, 10:00 AM EST",
+    "website": "https://www.amnh.org/research/staff-directory/michael-j-novacek",
+    "googleScholar": "https://scholar.google.com/citations?user=STVXKyQAAAAJ&hl=en"
   },
   {
     "rank": 315,
@@ -5706,7 +6182,9 @@
     "roundtables": [
       "A =/= B -> Taste & Discernment"
     ],
-    "latestDate": "March 23, 2024"
+    "latestDate": "March 23, 2024",
+    "website": "https://sites.rutgers.edu/breslin-lab/",
+    "googleScholar": "https://scholar.google.com/citations?user=zePOgLkAAAAJ&hl=en"
   },
   {
     "rank": 316,
@@ -5742,7 +6220,8 @@
     "roundtables": [
       "Understanding Genius II: Women"
     ],
-    "latestDate": "March 26, 2016"
+    "latestDate": "March 26, 2016",
+    "website": "https://susancseymour.wordpress.com/bio/"
   },
   {
     "rank": 318,
@@ -5760,7 +6239,9 @@
     "roundtables": [
       "Populism"
     ],
-    "latestDate": "February 20, 2021"
+    "latestDate": "February 20, 2021",
+    "website": "https://helsinki.academia.edu/TakisPappas",
+    "googleScholar": "https://scholar.google.com/citations?user=inRKGRUAAAAJ&hl=en"
   },
   {
     "rank": 319,
@@ -5778,7 +6259,8 @@
     "roundtables": [
       "Speak, Memory"
     ],
-    "latestDate": "November 7, 2015"
+    "latestDate": "November 7, 2015",
+    "website": "https://as.nyu.edu/faculty/thomas-j-carew.html"
   },
   {
     "rank": 320,
@@ -5817,7 +6299,9 @@
     "roundtables": [
       "The Meditative State"
     ],
-    "latestDate": "March 12, 2016"
+    "latestDate": "March 12, 2016",
+    "website": "https://imcenter.net/about/about-prof-yi-yuan-tang/",
+    "googleScholar": "https://scholar.google.com/citations?user=ZvFR6z4AAAAJ&hl=en"
   },
   {
     "rank": 322,
@@ -5835,7 +6319,8 @@
     "roundtables": [
       "Ignorance and Curiosity"
     ],
-    "latestDate": "April 27, 2013"
+    "latestDate": "April 27, 2013",
+    "website": "http://www.alanhirshfeld.com/"
   },
   {
     "rank": 323,
@@ -5853,7 +6338,8 @@
     "roundtables": [
       "Life and Movement"
     ],
-    "latestDate": "October 26, 2012"
+    "latestDate": "October 26, 2012",
+    "website": "https://uoregon.academia.edu/AlbertJohnstone"
   },
   {
     "rank": 324,
@@ -5871,7 +6357,8 @@
     "roundtables": [
       "The Beauty and Unity of Mathematics"
     ],
-    "latestDate": "December 1, 2018"
+    "latestDate": "December 1, 2018",
+    "website": "https://sites.google.com/bc.edu/avner-ash/"
   },
   {
     "rank": 325,
@@ -5889,7 +6376,8 @@
     "roundtables": [
       "Translation Matters"
     ],
-    "latestDate": "November 21, 2015"
+    "latestDate": "November 21, 2015",
+    "website": "https://www.sarahlawrence.edu/faculty/brodzki-bella.html"
   },
   {
     "rank": 326,
@@ -5907,7 +6395,9 @@
     "roundtables": [
       "Math Models Mind"
     ],
-    "latestDate": "January 19, 2019"
+    "latestDate": "January 19, 2019",
+    "website": "https://labs.icahn.mssm.edu/corcoranlab/",
+    "googleScholar": "https://scholar.google.com/citations?user=E003CukAAAAJ&hl=en"
   },
   {
     "rank": 327,
@@ -5925,7 +6415,10 @@
     "roundtables": [
       "Synthetic and Systems Biology: Reinventing the Code of Life"
     ],
-    "latestDate": "May 11, 2013"
+    "latestDate": "May 11, 2013",
+    "website": "https://www.masonlab.net/",
+    "googleScholar": "https://scholar.google.com/citations?user=vId_OTEAAAAJ&hl=en",
+    "github": "https://github.com/cmason-lab"
   },
   {
     "rank": 328,
@@ -5943,7 +6436,8 @@
     "roundtables": [
       "Autism and the Mind/Brain"
     ],
-    "latestDate": "November 5, 2016"
+    "latestDate": "November 5, 2016",
+    "googleScholar": "https://scholar.google.com/citations?user=veKQ0gUAAAAJ&hl=en"
   },
   {
     "rank": 329,
@@ -5961,7 +6455,8 @@
     "roundtables": [
       "The Effects of Media"
     ],
-    "latestDate": "February 24, 2024"
+    "latestDate": "February 24, 2024",
+    "website": "https://www.mtholyoke.edu/directory/emeriti-retired-faculty/daniel-czitrom"
   },
   {
     "rank": 330,
@@ -5979,7 +6474,9 @@
     "roundtables": [
       "People & Things in Motion: Economics and the Future"
     ],
-    "latestDate": "February 26, 2022"
+    "latestDate": "February 26, 2022",
+    "website": "https://howard.academia.edu/DavidSchwartzman",
+    "googleScholar": "https://scholar.google.com/citations?user=1yup8YgAAAAJ&hl=en"
   },
   {
     "rank": 331,
@@ -5997,7 +6494,8 @@
     "roundtables": [
       "The Span of Infinity"
     ],
-    "latestDate": "October 25, 2014"
+    "latestDate": "October 25, 2014",
+    "googleScholar": "https://scholar.google.com/citations?user=Itvrd7sAAAAJ&hl=en"
   },
   {
     "rank": 332,
@@ -6015,7 +6513,8 @@
     "roundtables": [
       "The Body and Psychosis"
     ],
-    "latestDate": "February 11, 2023"
+    "latestDate": "February 11, 2023",
+    "website": "https://philosophy.columbian.gwu.edu/gail-weiss"
   },
   {
     "rank": 333,
@@ -6033,7 +6532,8 @@
     "roundtables": [
       "What Can Mathematics Teach Us About Mind/Brain?"
     ],
-    "latestDate": "September 15, 2012"
+    "latestDate": "September 15, 2012",
+    "website": "https://www.rockefeller.edu/our-scientists/emeritus-faculty/892-george-n-reeke-jr/"
   },
   {
     "rank": 334,
@@ -6048,7 +6548,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2018/02/unnamed.jpg",
     "bio": "Professor Tirosh-Samuelson earned her Ph.D. from Hebrew University in 1978. Her scholarly focus centers on Jewish intellectual history, religion and science, and religious environmentalism. She has authored two award-winning books: Between Worlds: The Life and Work of Rabbi David ben Judah Messer Leon (1991) and Happiness in Premodern Judaism: Virtue, Knowledge and Well-Being in Premodern Judaism (2003). She edited eight volumes including works on Hans Jonas, transhumanism, and human futures. She served as editor-in-chief for a 20-book series on contemporary Jewish philosophers. Her research on religion, science, and technology has been supported by three major grants between 2006-2018, funding symposia, lectures, seminars, and conferences. She participates in the International Society of Science and Religion, serves on Zygon: Journal of Religion and Science's editorial board, and manages the Judaism, Science and Medicine Group.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.public.asu.edu/~havats/",
+    "googleScholar": "https://scholar.google.com/citations?user=_NMcZeMAAAAJ&hl=en"
   },
   {
     "rank": 335,
@@ -6066,7 +6568,9 @@
     "roundtables": [
       "Secrecy and Transparency"
     ],
-    "latestDate": "December 7, 2013"
+    "latestDate": "December 7, 2013",
+    "website": "https://comminfo.rutgers.edu/bratich-jack",
+    "googleScholar": "https://scholar.google.com/citations?user=FiFsYsMAAAAJ&hl=en"
   },
   {
     "rank": 336,
@@ -6084,7 +6588,9 @@
     "roundtables": [
       "Music and Mind"
     ],
-    "latestDate": "March 22, 2025"
+    "latestDate": "March 22, 2025",
+    "website": "https://labs.icahn.mssm.edu/loewylab/",
+    "googleScholar": "https://scholar.google.com/citations?user=3Eq1LtwAAAAJ&hl=en"
   },
   {
     "rank": 337,
@@ -6102,7 +6608,8 @@
     "roundtables": [
       "Shame"
     ],
-    "latestDate": "May 18, 2019"
+    "latestDate": "May 18, 2019",
+    "website": "https://mcmaster.academia.edu/JosephAdamson"
   },
   {
     "rank": 338,
@@ -6120,7 +6627,8 @@
     "roundtables": [
       "Understanding Genius II: Women"
     ],
-    "latestDate": "March 26, 2016"
+    "latestDate": "March 26, 2016",
+    "website": "https://internet3.trincoll.edu/facProfiles/Default.aspx?fid=1000552"
   },
   {
     "rank": 339,
@@ -6138,7 +6646,9 @@
     "roundtables": [
       "Mathematics and Other Realities"
     ],
-    "latestDate": "December 7, 2019"
+    "latestDate": "December 7, 2019",
+    "website": "https://www.krismcdaniel.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=I5gxw7gAAAAJ&hl=en"
   },
   {
     "rank": 340,
@@ -6174,7 +6684,8 @@
     "roundtables": [
       "Love, the Interrogative"
     ],
-    "latestDate": "February 23, 2013"
+    "latestDate": "February 23, 2013",
+    "website": "https://einsteinmed.edu/faculty/312/lucy-l-brown"
   },
   {
     "rank": 342,
@@ -6192,7 +6703,8 @@
     "roundtables": [
       "Speak, Memory"
     ],
-    "latestDate": "November 7, 2015"
+    "latestDate": "November 7, 2015",
+    "googleScholar": "https://scholar.google.com/citations?user=e1R8sN8AAAAJ&hl=en"
   },
   {
     "rank": 343,
@@ -6210,7 +6722,8 @@
     "roundtables": [
       "Translation Matters"
     ],
-    "latestDate": "November 21, 2015"
+    "latestDate": "November 21, 2015",
+    "website": "https://newpaltz.academia.edu/MichelleWoods"
   },
   {
     "rank": 344,
@@ -6246,7 +6759,8 @@
     "roundtables": [
       "American Poetry Today"
     ],
-    "latestDate": "November 18, 2017"
+    "latestDate": "November 18, 2017",
+    "website": "https://poets.org/poet/paolo-javier"
   },
   {
     "rank": 346,
@@ -6264,7 +6778,8 @@
     "roundtables": [
       "Touch as the Ur-Sense: From Presence to Poesy"
     ],
-    "latestDate": "March 9, 2024"
+    "latestDate": "March 9, 2024",
+    "website": "https://miamioh.edu/profiles/cas/pascal-massie.html"
   },
   {
     "rank": 347,
@@ -6282,7 +6797,8 @@
     "roundtables": [
       "Collaborations: Jazz and Poetry"
     ],
-    "latestDate": "October 14, 2012"
+    "latestDate": "October 14, 2012",
+    "website": "https://www.seansingerpoetry.com/about"
   },
   {
     "rank": 348,
@@ -6300,7 +6816,8 @@
     "roundtables": [
       "Mechanization of Math"
     ],
-    "latestDate": "October 5, 2019"
+    "latestDate": "October 5, 2019",
+    "website": "https://www.sas.upenn.edu/~sadick/"
   },
   {
     "rank": 349,
@@ -6318,7 +6835,9 @@
     "roundtables": [
       "Psychedelics"
     ],
-    "latestDate": "March 12, 2022"
+    "latestDate": "March 12, 2022",
+    "website": "https://www.concordia.ca/faculty/stephen-ross.html",
+    "googleScholar": "https://scholar.google.com/citations?user=kGIYH3gAAAAJ&hl=en"
   },
   {
     "rank": 350,
@@ -6336,7 +6855,9 @@
     "roundtables": [
       "Cancer: Body & Mind"
     ],
-    "latestDate": "October 11, 2014"
+    "latestDate": "October 11, 2014",
+    "website": "https://susanlutgendorf.wordpress.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=9PMoQ-YAAAAJ&hl=en"
   },
   {
     "rank": 351,
@@ -6354,7 +6875,10 @@
     "roundtables": [
       "Touch as the Ur-Sense: From Presence to Poesy"
     ],
-    "latestDate": "March 9, 2024"
+    "latestDate": "March 9, 2024",
+    "website": "https://www.cs.cornell.edu/~tapo/",
+    "googleScholar": "https://scholar.google.com/citations?user=X1zsXTgAAAAJ&hl=en",
+    "github": "https://github.com/tapomayukh"
   },
   {
     "rank": 352,
@@ -6372,7 +6896,9 @@
     "roundtables": [
       "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1"
     ],
-    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013"
+    "latestDate": "October 12, 9:00 AM - 4:15 PM, 2013",
+    "website": "https://www.unimi.it/en/ugov/person/andrea-pinotti",
+    "googleScholar": "https://scholar.google.com/citations?user=fa43KcgAAAAJ&hl=it"
   },
   {
     "rank": 353,
@@ -6390,7 +6916,9 @@
     "roundtables": [
       "The Many Minds of Memory"
     ],
-    "latestDate": "January 30, 2021"
+    "latestDate": "January 30, 2021",
+    "website": "https://www.leemtllab.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=XnV9VJIAAAAJ&hl=en"
   },
   {
     "rank": 354,
@@ -6408,7 +6936,8 @@
     "roundtables": [
       "The Effects of Media"
     ],
-    "latestDate": "February 24, 2024"
+    "latestDate": "February 24, 2024",
+    "website": "https://www.annashechtman.com/"
   },
   {
     "rank": 355,
@@ -6426,7 +6955,9 @@
     "roundtables": [
       "Identity and Fanaticism"
     ],
-    "latestDate": "March 1, 2014"
+    "latestDate": "March 1, 2014",
+    "website": "https://www.ithaca.edu/faculty/vgagnon",
+    "googleScholar": "https://scholar.google.com/citations?user=iv8w-kQAAAAJ&hl=en"
   },
   {
     "rank": 356,
@@ -6444,7 +6975,8 @@
     "roundtables": [
       "Discovering the What and the Wherefore: Scents and Sensibility"
     ],
-    "latestDate": "April 13, 2024"
+    "latestDate": "April 13, 2024",
+    "website": "https://www.uky.edu/~cebatt2/"
   },
   {
     "rank": 357,
@@ -6459,7 +6991,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/daniel-hill-headshot2-d-hill_orig.jpg",
     "bio": "Daniel Hill is an abstract painter and sound artist whose work explores the relationship between painting, sound, and science. He has composed and performed over twenty albums of original compositions and sound environments. His paintings are held in collections including the United States Embassies, Microsoft Corporation, and Bank of America.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.liverpool.ac.uk/people/daniel-hill",
+    "googleScholar": "https://scholar.google.com/citations?user=m1TKpPsAAAAJ&hl=en"
   },
   {
     "rank": 358,
@@ -6477,7 +7011,8 @@
     "roundtables": [
       "From Children's Sights to Our Insights: Ethiopian Children's Drawings, Stories and Inner Lives"
     ],
-    "latestDate": "January 25, 2014"
+    "latestDate": "January 25, 2014",
+    "website": "http://www.ellenhandlerspitz.net/"
   },
   {
     "rank": 359,
@@ -6495,7 +7030,8 @@
     "roundtables": [
       "Lying"
     ],
-    "latestDate": "September 21, 2019"
+    "latestDate": "September 21, 2019",
+    "website": "https://www.fxshen.com/"
   },
   {
     "rank": 360,
@@ -6510,7 +7046,8 @@
     "wikipedia": "",
     "photo": "https://www.agalma.ch/wp-content/uploads/2015/09/Fran%C3%A7ois-Ansermet-Agalma.jpg",
     "bio": "Francois Ansermet is a psychoanalyst and child psychiatrist who co-founded the Agalma Foundation with neuroscientist Pierre Magistretti to develop research between neuroscience and psychoanalysis. Their collaborative work links neuroplasticity with the psychoanalytic concept of the dynamic unconscious, showing that experiences are physically inscribed through traces in the brain. He is a member of the World Association of Psychoanalysis and the Ecole de la Cause Freudienne.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.agalma.ch/member/prof-francois-ansermet/?lang=en"
   },
   {
     "rank": 361,
@@ -6528,7 +7065,8 @@
     "roundtables": [
       "Music to Whose Ears? Music, Emotion, and Mind"
     ],
-    "latestDate": "April 13, 2013"
+    "latestDate": "April 13, 2013",
+    "website": "https://sterling-sound.com/engineers/greg-calbi/"
   },
   {
     "rank": 362,
@@ -6543,7 +7081,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/04/unnamed-6.jpg",
     "bio": "An interdisciplinary scientist examining how evolution works in nature and in human culture in the general framework of the hierarchy theory. He specializes in bivalve mollusks and analyzes ecological, historical, and developmental factors in diversification. His cultural research explores musical instrument design as a model for understanding information transmission mechanisms. He coedited Evolutionary Theory: A Hierarchical Perspective (Chicago University Press, 2016). Academic background includes a doctorate in Biology from NYU and bachelor's degree from Columbia University, with postdoctoral fellowships at the American Museum of Natural History, Smithsonian Institution, and Museum National d'Histoire Naturelle in Paris.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://nvcc.academia.edu/IlyaTemkin"
   },
   {
     "rank": 363,
@@ -6558,7 +7097,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/04/Eigsti-portrait.jpeg",
     "bio": "Inge-Marie Eigsti is a clinical psychologist whose research centers on language, communication, and brain development in autism, addressing how complex behavioral constructs such as social communication abilities are linked to mechanistic neurocognitive processes. She directs the Connecticut Autism and Language Lab (CALL) and leads an NIH R01-funded study unraveling the complexities of language abilities in individuals with autism spectrum disorder.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://eigsti.psy.uconn.edu/",
+    "googleScholar": "https://scholar.google.com/citations?user=vSMjw2cAAAAJ&hl=en"
   },
   {
     "rank": 364,
@@ -6573,7 +7114,9 @@
     "wikipedia": "",
     "photo": "https://www.linfield.edu/assets/images/bio_images/jilunda.jpg",
     "bio": "Jesus Ilundain-Agurruza is a philosopher whose research spans philosophy of sport, phenomenology, and comparative philosophy, drawing on philosophy of mind, aesthetics, applied ethics, and Asian philosophy. He is the author of Holism and the Cultivation of Excellence in Sports and Performance: Skillful Striving (Routledge, 2016) and has published widely on comparative philosophy and martial arts.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.linfield.edu/faculty/jilunda.html",
+    "googleScholar": "https://scholar.google.com/citations?user=2bTMMnYAAAAJ&hl=en"
   },
   {
     "rank": 365,
@@ -6609,7 +7152,8 @@
     "roundtables": [
       "Why War?"
     ],
-    "latestDate": "January 11, 2025"
+    "latestDate": "January 11, 2025",
+    "website": "http://joepeyronnin.blogspot.com/"
   },
   {
     "rank": 367,
@@ -6627,7 +7171,9 @@
     "roundtables": [
       "Boredom"
     ],
-    "latestDate": "April 21, 2018"
+    "latestDate": "April 21, 2018",
+    "website": "https://boredomlab.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=Y9_hLpkAAAAJ&hl=en"
   },
   {
     "rank": 368,
@@ -6645,7 +7191,10 @@
     "roundtables": [
       "Lying"
     ],
-    "latestDate": "September 21, 2019"
+    "latestDate": "September 21, 2019",
+    "website": "http://jonathanstray.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=JPSvhw0AAAAJ&hl=en",
+    "github": "https://github.com/jstray"
   },
   {
     "rank": 369,
@@ -6681,7 +7230,8 @@
     "roundtables": [
       "Covid and Literature"
     ],
-    "latestDate": "February 10, 2024"
+    "latestDate": "February 10, 2024",
+    "website": "https://www.mariagpisano.com/"
   },
   {
     "rank": 371,
@@ -6718,7 +7268,8 @@
       "Male-Male Competition: Globalization, War, and Violence",
       "Life and Movement"
     ],
-    "latestDate": "October 27, 2012"
+    "latestDate": "October 27, 2012",
+    "website": "https://philosophy.uoregon.edu/profile/msj/"
   },
   {
     "rank": 373,
@@ -6733,7 +7284,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/noah-hutton-2017-noah-hutton_orig.jpg",
     "bio": "Noah Hutton is a writer and director of documentary and narrative films whose work explores the intersection of art and neuroscience. He graduated from Wesleyan University where he studied art history and neuroscience. He completed 'In Silico,' a ten-year documentary about a project to simulate the human brain on supercomputers, and wrote and directed the sci-fi feature 'Lapsis,' which earned him an Independent Spirit Award nomination.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "http://www.noahhutton.com/"
   },
   {
     "rank": 374,
@@ -6751,7 +7303,8 @@
     "roundtables": [
       "American Poetry Today"
     ],
-    "latestDate": "November 18, 2017"
+    "latestDate": "November 18, 2017",
+    "website": "https://www.poetryinfo.com/"
   },
   {
     "rank": 375,
@@ -6766,7 +7319,10 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Tega_Brain",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/11/screen-shot-2017-08-31-at-4-54-19-pm_orig.png",
     "bio": "Tega Brain is an Australian-born artist and environmental engineer who is an Industry Associate Professor of Integrated Design and Media at New York University. Her work examines issues of ecology, data, automation, and infrastructure, reimagining technologies to address their environmental and political dimensions. She co-authored the textbook Code as Creative Medium (2021) and her art has been exhibited at the Whitney Museum of American Art and discussed in The New York Times, The Atlantic, and Artforum.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://tegabrain.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=COhZ70cAAAAJ&hl=en",
+    "github": "https://github.com/tegacodes"
   },
   {
     "rank": 376,
@@ -6784,7 +7340,8 @@
     "roundtables": [
       "Epigenetics at Work"
     ],
-    "latestDate": "September 12, 2015"
+    "latestDate": "September 12, 2015",
+    "googleScholar": "https://scholar.google.com/citations?user=YLyvJc0AAAAJ&hl=en"
   },
   {
     "rank": 377,
@@ -6802,7 +7359,8 @@
     "roundtables": [
       "Curiosity"
     ],
-    "latestDate": "March 14, 2015"
+    "latestDate": "March 14, 2015",
+    "website": "https://paulbrowde.com/"
   },
   {
     "rank": 378,
@@ -6820,7 +7378,8 @@
     "roundtables": [
       "Trauma and its Aftereffects, Part I: War and Genocide"
     ],
-    "latestDate": "May 2, 2015"
+    "latestDate": "May 2, 2015",
+    "website": "https://adamjsacks.net/"
   },
   {
     "rank": 379,
@@ -6838,7 +7397,8 @@
     "roundtables": [
       "Love, the Interrogative"
     ],
-    "latestDate": "February 23, 2013"
+    "latestDate": "February 23, 2013",
+    "website": "https://www.bydanslater.net/"
   },
   {
     "rank": 380,
@@ -6874,7 +7434,8 @@
     "roundtables": [
       "Otherness"
     ],
-    "latestDate": "November 16, 2024"
+    "latestDate": "November 16, 2024",
+    "website": "https://www.rhodes.edu/bio/jasper-st-bernard"
   },
   {
     "rank": 382,
@@ -6892,7 +7453,8 @@
     "roundtables": [
       "Epigenetics at Work"
     ],
-    "latestDate": "September 12, 2015"
+    "latestDate": "September 12, 2015",
+    "website": "http://jesstylerlab.info/"
   },
   {
     "rank": 383,
@@ -6910,7 +7472,8 @@
     "roundtables": [
       "A =/= B -> Taste & Discernment"
     ],
-    "latestDate": "March 23, 2024"
+    "latestDate": "March 23, 2024",
+    "website": "https://merrill.umd.edu/directory/john-mcquaid"
   },
   {
     "rank": 384,
@@ -6928,7 +7491,8 @@
     "roundtables": [
       "Identity and Fanaticism"
     ],
-    "latestDate": "March 1, 2014"
+    "latestDate": "March 1, 2014",
+    "website": "https://proof.org/"
   },
   {
     "rank": 385,
@@ -6946,7 +7510,8 @@
     "roundtables": [
       "Altruism and Empathy"
     ],
-    "latestDate": "June 8, 2013"
+    "latestDate": "June 8, 2013",
+    "website": "https://faculty.fordham.edu/lcataldo/"
   },
   {
     "rank": 386,
@@ -6979,7 +7544,8 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Patricia_Olynyk",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/11/portrait-2-sm-copy-patricia-olynyk_orig.jpg",
     "bio": "Olynyk's artistic practice explores intersections of art, science, and technology, examining \"the dialectics of natural and artificial, and cognition and affect.\" She appropriates scientific imaging technologies in installations, photographs, and videos to investigate how interpretation shifts between \"fact and speculation.\" Her career includes developing interdisciplinary curricula and programming at research institutions, with particular focus on fostering \"third culture\" collaborations across creative and scientific domains.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://patriciaolynyk.com/"
   },
   {
     "rank": 388,
@@ -6997,7 +7563,9 @@
     "roundtables": [
       "Ignorance and Curiosity"
     ],
-    "latestDate": "April 27, 2013"
+    "latestDate": "April 27, 2013",
+    "website": "https://psychology.williams.edu/profile/sengel/",
+    "googleScholar": "https://scholar.google.com/citations?user=Mexy9AkAAAAJ&hl=en"
   },
   {
     "rank": 389,
@@ -7015,7 +7583,8 @@
     "roundtables": [
       "Touch as the Ur-Sense: From Presence to Poesy"
     ],
-    "latestDate": "March 9, 2024"
+    "latestDate": "March 9, 2024",
+    "website": "http://www.sushmasubramanian.com/"
   },
   {
     "rank": 390,
@@ -7035,7 +7604,8 @@
       "Translation Matters",
       "French Surrealism: A Revolution of the Mind"
     ],
-    "latestDate": "March 26, 2016"
+    "latestDate": "March 26, 2016",
+    "website": "http://www.annemarielevine.com/"
   },
   {
     "rank": 391,
@@ -7053,7 +7623,8 @@
     "roundtables": [
       "Pain"
     ],
-    "latestDate": "February 11, 2017"
+    "latestDate": "February 11, 2017",
+    "website": "https://health.uconn.edu/cell-biology/faculty-and-staff/alan-fein/"
   },
   {
     "rank": 392,
@@ -7071,7 +7642,8 @@
     "roundtables": [
       "The Changing Nature of Free Will"
     ],
-    "latestDate": "April 25, 2015"
+    "latestDate": "April 25, 2015",
+    "website": "https://utsnyc.edu/blog/faculty/brigitte-kahl/"
   },
   {
     "rank": 393,
@@ -7104,7 +7676,9 @@
     "roundtables": [
       "Embodied AI"
     ],
-    "latestDate": "October 22, 2016"
+    "latestDate": "October 22, 2016",
+    "website": "https://www.hansonrobotics.com/david-hanson/",
+    "googleScholar": "https://scholar.google.com/citations?user=gp2fb1sAAAAJ&hl=en"
   },
   {
     "rank": 395,
@@ -7122,7 +7696,9 @@
     "roundtables": [
       "Resurgence of Freud"
     ],
-    "latestDate": "September 20, 2025"
+    "latestDate": "September 20, 2025",
+    "website": "https://english.ucla.edu/people-faculty/russell-david/",
+    "googleScholar": "https://scholar.google.co.uk/citations?user=JK-atEgAAAAJ&hl=en"
   },
   {
     "rank": 396,
@@ -7140,7 +7716,9 @@
     "roundtables": [
       "Creative Turbulence (Roundtable)"
     ],
-    "latestDate": "June 14, 2018"
+    "latestDate": "June 14, 2018",
+    "website": "https://engineering.nyu.edu/faculty/enrico-fonda",
+    "googleScholar": "https://scholar.google.com/citations?user=PGM7gi8AAAAJ&hl=en"
   },
   {
     "rank": 397,
@@ -7155,7 +7733,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/Francois_Quiviger.jpg",
     "bio": "Francois Quiviger earned his Ph.D. from the Warburg Institute in London, where he serves as curator of digital resources, librarian, and researcher. His scholarly focus encompasses early modern European academies, mythology, and Renaissance material culture alongside art and art theory. His 2010 publication, \"The Sensory World of Italian Renaissance Art\" (London, Chicago), examines how sensation functioned in Renaissance thought and practice, exploring connections to mental imagery and Renaissance artists' techniques for making touch, sound, and scent perceptible to audiences' minds.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://warburg.sas.ac.uk/people/francois-quiviger"
   },
   {
     "rank": 398,
@@ -7191,7 +7770,8 @@
     "roundtables": [
       "Music to Whose Ears? Music, Emotion, and Mind"
     ],
-    "latestDate": "April 13, 2013"
+    "latestDate": "April 13, 2013",
+    "website": "https://jesseharrismusic.com/"
   },
   {
     "rank": 400,
@@ -7209,7 +7789,8 @@
     "roundtables": [
       "Music to Whose Ears III: Music and Healing"
     ],
-    "latestDate": "March 11, 2017"
+    "latestDate": "March 11, 2017",
+    "website": "https://www.wnyc.org/people/john-schaefer/"
   },
   {
     "rank": 401,
@@ -7228,7 +7809,8 @@
       "Synchronicity: On the Spectrum of Mind and Matter",
       "Synchronicity and Other Mind Matter Conjectures"
     ],
-    "latestDate": "April 12, 2014"
+    "latestDate": "April 12, 2014",
+    "website": "https://www.pacifica.edu/faculty/joseph-cambray/joseph_cambray/"
   },
   {
     "rank": 402,
@@ -7246,7 +7828,9 @@
     "roundtables": [
       "Coding and the Human Phenotype: Manipulated Perception? Fakery, Authenticity, and the Birth of NFTs"
     ],
-    "latestDate": "October 15, 2022"
+    "latestDate": "October 15, 2022",
+    "website": "https://lauraedelson.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=5-5-AqcAAAAJ&hl=en"
   },
   {
     "rank": 403,
@@ -7300,7 +7884,8 @@
     "roundtables": [
       "American Poetry Today"
     ],
-    "latestDate": "November 18, 2017"
+    "latestDate": "November 18, 2017",
+    "website": "https://www.patcarlin.com/"
   },
   {
     "rank": 406,
@@ -7354,7 +7939,8 @@
     "roundtables": [
       "Human and Nonhuman Minds: Continuities and Discontinuities"
     ],
-    "latestDate": "May 16, 2015"
+    "latestDate": "May 16, 2015",
+    "website": "https://www.alexandertechniqueprinciples.com/about-the-author"
   },
   {
     "rank": 409,
@@ -7372,7 +7958,8 @@
     "roundtables": [
       "The Techne of Memory"
     ],
-    "latestDate": "March 18, 2023"
+    "latestDate": "March 18, 2023",
+    "website": "https://victorialoustalot.com/"
   },
   {
     "rank": 410,
@@ -7408,7 +7995,9 @@
     "roundtables": [
       "Altruism and Empathy"
     ],
-    "latestDate": "June 8, 2013"
+    "latestDate": "June 8, 2013",
+    "website": "https://www.wynnschwartz.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=7MvSHosAAAAJ&hl=en"
   },
   {
     "rank": 412,
@@ -7426,7 +8015,8 @@
     "roundtables": [
       "Shakespeare Forever"
     ],
-    "latestDate": "April 22, 2023"
+    "latestDate": "April 22, 2023",
+    "website": "https://carlcofield.com/"
   },
   {
     "rank": 413,
@@ -7444,7 +8034,10 @@
     "roundtables": [
       "Why War?"
     ],
-    "latestDate": "January 11, 2025"
+    "latestDate": "January 11, 2025",
+    "website": "https://marckissel.netlify.app/",
+    "googleScholar": "https://scholar.google.com/citations?user=qaVFytMAAAAJ&hl=en",
+    "github": "https://github.com/MarcKissel"
   },
   {
     "rank": 414,
@@ -7463,7 +8056,9 @@
       "Identity and Fanaticism",
       "From Children's Sights to Our Insights: Ethiopian Children's Drawings, Stories and Inner Lives"
     ],
-    "latestDate": "March 1, 2014"
+    "latestDate": "March 1, 2014",
+    "website": "https://szajnberg.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=xnFJNZkAAAAJ&hl=en"
   },
   {
     "rank": 415,
@@ -7481,7 +8076,9 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Are Natural Language Generators for Real?"
     ],
-    "latestDate": "October 16, 2022"
+    "latestDate": "October 16, 2022",
+    "website": "https://www.noahgian.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=xEidIpMAAAAJ&hl=en"
   },
   {
     "rank": 416,
@@ -7514,7 +8111,8 @@
     "roundtables": [
       "Mindfulness Meditation: Benefits and Dilemmas"
     ],
-    "latestDate": "April 19, 2025"
+    "latestDate": "April 19, 2025",
+    "website": "https://rubinmuseum.org/people/tim-mchenry/"
   },
   {
     "rank": 418,
@@ -7534,7 +8132,8 @@
       "Music to Whose Ears II: Embodied Cognition",
       "Music to Whose Ears? Music, Emotion, and Mind"
     ],
-    "latestDate": "March 11, 2017"
+    "latestDate": "March 11, 2017",
+    "website": "http://www.marinakreyn.com/"
   },
   {
     "rank": 419,
@@ -7571,7 +8170,9 @@
     "roundtables": [
       "The Meditative State"
     ],
-    "latestDate": "March 12, 2016"
+    "latestDate": "March 12, 2016",
+    "website": "https://www.petermalinowski.eu/",
+    "googleScholar": "https://scholar.google.com/citations?user=UwDdUysAAAAJ&hl=en"
   },
   {
     "rank": 421,
@@ -7590,7 +8191,8 @@
       "See Memory",
       "The Techne of Memory"
     ],
-    "latestDate": "October 4, 2025"
+    "latestDate": "October 4, 2025",
+    "website": "https://www.vivianesilvera.com/"
   },
   {
     "rank": 422,
@@ -7608,7 +8210,9 @@
     "roundtables": [
       "Synthetic Consciousness: Seeing and Believing"
     ],
-    "latestDate": "May 11, 2024"
+    "latestDate": "May 11, 2024",
+    "website": "https://sites.google.com/fordham.edu/vamlab/elissa-aminoff",
+    "googleScholar": "https://scholar.google.com/citations?user=9e9fhIcAAAAJ&hl=en"
   },
   {
     "rank": 423,
@@ -7626,7 +8230,9 @@
     "roundtables": [
       "Embodied AI"
     ],
-    "latestDate": "October 22, 2016"
+    "latestDate": "October 22, 2016",
+    "website": "https://research.ibm.com/people/jeff-kephart",
+    "googleScholar": "https://scholar.google.com/citations?user=9Mh6OuQAAAAJ&hl=en"
   },
   {
     "rank": 424,
@@ -7644,7 +8250,9 @@
     "roundtables": [
       "The Changing Nature of Free Will"
     ],
-    "latestDate": "April 25, 2015"
+    "latestDate": "April 25, 2015",
+    "website": "https://www.kishidalab.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=LhEDOJwAAAAJ&hl=en"
   },
   {
     "rank": 425,
@@ -7677,7 +8285,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/screen-shot-2017-08-29-at-2-47-24-pm_orig.png",
     "bio": "Mark is the Director of Guerilla Science, an award-winning international arts, science and culture organization that creates live events in unusual places, and an assistant professor of Math & Science at the Pratt Institute of Art and Design. He received his PhD in theoretical physics from the University of Cambridge in 2010 and has been creating live experiences for the past decade. He is the 2015 winner of the AAAS Early Career Award for Public Engagement with Science, and a 2017 Ashoka Emerging Innovator.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.pratt.edu/people/mark-rosin/"
   },
   {
     "rank": 427,
@@ -7695,7 +8304,8 @@
     "roundtables": [
       "Music to Whose Ears II: Embodied Cognition"
     ],
-    "latestDate": "January 24, 2015"
+    "latestDate": "January 24, 2015",
+    "website": "https://nachoarimany.com/"
   },
   {
     "rank": 428,
@@ -7710,7 +8320,8 @@
     "wikipedia": "",
     "photo": "https://wolfhumanities.upenn.edu/sites/default/files/ndevenot.jpg",
     "bio": "Nese Devenot is a scholar working at the intersections of health humanities, psychedelic bioethics, and comparative literature. They have been contributing to the interdisciplinary field of Psychedelic Studies since 2010 and are recognized as a leading voice on the ethics and policy dimensions of psychedelic research and therapy.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://krieger.jhu.edu/writing-program/directory/nese-devenot/"
   },
   {
     "rank": 429,
@@ -7764,7 +8375,8 @@
     "roundtables": [
       "The Mind of a Child"
     ],
-    "latestDate": "April 18, 2015"
+    "latestDate": "April 18, 2015",
+    "website": "http://reginapally.com/"
   },
   {
     "rank": 432,
@@ -7782,7 +8394,9 @@
     "roundtables": [
       "People & Things in Motion: Economics and the Future"
     ],
-    "latestDate": "February 26, 2022"
+    "latestDate": "February 26, 2022",
+    "website": "https://sites.dartmouth.edu/rbhowarth/",
+    "googleScholar": "https://scholar.google.com/citations?user=ydJsbdIAAAAJ&hl=en"
   },
   {
     "rank": 433,
@@ -7800,7 +8414,8 @@
     "roundtables": [
       "Touch as the Ur-Sense: From Presence to Poesy"
     ],
-    "latestDate": "March 9, 2024"
+    "latestDate": "March 9, 2024",
+    "website": "https://dental.nyu.edu/faculty/molecular-pathobiology/moayedi-lab.html"
   },
   {
     "rank": 434,
@@ -7818,7 +8433,10 @@
     "roundtables": [
       "Coding and the Human Phenotype: Manipulated Perception? Fakery, Authenticity, and the Birth of NFTs"
     ],
-    "latestDate": "October 15, 2022"
+    "latestDate": "October 15, 2022",
+    "website": "https://ophiryotam.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=_ytRCroAAAAJ&hl=en",
+    "github": "https://github.com/ophiryotam"
   },
   {
     "rank": 435,
@@ -7837,7 +8455,9 @@
       "Genes, Computers, and Medicine",
       "Cancer: Body & Mind"
     ],
-    "latestDate": "February 20, 2016"
+    "latestDate": "February 20, 2016",
+    "website": "https://www.mskcc.org/research/ski/labs/hans-guido-wendel",
+    "googleScholar": "https://scholar.google.com/citations?user=CE2he2MAAAAJ&hl=en"
   },
   {
     "rank": 436,
@@ -7856,7 +8476,8 @@
       "Striking a Chord: Hearing and Space",
       "Music to Whose Ears II: Embodied Cognition"
     ],
-    "latestDate": "April 27, 2024"
+    "latestDate": "April 27, 2024",
+    "website": "https://tristanperich.com/"
   },
   {
     "rank": 437,
@@ -7874,7 +8495,8 @@
     "roundtables": [
       "Music to Whose Ears III: Music and Healing"
     ],
-    "latestDate": "March 11, 2017"
+    "latestDate": "March 11, 2017",
+    "googleScholar": "https://scholar.google.com/citations?user=awLm8WUAAAAJ&hl=en"
   },
   {
     "rank": 438,
@@ -7892,7 +8514,8 @@
     "roundtables": [
       "Creative Turbulence (Roundtable)"
     ],
-    "latestDate": "June 14, 2018"
+    "latestDate": "June 14, 2018",
+    "website": "https://danakarwas.com/"
   },
   {
     "rank": 439,
@@ -7907,7 +8530,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/11/screen-shot-2017-08-28-at-12-54-02-pm_orig.png",
     "bio": "Daniel Kohn is an American artist born in India and raised in France whose work investigates the echo between art and its context through the metaphor of place. Since 2003 he has bridged art and science, serving as Founding Artist in Residence at the Broad Institute for Genomic Research and co-leading the Ocean Memory Project since 2018.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://kohnworkshop.com/"
   },
   {
     "rank": 440,
@@ -7922,7 +8546,8 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Ellen_Levy",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/screen-shot-2017-08-28-at-12-38-26-pm_orig.png",
     "bio": "Ellen K. Levy is an American multimedia artist, writer, curator, and educator whose interdisciplinary work explores the intersections of art, science, technology, and the environment. Since the early 1980s she has investigated how scientific paradigms -- including neuroscience, evolution, and complexity theory -- inform visual culture and artistic practice.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "http://www.complexityart.com/"
   },
   {
     "rank": 441,
@@ -7940,7 +8565,8 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Is the Universe a Metaverse?"
     ],
-    "latestDate": "October 16, 2022"
+    "latestDate": "October 16, 2022",
+    "googleScholar": "https://scholar.google.com/citations?user=RlTqjZMAAAAJ&hl=en"
   },
   {
     "rank": 442,
@@ -7976,7 +8602,8 @@
     "roundtables": [
       "The Many Minds of Memory"
     ],
-    "latestDate": "January 30, 2021"
+    "latestDate": "January 30, 2021",
+    "website": "http://www.yellowbowlproject.com/"
   },
   {
     "rank": 444,
@@ -7994,7 +8621,8 @@
     "roundtables": [
       "Altruism and Empathy"
     ],
-    "latestDate": "June 8, 2013"
+    "latestDate": "June 8, 2013",
+    "googleScholar": "https://scholar.google.com/citations?user=TegkHkcAAAAJ&hl=en"
   },
   {
     "rank": 445,
@@ -8032,7 +8660,8 @@
     "roundtables": [
       "American Poetry Today"
     ],
-    "latestDate": "November 18, 2017"
+    "latestDate": "November 18, 2017",
+    "website": "https://www.amy-holman.com/"
   },
   {
     "rank": 447,
@@ -8089,7 +8718,8 @@
     "roundtables": [
       "Genes, Computers, and Medicine"
     ],
-    "latestDate": "February 20, 2016"
+    "latestDate": "February 20, 2016",
+    "website": "https://www.thehastingscenter.org/team/karen-j-maschke-ph-d/"
   },
   {
     "rank": 450,
@@ -8107,7 +8737,8 @@
     "roundtables": [
       "The Meditative State"
     ],
-    "latestDate": "March 12, 2016"
+    "latestDate": "March 12, 2016",
+    "website": "https://www.zencare.org/community/sensei-koshin-paley-ellison"
   },
   {
     "rank": 451,
@@ -8163,7 +8794,8 @@
       "Transhumanist Predictions and the Human Predicament",
       "Complexity and Emergence II: Visions of Cosmic Order, from Particles to People"
     ],
-    "latestDate": "March 10, 2018"
+    "latestDate": "March 10, 2018",
+    "website": "https://metanexus.net/metanexus_profile/william-grassie/"
   },
   {
     "rank": 454,
@@ -8232,7 +8864,8 @@
     "roundtables": [
       "Resurgence of Freud"
     ],
-    "latestDate": "September 20, 2025"
+    "latestDate": "September 20, 2025",
+    "website": "https://www.greeneclinic.com/cassie-kaufmann"
   },
   {
     "rank": 458,
@@ -8247,7 +8880,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/03/Catherine-Wikholm.jpeg",
     "bio": "Dr. Wikholm holds HCPC registration and BPS Chartered status. She specialises in child, adolescent and young adult mental health and previously served in the NHS. She co-authored The Buddha Pill: Can Meditation Change You?",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.catherinewikholm.com/"
   },
   {
     "rank": 459,
@@ -8283,7 +8917,8 @@
     "roundtables": [
       "Trauma and its Aftereffects, Part I: War and Genocide"
     ],
-    "latestDate": "May 2, 2015"
+    "latestDate": "May 2, 2015",
+    "website": "https://sirice.eu/membre/eva-weil"
   },
   {
     "rank": 461,
@@ -8301,7 +8936,8 @@
     "roundtables": [
       "Apprehending Consciousness"
     ],
-    "latestDate": "March 7, 2015"
+    "latestDate": "March 7, 2015",
+    "website": "https://sites.google.com/view/gabriellebenettejackson/page"
   },
   {
     "rank": 462,
@@ -8316,7 +8952,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2023/01/GD.png",
     "bio": "George Denfield is a psychiatrist, psychotherapist, and neuroscientist whose research focuses on understanding the biological basis of the mind and consciousness. He completed his Ph.D. in neuroscience studying how changes in internal brain states such as attention affect neuronal responses to sensory stimuli, and his work on neuronal variability and attention was published in Nature Communications.",
-    "roundtables": []
+    "roundtables": [],
+    "googleScholar": "https://scholar.google.com/citations?user=dfcd8TUAAAAJ&hl=en"
   },
   {
     "rank": 463,
@@ -8334,7 +8971,8 @@
     "roundtables": [
       "Pain"
     ],
-    "latestDate": "February 11, 2017"
+    "latestDate": "February 11, 2017",
+    "website": "https://www.nccih.nih.gov/about/staff/inna-belfer"
   },
   {
     "rank": 464,
@@ -8352,7 +8990,9 @@
     "roundtables": [
       "Come Out Wherever You Are: In Search of Consciousness"
     ],
-    "latestDate": "September 21, 2024"
+    "latestDate": "September 21, 2024",
+    "website": "https://www.bucknell.edu/fac-staff/john-hunter",
+    "googleScholar": "https://scholar.google.com/citations?user=J8eyfIQAAAAJ&hl=en"
   },
   {
     "rank": 465,
@@ -8388,7 +9028,8 @@
     "roundtables": [
       "Particle Fever / The Quest"
     ],
-    "latestDate": "February 21, 2015"
+    "latestDate": "February 21, 2015",
+    "website": "http://www.particlefever.com/mark.html"
   },
   {
     "rank": 467,
@@ -8403,7 +9044,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/aiello-black-white-monica-aiello_orig.jpg",
     "bio": "Monica Aiello is an award-winning artist and pioneering STEAM specialist who co-founded EUREKUS with her husband, sculptor Tyler Aiello. For more than two decades, she has collaborated with NASA and the scientific community to create fine art and public practice initiatives that unite art, science, and engineering for diverse audiences.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://eurekus.org/our-team"
   },
   {
     "rank": 468,
@@ -8454,7 +9096,8 @@
     "roundtables": [
       "Shakespeare Forever"
     ],
-    "latestDate": "April 22, 2023"
+    "latestDate": "April 22, 2023",
+    "website": "https://www.sophiemcintoshwrites.com/"
   },
   {
     "rank": 471,
@@ -8472,7 +9115,8 @@
     "roundtables": [
       "Status"
     ],
-    "latestDate": "June 8, 2019"
+    "latestDate": "June 8, 2019",
+    "website": "https://www.tayarishapoe.com/"
   },
   {
     "rank": 472,
@@ -8523,7 +9167,8 @@
     "roundtables": [
       "Music to Whose Ears III: Music and Healing"
     ],
-    "latestDate": "March 11, 2017"
+    "latestDate": "March 11, 2017",
+    "googleScholar": "https://scholar.google.com/citations?user=mAeqHnMAAAAJ&hl=en"
   },
   {
     "rank": 475,
@@ -8559,7 +9204,8 @@
     "roundtables": [
       "Women and Science"
     ],
-    "latestDate": "April 26, 2014"
+    "latestDate": "April 26, 2014",
+    "website": "https://annabziegler.net/"
   },
   {
     "rank": 477,
@@ -8644,7 +9290,8 @@
     "roundtables": [
       "The Poetry of Aging"
     ],
-    "latestDate": "November 2, 2024"
+    "latestDate": "November 2, 2024",
+    "website": "https://www.caitlinsnowmd.com/"
   },
   {
     "rank": 482,
@@ -8662,7 +9309,8 @@
     "roundtables": [
       "Fail Again, Fail Better"
     ],
-    "latestDate": "November 8, 2025"
+    "latestDate": "November 8, 2025",
+    "website": "http://www.lyonartbooks.com/"
   },
   {
     "rank": 483,
@@ -8677,7 +9325,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/cyn-biopic-cynthia-pannucci.jpg",
     "bio": "Pannucci's educational background encompasses Fine Arts with printmaking as a major focus and art history as a secondary area of study. Her professional artistic practice has spanned printmaking, textiles, mixed-media, photography, and interactive sculpture. Her exhibitions have been displayed at prominent institutions including The American Craft and Cooper-Hewitt museums in New York City. She has received commissions from Citicorp, The Discovery Museum in Bridgeport CT, The Staten Island Children's Museum, and the NYC Metropolitan Transit Authority. In 1988, she established Art & Science Collaborations, Inc., developing pioneering art-science programming including symposia, public panels, exhibitions, and projects that revitalized the \"art & technology\" movement throughout the 1990s. ASCI organized four international ArtSci Symposia between 1998-2002, after which the organization shifted focus to \"art-science.\" Since 2006, ASCI has conducted annual international competition exhibitions at the New York Hall of Science, featuring science-inspired themes and co-judged by art and science experts. Event partners have included The American Museum of Natural History, the Graduate Center of CUNY, Liberty Science Center, New York Hall of Science, and The Cooper Union for the Advancement of Science and Art.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://artsci-climate.com/about/"
   },
   {
     "rank": 484,
@@ -8746,7 +9395,8 @@
     "roundtables": [
       "Otherness"
     ],
-    "latestDate": "November 16, 2024"
+    "latestDate": "November 16, 2024",
+    "website": "https://www.eyal-rozmarin.com/"
   },
   {
     "rank": 488,
@@ -8779,7 +9429,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/10/harvey-seifter-headshot-harvey-seifter_orig.png",
     "bio": "Harvey Seifter is recognized as one of the world's leading authorities on organizational creativity. He founded and directs AOSL, an NSF-funded program integrating arts into STEM education. As Principal Investigator of two NSF grants, he developed the first arts-based STEM innovation curriculum, established innovation incubators nationwide, and conducted research demonstrating causal links between arts-based learning and enhanced creativity, collaboration, and innovation outcomes. At GE's Crotonville, Seifter teaches innovation and helps senior executives improve collaboration, navigate complexity, and drive organizational change. He is a classically trained musician with two decades leading prestigious arts organizations including Orpheus Chamber Orchestra and Circle in the Square Theater on Broadway. Under his leadership, these organizations earned 5 Grammy Awards, 24 Obie and Critics Circle Awards, and a Kennedy Center Award while reaching millions globally. He authored Leadership Ensemble: Lessons in Collaborative Management from the World's Only Conductorless Orchestra and edited special journal issues on arts-based business learning.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "http://www.harveyseifter.org/"
   },
   {
     "rank": 490,
@@ -8812,7 +9463,8 @@
     "roundtables": [
       "Discovering the What and the Wherefore: Scents and Sensibility"
     ],
-    "latestDate": "April 13, 2024"
+    "latestDate": "April 13, 2024",
+    "googleScholar": "https://scholar.google.com/citations?user=IIUhm2oAAAAJ&hl=en"
   },
   {
     "rank": 492,
@@ -8827,7 +9479,8 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/11/karen-ingram900x900_orig.jpg",
     "bio": "Karen Ingram is a creative director, designer, and artist who uses her skills to promote scientific awareness, with a particular focus on synthetic biology. She is co-author of 'BioBuilder: Synthetic Biology in the Lab' (O'Reilly, 2015) and co-organizes the Brooklyn-based science event The Empiricist League.",
-    "roundtables": []
+    "roundtables": [],
+    "website": "http://www.kareningram.com/"
   },
   {
     "rank": 493,
@@ -8860,7 +9513,8 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Epstein_(author)",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/03/Mark-Epstein.jpeg",
     "bio": "Mark Epstein is a psychiatrist and bestselling author who has written extensively on the intersection of Buddhism and psychotherapy. A graduate of Harvard College and Harvard Medical School, he has practiced vipassana meditation since 1974 and authored numerous influential books including 'Thoughts without a Thinker,' 'The Trauma of Everyday Life,' and 'The Zen of Therapy.'",
-    "roundtables": []
+    "roundtables": [],
+    "website": "https://www.markepsteinmd.com/"
   },
   {
     "rank": 495,
@@ -8878,7 +9532,8 @@
     "roundtables": [
       "\"Fake\" Knowledge: Knowing and the Illusion of Knowing"
     ],
-    "latestDate": "October 14, 2017"
+    "latestDate": "October 14, 2017",
+    "website": "https://markmitton.com/"
   },
   {
     "rank": 496,
@@ -8929,7 +9584,8 @@
     "roundtables": [
       "The Poetry of Aging"
     ],
-    "latestDate": "November 2, 2024"
+    "latestDate": "November 2, 2024",
+    "googleScholar": "https://scholar.google.com/citations?user=8xcIVC0AAAAJ&hl=en"
   },
   {
     "rank": 499,
@@ -8947,7 +9603,8 @@
     "roundtables": [
       "Stress"
     ],
-    "latestDate": "May 1, 2021"
+    "latestDate": "May 1, 2021",
+    "website": "https://www.columbia.edu/~rnw1/"
   },
   {
     "rank": 500,
@@ -8998,7 +9655,8 @@
     "roundtables": [
       "Secrecy and Transparency"
     ],
-    "latestDate": "December 7, 2013"
+    "latestDate": "December 7, 2013",
+    "website": "https://theodorejacobs.org/"
   },
   {
     "rank": 503,
@@ -9049,7 +9707,8 @@
     "roundtables": [
       "Coding and the New Human Phenotype: Coding, Fiction, Metafiction -- the Parcellation of What Isn't There"
     ],
-    "latestDate": "October 15, 2022"
+    "latestDate": "October 15, 2022",
+    "website": "http://www.yoninahoffman.com/"
   },
   {
     "rank": 506,
@@ -9067,6 +9726,8 @@
     "roundtables": [
       "Complexity and Emergence"
     ],
-    "latestDate": "November 15, 2014"
+    "latestDate": "November 15, 2014",
+    "website": "http://zosiakrusberg.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=1Qs0rZAAAAAJ&hl=en"
   }
 ]
