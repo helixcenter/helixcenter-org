@@ -1,10 +1,37 @@
 ---
 layout: layouts/base.njk
 title: Speaker Directory
-pageTitle: Distinguished Speakers
-description: "Browse 507 distinguished speakers who have participated in Helix Center roundtable discussions, including Nobel laureates, MacArthur Fellows, and leading scholars."
-permalink: "/speakers/"
+pagination:
+  data: speakers
+  size: 48
+  alias: items
+permalink: "/speakers/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+eleventyComputed:
+  pageTitle: "Distinguished Speakers{% if pagination.pageNumber > 0 %} — Page {{ pagination.pageNumber + 1 }}{% endif %}"
+  description: "Browse {{ speakers | length }} distinguished speakers who have participated in Helix Center roundtable discussions{% if pagination.pageNumber > 0 %} — page {{ pagination.pageNumber + 1 }} of {{ pagination.pages | length }}{% endif %}. Including Nobel laureates, MacArthur Fellows, and leading scholars."
+  breadcrumbSection: "Speakers"
 ---
+
+{% set isFirstPage = pagination.pageNumber == 0 %}
+
+{# Collect upcoming speakers from future roundtables #}
+{% set upcomingSpeakerData = [] %}
+{% for rt in roundtables %}
+  {% if rt.status and "Future" in rt.status %}
+    {% for spName in rt.speakers %}
+      {% set sp = speakers | findSpeaker(spName) %}
+      {% if sp %}
+        {% set alreadyAdded = false %}
+        {% for existing in upcomingSpeakerData %}
+          {% if existing.speaker.name == sp.name %}{% set alreadyAdded = true %}{% endif %}
+        {% endfor %}
+        {% if not alreadyAdded %}
+          {% set upcomingSpeakerData = (upcomingSpeakerData.push({ speaker: sp, rtTitle: rt.title, rtSlug: rt.slug }), upcomingSpeakerData) %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
 
 <div class="page-header">
   <div class="container">
@@ -19,7 +46,26 @@ permalink: "/speakers/"
   <ol><li><a href="/">Home</a></li><li>Speakers</li></ol>
 </div>
 
+{% if isFirstPage and upcomingSpeakerData.length %}
+<!-- Upcoming Speakers -->
 <section>
+  <div class="container">
+    <div class="section-label">Upcoming</div>
+    <h2>Featured Speakers</h2>
+    <div class="gold-divider" style="margin-left: 0;"></div>
+    <div class="upcoming-grid">
+      {% for item in upcomingSpeakerData %}
+      {% set speaker = item.speaker %}
+      {% set rtTitle = item.rtTitle %}
+      {% set rtSlug = item.rtSlug %}
+      {% include "partials/speaker-featured-card.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="{% if isFirstPage and upcomingSpeakerData.length %}cream{% endif %}">
   <div class="container">
     <div class="filter-bar">
       <input type="text" id="search-input" placeholder="Search speakers by name, institution, or field...">
@@ -29,9 +75,9 @@ permalink: "/speakers/"
         <option value="{{ d.name }}">{{ d.name }} ({{ d.count }})</option>
         {% endfor %}
       </select>
-      <div class="sort-toggle" id="sort-toggle">
-        <button class="sort-btn active" data-sort="alpha">A&ndash;Z</button>
-        <select id="domain-jump" class="sort-btn">
+      <div class="sort-toggle">
+        <a href="/speakers/" class="sort-btn active" style="text-decoration:none;">A&ndash;Z</a>
+        <select id="domain-nav" class="sort-btn" onchange="if(this.value)window.location='/speakers/all/?domain='+encodeURIComponent(this.value)">
           <option value="">by Domain</option>
           {% for d in disciplines %}
           <option value="{{ d.name }}">{{ d.name }} ({{ d.count }})</option>
@@ -40,12 +86,38 @@ permalink: "/speakers/"
       </div>
     </div>
 
+    {% if isFirstPage and upcomingSpeakerData.length %}
+    <div class="section-label" style="margin-top: 1.5rem;">Archive</div>
+    <h2>Past Speakers</h2>
+    <div class="gold-divider" style="margin-left: 0;"></div>
+    {% endif %}
+
     <div class="speakers-grid listing-grid" id="speakers-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
-      {% for speaker in speakers %}
+      {% for speaker in items %}
       {% include "partials/speaker-card.njk" %}
       {% endfor %}
     </div>
 
-    <div class="pagination" id="speakers-pagination" style="display: none;"></div>
+    {% if pagination.pages | length > 1 %}
+    <div class="pagination">
+      {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}">&laquo; Prev</a>
+      {% endif %}
+      {% for pageEntry in pagination.pages %}
+      {% if pagination.pageNumber == loop.index0 %}
+      <span class="current">{{ loop.index }}</span>
+      {% else %}
+      <a href="{{ pagination.hrefs[loop.index0] }}">{{ loop.index }}</a>
+      {% endif %}
+      {% endfor %}
+      {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}">Next &raquo;</a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <div style="text-align: center; margin-top: 1.5rem;">
+      <a href="/speakers/all/" style="font-size: 0.85rem; color: var(--gold-dark);">View all {{ speakers | length }} speakers &rarr;</a>
+    </div>
   </div>
 </section>

@@ -4,6 +4,7 @@ title: About
 pageTitle: About The Helix Center
 description: "The Helix Center for Interdisciplinary Investigation is a 501(c)(3) nonprofit founded in 2012 by Dr. Edward Nersessian, hosting free roundtable discussions in New York City."
 permalink: /about/
+breadcrumbSection: "About"
 ---
 
 <div class="page-header">
@@ -18,6 +19,79 @@ permalink: /about/
 <div class="breadcrumbs">
   <ol><li><a href="/">Home</a></li><li>About</li></ol>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is The Helix Center?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Helix Center for Interdisciplinary Investigation is a 501(c)(3) nonprofit organization founded in 2012 in New York City. It hosts free, public interdisciplinary roundtable discussions called Theaetetus Tables that bring together five distinguished scholars, scientists, and artists from different fields for unrehearsed intellectual exchange."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Helix Center events free to attend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all Helix Center events are completely free and open to the public. You can attend in person at the Marianne & Nicholas Young Auditorium (247 East 82nd Street, New York, NY 10028) or watch via free live stream."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Theaetetus Table?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Theaetetus Table is The Helix Center's signature roundtable format, named for the Platonic dialogue investigating the nature of knowledge. Each Table seats five participants for extempore (unscripted) interdisciplinary discussion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who are some notable speakers who have participated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Helix Center's speakers include Nobel laureates Daniel Kahneman and Eric Kandel; MacArthur Fellows Sara Seager, Vijay Iyer, and Yiyun Li; the most-cited neuroscientist in history Karl Friston; philosopher David Chalmers; and affective computing founder Rosalind Picard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who founded The Helix Center and why?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Helix Center was founded in 2012 by Dr. Edward Nersessian, a psychoanalyst and clinical professor of psychiatry who observed how narrow specialization was constraining creativity at professional scientific meetings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I support The Helix Center?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Helix Center is a 501(c)(3) tax-exempt nonprofit supported entirely by tax-deductible donations. You can donate via the website."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is The Helix Center located?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Helix Center is located at the Marianne & Nicholas Young Auditorium, 247 East 82nd Street, New York, NY 10028, on Manhattan's Upper East Side."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I watch past roundtables online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! All past roundtable discussions are archived and freely accessible on the website, YouTube channel, and Apple Podcasts."
+      }
+    }
+  ]
+}
+</script>
 
 <section class="cream">
   <div class="container">
@@ -199,6 +273,46 @@ permalink: /about/
         <span class="quality-desc">Icosahedron</span>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="cream" id="faq">
+  <div class="container-narrow">
+    <div class="section-label text-center">Help</div>
+    <h2 class="text-center">Frequently Asked Questions</h2>
+    <div class="gold-divider"></div>
+    <details class="faq-item" open>
+      <summary>What is The Helix Center?</summary>
+      <p class="faq-answer">The Helix Center for Interdisciplinary Investigation is a <strong>501(c)(3) nonprofit organization founded in 2012</strong> in New York City. It hosts free, public interdisciplinary roundtable discussions called "Theaetetus Tables" that bring together five distinguished scholars, scientists, and artists from different fields for unrehearsed intellectual exchange. Over <strong>{{ site.stats.seasons }} seasons</strong>, it has featured <strong>{{ site.stats.speakers }} speakers</strong> from institutions including Columbia, NYU, Princeton, Yale, Harvard, and MIT &mdash; with participants including <strong>Nobel laureates Daniel Kahneman and Eric Kandel</strong>.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Are Helix Center events free to attend?</summary>
+      <p class="faq-answer">Yes. <strong>All Helix Center events are completely free and open to the public.</strong> You can attend in person at {{ site.address.venue }} ({{ site.address.street }}, {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}) or watch via free live stream. All past roundtables are archived and freely viewable on the website and <a href="{{ site.social.youtube }}">YouTube channel</a>.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What is a Theaetetus Table?</summary>
+      <p class="faq-answer">The Theaetetus Table is The Helix Center's signature roundtable format, named for the Platonic dialogue investigating the nature of knowledge. Each Table seats <strong>five participants</strong> &mdash; leaders in their respective fields &mdash; for extempore (unscripted) interdisciplinary discussion. The five participants symbolize the five Platonic solids and the five qualities of mind the Center cultivates: <em>curiosity, playfulness, inspiration, reflection, and wonder</em>.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Who are some notable speakers who have participated?</summary>
+      <p class="faq-answer">The Helix Center's <strong>{{ site.stats.speakers }} speakers</strong> include: Nobel laureates <strong>Daniel Kahneman</strong> (Economics, 2002) and <strong>Eric Kandel</strong> (Medicine, 2000); MacArthur Fellows <strong>Sara Seager</strong> (astrophysics), <strong>Vijay Iyer</strong> (music), <strong>Yiyun Li</strong> (literature); National Medal of Science recipients <strong>Sylvester James Gates</strong> and <strong>Barry Mazur</strong>; the most-cited neuroscientist in history <strong>Karl Friston</strong> (h-index 291); philosopher <strong>David Chalmers</strong> (who coined "the hard problem of consciousness"); and affective computing founder <strong>Rosalind Picard</strong>.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Who founded The Helix Center and why?</summary>
+      <p class="faq-answer">The Helix Center was founded in <strong>2012</strong> by <strong>{{ site.founder }}</strong>, a psychoanalyst and clinical professor of psychiatry who observed how narrow specialization and the grant process were constraining creativity at professional scientific meetings. He previously co-founded the Philoctetes Center for the Multidisciplinary Study of the Imagination, then established The Helix Center to create "a university without walls."</p>
+    </details>
+    <details class="faq-item">
+      <summary>How can I support The Helix Center?</summary>
+      <p class="faq-answer">The Helix Center is a <strong>501(c)(3) tax-exempt nonprofit</strong> supported entirely by tax-deductible donations. You can <a href="/donate/">donate via our website</a>. Your contribution supports roundtable curation, professional video production, live-streaming infrastructure, and educational outreach.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Where is The Helix Center located?</summary>
+      <p class="faq-answer">The Helix Center is located at <strong>{{ site.address.venue }}</strong>, {{ site.address.street }}, {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}, on Manhattan's Upper East Side. Roundtables are typically held on Saturdays at 2:30 PM.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I watch past roundtables online?</summary>
+      <p class="faq-answer">Yes! All past roundtable discussions are archived and freely accessible. You can browse our <a href="/roundtables/">complete roundtable archive</a>, watch videos on our <a href="{{ site.social.youtube }}">YouTube channel</a> ({{ site.stats.youtubeVideos }} videos), or listen to {{ site.stats.podcastEpisodes }}+ podcast episodes on <a href="{{ site.social.podcast }}">Apple Podcasts</a> and other platforms.</p>
+    </details>
   </div>
 </section>
 

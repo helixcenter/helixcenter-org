@@ -7,7 +7,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/llms.txt");
+  eleventyConfig.addPassthroughCopy("src/llms-full.txt");
   eleventyConfig.addPassthroughCopy("src/_headers");
+  eleventyConfig.addPassthroughCopy("src/4cd4c43c66344f3bb55634644c45e249.txt");
 
   // Filters
   eleventyConfig.addFilter("slug", function(str) {
@@ -181,6 +183,15 @@ module.exports = function(eleventyConfig) {
     return `/speakers/${slug}/`;
   });
 
+  // Convert "H:MM:SS" or "MM:SS" to ISO 8601 duration "PT1H30M45S"
+  eleventyConfig.addFilter("isoDuration", function(str) {
+    if (!str) return '';
+    const parts = str.split(':').map(Number);
+    if (parts.length === 3) return `PT${parts[0]}H${parts[1]}M${parts[2]}S`;
+    if (parts.length === 2) return `PT${parts[0]}M${parts[1]}S`;
+    return '';
+  });
+
   eleventyConfig.addFilter("split", function(str, sep) {
     if (!str) return [];
     return str.split(sep);
@@ -195,6 +206,24 @@ module.exports = function(eleventyConfig) {
       .replace(/-+/g, '-')
       .trim();
     return `/roundtables/${slug}/`;
+  });
+
+  // Build podcast duration lookup map (roundtable slug → duration)
+  eleventyConfig.addGlobalData("podcastDurations", () => {
+    const fs = require('fs');
+    const podPath = path.join(__dirname, 'src', '_data', 'podcasts.json');
+    if (!fs.existsSync(podPath)) return {};
+    const podcasts = JSON.parse(fs.readFileSync(podPath, 'utf8'));
+    const map = {};
+    for (const ep of podcasts) {
+      if (ep.roundtableLink) {
+        const match = ep.roundtableLink.match(/\/roundtables\/([^/]+)\/?$/);
+        if (match && ep.duration) {
+          map[match[1]] = ep.duration;
+        }
+      }
+    }
+    return map;
   });
 
   return {

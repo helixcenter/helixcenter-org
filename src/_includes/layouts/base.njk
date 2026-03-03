@@ -35,6 +35,12 @@
 <meta name="author" content="{{ site.name }}">
 <meta name="geo.placename" content="New York, NY">
 <meta name="geo.region" content="US-NY">
+{%- if datePublished %}
+<meta property="article:published_time" content="{{ datePublished | toISODate }}">
+{%- endif %}
+{%- if dateModified %}
+<meta property="article:modified_time" content="{{ dateModified | toISODate }}">
+{%- endif %}
 {%- if bingVerification %}
 <meta name="msvalidate.01" content="{{ bingVerification }}">
 {%- endif %}
@@ -63,9 +69,8 @@
   <a href="/speakers/">Speakers</a>
   <a href="/roundtables/">Roundtables</a>
   <a href="/disciplines/">Disciplines</a>
+  <a href="/topics/">Topics</a>
   <a href="/leadership/">Leadership</a>
-  <a href="/media/">Media</a>
-  <a href="/faq/">FAQ</a>
   <a href="/donate/">Donate</a>
 </div>
 

@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Roundtable Archive
+title: Roundtable Discussions
 pagination:
   data: roundtables
   size: 18
@@ -12,9 +12,53 @@ eleventyComputed:
   breadcrumbSection: "Roundtables"
 ---
 
+{% set isFirstPage = pagination.pageNumber == 0 %}
+
+{# Separate upcoming from past (for featured section on page 1) #}
+{% set upcoming = [] %}
+{% for rt in roundtables %}
+  {% if rt.status and "Future" in rt.status %}
+    {% set upcoming = (upcoming.push(rt), upcoming) %}
+  {% endif %}
+{% endfor %}
+{% set rtWithVideo = roundtables | where("hasVideo", true) %}
+
+{% if isFirstPage %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PodcastSeries",
+  "name": "The Helix Center Roundtable Discussions",
+  "url": "{{ site.social.podcast }}",
+  "description": "Interdisciplinary roundtable discussions featuring Nobel laureates, MacArthur Fellows, and leading scholars across {{ site.stats.disciplines }} disciplines. {{ podcasts | length }} episodes spanning {{ site.stats.seasons }} seasons.",
+  "webFeed": "{{ site.social.rss }}",
+  "inLanguage": "en",
+  "genre": ["Science", "Philosophy", "Interdisciplinary"],
+  "publisher": { "@id": "{{ site.url }}/#organization" },
+  "author": { "@id": "{{ site.url }}/#organization" },
+  "numberOfEpisodes": {{ podcasts | length }},
+  "sameAs": [
+    "{{ site.social.podcast }}",
+    "{{ site.social.youtube }}"
+  ],
+  "hasPart": [
+    {% for ep in podcasts | limit(20) %}{% if loop.index0 > 0 %},{% endif %}
+    {
+      "@type": "PodcastEpisode",
+      "name": "{{ ep.title | jsonEscape }}",
+      {% if ep.date %}"datePublished": "{{ ep.date | toISODate }}",{% endif %}
+      {% if ep.duration %}"timeRequired": "PT{{ ep.duration | replace(':', 'H') }}M",{% endif %}
+      {% if ep.description %}"description": "{{ ep.description | truncate(200) | jsonEscape }}",{% endif %}
+      "partOfSeries": { "@type": "PodcastSeries", "name": "The Helix Center Roundtable Discussions" }
+    }{% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
 <div class="page-header">
   <div class="container">
-    <div class="section-label">Archive</div>
+    <div class="section-label">Explore</div>
     <h1>Roundtable Discussions</h1>
     <div class="gold-divider"></div>
     <p class="section-subtitle">{{ roundtables | length }} interdisciplinary discussions spanning {{ site.stats.seasons }} seasons, all free and open to the public</p>
@@ -25,13 +69,67 @@ eleventyComputed:
   <ol><li><a href="/">Home</a></li><li>Roundtables</li></ol>
 </div>
 
+{% if isFirstPage and upcoming.length %}
+<!-- Upcoming Roundtables -->
 <section>
   <div class="container">
-    {% set rtWithVideo = roundtables | where("hasVideo", true) %}
-    <p style="font-family: var(--serif); font-size: 1.02rem; color: var(--text-mid); margin-bottom: 0.5rem;">
-      {{ rtWithVideo | length }} roundtable recordings on the <a href="https://www.youtube.com/@helixcenter" style="color: var(--gold-dark);">Helix Center YouTube channel</a>, spanning {{ roundtables[roundtables | length - 1].year }}&ndash;{{ roundtables[0].year }}.
-    </p>
+    <div class="section-label">Upcoming</div>
+    <h2>Upcoming Roundtables</h2>
+    <div class="gold-divider" style="margin-left: 0;"></div>
 
+    <div class="upcoming-grid">
+      {% for rt in upcoming %}
+      <div class="upcoming-card">
+        {% if rt.imageFile %}
+        <a href="/roundtables/{{ rt.slug }}/" class="upcoming-card-image">
+          <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" width="800" height="450">
+          {% if rt.hasVideo %}
+          <div class="video-play-overlay">
+            <span class="video-play-icon">&#9654;</span>
+            <span class="video-play-label">Watch</span>
+          </div>
+          {% endif %}
+        </a>
+        {% endif %}
+        <div class="upcoming-card-body">
+          <div class="upcoming-card-date">{{ rt.date }}</div>
+          <a href="/roundtables/{{ rt.slug }}/" class="upcoming-card-title-link">
+            <h3 class="upcoming-card-title">{{ rt.title }}</h3>
+          </a>
+          {% if rt.description %}
+          <p class="upcoming-card-desc">{{ rt.description | truncate(300) }}</p>
+          {% endif %}
+          {% if rt.speakers and rt.speakers.length %}
+          <div class="upcoming-card-speakers">
+            {% for speaker in rt.speakers %}
+            <span class="upcoming-speaker-name">{{ speaker }}</span>{% if not loop.last %}<span class="upcoming-speaker-sep">&middot;</span>{% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+          {% if rt.canonicalTopics and rt.canonicalTopics.length %}
+          <div class="rt-tags" style="margin-top: 0.75rem;">
+            {% for topic in rt.canonicalTopics | limit(5) %}
+            {% set topicObj = topics | find('slug', topic) %}
+            <a href="/roundtables/all/?topic={{ topic }}" class="rt-tag">{{ topicObj.name if topicObj else topic }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    {# TODO: Replace href with real Eventbrite or Google Forms registration URL #}
+    <div style="text-align: center; margin-top: 1.5rem;">
+      <a href="#register" class="btn btn-gold register-btn" target="_blank" rel="noopener">Register for Upcoming Roundtable</a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Search & Filter Bar + Roundtable Cards -->
+<section class="{% if isFirstPage and upcoming.length %}cream{% endif %}">
+  <div class="container">
     <div class="filter-bar">
       <input type="text" id="search-input" placeholder="Search roundtables by title, topic, or speaker...">
       <select id="filter-select">
@@ -40,7 +138,25 @@ eleventyComputed:
         <option value="{{ year }}">{{ year }}</option>
         {% endfor %}
       </select>
+      <div class="sort-toggle">
+        <a href="/roundtables/" class="sort-btn{% if isFirstPage %} active{% endif %}" style="text-decoration:none;">Recent</a>
+        <select id="topic-filter" class="sort-btn">
+          <option value="">All Topics</option>
+          {% for topic in topics %}
+          <option value="{{ topic.slug }}">{{ topic.name }} ({{ topic.count }})</option>
+          {% endfor %}
+        </select>
+      </div>
     </div>
+
+    {% if isFirstPage %}
+    <div class="section-label" style="margin-top: 1.5rem;">Archive</div>
+    <h2>Past Roundtables</h2>
+    <div class="gold-divider" style="margin-left: 0;"></div>
+    <p style="font-family: var(--serif); font-size: 1.02rem; color: var(--text-mid); margin-bottom: 1.5rem;">
+      {{ rtWithVideo | length }} roundtable recordings on the <a href="{{ site.social.youtube }}" style="color: var(--gold-dark);">Helix Center YouTube channel</a>, spanning {{ roundtables[roundtables.length - 1].year }}&ndash;{{ roundtables[0].year }}.
+    </p>
+    {% endif %}
 
     <div class="listing-grid">
       {% for rt in items %}
@@ -48,8 +164,8 @@ eleventyComputed:
       {% endfor %}
     </div>
 
+    <div class="pagination" id="rt-pagination">
     {% if pagination.pages | length > 1 %}
-    <div class="pagination">
       {% if pagination.href.previous %}
       <a href="{{ pagination.href.previous }}">&laquo; Prev</a>
       {% endif %}
@@ -63,7 +179,13 @@ eleventyComputed:
       {% if pagination.href.next %}
       <a href="{{ pagination.href.next }}">Next &raquo;</a>
       {% endif %}
-    </div>
     {% endif %}
+    </div>
+
+    <div style="text-align: center; margin-top: 1.5rem;">
+      <a href="/roundtables/all/" style="font-size: 0.85rem; color: var(--gold-dark);">View all {{ roundtables | length }} roundtables &rarr;</a>
+    </div>
   </div>
 </section>
+{% if isFirstPage %}
+{% endif %}

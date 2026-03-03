@@ -1,0 +1,45 @@
+---
+layout: layouts/base.njk
+title: Topics
+pageTitle: "Roundtable Topics"
+description: "Explore {{ topics | length }} interdisciplinary topics covered across {{ roundtables | length }}+ Helix Center roundtable discussions — from neuroscience and philosophy to art, AI, and cosmology."
+permalink: /topics/
+breadcrumbSection: "Topics"
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Explore</div>
+    <h1>Roundtable Topics</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">{{ topics | length }} interdisciplinary topics spanning {{ site.stats.seasons }} seasons of inquiry</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li>Topics</li></ol>
+</div>
+
+<section>
+  <div class="container">
+    <div class="topics-grid">
+      {% for topic in topics | sortBy('count', 'desc') %}
+      <a href="/roundtables/all/?topic={{ topic.slug }}" class="topic-card">
+        <h3 class="topic-card-name">{{ topic.name }}</h3>
+        <div class="topic-card-count">{{ topic.count }} roundtable{{ 's' if topic.count != 1 }}</div>
+        <div class="topic-card-samples">
+          {% set matchingRts = [] %}
+          {% for rt in roundtables %}
+            {% if rt.canonicalTopics and topic.slug in rt.canonicalTopics and matchingRts | length < 3 %}
+              {% set matchingRts = (matchingRts.push(rt), matchingRts) %}
+            {% endif %}
+          {% endfor %}
+          {% for rt in matchingRts %}
+          <div class="topic-sample">{{ rt.title }}</div>
+          {% endfor %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

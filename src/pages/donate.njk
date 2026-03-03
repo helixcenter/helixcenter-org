@@ -4,6 +4,7 @@ title: Donate
 pageTitle: "Support The Helix Center"
 description: "Support free interdisciplinary roundtable discussions at The Helix Center. Tax-deductible 501(c)(3) donations fund world-class intellectual programming."
 permalink: /donate/
+breadcrumbSection: "Donate"
 ---
 
 <div class="page-header">
@@ -39,8 +40,23 @@ permalink: /donate/
           space where curiosity, wonder, and rigorous cross-disciplinary exchange flourish &mdash;
           free and open to all.
         </p>
-        <div style="margin-top: 2rem;">
-          <a href="https://www.helixcenter.org/donate/" class="btn btn-gold" target="_blank" rel="noopener">Make a Tax-Deductible Donation</a>
+
+        <div id="donate-widget">
+          <h3>Choose a Donation Amount</h3>
+          <div class="donate-amounts">
+            <button class="donate-amount" data-amount="25">$25</button>
+            <button class="donate-amount" data-amount="50">$50</button>
+            <button class="donate-amount active" data-amount="100">$100</button>
+            <button class="donate-amount" data-amount="250">$250</button>
+            <button class="donate-amount" data-amount="500">$500</button>
+          </div>
+          <div class="donate-custom-row">
+            <span class="donate-currency">$</span>
+            <input type="number" id="custom-amount" placeholder="Other amount" min="1" step="1">
+          </div>
+          {# TODO: Replace href with real Stripe Payment Link URL from Stripe Dashboard #}
+          <a href="https://buy.stripe.com/PLACEHOLDER" id="donate-btn" class="btn btn-gold" target="_blank" rel="noopener">Donate Now</a>
+          <p class="donate-note">Secure payment via Stripe. The Helix Center is a 501(c)(3) &mdash; your donation is tax-deductible.</p>
         </div>
       </div>
       <div class="donor-impact">

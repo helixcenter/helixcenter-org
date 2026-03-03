@@ -1,0 +1,28 @@
+<div class="upcoming-card">
+  <div class="upcoming-card-image" style="display: flex; align-items: center; justify-content: center; background: var(--navy);">
+    {% if speaker.photo %}
+    <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" style="width: 100%; height: 100%; object-fit: cover;">
+    {% else %}
+    <div style="font-family: var(--serif); font-size: 4rem; font-weight: 700; color: var(--gold);">{{ speaker.name | initials }}</div>
+    {% endif %}
+  </div>
+  <div class="upcoming-card-body">
+    <div class="upcoming-card-date">Upcoming Roundtable</div>
+    <a href="{{ speaker.name | speakerUrl }}" style="text-decoration: none; color: inherit;">
+      <h3 class="upcoming-card-title">{{ speaker.name }}</h3>
+    </a>
+    {% if speaker.title %}
+    <p style="font-size: 0.9rem; color: var(--gold-dark); margin-bottom: 0.5rem;">{{ speaker.title }}</p>
+    {% elif speaker.institution and speaker.institution != "Unknown" %}
+    <p style="font-size: 0.9rem; color: var(--gold-dark); margin-bottom: 0.5rem;">{{ speaker.institution }}</p>
+    {% endif %}
+    {% if speaker.achievement %}
+    <p class="upcoming-card-desc">{{ speaker.achievement | truncate(200) }}</p>
+    {% endif %}
+    {% if rtTitle %}
+    <div style="margin-top: 0.75rem; font-size: 0.82rem; color: var(--text-mid);">
+      Participating in: <a href="/roundtables/{{ rtSlug }}/" style="color: var(--gold-dark); text-decoration: none;">{{ rtTitle }}</a>
+    </div>
+    {% endif %}
+  </div>
+</div>

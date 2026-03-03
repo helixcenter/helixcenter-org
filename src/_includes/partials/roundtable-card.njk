@@ -1,20 +1,32 @@
-<a href="/roundtables/{{ rt.slug }}/" class="rt-card" data-searchable="{{ rt.title }} {{ rt.description }} {{ rt.speakers | join(' ') }}" data-category="{{ rt.year }}">
-  {% if rt.imageFile %}
-  <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" class="rt-thumbnail" loading="lazy" width="400" height="225">
-  {% endif %}
-  <div class="rt-date">{{ rt.date }}{% if rt.hasAudio %} &middot; <span class="rt-media-badge">&#9654; Audio</span>{% endif %}</div>
-  <div class="rt-title">{{ rt.title }}</div>
-  {% if rt.description %}
-  <div class="rt-desc">{{ rt.description | truncate(180) }}</div>
-  {% endif %}
-  {% if rt.tags and rt.tags.length %}
+<div class="rt-card" data-searchable="{{ rt.title }} {{ rt.description }} {{ rt.speakers | join(' ') }}" data-category="{{ rt.year }}" data-topics="{{ rt.canonicalTopics | join(',') }}">
+  <a href="/roundtables/{{ rt.slug }}/" class="rt-card-link">
+    {% if rt.imageFile %}
+    <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" class="rt-thumbnail" loading="lazy" width="400" height="225">
+    {% endif %}
+    <div class="rt-date">{{ rt.date }}{% if rt.hasVideo %} &middot; <span class="rt-media-badge">&#9654; Video</span>{% endif %}</div>
+    <div class="rt-title">{{ rt.title }}</div>
+    {% if rt.description %}
+    <div class="rt-desc">{{ rt.description | truncate(180) }}</div>
+    {% endif %}
+  </a>
+  {% if rt.canonicalTopics and rt.canonicalTopics.length %}
   <div class="rt-tags">
-    {% for tag in rt.tags | limit(3) %}
-    <span class="rt-tag">{{ tag }}</span>
+    {% for topic in rt.canonicalTopics | limit(3) %}
+    {% set topicObj = topics | find('slug', topic) %}
+    <a href="/roundtables/all/?topic={{ topic }}" class="rt-tag">{{ topicObj.name if topicObj else topic }}</a>
     {% endfor %}
   </div>
   {% endif %}
   {% if rt.speakers and rt.speakers.length %}
   <div class="rt-speakers">{{ rt.speakers | join(', ') }}</div>
   {% endif %}
-</a>
+  {% set podDur = podcastDurations[rt.slug] %}
+  {% if podDur or rt.hasAudio %}
+  <div class="rt-podcast-row">
+    <a href="{{ site.social.podcast }}" target="_blank" rel="noopener" class="rt-podcast-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a7 7 0 0 0-7 7v4a7 7 0 0 0 14 0V8a7 7 0 0 0-7-7zm0 2a5 5 0 0 1 5 5v4a5 5 0 0 1-10 0V8a5 5 0 0 1 5-5zm-1 14.93A7.004 7.004 0 0 1 5 12h-2a9.005 9.005 0 0 0 8 8.93V23h2v-2.07A9.005 9.005 0 0 0 21 12h-2a7.004 7.004 0 0 1-6 5.93v2.07h-2v-2.07z"/></svg>
+      Podcast{% if podDur %} ({{ podDur }}){% endif %}
+    </a>
+  </div>
+  {% endif %}
+</div>

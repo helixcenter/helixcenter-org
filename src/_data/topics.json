@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Art & Aesthetics",
+    "slug": "art-aesthetics",
+    "count": 46
+  },
+  {
+    "name": "Artificial Intelligence",
+    "slug": "artificial-intelligence",
+    "count": 24
+  },
+  {
+    "name": "Biology & Evolution",
+    "slug": "biology-evolution",
+    "count": 29
+  },
+  {
+    "name": "Consciousness & Mind",
+    "slug": "consciousness-mind",
+    "count": 25
+  },
+  {
+    "name": "Death & Spirituality",
+    "slug": "death-spirituality",
+    "count": 10
+  },
+  {
+    "name": "Ecology & Nature",
+    "slug": "ecology-nature",
+    "count": 7
+  },
+  {
+    "name": "Economics",
+    "slug": "economics",
+    "count": 7
+  },
+  {
+    "name": "Education & Knowledge",
+    "slug": "education-knowledge",
+    "count": 22
+  },
+  {
+    "name": "Emotion & Affect",
+    "slug": "emotion-affect",
+    "count": 28
+  },
+  {
+    "name": "Ethics & Morality",
+    "slug": "ethics-morality",
+    "count": 21
+  },
+  {
+    "name": "History & Culture",
+    "slug": "history-culture",
+    "count": 21
+  },
+  {
+    "name": "Identity & Self",
+    "slug": "identity-self",
+    "count": 20
+  },
+  {
+    "name": "Interdisciplinary",
+    "slug": "interdisciplinary",
+    "count": 13
+  },
+  {
+    "name": "Language & Communication",
+    "slug": "language-communication",
+    "count": 11
+  },
+  {
+    "name": "Literature & Writing",
+    "slug": "literature-writing",
+    "count": 11
+  },
+  {
+    "name": "Mathematics",
+    "slug": "mathematics",
+    "count": 17
+  },
+  {
+    "name": "Medicine & Health",
+    "slug": "medicine-health",
+    "count": 15
+  },
+  {
+    "name": "Memory",
+    "slug": "memory",
+    "count": 15
+  },
+  {
+    "name": "Music",
+    "slug": "music",
+    "count": 9
+  },
+  {
+    "name": "Neuroscience",
+    "slug": "neuroscience",
+    "count": 41
+  },
+  {
+    "name": "Philosophy",
+    "slug": "philosophy",
+    "count": 37
+  },
+  {
+    "name": "Physics & Cosmology",
+    "slug": "physics-cosmology",
+    "count": 23
+  },
+  {
+    "name": "Poetry",
+    "slug": "poetry",
+    "count": 9
+  },
+  {
+    "name": "Psychedelics & Altered States",
+    "slug": "psychedelics",
+    "count": 2
+  },
+  {
+    "name": "Psychoanalysis",
+    "slug": "psychoanalysis",
+    "count": 10
+  },
+  {
+    "name": "Psychology",
+    "slug": "psychology",
+    "count": 23
+  },
+  {
+    "name": "Science",
+    "slug": "science",
+    "count": 38
+  },
+  {
+    "name": "Society & Politics",
+    "slug": "society-politics",
+    "count": 19
+  },
+  {
+    "name": "Space & Astrobiology",
+    "slug": "space-astrobiology",
+    "count": 8
+  },
+  {
+    "name": "Technology & Digital",
+    "slug": "technology-digital",
+    "count": 13
+  }
+]
