@@ -1,0 +1,152 @@
+---
+layout: layouts/base.njk
+title: All Roundtables
+pageTitle: All Roundtable Discussions
+description: "Complete index of all Helix Center roundtable discussions — browse by topic or search across all events."
+permalink: /roundtables/all/
+breadcrumbSection: "Roundtables"
+breadcrumbPage: "All Roundtables"
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Complete Index</div>
+    <h1 id="rt-all-heading">All Roundtable Discussions</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">{{ roundtables | length }} discussions across {{ topics | length }} topics, spanning {{ site.stats.seasons }} seasons</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li><a href="/roundtables/">Roundtables</a></li><li>All</li></ol>
+</div>
+
+<section>
+  <div class="container">
+    <div class="filter-bar">
+      <input type="text" id="rt-all-search" placeholder="Search roundtables by title, topic, or speaker...">
+      <select id="rt-all-topic">
+        <option value="">All Topics</option>
+        {% for topic in topics %}
+        <option value="{{ topic.slug }}">{{ topic.name }} ({{ topic.count }})</option>
+        {% endfor %}
+      </select>
+      <select id="rt-all-year">
+        <option value="">All Years</option>
+        {% for year in roundtables | uniqueValues('year') | reverse %}
+        <option value="{{ year }}">{{ year }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div id="rt-all-count" style="font-size: 0.85rem; color: var(--text-mid); margin-bottom: 1rem;">
+      Showing {{ roundtables | length }} of {{ roundtables | length }} roundtables
+    </div>
+
+    <div id="rt-all-list">
+      {% for rt in roundtables %}
+      <div class="rt-all-item" data-searchable="{{ rt.title | lower }} {{ rt.description | lower }} {{ rt.speakers | join(' ') | lower }} {{ rt.canonicalTopics | join(' ') | lower }}" data-topics="{{ rt.canonicalTopics | join(',') }}" data-year="{{ rt.year }}">
+        <div class="rt-all-date">{{ rt.date }}</div>
+        <div class="rt-all-title"><a href="/roundtables/{{ rt.slug }}/">{{ rt.title }}</a></div>
+        {% if rt.canonicalTopics and rt.canonicalTopics.length %}
+        <div class="rt-all-tags">
+          {% for topic in rt.canonicalTopics %}
+          {% set topicObj = topics | find('slug', topic) %}
+          <a href="/roundtables/all/?topic={{ topic }}" class="rt-tag">{{ topicObj.name if topicObj else topic }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/roundtables/" class="btn btn-outline-dark">&larr; Back to Roundtables</a>
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const search = document.getElementById('rt-all-search');
+  const topicSel = document.getElementById('rt-all-topic');
+  const yearSel = document.getElementById('rt-all-year');
+  const list = document.getElementById('rt-all-list');
+  const countEl = document.getElementById('rt-all-count');
+  const heading = document.getElementById('rt-all-heading');
+  const total = list.children.length;
+
+  // Read topic from URL params and pre-select dropdown
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('topic')) {
+    topicSel.value = params.get('topic');
+  }
+
+  function updateHeading() {
+    if (topicSel.value) {
+      const selectedOption = topicSel.options[topicSel.selectedIndex];
+      // Strip the count suffix, e.g. "Philosophy (12)" -> "Philosophy"
+      const topicName = selectedOption.textContent.replace(/\s*\(\d+\)\s*$/, '');
+      heading.textContent = 'Roundtable Topic: ' + topicName;
+    } else {
+      heading.textContent = 'All Roundtable Discussions';
+    }
+  }
+
+  function filter() {
+    const query = search.value.toLowerCase().trim();
+    const topic = topicSel.value;
+    const year = yearSel.value;
+    let visible = 0;
+
+    for (const item of list.children) {
+      const text = item.dataset.searchable || '';
+      const itemTopics = item.dataset.topics || '';
+      const itemYear = item.dataset.year || '';
+
+      const matchSearch = !query || text.includes(query);
+      const matchTopic = !topic || itemTopics.split(',').includes(topic);
+      const matchYear = !year || itemYear === year;
+
+      const show = matchSearch && matchTopic && matchYear;
+      item.style.display = show ? '' : 'none';
+      if (show) visible++;
+    }
+
+    countEl.textContent = 'Showing ' + visible + ' of ' + total + ' roundtables';
+    updateHeading();
+  }
+
+  function updateUrl() {
+    const url = new URL(window.location);
+    if (topicSel.value) url.searchParams.set('topic', topicSel.value);
+    else url.searchParams.delete('topic');
+    history.replaceState({}, '', url);
+  }
+
+  search.addEventListener('input', filter);
+  topicSel.addEventListener('change', () => {
+    filter();
+    updateUrl();
+  });
+  yearSel.addEventListener('change', filter);
+
+  // Handle tag clicks: set dropdown, trigger filter, update URL
+  document.addEventListener('click', (e) => {
+    const tag = e.target.closest('.rt-all-tags .rt-tag');
+    if (tag) {
+      e.preventDefault();
+      const url = new URL(tag.href, window.location.origin);
+      const topicValue = url.searchParams.get('topic');
+      if (topicValue) {
+        topicSel.value = topicValue;
+        filter();
+        updateUrl();
+      }
+    }
+  });
+
+  // Initial filter (handles ?topic= param)
+  filter();
+});
+</script>

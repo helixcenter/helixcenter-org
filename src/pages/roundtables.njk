@@ -119,12 +119,53 @@ eleventyComputed:
       {% endfor %}
     </div>
 
-    {# TODO: Replace href with real Eventbrite or Google Forms registration URL #}
     <div style="text-align: center; margin-top: 1.5rem;">
-      <a href="#register" class="btn btn-gold register-btn" target="_blank" rel="noopener">Register for Upcoming Roundtable</a>
+      <a href="#" class="btn btn-gold register-btn" id="register-open-btn">Register for Upcoming Roundtable</a>
     </div>
   </div>
 </section>
+
+<!-- Register Modal -->
+<div class="register-modal-overlay" id="register-modal-overlay">
+  <div class="stat-modal" style="max-width: 520px;">
+    <button class="stat-modal-close register-modal-close">&times;</button>
+    <div style="padding: 1.5rem;">
+      <h2 style="font-family: var(--serif); font-size: 1.4rem; color: var(--navy); margin-bottom: 0.5rem;">Welcome!</h2>
+      <p style="font-family: var(--serif); font-size: 0.95rem; color: var(--text-mid); line-height: 1.7; margin-bottom: 1.25rem;">
+        All Helix Center Roundtables are <strong>free and open to the public</strong> on a first-come, first-served basis. No registration required — just show up!
+      </p>
+
+      {% set nextRt = upcoming[0] %}
+      {% if nextRt %}
+      <div style="background: var(--cream); border-radius: var(--radius); padding: 1.25rem; margin-bottom: 1.25rem;">
+        <div style="font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 0.35rem;">Next Roundtable</div>
+        <div style="font-family: var(--serif); font-size: 1.1rem; font-weight: 600; color: var(--navy); margin-bottom: 0.25rem;">{{ nextRt.title }}</div>
+        <div style="font-size: 0.85rem; color: var(--text-mid);">{{ nextRt.date }}</div>
+        <div style="font-size: 0.82rem; color: var(--text-light); margin-top: 0.15rem;">{{ site.address.venue }}, {{ site.address.street }}</div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+        <a href="#" class="btn btn-outline-dark" id="add-to-calendar-btn" style="font-size: 0.85rem; padding: 0.6rem 1.25rem;" data-title="{{ nextRt.title | jsonEscape }}" data-date="{{ nextRt.date }}" data-location="{{ site.address.venue }}, {{ site.address.street }}, {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}">
+          &#128197; Add to Calendar
+        </a>
+      </div>
+      {% endif %}
+
+      <div style="border-top: 1px solid var(--border); padding-top: 1.25rem;">
+        <p style="font-size: 0.88rem; color: var(--text-mid); margin-bottom: 0.75rem;">Get event reminders by email:</p>
+        <form id="register-notify-form" class="footer-newsletter" name="event-notify" method="POST" data-netlify="true" netlify-honeypot="bot-field" style="display: flex; gap: 0.5rem;">
+          <input type="hidden" name="form-name" value="event-notify">
+          <p class="hidden" style="display:none;"><label>Don't fill: <input name="bot-field"></label></p>
+          <input type="email" name="email" placeholder="Your email address" required style="flex: 1; padding: 0.6rem 0.75rem; border: 2px solid var(--border); border-radius: var(--radius); font-size: 0.9rem;">
+          <button type="submit" class="btn btn-gold" style="padding: 0.6rem 1.25rem; font-size: 0.85rem; white-space: nowrap;">Notify Me</button>
+        </form>
+        <div id="register-thank-you" style="display: none; text-align: center; padding: 0.75rem 0;">
+          <p style="color: var(--gold-dark); font-weight: 600;">You're all set! We'll send you a reminder.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endif %}
 
 <!-- Search & Filter Bar + Roundtable Cards -->
@@ -189,3 +230,85 @@ eleventyComputed:
 </section>
 {% if isFirstPage %}
 {% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Register modal open/close
+  const openBtn = document.getElementById('register-open-btn');
+  const overlay = document.getElementById('register-modal-overlay');
+  if (openBtn && overlay) {
+    openBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      overlay.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    });
+    const close = () => { overlay.classList.remove('show'); document.body.style.overflow = ''; };
+    overlay.querySelector('.register-modal-close')?.addEventListener('click', close);
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && overlay.classList.contains('show')) close(); });
+  }
+
+  // Add to Calendar (.ics download)
+  const calBtn = document.getElementById('add-to-calendar-btn');
+  if (calBtn) {
+    calBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const title = calBtn.dataset.title;
+      const dateStr = calBtn.dataset.date;
+      const location = calBtn.dataset.location;
+
+      // Parse date like "March 7, 2026"
+      const d = new Date(dateStr);
+      // Default time: 2:30 PM ET, duration 2 hours
+      d.setHours(14, 30, 0, 0);
+      const end = new Date(d.getTime() + 2 * 60 * 60 * 1000);
+
+      const fmt = (dt) => dt.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+
+      const ics = [
+        'BEGIN:VCALENDAR',
+        'VERSION:2.0',
+        'PRODID:-//Helix Center//Events//EN',
+        'BEGIN:VEVENT',
+        'DTSTART:' + fmt(d),
+        'DTEND:' + fmt(end),
+        'SUMMARY:' + title,
+        'LOCATION:' + location,
+        'DESCRIPTION:Free interdisciplinary roundtable discussion at The Helix Center. All events are free and open to the public.',
+        'URL:https://www.helixcenter.org/roundtables/',
+        'END:VEVENT',
+        'END:VCALENDAR'
+      ].join('\r\n');
+
+      const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = title.replace(/[^a-zA-Z0-9 ]/g, '').replace(/\s+/g, '-').toLowerCase() + '.ics';
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+  }
+
+  // Notify form (Netlify Forms)
+  const notifyForm = document.getElementById('register-notify-form');
+  const thankYou = document.getElementById('register-thank-you');
+  if (notifyForm && thankYou) {
+    notifyForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = notifyForm.querySelector('button');
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+      const formData = new URLSearchParams(new FormData(notifyForm)).toString();
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: formData,
+      }).then(res => {
+        if (res.ok) { notifyForm.style.display = 'none'; thankYou.style.display = 'block'; }
+        else { btn.textContent = 'Try Again'; btn.disabled = false; }
+      }).catch(() => { btn.textContent = 'Try Again'; btn.disabled = false; });
+    });
+  }
+});
+</script>

@@ -241,4 +241,39 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* ---- Donate modal ---- */
+  const donateModalOverlay = document.getElementById('donate-modal-overlay');
+  if (donateModalOverlay) {
+    const openDonateModal = (e) => {
+      e.preventDefault();
+      donateModalOverlay.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    };
+    const closeDonateModal = () => {
+      donateModalOverlay.classList.remove('show');
+      document.body.style.overflow = '';
+    };
+
+    // Intercept donate button on donate page
+    const donateBtnPage = document.getElementById('donate-btn');
+    if (donateBtnPage) donateBtnPage.addEventListener('click', openDonateModal);
+
+    // Intercept nav donate button on ALL pages
+    document.querySelectorAll('.nav-donate').forEach(btn => {
+      btn.addEventListener('click', openDonateModal);
+    });
+    // Also intercept mobile nav donate link
+    document.querySelectorAll('#mobile-nav a[href="/donate/"]').forEach(btn => {
+      btn.addEventListener('click', openDonateModal);
+    });
+
+    document.getElementById('donate-modal-close')?.addEventListener('click', closeDonateModal);
+    donateModalOverlay.addEventListener('click', (e) => {
+      if (e.target === donateModalOverlay) closeDonateModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && donateModalOverlay.classList.contains('show')) closeDonateModal();
+    });
+  }
+
 });

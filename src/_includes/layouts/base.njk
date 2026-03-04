@@ -78,6 +78,24 @@
 
 {{ content | safe }}
 
+<!-- Donate Modal -->
+<div class="donate-modal-overlay" id="donate-modal-overlay">
+  <div class="stat-modal" style="max-width: 480px;">
+    <button class="stat-modal-close" id="donate-modal-close">&times;</button>
+    <div style="text-align: center; padding: 1.5rem;">
+      <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">&#10084;</div>
+      <h2 style="font-family: var(--serif); font-size: 1.5rem; color: var(--navy); margin-bottom: 0.75rem;">Thank You for Your Generosity</h2>
+      <p style="font-family: var(--serif); font-size: 1rem; color: var(--text-mid); line-height: 1.7; margin-bottom: 1.5rem;">
+        You will be taken to The Helix Center's secure donation page. All donations are tax-deductible under our 501(c)(3) status.
+      </p>
+      <a href="https://www.helixcenter.org/donate/" class="btn btn-gold" target="_blank" rel="noopener" style="display: inline-block; font-size: 1rem; padding: 0.85rem 2.5rem;">Continue to Donate</a>
+      <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 1rem;">
+        Secure payment processing on helixcenter.org
+      </p>
+    </div>
+  </div>
+</div>
+
 {% include "partials/footer.njk" %}
 
 <script src="/js/main.js" defer></script>
