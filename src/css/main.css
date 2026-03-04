@@ -1480,3 +1480,11 @@ img {
 .sp-all-tags { display: flex; flex-wrap: wrap; gap: 0.25rem; }
 .sp-all-tags .rt-tag { text-decoration: none; color: var(--text-light); cursor: pointer; transition: background 0.2s, color 0.2s; }
 .sp-all-tags .rt-tag:hover { background: var(--gold-muted); color: var(--gold-dark); }
+
+/* ---- SPEAKER FEATURED CARD — smaller photo ---- */
+.speaker-featured { grid-template-columns: 200px 1fr; }
+.speaker-featured-photo { min-height: 200px; overflow: hidden; }
+@media (max-width: 768px) {
+  .speaker-featured { grid-template-columns: 1fr; }
+  .speaker-featured-photo { min-height: 150px; max-height: 200px; }
+}

@@ -11,6 +11,8 @@ eleventyComputed:
   description: "{{ rt.description | truncate(160) }}"
   breadcrumbSection: "Roundtables"
   breadcrumbPage: "{{ rt.title }}"
+  datePublished: "{{ rt.publishedDate or rt.date }}"
+  dateModified: "{{ rt.modifiedDate or rt.date }}"
 ---
 
 <script type="application/ld+json">
@@ -22,6 +24,8 @@ eleventyComputed:
   "description": "{{ rt.description | truncate(300) | jsonEscape }}",
   "url": "{{ site.url }}/roundtables/{{ rt.slug }}/",
   {% if rt.date %}"startDate": "{{ rt.date | toISODate }}T14:30:00-05:00",{% endif %}
+  {% if rt.publishedDate %}"datePublished": "{{ rt.publishedDate | toISODate }}",{% endif %}
+  {% if rt.modifiedDate %}"dateModified": "{{ rt.modifiedDate | toISODate }}",{% endif %}
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
   {% if rt.imageFile %}"image": "{{ rt.imageFile }}",{% endif %}
@@ -73,6 +77,7 @@ eleventyComputed:
   "contentUrl": "https://www.youtube.com/watch?v={{ rt.videoId }}",
   "embedUrl": "https://www.youtube-nocookie.com/embed/{{ rt.videoId }}",
   "publisher": { "@id": "{{ site.url }}/#organization" },
+  {% set ytVideo = youtube | find('videoId', rt.videoId) %}{% if ytVideo and ytVideo.duration %}"duration": "{{ ytVideo.duration | isoDuration }}",{% endif %}
   "isAccessibleForFree": true,
   "inLanguage": "en"
 }
@@ -186,9 +191,16 @@ eleventyComputed:
 
     {% if rt.hasAudio and rt.audioFile %}
     <h2>Media</h2>
-    <p style="margin-top: 0.75rem;">
-      <span class="rt-media-badge" style="font-size: 0.85rem;">&#9654; Audio recording available: {{ rt.audioFile }}</span>
-    </p>
+    <div style="margin-top: 0.75rem;">
+      {% if "http" in rt.audioFile %}
+      <audio controls preload="none" style="width: 100%; max-width: 500px; margin-bottom: 0.75rem;">
+        <source src="{{ rt.audioFile }}" type="audio/mpeg">
+      </audio>
+      <p><a href="{{ rt.audioFile }}" class="rt-media-badge" style="font-size: 0.85rem; text-decoration: none; color: var(--gold-dark);" target="_blank" rel="noopener">&#9654; Download audio: {{ rt.audioFile | split('/') | last }}</a></p>
+      {% else %}
+      <p><a href="{{ site.social.podcast }}" class="rt-media-badge" style="font-size: 0.85rem; text-decoration: none; color: var(--gold-dark);" target="_blank" rel="noopener">&#9654; Listen on Apple Podcasts: {{ rt.audioFile }}</a></p>
+      {% endif %}
+    </div>
     {% endif %}
 
     {% set related = roundtables | relatedRoundtables(rt, 4) %}

@@ -1,5 +1,5 @@
-<div class="upcoming-card">
-  <div class="upcoming-card-image" style="display: flex; align-items: center; justify-content: center; background: var(--navy);">
+<div class="upcoming-card speaker-featured">
+  <div class="speaker-featured-photo" style="display: flex; align-items: center; justify-content: center; background: var(--navy);">
     {% if speaker.photo %}
     <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" style="width: 100%; height: 100%; object-fit: cover;">
     {% else %}
@@ -7,7 +7,14 @@
     {% endif %}
   </div>
   <div class="upcoming-card-body">
-    <div class="upcoming-card-date">Upcoming Roundtable</div>
+    {% if rtTitle %}
+    <a href="/roundtables/{{ rtSlug }}/" style="text-decoration: none;">
+      <div class="upcoming-card-date" style="margin-bottom: 0.15rem;">{{ rtTitle }}</div>
+    </a>
+    {% if rtDate %}
+    <div style="font-size: 0.8rem; color: var(--text-dark); margin-bottom: 0.75rem;">{{ rtDate }}</div>
+    {% endif %}
+    {% endif %}
     <a href="{{ speaker.name | speakerUrl }}" style="text-decoration: none; color: inherit;">
       <h3 class="upcoming-card-title">{{ speaker.name }}</h3>
     </a>
@@ -19,9 +26,9 @@
     {% if speaker.achievement %}
     <p class="upcoming-card-desc">{{ speaker.achievement | truncate(200) }}</p>
     {% endif %}
-    {% if rtTitle %}
-    <div style="margin-top: 0.75rem; font-size: 0.82rem; color: var(--text-mid);">
-      Participating in: <a href="/roundtables/{{ rtSlug }}/" style="color: var(--gold-dark); text-decoration: none;">{{ rtTitle }}</a>
+    {% if speaker.domain %}
+    <div class="rt-tags" style="margin-top: 0.75rem;">
+      <a href="/speakers/all/?domain={{ speaker.domain | urlencode }}" class="rt-tag">{{ speaker.domain }}</a>
     </div>
     {% endif %}
   </div>

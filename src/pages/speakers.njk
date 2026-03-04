@@ -26,7 +26,7 @@ eleventyComputed:
           {% if existing.speaker.name == sp.name %}{% set alreadyAdded = true %}{% endif %}
         {% endfor %}
         {% if not alreadyAdded %}
-          {% set upcomingSpeakerData = (upcomingSpeakerData.push({ speaker: sp, rtTitle: rt.title, rtSlug: rt.slug }), upcomingSpeakerData) %}
+          {% set upcomingSpeakerData = (upcomingSpeakerData.push({ speaker: sp, rtTitle: rt.title, rtSlug: rt.slug, rtDate: rt.date }), upcomingSpeakerData) %}
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -58,6 +58,7 @@ eleventyComputed:
       {% set speaker = item.speaker %}
       {% set rtTitle = item.rtTitle %}
       {% set rtSlug = item.rtSlug %}
+      {% set rtDate = item.rtDate %}
       {% include "partials/speaker-featured-card.njk" %}
       {% endfor %}
     </div>
@@ -75,15 +76,6 @@ eleventyComputed:
         <option value="{{ d.name }}">{{ d.name }} ({{ d.count }})</option>
         {% endfor %}
       </select>
-      <div class="sort-toggle">
-        <a href="/speakers/" class="sort-btn active" style="text-decoration:none;">A&ndash;Z</a>
-        <select id="domain-nav" class="sort-btn" onchange="if(this.value)window.location='/speakers/all/?domain='+encodeURIComponent(this.value)">
-          <option value="">by Domain</option>
-          {% for d in disciplines %}
-          <option value="{{ d.name }}">{{ d.name }} ({{ d.count }})</option>
-          {% endfor %}
-        </select>
-      </div>
     </div>
 
     {% if isFirstPage and upcomingSpeakerData.length %}

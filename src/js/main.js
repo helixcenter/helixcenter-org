@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const formData = new URLSearchParams(new FormData(subForm)).toString();
 
-      fetch('/', {
+      fetch(window.location.pathname || '/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: formData,
