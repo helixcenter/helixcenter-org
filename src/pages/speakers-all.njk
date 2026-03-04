@@ -1,0 +1,137 @@
+---
+layout: layouts/base.njk
+title: All Speakers
+pageTitle: All Distinguished Speakers
+description: "Complete directory of all Helix Center speakers — browse by discipline or search across all participants."
+permalink: /speakers/all/
+breadcrumbSection: "Speakers"
+breadcrumbPage: "All Speakers"
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Complete Directory</div>
+    <h1 id="sp-all-heading">All Distinguished Speakers</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">{{ speakers | length }} scholars, scientists, and artists across {{ site.stats.disciplines }} disciplines</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li><a href="/speakers/">Speakers</a></li><li>All</li></ol>
+</div>
+
+<section>
+  <div class="container">
+    <div class="filter-bar">
+      <input type="text" id="sp-all-search" placeholder="Search speakers by name, institution, or field...">
+      <select id="sp-all-domain">
+        <option value="">All Disciplines</option>
+        {% for d in disciplines %}
+        <option value="{{ d.name }}">{{ d.name }} ({{ d.count }})</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div id="sp-all-count" style="font-size: 0.85rem; color: var(--text-mid); margin-bottom: 1rem;">
+      Showing {{ speakers | length }} of {{ speakers | length }} speakers
+    </div>
+
+    <div id="sp-all-list">
+      {% for speaker in speakers %}
+      <div class="sp-all-item" data-searchable="{{ speaker.name | lower }} {{ speaker.institution | lower }} {{ speaker.domain | lower }} {{ speaker.achievement | lower }}" data-domain="{{ speaker.domain }}">
+        <div class="sp-all-institution">{% if speaker.institution and speaker.institution != "Unknown" %}{{ speaker.institution }}{% else %}&nbsp;{% endif %}</div>
+        <div class="sp-all-name"><a href="{{ speaker.name | speakerUrl }}">{{ speaker.name }}</a></div>
+        {% if speaker.achievement %}
+        <div class="sp-all-bio">{{ speaker.achievement | truncate(150) }}</div>
+        {% endif %}
+        <div class="sp-all-tags">
+          <a href="/speakers/all/?domain={{ speaker.domain | urlencode }}" class="rt-tag sp-domain-tag">{{ speaker.domain }}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/speakers/" class="btn btn-outline-dark">&larr; Back to Speakers</a>
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const search = document.getElementById('sp-all-search');
+  const domainSel = document.getElementById('sp-all-domain');
+  const list = document.getElementById('sp-all-list');
+  const countEl = document.getElementById('sp-all-count');
+  const heading = document.getElementById('sp-all-heading');
+  const total = list.children.length;
+
+  // Read domain from URL params
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('domain')) {
+    domainSel.value = params.get('domain');
+  }
+
+  function updateHeading() {
+    if (domainSel.value) {
+      const selectedText = domainSel.options[domainSel.selectedIndex].text;
+      const name = selectedText.replace(/\s*\(\d+\)\s*$/, '');
+      heading.textContent = 'Speakers: ' + name;
+    } else {
+      heading.textContent = 'All Distinguished Speakers';
+    }
+  }
+
+  function filter() {
+    const query = search.value.toLowerCase().trim();
+    const domain = domainSel.value;
+    let visible = 0;
+
+    for (const item of list.children) {
+      const text = item.dataset.searchable || '';
+      const itemDomain = item.dataset.domain || '';
+
+      const matchSearch = !query || text.includes(query);
+      const matchDomain = !domain || itemDomain === domain;
+
+      const show = matchSearch && matchDomain;
+      item.style.display = show ? '' : 'none';
+      if (show) visible++;
+    }
+
+    countEl.textContent = 'Showing ' + visible + ' of ' + total + ' speakers';
+    updateHeading();
+  }
+
+  search.addEventListener('input', filter);
+  domainSel.addEventListener('change', () => {
+    filter();
+    const url = new URL(window.location);
+    if (domainSel.value) url.searchParams.set('domain', domainSel.value);
+    else url.searchParams.delete('domain');
+    history.replaceState({}, '', url);
+  });
+
+  // Handle domain tag clicks
+  document.addEventListener('click', (e) => {
+    const tag = e.target.closest('.sp-domain-tag');
+    if (tag) {
+      e.preventDefault();
+      const href = tag.getAttribute('href');
+      const tagUrl = new URL(href, window.location.origin);
+      const domain = tagUrl.searchParams.get('domain');
+      if (domain) {
+        domainSel.value = domain;
+        filter();
+        const url = new URL(window.location);
+        url.searchParams.set('domain', domain);
+        history.replaceState({}, '', url);
+      }
+    }
+  });
+
+  // Initial filter (handles ?domain= param)
+  filter();
+});
+</script>

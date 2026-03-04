@@ -153,11 +153,12 @@ eleventyComputed:
 
       <div style="border-top: 1px solid var(--border); padding-top: 1.25rem;">
         <p style="font-size: 0.88rem; color: var(--text-mid); margin-bottom: 0.75rem;">Get event reminders by email:</p>
-        <form id="register-notify-form" class="footer-newsletter" name="event-notify" method="POST" data-netlify="true" netlify-honeypot="bot-field" style="display: flex; gap: 0.5rem;">
+        <form id="register-notify-form" name="event-notify" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="event-notify">
           <p class="hidden" style="display:none;"><label>Don't fill: <input name="bot-field"></label></p>
-          <input type="email" name="email" placeholder="Your email address" required style="flex: 1; padding: 0.6rem 0.75rem; border: 2px solid var(--border); border-radius: var(--radius); font-size: 0.9rem;">
-          <button type="submit" class="btn btn-gold" style="padding: 0.6rem 1.25rem; font-size: 0.85rem; white-space: nowrap;">Notify Me</button>
+          <input type="email" name="email" id="register-email" placeholder="Your email address" required style="width: 100%; padding: 0.6rem 0.75rem; border: 2px solid var(--border); border-radius: var(--radius); font-size: 0.9rem; margin-bottom: 0.75rem; box-sizing: border-box;">
+          <div id="register-email-error" style="display: none; color: #c0392b; font-size: 0.8rem; margin: -0.5rem 0 0.5rem;">Please enter a valid email address.</div>
+          <button type="submit" class="btn btn-gold" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">Notify Me</button>
         </form>
         <div id="register-thank-you" style="display: none; text-align: center; padding: 0.75rem 0;">
           <p style="color: var(--gold-dark); font-weight: 600;">You're all set! We'll send you a reminder.</p>
@@ -290,12 +291,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Notify form (Netlify Forms)
+  // Notify form (Netlify Forms) with email validation
   const notifyForm = document.getElementById('register-notify-form');
   const thankYou = document.getElementById('register-thank-you');
   if (notifyForm && thankYou) {
     notifyForm.addEventListener('submit', (e) => {
       e.preventDefault();
+      const emailInput = document.getElementById('register-email');
+      const emailError = document.getElementById('register-email-error');
+      const email = emailInput ? emailInput.value.trim() : '';
+
+      // Validate email
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!email || !emailRegex.test(email)) {
+        if (emailError) emailError.style.display = 'block';
+        if (emailInput) { emailInput.style.borderColor = '#c0392b'; emailInput.focus(); }
+        return;
+      }
+      if (emailError) emailError.style.display = 'none';
+      if (emailInput) emailInput.style.borderColor = 'var(--border)';
+
       const btn = notifyForm.querySelector('button');
       btn.textContent = 'Sending...';
       btn.disabled = true;
