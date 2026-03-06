@@ -78,7 +78,7 @@ eleventyComputed:
           {% if speaker.institution and speaker.institution != "Unknown" %}<p><strong>Institution:</strong> {{ speaker.institution }}</p>{% endif %}
           <p><strong>Discipline:</strong> {{ speaker.domain }}</p>
           <p><strong>Appearances:</strong> {{ speaker.appearances }}</p>
-          {% if speaker.achievement %}<p><strong>Achievement:</strong> {{ speaker.achievement }}</p>{% endif %}
+          {% if speaker.achievement %}<p><strong>Notable:</strong> {{ speaker.achievement }}</p>{% endif %}
         </div>
         {% if speaker.wikipedia or speaker.website or speaker.googleScholar or speaker.github %}
         <div class="speaker-external-links">
@@ -115,6 +115,21 @@ eleventyComputed:
     <div class="speaker-bio">
       <div class="speaker-bio-label">Biography</div>
       <p>{{ speaker.bio }}</p>
+    </div>
+    {% endif %}
+
+    {% if speaker.sampleWorks and speaker.sampleWorks.length %}
+    <div class="speaker-bio">
+      <div class="speaker-bio-label">Sample Works</div>
+      <ul class="sample-works-list">
+        {% for work in speaker.sampleWorks %}
+        <li>
+          {% if work.url %}<a href="{{ work.url }}" target="_blank" rel="noopener">{{ work.title }}</a>{% else %}{{ work.title }}{% endif %}
+          {% if work.year %}<span class="work-year">({{ work.year }})</span>{% endif %}
+          {% if work.type %}<span class="work-type">{{ work.type }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
     </div>
     {% endif %}
 

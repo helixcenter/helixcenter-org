@@ -1082,6 +1082,26 @@ select.sort-btn.active {
   letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--gold-dark); margin-bottom: 0.75rem;
 }
+.sample-works-list {
+  list-style: none; padding: 0; margin: 0;
+}
+.sample-works-list li {
+  padding: 0.5rem 0; border-bottom: 1px solid var(--border, #eee);
+  font-size: 0.95rem; line-height: 1.5;
+}
+.sample-works-list li:last-child { border-bottom: none; }
+.sample-works-list a {
+  color: var(--gold-dark); text-decoration: none;
+  border-bottom: 1px dotted var(--gold-dark);
+}
+.sample-works-list a:hover { border-bottom-style: solid; }
+.work-year { color: var(--text-muted, #888); font-size: 0.85rem; margin-left: 0.25rem; }
+.work-type {
+  display: inline-block; font-size: 0.75rem; font-family: var(--sans);
+  color: var(--gold-dark); background: var(--cream, #f9f7f2);
+  padding: 0.1rem 0.4rem; border-radius: 3px; margin-left: 0.4rem;
+  text-transform: uppercase; letter-spacing: 0.05em;
+}
 
 /* ---- ROUNDTABLE FEATURED IMAGE ---- */
 .rt-featured-image {
