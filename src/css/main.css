@@ -527,6 +527,46 @@ nav.scrolled { background: rgba(10, 22, 40, 0.99); box-shadow: 0 2px 20px rgba(0
 }
 .faq-answer a { color: var(--gold-dark); text-decoration: none; border-bottom: 1px dotted var(--gold-dark); }
 
+/* ---- Transcript ---- */
+.rt-transcript { margin-top: 3rem; }
+.transcript-overview { margin-top: 1rem; line-height: 1.8; font-size: 0.95rem; }
+.transcript-topics summary,
+.transcript-full summary {
+  cursor: pointer; padding: 0.75rem 0; font-weight: 500;
+  color: var(--gold-dark, #8B7355); list-style: none;
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.transcript-topics summary::-webkit-details-marker,
+.transcript-full summary::-webkit-details-marker { display: none; }
+.transcript-topics summary::before,
+.transcript-full summary::before {
+  content: '\25B6'; font-size: 0.7rem; transition: transform 0.2s;
+}
+.transcript-topics[open] summary::before,
+.transcript-full[open] summary::before { transform: rotate(90deg); }
+.transcript-topics ul {
+  list-style: none; padding: 0; margin: 0.5rem 0 1rem;
+}
+.transcript-topics li {
+  padding: 0.4rem 0; font-size: 0.93rem; line-height: 1.5;
+  border-bottom: 1px solid var(--border, #eee);
+}
+.topic-time {
+  font-family: var(--mono, monospace); font-size: 0.82rem;
+  color: var(--gold-dark, #8B7355); margin-right: 0.5rem;
+  background: var(--cream, #f9f7f2); padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+}
+.transcript-content {
+  margin-top: 1rem; line-height: 1.8;
+  color: var(--text-muted, #555); font-size: 0.95rem;
+}
+.ts-time {
+  font-family: var(--mono, monospace); font-size: 0.8rem;
+  color: var(--gold-dark, #8B7355); margin-right: 0.4rem;
+  opacity: 0.8;
+}
+
 /* ---- TRUST STRIP ---- */
 .trust-strip {
   display: flex; justify-content: center; align-items: center;

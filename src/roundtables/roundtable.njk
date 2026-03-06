@@ -222,17 +222,48 @@ eleventyComputed:
     </div>
     {% endif %}
 
-    {% if rt.transcript %}
+    {% if rt.transcriptTimestamped or rt.transcript %}
     <div class="rt-transcript" style="margin-top: 3rem;">
       <h2>Transcript</h2>
-      <details>
-        <summary style="cursor: pointer; padding: 0.75rem 0; font-weight: 500; color: var(--gold-dark, #8B7355);">Show full transcript</summary>
-        <div class="transcript-content" style="margin-top: 1rem; line-height: 1.8; color: var(--text-muted, #555); font-size: 0.95rem;">
+
+      {% if rt.transcriptOverview %}
+      <div class="transcript-overview" style="margin-top: 1rem; line-height: 1.8; color: var(--text, #333); font-size: 0.95rem;">
+        {% for para in rt.transcriptOverview | split("\n\n") %}
+        <p>{{ para }}</p>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if rt.transcriptTopics and rt.transcriptTopics.length %}
+      <details class="transcript-topics">
+        <summary>Show discussion topics</summary>
+        <ul>
+          {% for topic in rt.transcriptTopics %}
+          <li><span class="topic-time">{{ topic.time }}</span> {{ topic.description }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}
+
+      {% if rt.transcriptTimestamped and rt.transcriptTimestamped.length %}
+      <details class="transcript-full">
+        <summary>Show full transcript</summary>
+        <div class="transcript-content">
+          {% for u in rt.transcriptTimestamped %}
+          <p><span class="ts-time">{{ u.time }}</span> {{ u.text }}</p>
+          {% endfor %}
+        </div>
+      </details>
+      {% elif rt.transcript %}
+      <details class="transcript-full">
+        <summary>Show full transcript</summary>
+        <div class="transcript-content">
           {% for para in rt.transcript | split("\n\n") %}
           <p>{{ para }}</p>
           {% endfor %}
         </div>
       </details>
+      {% endif %}
     </div>
     {% endif %}
   </div>
