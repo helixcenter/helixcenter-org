@@ -15,7 +15,7 @@
     <div style="font-size: 0.8rem; color: var(--text-dark); margin-bottom: 0.75rem;">{{ rtDate }}</div>
     {% endif %}
     {% endif %}
-    <a href="{{ speaker.name | speakerUrl }}" style="text-decoration: none; color: inherit;">
+    <a href="/speakers/{{ speaker.slug }}/" style="text-decoration: none; color: inherit;">
       <h3 class="upcoming-card-title">{{ speaker.name }}</h3>
     </a>
     {% if speaker.title %}

@@ -167,8 +167,21 @@ module.exports = function(eleventyConfig) {
     return str.substring(0, len).replace(/\s+\S*$/, '') + '...';
   });
 
+  // Build speaker name→slug lookup from data
+  const speakersData = JSON.parse(require('fs').readFileSync(
+    path.join(__dirname, 'src', '_data', 'speakers.json'), 'utf8'));
+  const speakerSlugMap = {};
+  for (const s of speakersData) {
+    speakerSlugMap[s.name] = s.slug;
+  }
+
   eleventyConfig.addFilter("speakerUrl", function(name) {
     if (!name) return '/speakers/';
+    // Look up actual slug from data first
+    if (speakerSlugMap[name]) {
+      return `/speakers/${speakerSlugMap[name]}/`;
+    }
+    // Fallback: generate slug from name
     const slug = name.toString().toLowerCase()
       .replace(/[àáâãäå]/g, 'a').replace(/[èéêë]/g, 'e')
       .replace(/[ìíîï]/g, 'i').replace(/[òóôõöő]/g, 'o')
