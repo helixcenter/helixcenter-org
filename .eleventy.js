@@ -208,6 +208,61 @@ module.exports = function(eleventyConfig) {
     return `/roundtables/${slug}/`;
   });
 
+  // Convert date string to RFC 2822 format for RSS feeds
+  eleventyConfig.addFilter("rfc2822Date", function(dateStr) {
+    if (!dateStr) return '';
+    if (dateStr === 'now') return new Date().toUTCString();
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return '';
+    return d.toUTCString();
+  });
+
+  // XML-escape a string for RSS content
+  eleventyConfig.addFilter("xmlEscape", function(str) {
+    if (!str) return '';
+    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+  });
+
+  // Build audio URL lookup map (roundtable slug → full audio URL)
+  eleventyConfig.addGlobalData("audioUrls", () => {
+    const fs = require('fs');
+    const mediaPath = path.join(__dirname, 'src', '_data', 'roundtable-media.json');
+    if (!fs.existsSync(mediaPath)) return {};
+    const media = JSON.parse(fs.readFileSync(mediaPath, 'utf8'));
+    const map = {};
+    for (const [slug, entry] of Object.entries(media)) {
+      if (entry.audioUrls && entry.audioUrls.length) {
+        map[slug] = entry.audioUrls[0];
+      }
+    }
+    return map;
+  });
+
+  // Build podcast feed data with resolved audio URLs
+  eleventyConfig.addGlobalData("podcastFeed", () => {
+    const fs = require('fs');
+    const podPath = path.join(__dirname, 'src', '_data', 'podcasts.json');
+    const mediaPath = path.join(__dirname, 'src', '_data', 'roundtable-media.json');
+    if (!fs.existsSync(podPath)) return [];
+    const podcasts = JSON.parse(fs.readFileSync(podPath, 'utf8'));
+    const media = fs.existsSync(mediaPath) ? JSON.parse(fs.readFileSync(mediaPath, 'utf8')) : {};
+
+    return podcasts.map(ep => {
+      let audioUrl = ep.audioUrl || '';
+      if (!audioUrl && ep.roundtableLink) {
+        const match = ep.roundtableLink.match(/\/roundtables\/([^/]+)\/?$/);
+        if (match) {
+          const slug = match[1];
+          const entry = media[slug];
+          if (entry && entry.audioUrls && entry.audioUrls.length) {
+            audioUrl = entry.audioUrls[0];
+          }
+        }
+      }
+      return { ...ep, resolvedAudioUrl: audioUrl };
+    }).filter(ep => ep.resolvedAudioUrl);
+  });
+
   // Build podcast duration lookup map (roundtable slug → duration)
   eleventyConfig.addGlobalData("podcastDurations", () => {
     const fs = require('fs');

@@ -69,7 +69,10 @@ eleventyComputed:
 <section class="{% if isFirstPage and upcomingSpeakerData.length %}cream{% endif %}">
   <div class="container">
     <div class="filter-bar">
-      <input type="text" id="search-input" placeholder="Search speakers by name, institution, or field...">
+      <input type="text" id="search-input" placeholder="Search all {{ speakers | length }} speakers by name, institution, or field...">
+      <div class="sort-toggle">
+        <button class="sort-btn" id="sort-az" title="Sort A–Z">A–Z</button>
+      </div>
       <select id="filter-select" onchange="if(this.value)window.location='/speakers/all/?domain='+encodeURIComponent(this.value)">
         <option value="">All Disciplines</option>
         {% for d in disciplines %}

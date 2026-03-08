@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Sitemap: https://www.helixcenter.org/sitemap.xml
 LLMs.txt: https://www.helixcenter.org/llms.txt
+LLMs-full.txt: https://www.helixcenter.org/llms-full.txt
 
 User-agent: GPTBot
 Allow: /
@@ -37,4 +38,16 @@ User-agent: FacebookBot
 Allow: /
 
 User-agent: Cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Diffbot
 Allow: /

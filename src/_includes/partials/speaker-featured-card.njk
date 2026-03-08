@@ -23,8 +23,10 @@
     {% elif speaker.institution and speaker.institution != "Unknown" %}
     <p style="font-size: 0.9rem; color: var(--gold-dark); margin-bottom: 0.5rem;">{{ speaker.institution }}</p>
     {% endif %}
-    {% if speaker.achievement %}
-    <p class="upcoming-card-desc">{{ speaker.achievement | truncate(200) }}</p>
+    {% if speaker.bio %}
+    <p class="upcoming-card-desc">{{ speaker.bio }}</p>
+    {% elif speaker.achievement %}
+    <p class="upcoming-card-desc">{{ speaker.achievement }}</p>
     {% endif %}
     {% if speaker.domain %}
     <div class="rt-tags" style="margin-top: 0.75rem;">

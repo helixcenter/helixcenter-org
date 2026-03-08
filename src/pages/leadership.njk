@@ -1,15 +1,16 @@
 ---
 layout: layouts/base.njk
 title: Leadership
-pageTitle: Board of Directors & Advisory
+pageTitle: Board of Directors & Executive Committee
 description: "The Helix Center's leadership draws from the highest levels of academia, medicine, and the arts."
 permalink: /leadership/
+breadcrumbSection: "Leadership"
 ---
 
 <div class="page-header">
   <div class="container">
     <div class="section-label">Leadership</div>
-    <h1>Board of Directors &amp; Advisory</h1>
+    <h1>Board of Directors &amp; Executive Committee</h1>
     <div class="gold-divider"></div>
     <p class="section-subtitle">Drawing from the highest levels of academia, medicine, and the arts</p>
   </div>
@@ -62,68 +63,3 @@ permalink: /leadership/
   </div>
 </section>
 
-<!-- Board of Advisors -->
-<section>
-  <div class="container">
-    <div class="section-label">Advisory</div>
-    <h2>Board of Advisors</h2>
-    <div class="gold-divider" style="margin-left: 0;"></div>
-    <p style="font-family: var(--serif); font-size: 1.02rem; color: var(--text-mid); margin-bottom: 2rem;">
-      {{ governance.advisors | length }} distinguished scholars spanning neuroscience, philosophy, physics, arts, and more.
-    </p>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.75rem;">
-      {% for advisor in governance.advisors %}
-      <div style="padding: 0.75rem 1rem; border-bottom: 1px solid var(--border);">
-        <span style="font-family: var(--serif); font-weight: 600; color: var(--navy);">{{ advisor.name }}</span>
-        {% if advisor.credentials and advisor.credentials != "--" %}
-        <span style="font-size: 0.78rem; color: var(--text-light);">, {{ advisor.credentials }}</span>
-        {% endif %}
-        {% if advisor.field %}
-        <br><span style="font-size: 0.75rem; color: var(--gold-dark);">{{ advisor.field }}</span>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<!-- Programs -->
-{% if governance.musicProgram and governance.musicProgram.length %}
-<section class="warm">
-  <div class="container-narrow">
-    <div class="section-label">Programs</div>
-    <h2>Program Teams</h2>
-    <div class="gold-divider" style="margin-left: 0;"></div>
-
-    {% if governance.filmProgram and governance.filmProgram.length %}
-    <h3 style="margin-top: 2rem;">Film Program</h3>
-    <div class="leader-grid">
-      {% for member in governance.filmProgram %}
-      <div class="leader-item">
-        <div class="leader-avatar">{{ member.name | initials }}</div>
-        <div>
-          <div class="leader-name">{{ member.name }}</div>
-          <div class="leader-role">{{ member.role }}</div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    {% endif %}
-
-    <h3 style="margin-top: 2rem;">Music Program</h3>
-    <div class="leader-grid">
-      {% for member in governance.musicProgram %}
-      <div class="leader-item">
-        <div class="leader-avatar">{{ member.name | initials }}</div>
-        <div>
-          <div class="leader-name">{{ member.name }}</div>
-          {% if member.notes %}
-          <div class="leader-role">{{ member.notes }}</div>
-          {% endif %}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}

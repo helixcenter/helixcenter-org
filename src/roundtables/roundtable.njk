@@ -118,7 +118,7 @@ eleventyComputed:
     {% if rt.tags and rt.tags.length %}
     <div class="tag-list">
       {% for tag in rt.tags %}
-      <span class="tag-pill">{{ tag }}</span>
+      <a href="/roundtables/all/?search={{ tag | urlencode }}" class="tag-pill">{{ tag }}</a>
       {% endfor %}
     </div>
     {% endif %}
@@ -190,13 +190,19 @@ eleventyComputed:
     {% endif %}
 
     {% if rt.hasAudio and rt.audioFile %}
+    {% set audioUrl = rt.audioFile %}
+    {% if "http" not in audioUrl %}
+      {% if audioUrls[rt.slug] %}
+        {% set audioUrl = audioUrls[rt.slug] %}
+      {% endif %}
+    {% endif %}
     <h2>Media</h2>
     <div style="margin-top: 0.75rem;">
-      {% if "http" in rt.audioFile %}
+      {% if "http" in audioUrl %}
       <audio controls preload="none" style="width: 100%; max-width: 500px; margin-bottom: 0.75rem;">
-        <source src="{{ rt.audioFile }}" type="audio/mpeg">
+        <source src="{{ audioUrl }}" type="audio/mpeg">
       </audio>
-      <p><a href="{{ rt.audioFile }}" class="rt-media-badge" style="font-size: 0.85rem; text-decoration: none; color: var(--gold-dark);" target="_blank" rel="noopener">&#9654; Download audio: {{ rt.audioFile | split('/') | last }}</a></p>
+      <p><a href="{{ audioUrl }}" class="rt-media-badge" style="font-size: 0.85rem; text-decoration: none; color: var(--gold-dark);" target="_blank" rel="noopener">&#9654; Download audio: {{ audioUrl | split('/') | last }}</a></p>
       {% else %}
       <p><a href="{{ site.social.podcast }}" class="rt-media-badge" style="font-size: 0.85rem; text-decoration: none; color: var(--gold-dark);" target="_blank" rel="noopener">&#9654; Listen on Apple Podcasts: {{ rt.audioFile }}</a></p>
       {% endif %}

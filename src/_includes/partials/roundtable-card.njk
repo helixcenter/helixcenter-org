@@ -1,4 +1,4 @@
-<div class="rt-card" data-searchable="{{ rt.title }} {{ rt.description }} {{ rt.speakers | join(' ') }}" data-category="{{ rt.year }}" data-topics="{{ rt.canonicalTopics | join(',') }}">
+<div class="rt-card" data-searchable="{{ rt.title | lower }} {{ rt.description | lower }} {{ rt.speakers | join(' ') | lower }} {{ rt.canonicalTopics | join(' ') | lower }}" data-category="{{ rt.year }}" data-topics="{{ rt.canonicalTopics | join(',') }}">
   <a href="/roundtables/{{ rt.slug }}/" class="rt-card-link">
     {% if rt.imageFile %}
     <img src="{{ rt.imageFile }}" alt="{{ rt.title }}" class="rt-thumbnail" loading="lazy" width="400" height="225">

@@ -76,10 +76,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const heading = document.getElementById('rt-all-heading');
   const total = list.children.length;
 
-  // Read topic from URL params and pre-select dropdown
+  // Read URL params and pre-select filters
   const params = new URLSearchParams(window.location.search);
   if (params.get('topic')) {
     topicSel.value = params.get('topic');
+  }
+  if (params.get('year')) {
+    yearSel.value = params.get('year');
+  }
+  if (params.get('search')) {
+    search.value = params.get('search');
   }
 
   function updateHeading() {

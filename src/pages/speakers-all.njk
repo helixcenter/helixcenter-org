@@ -67,10 +67,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const heading = document.getElementById('sp-all-heading');
   const total = list.children.length;
 
-  // Read domain from URL params
+  // Read URL params
   const params = new URLSearchParams(window.location.search);
   if (params.get('domain')) {
     domainSel.value = params.get('domain');
+  }
+  if (params.get('search')) {
+    search.value = params.get('search');
   }
 
   function updateHeading() {
@@ -131,7 +134,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Initial filter (handles ?domain= param)
+  // Initial filter (handles ?domain= and ?search= params)
   filter();
+
+  // Auto-focus search if arriving with search param
+  if (params.get('search')) {
+    search.focus();
+  }
 });
 </script>

@@ -8,7 +8,7 @@ layout: layouts/base.njk
 eleventyComputed:
   title: "{{ inst.name }}"
   pageTitle: "{{ inst.name }}"
-  description: "{{ inst.count }} Helix Center speakers from {{ inst.name }}."
+  description: "{% if inst.description %}{{ inst.description }}{% else %}{{ inst.count }} Helix Center speakers from {{ inst.name }}.{% endif %}"
   breadcrumbSection: "Speakers"
   breadcrumbPage: "{{ inst.name }}"
 ---
@@ -32,6 +32,12 @@ eleventyComputed:
 
 <section class="detail-page">
   <div class="container">
+    {% if inst.description %}
+    <div class="detail-body" style="margin-bottom: 2rem;">
+      <p>{{ inst.description }}</p>
+    </div>
+    {% endif %}
+
     <div class="listing-grid" style="margin-top: 1.5rem;">
       {% for speakerName in inst.speakers %}
       {% set speaker = speakers | findSpeaker(speakerName) %}

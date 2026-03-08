@@ -156,17 +156,33 @@ document.addEventListener('DOMContentLoaded', () => {
   const topicFilter = document.getElementById('topic-filter');
   const listingGrid = document.querySelector('.listing-grid');
   const pagination = document.getElementById('rt-pagination');
+  const isSpeakersPage = listingGrid && listingGrid.id === 'speakers-grid';
 
   if (searchInput && listingGrid) {
+    const isRoundtablesPage = !isSpeakersPage && window.location.pathname.startsWith('/roundtables');
+
     const filterItems = () => {
       const query = searchInput.value.toLowerCase().trim();
+
+      // On paginated speakers page, redirect to all-speakers for full search
+      if (isSpeakersPage && query.length >= 2) {
+        window.location = '/speakers/all/?search=' + encodeURIComponent(searchInput.value.trim());
+        return;
+      }
+
+      // On paginated roundtables page, redirect to all-roundtables for full search
+      if (isRoundtablesPage && query.length >= 2) {
+        window.location = '/roundtables/all/?search=' + encodeURIComponent(searchInput.value.trim());
+        return;
+      }
+
       const filterValue = filterSelect ? filterSelect.value : '';
       const topicValue = topicFilter ? topicFilter.value : '';
       const cards = listingGrid.querySelectorAll('[data-searchable]');
       const isFiltering = query || filterValue || topicValue;
 
       cards.forEach(card => {
-        const text = card.dataset.searchable.toLowerCase();
+        const text = card.dataset.searchable || '';
         const category = card.dataset.category || '';
         const topics = card.dataset.topics || '';
         const matchesSearch = !query || text.includes(query);
@@ -181,31 +197,59 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
+    // On paginated roundtables, redirect year/topic dropdown to all-roundtables page
+    const redirectRoundtableFilter = () => {
+      if (!isRoundtablesPage) return false;
+      const yearVal = filterSelect ? filterSelect.value : '';
+      const topicVal = topicFilter ? topicFilter.value : '';
+      if (yearVal || topicVal) {
+        let url = '/roundtables/all/?';
+        const params = [];
+        if (yearVal) params.push('year=' + encodeURIComponent(yearVal));
+        if (topicVal) params.push('topic=' + encodeURIComponent(topicVal));
+        window.location = url + params.join('&');
+        return true;
+      }
+      return false;
+    };
+
     searchInput.addEventListener('input', filterItems);
-    if (filterSelect) filterSelect.addEventListener('change', filterItems);
-    if (topicFilter) topicFilter.addEventListener('change', filterItems);
-  }
-
-  /* ---- Donate amount selector ---- */
-  const donateAmounts = document.querySelectorAll('.donate-amount');
-  const customAmount = document.getElementById('custom-amount');
-  const donateBtn = document.getElementById('donate-btn');
-
-  if (donateAmounts.length && donateBtn) {
-    donateAmounts.forEach(btn => {
-      btn.addEventListener('click', () => {
-        donateAmounts.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        if (customAmount) customAmount.value = '';
-      });
+    if (filterSelect) filterSelect.addEventListener('change', () => {
+      if (!redirectRoundtableFilter()) filterItems();
     });
-
-    if (customAmount) {
-      customAmount.addEventListener('focus', () => {
-        donateAmounts.forEach(b => b.classList.remove('active'));
-      });
-    }
+    if (topicFilter) topicFilter.addEventListener('change', () => {
+      if (!redirectRoundtableFilter()) filterItems();
+    });
   }
+
+  /* ---- A-Z sort toggle for speakers grid ---- */
+  const sortAzBtn = document.getElementById('sort-az');
+  const speakersGrid = document.getElementById('speakers-grid');
+  if (sortAzBtn && speakersGrid) {
+    let sortedAZ = false;
+    sortAzBtn.addEventListener('click', () => {
+      const cards = [...speakersGrid.children];
+      sortedAZ = !sortedAZ;
+      if (sortedAZ) {
+        cards.sort((a, b) => {
+          const nameA = (a.dataset.sortName || '').split(' ').pop().toLowerCase();
+          const nameB = (b.dataset.sortName || '').split(' ').pop().toLowerCase();
+          return nameA.localeCompare(nameB);
+        });
+        sortAzBtn.classList.add('active');
+      } else {
+        cards.sort((a, b) => {
+          const dateA = a.dataset.sortDate || '';
+          const dateB = b.dataset.sortDate || '';
+          return dateB.localeCompare(dateA);
+        });
+        sortAzBtn.classList.remove('active');
+      }
+      cards.forEach(c => speakersGrid.appendChild(c));
+    });
+  }
+
+  /* ---- Donate amount selector (deactivated) ---- */
 
   /* ---- Footer newsletter subscription (Netlify Forms) ---- */
   const subForm = document.getElementById('footer-subscribe-form');
@@ -241,39 +285,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ---- Donate modal ---- */
-  const donateModalOverlay = document.getElementById('donate-modal-overlay');
-  if (donateModalOverlay) {
-    const openDonateModal = (e) => {
-      e.preventDefault();
-      donateModalOverlay.classList.add('show');
-      document.body.style.overflow = 'hidden';
-    };
-    const closeDonateModal = () => {
-      donateModalOverlay.classList.remove('show');
-      document.body.style.overflow = '';
-    };
-
-    // Intercept donate button on donate page
-    const donateBtnPage = document.getElementById('donate-btn');
-    if (donateBtnPage) donateBtnPage.addEventListener('click', openDonateModal);
-
-    // Intercept nav donate button on ALL pages
-    document.querySelectorAll('.nav-donate').forEach(btn => {
-      btn.addEventListener('click', openDonateModal);
-    });
-    // Also intercept mobile nav donate link
-    document.querySelectorAll('#mobile-nav a[href="/donate/"]').forEach(btn => {
-      btn.addEventListener('click', openDonateModal);
-    });
-
-    document.getElementById('donate-modal-close')?.addEventListener('click', closeDonateModal);
-    donateModalOverlay.addEventListener('click', (e) => {
-      if (e.target === donateModalOverlay) closeDonateModal();
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && donateModalOverlay.classList.contains('show')) closeDonateModal();
-    });
-  }
+  /* ---- Donate modal (deactivated) ---- */
 
 });

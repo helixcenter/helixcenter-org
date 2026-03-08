@@ -2,6 +2,10 @@
 
 > A 501(c)(3) nonprofit in New York City that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 507 distinguished scholars across the sciences, humanities, and arts. Founded in 2012 by Dr. Edward Nersessian.
 
+Wikidata: https://www.wikidata.org/wiki/Q138509067
+
+For a comprehensive listing of all roundtables, speakers, and institutions, see [llms-full.txt](https://www.helixcenter.org/llms-full.txt).
+
 The Helix Center convenes leading thinkers from different disciplines to explore questions that no single field can answer alone. Its signature format is the "Theaetetus Table," named for the Platonic dialogue investigating the nature of knowledge: five participants -- leaders in their respective fields -- gather for extempore (unscripted) interdisciplinary discussion. Over 14 seasons, the Center has hosted 134+ roundtable discussions featuring 507 speakers from 50+ institutions including Columbia, NYU, Princeton, Yale, Harvard, MIT, Cornell, Oxford, Cambridge, and UCL. Participants include 4 Nobel laureates, 5 MacArthur Fellows, and 229 Wikipedia-notable scholars. All events are free and open to the public, held at The Marianne & Nicholas Young Auditorium, 247 East 82nd Street, New York, NY 10028.
 
 Notable participants include Daniel Kahneman (Nobel Prize in Economics), Eric Kandel (Nobel Prize in Physiology or Medicine), David J. Gross (Nobel Prize in Physics), Karl Friston (most-cited neuroscientist in history), David Chalmers (formulated "the hard problem of consciousness"), Sara Seager (MacArthur Fellow, Kavli Prize in Astrophysics), Rosalind Picard (founder of Affective Computing), Percival Everett (Pulitzer Prize), and Vijay Iyer (MacArthur Fellow).

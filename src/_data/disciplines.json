@@ -7,7 +7,8 @@
       "Siri Hustvedt",
       "Percival Everett"
     ],
-    "slug": "literature-writing"
+    "slug": "literature-writing",
+    "description": "From the craft of fiction to the philosophy of language, Helix Center roundtables explore literature as a mode of knowing. Discussions range from Shakespeare and Elizabeth Bishop to the emergence of empathy through fiction, the neuroscience of reading, and the relationship between creative writing and consciousness."
   },
   {
     "name": "Biology & Medicine",
@@ -17,7 +18,8 @@
       "Robert Klitzman",
       "Raul Rabadan"
     ],
-    "slug": "biology-medicine"
+    "slug": "biology-medicine",
+    "description": "Roundtables in biology and medicine examine life at every scale, from synthetic biology and gene editing to the future of psychiatry and the placebo effect. Speakers bring perspectives from genomics, systems biology, epidemiology, and clinical medicine to questions that transcend any single specialty."
   },
   {
     "name": "Neuroscience & Cognition",
@@ -27,7 +29,8 @@
       "Karl Friston",
       "György Buzsáki"
     ],
-    "slug": "neuroscience-cognition"
+    "slug": "neuroscience-cognition",
+    "description": "The Helix Center's most represented discipline features Nobel laureate Eric Kandel and the most-cited neuroscientist in history, Karl Friston. Roundtables probe consciousness, memory, perception, fear, and the mind-body problem, drawing on computational neuroscience, neuropsychoanalysis, and cognitive science."
   },
   {
     "name": "Philosophy & Ethics",
@@ -37,7 +40,8 @@
       "Michael S. Turner",
       "Joel David Hamkins"
     ],
-    "slug": "philosophy-ethics"
+    "slug": "philosophy-ethics",
+    "description": "Philosophy at the Helix Center is never armchair speculation. David Chalmers brings the hard problem of consciousness, Joel David Hamkins explores mathematical philosophy, and ethicists engage with AI, transhumanism, and the nature of free will. Every roundtable draws philosophical inquiry into dialogue with empirical science."
   },
   {
     "name": "Psychology & Psychoanalysis",
@@ -47,7 +51,8 @@
       "Peter Loewenberg",
       "Jessica Benjamin"
     ],
-    "slug": "psychology-psychoanalysis"
+    "slug": "psychology-psychoanalysis",
+    "description": "Rooted in the Helix Center's home at the New York Psychoanalytic Society and Institute, psychoanalytic thought meets experimental psychology. Nobel laureate Daniel Kahneman, relational psychoanalyst Jessica Benjamin, and others explore shame, lying, stress, the mind of a child, and the resurgence of Freud."
   },
   {
     "name": "Creative & Performing Arts",
@@ -57,7 +62,8 @@
       "Suzanne Anker",
       "John Kress"
     ],
-    "slug": "creative-performing-arts"
+    "slug": "creative-performing-arts",
+    "description": "Music, visual art, and performance become instruments of investigation. MacArthur Fellow Vijay Iyer brings jazz into dialogue with neuroscience, bio-artist Suzanne Anker bridges science and aesthetics, and roundtables on art-science collaboration explore how creative practice generates knowledge."
   },
   {
     "name": "Social Sciences",
@@ -67,7 +73,8 @@
       "Liah Greenfeld",
       "Tracey Meares"
     ],
-    "slug": "social-sciences"
+    "slug": "social-sciences",
+    "description": "Sociology, political science, and economics converge in roundtables on populism, status, war, globalization, and living in difficult times. Speakers examine the social structures that shape human behavior, from economic disagreement to the displaced and the other."
   },
   {
     "name": "History & Cultural Studies",
@@ -77,7 +84,8 @@
       "David Freedberg",
       "Deborah Coen"
     ],
-    "slug": "history-cultural-studies"
+    "slug": "history-cultural-studies",
+    "description": "Historians and cultural scholars bring temporal depth to every interdisciplinary question. From Aby Warburg's art-neuroscience synthesis to the Anthropocene, from French Surrealism to the techne of memory, roundtables explore how the past informs present understanding across disciplines."
   },
   {
     "name": "Physics & Cosmology",
@@ -87,7 +95,8 @@
       "Sara Seager",
       "Sylvester James Gates"
     ],
-    "slug": "physics-cosmology"
+    "slug": "physics-cosmology",
+    "description": "From particle physics to the search for extraterrestrial life, Helix Center roundtables tackle the biggest questions in the universe. MacArthur Fellow Sara Seager hunts for exoplanets, Paul Steinhardt challenges inflationary cosmology, and discussions range from the completeness of physics to the nature of mathematical reality."
   },
   {
     "name": "Mathematics & Computer Science",
@@ -97,7 +106,8 @@
       "Graciela Chichilnisky",
       "Thomas Callister Hales"
     ],
-    "slug": "mathematics-computer-science"
+    "slug": "mathematics-computer-science",
+    "description": "Roundtables explore mathematics as both tool and subject: the beauty and unity of mathematics, its permanence and impermanence, the mechanization of proof, and what mathematical structures reveal about mind and brain. Barry Mazur and colleagues bring pure mathematics into conversation with neuroscience and philosophy."
   },
   {
     "name": "Other/Interdisciplinary",
@@ -107,7 +117,8 @@
       "Simon Deng",
       "Tarah Rhoda"
     ],
-    "slug": "otherinterdisciplinary"
+    "slug": "otherinterdisciplinary",
+    "description": "Some scholars and practitioners resist disciplinary classification entirely. Librarians, activists, diplomats, and independent thinkers bring perspectives that bridge multiple fields, embodying the Helix Center's founding conviction that the most important questions require genuinely interdisciplinary investigation."
   },
   {
     "name": "Journalism & Media",
@@ -117,7 +128,8 @@
       "Adam Kirsch",
       "David Lichtenstein"
     ],
-    "slug": "journalism-media"
+    "slug": "journalism-media",
+    "description": "Media scholars and journalists examine how information technologies reshape knowledge, perception, and public discourse. From the effects of media on cognition to coding and the new human phenotype, roundtables explore the intersection of journalism, digital culture, and epistemology."
   },
   {
     "name": "Technology & Engineering",
@@ -127,7 +139,8 @@
       "Katepalli Sreenivasan",
       "Adrian Bejan"
     ],
-    "slug": "technology-engineering"
+    "slug": "technology-engineering",
+    "description": "Engineers and technologists bring design thinking and empirical rigor. Rosalind Picard pioneers affective computing, Adrian Bejan applies constructal theory to design in nature, and roundtables on AI ethics, embodied AI, and synthetic consciousness examine technology's implications for human identity."
   },
   {
     "name": "Artificial Intelligence & Humanities",
@@ -135,6 +148,7 @@
     "topSpeakers": [
       "Katherine Elkins"
     ],
-    "slug": "artificial-intelligence-humanities"
+    "slug": "artificial-intelligence-humanities",
+    "description": "An emerging field at the intersection of AI and humanistic inquiry, examining how machine learning and natural language processing transform literary analysis, philosophical investigation, and our understanding of creativity and cognition."
   }
 ]

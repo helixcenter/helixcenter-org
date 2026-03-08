@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npx @11ty/eleventy && npm run minify",
+    "minify": "npx cleancss -o _site/css/main.css _site/css/main.css && npx terser _site/js/main.js -o _site/js/main.js -c -m",
+    "serve": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.46.0"
   }
 }

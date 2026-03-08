@@ -1125,7 +1125,9 @@ select.sort-btn.active {
   background: var(--gold-muted); border: 1px solid rgba(201,168,76,0.2);
   border-radius: 12px; color: var(--gold-dark);
   text-transform: lowercase; letter-spacing: 0.02em;
+  text-decoration: none;
 }
+.tag-pill:hover { background: rgba(201,168,76,0.25); }
 
 /* ---- ROUNDTABLE VIDEO EMBED ---- */
 .rt-video-embed { max-width: 800px; }
