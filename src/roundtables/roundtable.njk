@@ -140,7 +140,7 @@ eleventyComputed:
         <div class="speaker-discipline-icon" title="{{ matchedSpeaker.domain }}">{% set iconDiscipline = matchedSpeaker.domain %}{% include "partials/discipline-icon.njk" %}</div>
         <div class="speaker-card-header">
           {% if matchedSpeaker.photo %}
-          <img src="{{ matchedSpeaker.photo }}" alt="{{ matchedSpeaker.name }}" class="speaker-photo-thumb" loading="lazy" width="80" height="80">
+          <img src="{{ matchedSpeaker.photo }}" alt="{{ matchedSpeaker.name }}" class="speaker-photo-thumb" loading="lazy" width="80" height="80"{% if matchedSpeaker.photoPosition %} style="object-position: {{ matchedSpeaker.photoPosition }}"{% endif %}>
           {% else %}
           <div class="speaker-card-initials">{{ matchedSpeaker.name | initials }}</div>
           {% endif %}

@@ -67,7 +67,7 @@ eleventyComputed:
   <div class="container">
     <div class="speaker-detail-header">
       {% if speaker.photo %}
-      <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="speaker-photo" loading="lazy" width="400" height="400">
+      <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="speaker-photo" loading="lazy" width="400" height="400"{% if speaker.photoPosition %} style="object-position: {{ speaker.photoPosition }}"{% endif %}>
       {% else %}
       <div class="speaker-detail-avatar">{{ speaker.name | initials }}</div>
       {% endif %}
