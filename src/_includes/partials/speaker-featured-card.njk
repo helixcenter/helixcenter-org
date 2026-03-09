@@ -1,7 +1,7 @@
 <div class="upcoming-card speaker-featured">
   <div class="speaker-featured-photo" style="display: flex; align-items: center; justify-content: center; background: var(--navy);">
     {% if speaker.photo %}
-    <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" style="width: 100%; height: 100%; object-fit: cover;{% if speaker.photoPosition %} object-position: {{ speaker.photoPosition }};{% endif %}">
     {% else %}
     <div style="font-family: var(--serif); font-size: 4rem; font-weight: 700; color: var(--gold);">{{ speaker.name | initials }}</div>
     {% endif %}
