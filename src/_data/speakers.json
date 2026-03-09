@@ -2595,7 +2595,7 @@
     "title": "Assistant Professor, Center for Human Genetics & Genomics, NYU Grossman School of Medicine",
     "wikipedia": "",
     "photo": "https://med.nyu.edu/dti-physician-photo/faculty/b/brandn03/brandn03-hero.jpg",
-    "photoPosition": "75% 20%",
+    "photoPosition": "66% 20%",
     "bio": "Nadav Brandes is an Assistant Professor at NYU Grossman School of Medicine with appointments in the Center for Human Genetics & Genomics and the Department of Biochemistry and Molecular Pharmacology. He was among the first researchers to develop protein language models as global predictors of protein structure and function, and his landmark 2023 Nature Genetics paper used ESM1b to predict the effects of all approximately 450 million possible missense variants in the human proteome. He also created ProteinBERT, a protein language model cited over 640 times, and collaborated with Jennifer Doudna and Carl June on CRISPR-Cas9 safety analysis published in Cell.",
     "roundtables": [
       "Medicine and AI"
@@ -2853,7 +2853,7 @@
     "title": "Research Professor, Departments of Population Health and Medicine, NYU Grossman School of Medicine",
     "wikipedia": "",
     "photo": "https://med.nyu.edu/dti-physician-photo/faculty/a/aphiny01/aphiny01-hero.jpg",
-    "photoPosition": "75% 20%",
+    "photoPosition": "66% 20%",
     "bio": "Yindalon (Yin) Aphinyanaphongs is a Research Professor at NYU Grossman School of Medicine and director of the Division of Applied AI Technologies, Predictive Analytics Unit, and Operational Data Science at NYU Langone Health. He co-led the development of NYUTron, a clinical large language model trained on 7.25 million patient-care notes published in Nature in 2023. His mortality prediction system produced a fivefold increase in goals-of-care conversations and a 32% reduction in the Vizient Mortality Index (NEJM Catalyst). Under his leadership, NYU Langone has deployed over 31 AI models in operational use and rolled out GenAI Studio, providing HIPAA-compliant generative AI to over 1,000 employees.",
     "roundtables": [
       "Medicine and AI"
