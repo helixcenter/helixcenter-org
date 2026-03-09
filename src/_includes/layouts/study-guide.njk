@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ pageTitle or title }} | {{ site.shortName }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ pageTitle or title }} | {{ site.shortName }}">
+<meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.shortName }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="{{ ogImage or site.url + '/img/helix-center-og.jpg' }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@HelixCenter">
+<meta name="twitter:title" content="{{ pageTitle or title }}">
+<meta name="twitter:description" content="{{ description or site.description }}">
+<meta name="twitter:image" content="{{ ogImage or site.url + '/img/helix-center-og.jpg' }}">
+
+<!-- SEO -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="{{ site.name }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+
+<style>
+/* Study guide nav: Contents dropdown */
+.sg-nav-dropdown { position: relative; }
+.sg-nav-dropdown > a {
+  color: rgba(250,248,244,0.7); text-decoration: none;
+  font-size: 0.78rem; font-weight: 500; letter-spacing: 0.05em;
+  text-transform: uppercase; transition: color 0.2s; cursor: pointer;
+}
+.sg-nav-dropdown > a:hover { color: var(--gold-light); }
+.sg-nav-dropdown > a::after {
+  content: " \25BE"; font-size: 0.65rem;
+}
+.sg-nav-dropdown-menu {
+  display: none; position: absolute; top: 100%; right: 0;
+  background: rgba(10, 22, 40, 0.98); border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 6px; padding: 0.5rem 0; min-width: 320px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3); z-index: 1000;
+  margin-top: 0.5rem;
+}
+.sg-nav-dropdown:hover .sg-nav-dropdown-menu,
+.sg-nav-dropdown:focus-within .sg-nav-dropdown-menu { display: block; }
+.sg-nav-dropdown-menu a {
+  display: block; padding: 0.5rem 1.25rem;
+  color: rgba(250,248,244,0.8); text-decoration: none;
+  font-size: 0.82rem; font-weight: 400; letter-spacing: 0;
+  text-transform: none; transition: all 0.15s; white-space: nowrap;
+}
+.sg-nav-dropdown-menu a:hover {
+  color: var(--gold-light); background: rgba(201,168,76,0.08);
+}
+.sg-nav-dropdown-menu a .sg-toc-num {
+  display: inline-block; width: 1.5em;
+  color: rgba(250,248,244,0.4); font-size: 0.75rem;
+}
+/* Mobile: show Contents as stacked links */
+.sg-mobile-nav {
+  display: none; position: fixed; top: 68px; left: 0; right: 0; bottom: 0;
+  background: rgba(10,22,40,0.98); backdrop-filter: blur(16px);
+  z-index: 999; padding: 2rem; overflow-y: auto;
+}
+.sg-mobile-nav.open { display: flex; flex-direction: column; gap: 0.25rem; }
+.sg-mobile-nav a {
+  color: rgba(250,248,244,0.8); text-decoration: none;
+  font-size: 1rem; padding: 0.75rem 0; border-bottom: 1px solid rgba(201,168,76,0.1);
+}
+.sg-mobile-nav a:hover { color: var(--gold-light); }
+.sg-mobile-nav .sg-mobile-back {
+  margin-top: 1rem; padding-top: 1rem;
+  border-top: 2px solid rgba(201,168,76,0.2);
+  color: var(--gold); font-weight: 600;
+}
+@media (max-width: 768px) {
+  .nav-links { display: none !important; }
+  .nav-hamburger { display: block !important; }
+}
+</style>
+</head>
+<body>
+
+<nav id="main-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <div class="helix-mark">H</div>
+      <span>The Helix Center</span>
+    </a>
+    <ul class="nav-links">
+      <li class="sg-nav-dropdown">
+        <a href="#sg-toc" role="button" aria-haspopup="true" aria-expanded="false">Contents</a>
+        <div class="sg-nav-dropdown-menu" role="menu">
+          <a href="#about" role="menuitem"><span class="sg-toc-num">1.</span> About This Guide</a>
+          <a href="#ai-foundations" role="menuitem"><span class="sg-toc-num">2.</span> AI/ML Foundations</a>
+          <a href="#med-foundations" role="menuitem"><span class="sg-toc-num">3.</span> Medical Foundations</a>
+          <a href="#intersection" role="menuitem"><span class="sg-toc-num">4.</span> AI in Medicine Today</a>
+          <a href="#speakers" role="menuitem"><span class="sg-toc-num">5.</span> Meet the Speakers</a>
+          <a href="#fault-lines" role="menuitem"><span class="sg-toc-num">6.</span> The Five Fault Lines</a>
+          <a href="#tensions" role="menuitem"><span class="sg-toc-num">7.</span> Key Tensions</a>
+          <a href="#glossary" role="menuitem"><span class="sg-toc-num">8.</span> Glossary</a>
+          <a href="#further-reading" role="menuitem"><span class="sg-toc-num">9.</span> Further Reading</a>
+        </div>
+      </li>
+      <li><a href="{{ backUrl or '/roundtables/medicine-and-ai/' }}">Back</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" onclick="document.getElementById('sg-mobile-menu').classList.toggle('open'); this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">&#9776;</button>
+  </div>
+</nav>
+
+<div class="sg-mobile-nav" id="sg-mobile-menu">
+  <a href="#about" onclick="document.getElementById('sg-mobile-menu').classList.remove('open');">1. About This Guide</a>
+  <a href="#ai-foundations" onclick="document.getElementById('sg-mobile-menu').classList.remove('open');">2. AI/ML Foundations</a>
+  <a href="#med-foundations" onclick="document.getElementById('sg-mobile-menu').classList.remove('open');">3. Medical Foundations</a>
+  <a href="#intersection" onclick="document.getElementById('sg-mobile-menu').classList.remove('open');">4. AI in Medicine Today</a>
+  <a href="#speakers" onclick="document.getElementById('sg-mobile-menu').classList.remove('open');">5. Meet the Speakers</a>
+  <a href="#fault-lines" onclick="document.getElementById('sg-mobile-menu').classList.remove('open');">6. The Five Fault Lines</a>
+  <a href="#tensions" onclick="document.getElementById('sg-mobile-menu').classList.remove('open');">7. Key Tensions</a>
+  <a href="#glossary" onclick="document.getElementById('sg-mobile-menu').classList.remove('open');">8. Glossary</a>
+  <a href="#further-reading" onclick="document.getElementById('sg-mobile-menu').classList.remove('open');">9. Further Reading</a>
+  <a href="{{ backUrl or '/roundtables/medicine-and-ai/' }}" class="sg-mobile-back">&larr; Back to Roundtable</a>
+</div>
+
+{{ content | safe }}
+
+{% include "partials/footer.njk" %}
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>
