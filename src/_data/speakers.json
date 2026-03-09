@@ -1483,7 +1483,7 @@
     "achievement": "ACM Fellow (2021); TED Fellow; MIT TR35; NSF CAREER Award; co-founded HealthRhythms and Dapple",
     "title": "Chief of Health Innovation and Roger and Joelle Burnell Professor, Cornell Tech",
     "wikipedia": "https://en.wikipedia.org/wiki/Tanzeem_Choudhury",
-    "photo": "",
+    "photo": "https://tech.cornell.edu/wp-content/uploads/2019/06/Choudhury-Tanzeem.jpg",
     "bio": "Tanzeem Choudhury is Chief of Health Innovation and Burnell Professor at Cornell Tech, where she directs the People-Aware Computing Lab. A pioneer of 'Reality Mining,' she developed the Sociometer at the MIT Media Lab and has since created foundational systems for digital mental health including BeWell, StressSense, and MoodRhythm. She co-founded two health AI companies, HealthRhythms and Dapple, and her recent research explores how large language models can augment clinical psychotherapy and the reliability of ML tools for mental health prediction across diverse populations. She has published over 190 papers with more than 22,000 citations.",
     "roundtables": [
       "Medicine and AI"
@@ -1925,7 +1925,7 @@
     "achievement": "ACM Distinguished Member (2025); MIT TR35; NSF CAREER Award; Gates Foundation Grand Challenges Award",
     "title": "Associate Professor of Biostatistics and Computer Science & Engineering, NYU; Director, Center for Health Data Science",
     "wikipedia": "https://en.wikipedia.org/wiki/Rumi_Chunara",
-    "photo": "",
+    "photo": "https://engineering.nyu.edu/sites/default/files/styles/square_large_default_1x/public/migrated/2014-11/pictures/picture-5884.png",
     "bio": "Rumi Chunara is an Associate Professor of Biostatistics at the NYU School of Global Public Health and of Computer Science and Engineering at NYU Tandon, where she directs the Center for Health Data Science. She pioneered the use of social media data for real-time disease surveillance, demonstrated that AI-based analysis without domain expertise leads to misguided public health interventions (PNAS, 2024), and published research assessing and mitigating algorithmic bias in predictive models at NYC Health + Hospitals (npj Digital Medicine, 2025). Her influential Nature Machine Intelligence paper introduced a framework grounded in the Social Ecological Model for developing equitable health algorithms.",
     "roundtables": [
       "Medicine and AI"
@@ -2185,7 +2185,7 @@
     "achievement": "Defined Primary Age-Related Tauopathy (PART); discovered JADE1 gene; created HistoAge AI; 4 active NIH R01/RF1 grants; 12,700+ citations",
     "title": "Professor of Pathology, Neuroscience, and AI & Human Health; Vice Chair for AI, Department of Pathology, Icahn School of Medicine at Mount Sinai",
     "wikipedia": "",
-    "photo": "",
+    "photo": "https://www.mountsinai.org/files/fad_img_new/162/0000076810114495353131/0000072500034015029911.jpg",
     "bio": "John F. Crary is a tenured Professor of Pathology, Neuroscience, and Artificial Intelligence and Human Health at the Icahn School of Medicine at Mount Sinai, where he serves as Vice Chair for Artificial Intelligence in the Department of Pathology and founding director of the Neuropathology Brain Bank and Research CoRE. A board-certified neuropathologist, he led the 2014 international consensus defining Primary Age-Related Tauopathy (PART), cited over 1,130 times, and discovered the JADE1 gene as a novel genetic driver of tau pathology. He developed HistoAge, the first AI algorithm to predict biological brain age from histopathology slides, and collaborated on an AI system detecting Parkinson's disease from peripheral biopsies with 99% sensitivity and specificity.",
     "roundtables": [
       "Medicine and AI"
@@ -2594,7 +2594,7 @@
     "achievement": "CRI Irvington Fellow; EMBO Fellow; Nature Genetics paper on 450M missense variant predictions",
     "title": "Assistant Professor, Center for Human Genetics & Genomics, NYU Grossman School of Medicine",
     "wikipedia": "",
-    "photo": "",
+    "photo": "https://med.nyu.edu/dti-physician-photo/faculty/b/brandn03/brandn03-hero.jpg",
     "bio": "Nadav Brandes is an Assistant Professor at NYU Grossman School of Medicine with appointments in the Center for Human Genetics & Genomics and the Department of Biochemistry and Molecular Pharmacology. He was among the first researchers to develop protein language models as global predictors of protein structure and function, and his landmark 2023 Nature Genetics paper used ESM1b to predict the effects of all approximately 450 million possible missense variants in the human proteome. He also created ProteinBERT, a protein language model cited over 640 times, and collaborated with Jennifer Doudna and Carl June on CRISPR-Cas9 safety analysis published in Cell.",
     "roundtables": [
       "Medicine and AI"
@@ -2851,7 +2851,7 @@
     "achievement": "Co-created NYUTron (Nature, 2023, 99th percentile altmetrics); 31+ operational AI models at NYU Langone; Ultraviolet HPC #397 on Top500",
     "title": "Research Professor, Departments of Population Health and Medicine, NYU Grossman School of Medicine",
     "wikipedia": "",
-    "photo": "",
+    "photo": "https://med.nyu.edu/dti-physician-photo/faculty/a/aphiny01/aphiny01-hero.jpg",
     "bio": "Yindalon (Yin) Aphinyanaphongs is a Research Professor at NYU Grossman School of Medicine and director of the Division of Applied AI Technologies, Predictive Analytics Unit, and Operational Data Science at NYU Langone Health. He co-led the development of NYUTron, a clinical large language model trained on 7.25 million patient-care notes published in Nature in 2023. His mortality prediction system produced a fivefold increase in goals-of-care conversations and a 32% reduction in the Vizient Mortality Index (NEJM Catalyst). Under his leadership, NYU Langone has deployed over 31 AI models in operational use and rolled out GenAI Studio, providing HIPAA-compliant generative AI to over 1,000 employees.",
     "roundtables": [
       "Medicine and AI"
