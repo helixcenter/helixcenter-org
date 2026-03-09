@@ -1,0 +1,707 @@
+---
+layout: layouts/base.njk
+title: "Study Guide: Medicine and AI"
+pageTitle: "Study Guide: Medicine and AI"
+description: "A self-study guide covering AI/ML foundations, clinical medicine, and the five speakers' research domains for the Helix Center Medicine and AI roundtable."
+permalink: "/roundtables/medicine-and-ai/study-guide/"
+breadcrumbSection: "Roundtables"
+breadcrumbPage: "Study Guide: Medicine and AI"
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Background Tutorial &middot; April 18, 2026</div>
+    <h1>Medicine and AI</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">A Self-Study Guide for Attendees</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/roundtables/">Roundtables</a></li>
+    <li><a href="/roundtables/medicine-and-ai/">Medicine and AI</a></li>
+    <li>Study Guide</li>
+  </ol>
+</div>
+
+<style>
+/* ── Theme Tokens ── */
+:root {
+  /* Override these per-guide to re-theme */
+  --sg-primary:    #1B3A5C;   /* headings, speaker names */
+  --sg-accent:     #2E75B6;   /* links, borders, tags */
+  --sg-highlight:  #D4740A;   /* callout accent, "vs." labels */
+  --sg-bg:         #FAFBFD;   /* page background */
+  --sg-text:       #2D3748;   /* body text */
+  --sg-muted:      #718096;   /* secondary text */
+  --sg-border:     #E2E8F0;   /* card/table borders */
+
+  /* Callout palette */
+  --sg-blue-bg:    #E8F0F8;
+  --sg-green:      #276749;
+  --sg-green-bg:   #F0FFF4;
+  --sg-purple:     #553C9A;
+  --sg-purple-bg:  #FAF5FF;
+  --sg-red:        #9B2C2C;
+  --sg-red-bg:     #FFF5F5;
+  --sg-orange-bg:  #FFFAF0;
+}
+
+a.sg-toc a,
+.sg-container a {
+  color: var(--sg-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.sg-container a:hover { border-bottom-color: var(--sg-accent); }
+
+/* ── Layout ── */
+.sg-container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+.sg-main      { padding: 40px 0 80px; }
+
+/* ── Table of Contents ── */
+.sg-toc {
+  background: white;
+  border: 1px solid var(--sg-border);
+  border-radius: 8px;
+  padding: 28px 32px;
+  margin-bottom: 48px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+.sg-toc h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--sg-muted);
+  margin-bottom: 16px;
+  border-bottom: none;
+}
+.sg-toc ol { padding-left: 20px; }
+.sg-toc li { margin-bottom: 6px; font-size: 16px; }
+.sg-toc a  { color: var(--sg-primary); font-weight: 600; }
+
+/* ── Sections & Typography ── */
+.sg-container section { margin-bottom: 56px; }
+
+.sg-container h2 {
+  font-size: 30px;
+  color: var(--sg-primary);
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--sg-accent);
+}
+h2 .sg-section-num {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--sg-accent);
+  display: block;
+  margin-bottom: 4px;
+}
+.sg-container h3 { font-size: 22px; color: var(--sg-primary); margin: 28px 0 12px; }
+.sg-container h4 {
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--sg-muted);
+  margin: 24px 0 8px;
+}
+
+.sg-container p  { margin-bottom: 14px; }
+.sg-container ul, .sg-container ol { margin-bottom: 14px; padding-left: 24px; }
+.sg-container li { margin-bottom: 6px; }
+
+/* ── Callout Boxes ── */
+.sg-callout {
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 20px 0;
+  border-left: 4px solid;
+}
+.sg-callout-blue   { background: var(--sg-blue-bg);   border-color: var(--sg-accent); }
+.sg-callout-green  { background: var(--sg-green-bg);  border-color: var(--sg-green); }
+.sg-callout-purple { background: var(--sg-purple-bg); border-color: var(--sg-purple); }
+.sg-callout-orange { background: var(--sg-orange-bg); border-color: var(--sg-highlight); }
+.sg-callout-red    { background: var(--sg-red-bg);    border-color: var(--sg-red); }
+
+.sg-callout-label {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}
+.sg-callout-blue   .sg-callout-label { color: var(--sg-accent); }
+.sg-callout-green  .sg-callout-label { color: var(--sg-green); }
+.sg-callout-purple .sg-callout-label { color: var(--sg-purple); }
+.sg-callout-orange .sg-callout-label { color: var(--sg-highlight); }
+.sg-callout-red    .sg-callout-label { color: var(--sg-red); }
+
+/* ── Speaker Cards ── */
+.sg-speaker-card {
+  background: white;
+  border: 1px solid var(--sg-border);
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin: 24px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+.sg-speaker-card h3 {
+  margin-top: 0;
+  color: var(--sg-primary);
+  border-bottom: 2px solid var(--sg-blue-bg);
+  padding-bottom: 8px;
+}
+.sg-speaker-role {
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  color: var(--sg-accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+.sg-speaker-affiliation {
+  font-style: italic;
+  color: var(--sg-muted);
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+/* ── Resource Links ── */
+.sg-resource-list { list-style: none; padding: 0; }
+.sg-resource-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--sg-border);
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.sg-resource-list li:last-child { border-bottom: none; }
+
+.sg-tag {
+  font-family: 'Arial', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.sg-tag-paper   { background: var(--sg-blue-bg);   color: var(--sg-accent); }
+.sg-tag-course  { background: var(--sg-green-bg);  color: var(--sg-green); }
+.sg-tag-video   { background: var(--sg-purple-bg); color: var(--sg-purple); }
+.sg-tag-guide   { background: var(--sg-orange-bg); color: var(--sg-highlight); }
+.sg-tag-tool    { background: var(--sg-red-bg);    color: var(--sg-red); }
+.sg-tag-website { background: #F7FAFC;             color: var(--sg-muted); }
+
+/* ── Glossary ── */
+.sg-glossary-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+.sg-glossary-item {
+  background: white;
+  border: 1px solid var(--sg-border);
+  border-radius: 6px;
+  padding: 14px 18px;
+}
+.sg-glossary-term { font-weight: 700; color: var(--sg-primary); font-size: 16px; }
+.sg-glossary-def  { font-size: 15px; color: var(--sg-text); margin-top: 4px; }
+
+/* ── Tension Pairs ── */
+.sg-tension-pair {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 12px;
+  align-items: center;
+  margin: 16px 0;
+  padding: 16px;
+  background: white;
+  border: 1px solid var(--sg-border);
+  border-radius: 6px;
+}
+.sg-tension-vs {
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  color: var(--sg-highlight);
+  font-size: 14px;
+}
+.sg-tension-side { font-size: 15px; }
+.sg-tension-side strong { color: var(--sg-primary); }
+
+/* ── Footer ── */
+.sg-footer {
+  border-top: 2px solid var(--sg-border);
+  padding: 24px 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--sg-muted);
+  font-family: 'Arial', sans-serif;
+}
+
+/* ── Print ── */
+@media print {
+  .sg-container h2 { font-size: 24px; }
+  .sg-container section { page-break-inside: avoid; }
+  .sg-container a { color: var(--sg-text); border-bottom: none; }
+  .sg-container a::after { content: " (" attr(href) ")"; font-size: 11px; color: var(--sg-muted); }
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .sg-container { padding: 0 16px; }
+  .sg-tension-pair { grid-template-columns: 1fr; text-align: center; }
+  .sg-tension-vs { margin: 8px 0; }
+  .sg-resource-list li { flex-direction: column; gap: 4px; }
+}
+</style>
+
+<div class="sg-container sg-main">
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- TABLE OF CONTENTS -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<nav class="sg-toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#about">About This Guide &amp; the Helix Format</a></li>
+    <li><a href="#ai-foundations">AI/ML Foundations for Medical Professionals</a></li>
+    <li><a href="#med-foundations">Medical &amp; Clinical Foundations for AI Researchers</a></li>
+    <li><a href="#intersection">The Intersection: AI in Medicine Today</a></li>
+    <li><a href="#speakers">Meet the Five Speakers</a></li>
+    <li><a href="#fault-lines">The Five Fault Lines &mdash; What the Panel Will Debate</a></li>
+    <li><a href="#tensions">Key Tensions to Watch</a></li>
+    <li><a href="#glossary">Glossary of Key Terms</a></li>
+    <li><a href="#further-reading">Further Reading &amp; Courses</a></li>
+  </ol>
+</nav>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 1. ABOUT -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<section id="about">
+  <h2><span class="sg-section-num">Section 1</span>About This Guide &amp; the Helix Format</h2>
+
+  <p>This guide is designed for college-educated attendees (MS, PhD, MD, or equivalent) who may be deeply familiar with <em>either</em> AI/machine learning <em>or</em> medicine/clinical practice &mdash; but not both. It provides concise background on the concepts, vocabulary, and research questions you&rsquo;ll need to follow the roundtable discussion productively.</p>
+
+  <div class="sg-callout sg-callout-blue">
+    <div class="sg-callout-label">The Helix Center Format</div>
+    <p>Helix Center roundtables are <strong>moderated conversations</strong>, not lecture panels. Five experts with different (often opposing) perspectives sit in a semicircle and engage in real-time dialogue for 90 minutes. No PowerPoints, no prepared talks. The audience observes the conversation and joins during a Q&amp;A period. The format is designed to surface <em>productive disagreement</em> &mdash; and this guide will help you anticipate where those disagreements lie.</p>
+  </div>
+
+  <h3>How to Use This Guide</h3>
+  <ul>
+    <li><strong>If you come from medicine:</strong> Start with Section 2 (AI Foundations) to build vocabulary, then jump to Section 5 (Speakers) and Section 6 (Fault Lines).</li>
+    <li><strong>If you come from AI/ML:</strong> Start with Section 3 (Medical Foundations) for clinical context, then read Section 5 and 6.</li>
+    <li><strong>If you&rsquo;re a generalist:</strong> Read straight through &mdash; the guide is designed as a narrative arc from foundations to debate.</li>
+    <li><strong>Short on time?</strong> Read Section 5 (speakers) and Section 6 (fault lines) only &mdash; ~15 minutes.</li>
+  </ul>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 2. AI/ML FOUNDATIONS -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<section id="ai-foundations">
+  <h2><span class="sg-section-num">Section 2</span>AI/ML Foundations for Medical Professionals</h2>
+
+  <p>If you&rsquo;re a clinician, researcher, or medical professional, this section provides the AI/ML vocabulary and concepts you&rsquo;ll need to follow the roundtable&rsquo;s technical discussions.</p>
+
+  <h3>What &ldquo;AI&rdquo; Means in This Context</h3>
+  <p>When we say &ldquo;AI in medicine,&rdquo; we almost always mean <strong>machine learning (ML)</strong>: algorithms that learn patterns from data rather than following hand-coded rules. The key categories relevant to this roundtable:</p>
+
+  <ul>
+    <li><strong>Supervised learning:</strong> The model learns from labeled examples (e.g., &ldquo;this tissue slide shows Alzheimer&rsquo;s pathology&rdquo;). Most clinical AI today uses supervised learning.</li>
+    <li><strong>Deep learning:</strong> ML using neural networks with many layers. Enables analysis of complex data like images, text, and genomic sequences.</li>
+    <li><strong>Foundation models / Large Language Models (LLMs):</strong> Very large models trained on broad data, then adapted to specific tasks. GPT (text), ESM (proteins), and NYUTron (clinical notes) are examples discussed in this roundtable.</li>
+    <li><strong>Computer vision:</strong> AI that analyzes images &mdash; in medicine, this means radiology, pathology, dermatology, and retinal imaging.</li>
+  </ul>
+
+  <h3>How Clinical AI Models Work (Simplified)</h3>
+  <div class="sg-callout sg-callout-green">
+    <div class="sg-callout-label">The Basic Pipeline</div>
+    <p><strong>1. Data collection</strong> &rarr; EHR records, imaging, genomic data, wearable sensors<br>
+    <strong>2. Preprocessing</strong> &rarr; Cleaning, de-identification, formatting<br>
+    <strong>3. Training</strong> &rarr; The model learns patterns from thousands/millions of examples<br>
+    <strong>4. Validation</strong> &rarr; Testing on held-out data the model hasn&rsquo;t seen<br>
+    <strong>5. Deployment</strong> &rarr; Integration into clinical workflow (the hardest part &mdash; ask Aphinyanaphongs)<br>
+    <strong>6. Monitoring</strong> &rarr; Ongoing surveillance for model drift and bias</p>
+  </div>
+
+  <h3>Key Concepts You&rsquo;ll Hear</h3>
+  <ul>
+    <li><strong>Training data:</strong> The dataset the model learns from. Its composition determines what the model can and cannot do. If the training data underrepresents a population, the model will perform worse for that population (a central theme of Chunara&rsquo;s work).</li>
+    <li><strong>Model validation:</strong> Testing model performance on new data. Internal validation uses data from the same institution; external validation uses data from different institutions. External validation is the gold standard but rarely done.</li>
+    <li><strong>Sensitivity and specificity:</strong> Sensitivity = how well the model catches true positives. Specificity = how well it avoids false positives. These trade off against each other, and the right balance depends on clinical context.</li>
+    <li><strong>Black box vs. interpretability:</strong> Many deep learning models can&rsquo;t explain <em>why</em> they made a prediction. This is a major barrier to clinical trust and regulatory approval.</li>
+    <li><strong>Model drift:</strong> Real-world data changes over time (new diseases, new documentation practices, population shifts). Models that worked well at deployment may degrade. Aphinyanaphongs&rsquo; team monitors 31+ models for this.</li>
+  </ul>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 3. MEDICAL FOUNDATIONS -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<section id="med-foundations">
+  <h2><span class="sg-section-num">Section 3</span>Medical &amp; Clinical Foundations for AI Researchers</h2>
+
+  <p>If you&rsquo;re an AI researcher, engineer, or technologist, this section provides the medical context you&rsquo;ll need to understand the clinical stakes of the roundtable discussion.</p>
+
+  <h3>How Clinical Decisions Are Made</h3>
+  <p>Clinical medicine is fundamentally about <strong>decision-making under uncertainty</strong>. A clinician integrates:</p>
+  <ul>
+    <li>Patient history and symptoms (subjective)</li>
+    <li>Physical examination (objective but variable)</li>
+    <li>Lab results and imaging (quantitative but noisy)</li>
+    <li>Published evidence (population-level, may not apply to this patient)</li>
+    <li>Clinical experience and intuition (powerful but biased)</li>
+    <li>Patient preferences and values (often unspoken)</li>
+  </ul>
+  <p>AI enters this process as an <em>additional input</em>, not a replacement for it. The question is: where in this decision chain does AI add value, and where does it introduce risk?</p>
+
+  <h3>The Electronic Health Record (EHR)</h3>
+  <p>The EHR is the central nervous system of modern hospitals. It stores clinical notes, lab results, medications, imaging, billing codes, and more. For AI researchers, two things to know:</p>
+  <ul>
+    <li><strong>EHR data is messy:</strong> It&rsquo;s generated for billing and legal documentation, not for research. Notes contain abbreviations, copy-pasted text, and errors. Lab values have different reference ranges across hospitals.</li>
+    <li><strong>EHR data is biased:</strong> What gets recorded reflects who seeks care, who has insurance, and what clinicians choose to document. Absence of a diagnosis doesn&rsquo;t mean absence of disease.</li>
+  </ul>
+
+  <h3>Key Medical Domains in This Roundtable</h3>
+  <div class="sg-callout sg-callout-orange">
+    <div class="sg-callout-label">Five Domains, Five Speakers</div>
+    <p><strong>Digital mental health</strong> (Choudhury): Using smartphones and wearables to detect stress, depression, and behavioral changes in real time.<br>
+    <strong>Genomics &amp; protein science</strong> (Brandes): Predicting how genetic mutations affect protein function and disease risk.<br>
+    <strong>Neuropathology</strong> (Crary): Diagnosing brain diseases by examining tissue under a microscope &mdash; now with AI.<br>
+    <strong>Health equity</strong> (Chunara): Ensuring AI doesn&rsquo;t worsen existing disparities in who gets what care.<br>
+    <strong>Clinical operations</strong> (Aphinyanaphongs): Actually deploying AI tools in a working hospital system.</p>
+  </div>
+
+  <h3>Why &ldquo;Deploying AI&rdquo; in Medicine Is Hard</h3>
+  <ul>
+    <li><strong>Regulation:</strong> The FDA regulates AI as a medical device (SaMD). Approval pathways are evolving and inconsistent.</li>
+    <li><strong>Liability:</strong> If an AI recommends a wrong treatment, who is responsible? The developer? The hospital? The clinician who followed the recommendation?</li>
+    <li><strong>Workflow integration:</strong> Clinicians are already overwhelmed. Adding another alert or tool can cause &ldquo;alert fatigue&rdquo; and be ignored.</li>
+    <li><strong>Trust:</strong> Clinicians won&rsquo;t use a tool they don&rsquo;t trust, and they won&rsquo;t trust a tool they can&rsquo;t understand.</li>
+    <li><strong>Equity:</strong> A model that works well at an academic medical center may fail at a community hospital with different patient populations.</li>
+  </ul>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 4. THE INTERSECTION -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<section id="intersection">
+  <h2><span class="sg-section-num">Section 4</span>The Intersection: AI in Medicine Today</h2>
+
+  <p>This section maps the current landscape &mdash; what&rsquo;s working, what&rsquo;s not, and where the roundtable speakers sit within it.</p>
+
+  <h3>Where AI Is Already in Clinical Use</h3>
+  <ul>
+    <li><strong>Radiology:</strong> FDA has cleared 500+ AI devices for medical imaging. Most assist with detection (e.g., flagging suspicious findings on mammograms or CT scans).</li>
+    <li><strong>Pathology:</strong> Digital pathology is accelerating, with AI tools for tumor detection, grading, and &mdash; as Crary demonstrates &mdash; brain aging.</li>
+    <li><strong>Clinical decision support:</strong> EHR-integrated alerts for sepsis, deterioration, and mortality risk (Aphinyanaphongs&rsquo; domain).</li>
+    <li><strong>Drug discovery:</strong> AI-assisted molecular design has entered clinical trials, though no AI-discovered drug has yet received full FDA approval.</li>
+    <li><strong>Mental health:</strong> Digital therapeutics and monitoring tools (Choudhury&rsquo;s domain), including FDA-cleared apps for substance use disorders.</li>
+  </ul>
+
+  <h3>Where AI Is Struggling</h3>
+  <ul>
+    <li><strong>Generalizability:</strong> Models trained at one institution often fail at another. The &ldquo;lab-to-bedside&rdquo; gap remains wide.</li>
+    <li><strong>Equity:</strong> Multiple studies show AI models perform worse for underrepresented populations. Chunara&rsquo;s work at NYC safety-net hospitals makes this concrete.</li>
+    <li><strong>Regulation:</strong> The FDA&rsquo;s framework is playing catch-up with continuously learning models. Current rules assume static software.</li>
+    <li><strong>Trust:</strong> Clinician adoption remains low for many tools. The &ldquo;last mile&rdquo; from model to clinical impact is the hardest part.</li>
+    <li><strong>Evidence standards:</strong> The field lacks consensus on what constitutes sufficient evidence for clinical AI deployment. RCTs? Prospective studies? Retrospective validation?</li>
+  </ul>
+
+  <h3>The Regulatory Landscape</h3>
+  <div class="sg-callout sg-callout-blue">
+    <div class="sg-callout-label">Key Regulatory Facts</div>
+    <p>The FDA has authorized 950+ AI-enabled medical devices (as of early 2026), mostly in radiology. The agency&rsquo;s 2021 &ldquo;Action Plan&rdquo; for AI/ML-based SaMD proposed a framework for continuously learning systems, but implementation is still evolving. The EU AI Act (2024) classifies medical AI as &ldquo;high-risk&rdquo; with strict requirements. No single global standard exists.</p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 5. SPEAKERS -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<section id="speakers">
+  <h2><span class="sg-section-num">Section 5</span>Meet the Five Speakers</h2>
+  <p>Each speaker brings a distinct lens to the question of AI in medicine. Understanding their research and perspective will help you follow the roundtable&rsquo;s dynamics.</p>
+
+  <!-- Speaker 1 -->
+  <div class="sg-speaker-card">
+    <div class="sg-speaker-role">The Sensor Scientist &mdash; Digital Mental Health &amp; Ubiquitous Computing</div>
+    <h3>Tanzeem Choudhury, PhD</h3>
+    <div class="sg-speaker-affiliation">Professor of Information Science, Cornell University; Co-founder, HealthRhythms</div>
+
+    <p>Choudhury is a pioneer in using smartphone and wearable sensor data to monitor mental health. Her lab developed systems that detect stress, depression, and behavioral changes through passive sensing (accelerometer, microphone, GPS, typing patterns) without requiring active user input. She co-founded HealthRhythms to translate this research into clinical tools, and her work on the StudentLife dataset is one of the most cited studies in mobile health.</p>
+
+    <p><strong>Questions she&rsquo;ll raise:</strong> Can continuous sensing detect mental health crises before they happen? Who has access to this data, and who should? What happens when AI knows you&rsquo;re depressed before you do?</p>
+
+    <h4>Preparation Reading</h4>
+    <ul class="sg-resource-list">
+      <li><span class="sg-tag sg-tag-video">Talk</span><a href="https://www.tedmed.com/talks/show?id=683108" target="_blank">TEDMED Talk &mdash; Tracking mental health as easily as tracking steps</a></li>
+      <li><span class="sg-tag sg-tag-website">Website</span><a href="https://tech.cornell.edu/people/tanzeem-choudhury/" target="_blank">Cornell Tech faculty page</a></li>
+    </ul>
+  </div>
+
+  <!-- Speaker 2 -->
+  <div class="sg-speaker-card">
+    <div class="sg-speaker-role">The Molecular Decoder &mdash; Genomic AI &amp; Biological Data Governance</div>
+    <h3>Nadav Brandes, PhD</h3>
+    <div class="sg-speaker-affiliation">Assistant Professor, Center for Human Genetics &amp; Genomics, NYU Grossman School of Medicine</div>
+
+    <p>Brandes develops protein language models to predict how genetic mutations affect protein function. His 2023 <em>Nature Genetics</em> paper predicted effects of all ~450 million possible missense variants in the human genome. He created ProteinBERT (<em>Bioinformatics</em>, 2022) and PWAS (<em>Genome Biology</em>, 2020), and his collaboration with Jennifer Doudna and Carl June on mitigation of CRISPR-Cas9-induced chromosome loss in clinical T cells was published in <em>Cell</em>. He is also an active voice on AI safety and biological data governance, contributing to LessWrong and the AI Alignment Forum and co-authoring a 2026 <em>Science</em> article on data governance.</p>
+
+    <p><strong>Questions he&rsquo;ll raise:</strong> Who controls biological data when AI can decode it? What are the long-term safety implications of increasingly capable AI? How should we govern genomic data in an age of foundation models?</p>
+
+    <h4>Preparation Reading</h4>
+    <ul class="sg-resource-list">
+      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41588-023-01465-0" target="_blank">Genome-wide prediction of disease variants (Nature Genetics, 2023)</a></li>
+      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://academic.oup.com/bioinformatics/article/38/8/2102/6502274" target="_blank">ProteinBERT (Bioinformatics, 2022)</a></li>
+      <li><span class="sg-tag sg-tag-website">Website</span><a href="https://incrementally.net/" target="_blank">Incrementally &mdash; Brandes&rsquo; blog on AI, biology, and safety</a></li>
+    </ul>
+  </div>
+
+  <!-- Speaker 3 -->
+  <div class="sg-speaker-card">
+    <div class="sg-speaker-role">The Diagnostic Architect &mdash; AI Neuropathology &amp; Brain Aging</div>
+    <h3>John F. Crary, MD, PhD</h3>
+    <div class="sg-speaker-affiliation">Professor of Pathology, Molecular and Cell-Based Medicine, Neuroscience, and AI &amp; Human Health; Vice Chair for AI, Dept. of Pathology, Icahn School of Medicine at Mount Sinai</div>
+
+    <p>Crary is a board-certified neuropathologist who created HistoAge (the first AI to predict biological brain age from histopathology slides) and co-developed an AI system detecting alpha-synuclein pathology in peripheral biopsy tissue with 99% sensitivity/specificity. His 2014 definition of PART (Primary Age-Related Tauopathy) has 1,130+ citations and changed how the field classifies brain aging. He directs a major Alzheimer&rsquo;s brain bank and has 12,744+ total citations.</p>
+
+    <p><strong>Questions he&rsquo;ll raise:</strong> When AI can read a slide with 99% accuracy, what is the role of the human pathologist? How do we validate AI diagnostic tools for tissues we&rsquo;ve never seen before? What does &ldquo;trust&rdquo; mean when the AI sees something the human can&rsquo;t?</p>
+
+    <h4>Preparation Reading</h4>
+    <ul class="sg-resource-list">
+      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://pure.johnshopkins.edu/en/publications/primary-age-related-tauopathy-part-a-common-pathology-associated--4" target="_blank">PART consensus definition (Acta Neuropathologica, 2014)</a></li>
+      <li><span class="sg-tag sg-tag-guide">Guide</span><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11573928/" target="_blank">Transforming Diagnostics: Advances in Digital Pathology (review)</a></li>
+    </ul>
+  </div>
+
+  <!-- Speaker 4 -->
+  <div class="sg-speaker-card">
+    <div class="sg-speaker-role">The Equity Architect &mdash; Algorithmic Fairness &amp; Population Health</div>
+    <h3>Rumi Chunara, PhD</h3>
+    <div class="sg-speaker-affiliation">Associate Professor of Biostatistics and Computer Science and Engineering, NYU; Director, Center for Health Data Science</div>
+
+    <p>Chunara pioneered social media-based disease surveillance, developed influential frameworks for equitable AI in health (<em>Nature Machine Intelligence</em>, 2021), and has directly measured algorithmic bias at NYC Health + Hospitals. Her 2024 <em>PNAS</em> paper demonstrated that utilizing big data without domain knowledge impacts public health decision-making. She is an ACM Distinguished Member, NSF CAREER awardee, and MIT TR35 honoree with ~7,000+ citations.</p>
+
+    <p><strong>Questions she&rsquo;ll raise:</strong> Whose data trains the algorithm, and who is missing? Can fairness be &ldquo;added on&rdquo; after a model is built, or must it be designed in? When AI scales a biased system, who bears the harm?</p>
+
+    <h4>Preparation Reading</h4>
+    <ul class="sg-resource-list">
+      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s42256-021-00373-4" target="_blank">ML and algorithmic fairness in public and population health (Nature Machine Intelligence, 2021)</a></li>
+      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.pnas.org/doi/10.1073/pnas.2402387121" target="_blank">Big data without domain knowledge impacts public health decisions (PNAS, 2024)</a></li>
+      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41746-025-01732-w" target="_blank">Algorithmic bias in the safety net (npj Digital Medicine, 2025)</a></li>
+    </ul>
+  </div>
+
+  <!-- Speaker 5 -->
+  <div class="sg-speaker-card">
+    <div class="sg-speaker-role">The Systems Builder &mdash; Clinical AI Deployment at Scale</div>
+    <h3>Yindalon (Yin) Aphinyanaphongs, MD, PhD</h3>
+    <div class="sg-speaker-affiliation">Research Professor, Dept. of Population Health &amp; Medicine; Director, Division of Applied AI Technologies (DAAIT), NYU Langone Health</div>
+
+    <p>Aphinyanaphongs co-led the development of NYUTron, a clinical LLM trained on 7.25 million clinical notes, published in <em>Nature</em> (2023). His mortality prediction system, deployed as interruptive EHR alerts, has been associated with a fivefold increase in goals-of-care conversations and a reduction in the Vizient Mortality Index. He has deployed 31+ operational AI models at NYU Langone, led the rollout of GenAI Studio (HIPAA-compliant generative AI for 1,000+ applicants), and oversees the Ultraviolet HPC cluster (646 GPUs, ranked #255 on the November 2025 Top500 list).</p>
+
+    <p><strong>Questions he&rsquo;ll raise:</strong> What does it take to move an AI model from publication to production? When is the evidence &ldquo;enough&rdquo; to deploy? What organizational infrastructure sustains clinical AI at scale? Can AI improve not just efficiency but the <em>quality</em> of care conversations?</p>
+
+    <h4>Preparation Reading</h4>
+    <ul class="sg-resource-list">
+      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41586-023-06160-y" target="_blank">NYUTron: Health system-scale language models (Nature, 2023)</a></li>
+      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://catalyst.nejm.org/doi/abs/10.1056/CAT.20.0655" target="_blank">Mortality risk predictions for advance care planning (NEJM Catalyst)</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 6. FAULT LINES -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<section id="fault-lines">
+  <h2><span class="sg-section-num">Section 6</span>The Five Fault Lines</h2>
+  <p>The roundtable is organized around five interlocking tensions. For each, we provide the core question, which speakers are most directly engaged, and what to think about beforehand.</p>
+
+  <div class="sg-callout sg-callout-purple">
+    <div class="sg-callout-label">1. Evidence &amp; Deployment</div>
+    <p><strong>Core question:</strong> What counts as sufficient evidence to deploy AI in clinical care?</p>
+    <p>Aphinyanaphongs has deployed 31+ models; Chunara has shown that similar models can encode bias in safety-net hospitals. The threshold for &ldquo;enough&rdquo; evidence looks very different depending on whether you prioritize speed of impact or equity of outcomes.</p>
+    <p><strong>Think about:</strong> How many patients need to benefit before deployment is justified? Who decides, and how do you account for patients who might be harmed?</p>
+  </div>
+
+  <div class="sg-callout sg-callout-purple">
+    <div class="sg-callout-label">2. The Body as Data</div>
+    <p><strong>Core question:</strong> What is gained and what is lost when the patient becomes a data substrate?</p>
+    <p>From Choudhury&rsquo;s smartphone stress sensors to Crary&rsquo;s brain tissue slides to Brandes&rsquo; protein sequences, AI increasingly &ldquo;knows&rdquo; the patient through computational representations rather than clinical encounters.</p>
+    <p><strong>Think about:</strong> Does an AI model that reads your genome &ldquo;know&rdquo; you? Does it know you differently than a model that reads your clinical notes? What about one that listens to your voice for signs of stress?</p>
+  </div>
+
+  <div class="sg-callout sg-callout-purple">
+    <div class="sg-callout-label">3. Equity &amp; Scale</div>
+    <p><strong>Core question:</strong> How do we prevent AI from scaling existing health disparities?</p>
+    <p>Chunara&rsquo;s research shows bias is not hypothetical &mdash; it is measurable in real systems. Choudhury studies whether digital mental health tools work equitably across populations. Aphinyanaphongs deploys at scale across a major urban system.</p>
+    <p><strong>Think about:</strong> If a model improves outcomes for 80% of patients but worsens outcomes for a vulnerable 20%, should it be deployed? Who makes that call?</p>
+  </div>
+
+  <div class="sg-callout sg-callout-purple">
+    <div class="sg-callout-label">4. Trust Across Scales</div>
+    <p><strong>Core question:</strong> Can a single framework for &ldquo;trust in medical AI&rdquo; span from molecules to health systems?</p>
+    <p>Trust means something different when a clinician trusts a protein variant prediction (Brandes), an AI pathology reading (Crary), a smartphone behavioral assessment (Choudhury), an EHR mortality alert (Aphinyanaphongs), or a fairness audit (Chunara).</p>
+    <p><strong>Think about:</strong> Is &ldquo;trust&rdquo; even the right word? When you &ldquo;trust&rdquo; a molecular prediction, is that the same kind of trust as when you trust a doctor?</p>
+  </div>
+
+  <div class="sg-callout sg-callout-purple">
+    <div class="sg-callout-label">5. Governance from the Inside</div>
+    <p><strong>Core question:</strong> What happens when the people building AI are also the ones governing it?</p>
+    <p>Without a dedicated regulator on the panel, governance questions fall to the builders. Brandes writes on data governance, Chunara on responsible AI, Aphinyanaphongs on institutional AI policy, Choudhury on navigating FDA/IRB processes as an entrepreneur.</p>
+    <p><strong>Think about:</strong> Can builders effectively regulate themselves? What does &ldquo;governance&rdquo; look like when it comes from practitioners rather than external regulators? Is this better or worse?</p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 7. TENSIONS TO WATCH -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<section id="tensions">
+  <h2><span class="sg-section-num">Section 7</span>Key Tensions to Watch</h2>
+  <p>The most generative conversations at Helix roundtables emerge from productive disagreements between speakers. Here are the pairings to watch:</p>
+
+  <div class="sg-tension-pair">
+    <div class="sg-tension-side"><strong>Aphinyanaphongs</strong><br>The deployer: &ldquo;We have 31 models live. The evidence supports action.&rdquo;</div>
+    <div class="sg-tension-vs">vs.</div>
+    <div class="sg-tension-side"><strong>Chunara</strong><br>The auditor: &ldquo;Similar models encode bias in safety-net hospitals. We must audit first.&rdquo;</div>
+  </div>
+
+  <div class="sg-tension-pair">
+    <div class="sg-tension-side"><strong>Choudhury</strong><br>Patient-facing AI: wearables, apps, direct-to-patient sensing</div>
+    <div class="sg-tension-vs">vs.</div>
+    <div class="sg-tension-side"><strong>Aphinyanaphongs</strong><br>Clinician-facing AI: EHR alerts, predictive models, workflow tools</div>
+  </div>
+
+  <div class="sg-tension-pair">
+    <div class="sg-tension-side"><strong>Brandes</strong><br>Foundational science: protein language models, pre-clinical tools</div>
+    <div class="sg-tension-vs">vs.</div>
+    <div class="sg-tension-side"><strong>Aphinyanaphongs</strong><br>Operational deployment: the &ldquo;last mile&rdquo; from model to bedside</div>
+  </div>
+
+  <div class="sg-tension-pair">
+    <div class="sg-tension-side"><strong>Brandes</strong><br>Molecular scale: AI reads protein sequences</div>
+    <div class="sg-tension-vs">vs.</div>
+    <div class="sg-tension-side"><strong>Crary</strong><br>Tissue scale: AI reads brain slides</div>
+  </div>
+
+  <div class="sg-tension-pair">
+    <div class="sg-tension-side"><strong>Choudhury</strong><br>Sensing as empowerment: early detection, patient agency</div>
+    <div class="sg-tension-vs">vs.</div>
+    <div class="sg-tension-side"><strong>Chunara</strong><br>Sensing as surveillance: who is monitored, who benefits?</div>
+  </div>
+
+  <div class="sg-tension-pair">
+    <div class="sg-tension-side"><strong>Aphinyanaphongs</strong><br>Near-term: maximize clinical impact now</div>
+    <div class="sg-tension-vs">vs.</div>
+    <div class="sg-tension-side"><strong>Brandes</strong><br>Long-term: existential AI safety risks demand caution</div>
+  </div>
+
+  <div class="sg-callout sg-callout-red">
+    <div class="sg-callout-label">The Central Debate</div>
+    <p>The <strong>Aphinyanaphongs&ndash;Chunara</strong> tension is the panel&rsquo;s defining axis. Both are at NYU. Both care about patient outcomes. They approach deployment from opposite directions &mdash; scale versus scrutiny, action versus audit. The question of whether to deploy first and audit later, or audit first and deploy later, is the roundtable&rsquo;s most consequential operational disagreement. Listen for it early and throughout.</p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 8. GLOSSARY -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<section id="glossary">
+  <h2><span class="sg-section-num">Section 8</span>Glossary of Key Terms</h2>
+
+  <h3>AI &amp; Machine Learning</h3>
+  <div class="sg-glossary-grid">
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Large Language Model (LLM)</span><div class="sg-glossary-def">A neural network trained on massive text data to predict and generate language. Clinical LLMs like NYUTron are trained on medical records instead of internet text.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Protein Language Model</span><div class="sg-glossary-def">A neural network trained on amino acid sequences (instead of words) to learn the &ldquo;grammar&rdquo; of proteins, enabling prediction of how mutations affect function.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Foundation Model</span><div class="sg-glossary-def">A large AI model trained on broad data that can be adapted to many downstream tasks. ESM (proteins) and GPT (text) are examples.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Computer Vision</span><div class="sg-glossary-def">AI systems that analyze images. In medicine: reading radiology scans, pathology slides, retinal photos, or dermatology images.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Multiple Instance Learning (MIL)</span><div class="sg-glossary-def">An ML approach for analyzing very large images (like pathology slides) by dividing them into patches and learning patterns across the collection. Used by Crary&rsquo;s HistoAge.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Algorithmic Bias</span><div class="sg-glossary-def">Systematic errors in AI predictions that disadvantage certain groups, typically arising from biased training data or biased problem framing.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Model Drift</span><div class="sg-glossary-def">Degradation in model performance over time as the real-world data distribution shifts away from the training data.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">AI Alignment</span><div class="sg-glossary-def">The research field focused on ensuring advanced AI systems act in accordance with human values and intentions. Brandes contributes to this field alongside his genomics work.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Passive Sensing</span><div class="sg-glossary-def">Continuous data collection from devices (smartphones, wearables) without requiring active user input. Core to Choudhury&rsquo;s work.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Digital Biomarker</span><div class="sg-glossary-def">A measurable health indicator derived from digital data (e.g., voice patterns indicating stress, typing speed indicating cognitive state).</div></div>
+  </div>
+
+  <h3>Medical &amp; Clinical</h3>
+  <div class="sg-glossary-grid">
+    <div class="sg-glossary-item"><span class="sg-glossary-term">EHR (Electronic Health Record)</span><div class="sg-glossary-def">Digital system storing patient data: clinical notes, lab results, medications, imaging, billing. Primary data source for clinical AI.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Clinical Decision Support (CDS)</span><div class="sg-glossary-def">Any system that provides clinicians with knowledge or patient-specific information to enhance decision-making. AI-powered CDS is what Aphinyanaphongs deploys.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Alert Fatigue</span><div class="sg-glossary-def">Clinician desensitization from excessive electronic alerts, causing important warnings to be dismissed. A major barrier to clinical AI adoption.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Missense Variant</span><div class="sg-glossary-def">A single-letter change in DNA that alters one amino acid in the resulting protein. Can be benign or disease-causing. Brandes&rsquo; models predict which.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">GWAS (Genome-Wide Association Study)</span><div class="sg-glossary-def">A study scanning the entire genome of many individuals to find genetic variants associated with a disease or trait.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Tauopathy / PART</span><div class="sg-glossary-def">Diseases involving abnormal tau protein in the brain. PART (Primary Age-Related Tauopathy), defined by Crary, is a common age-related form distinct from Alzheimer&rsquo;s.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Alpha-Synuclein</span><div class="sg-glossary-def">A protein whose abnormal aggregation is a hallmark of Parkinson&rsquo;s disease and Lewy body dementia. Crary&rsquo;s AI detects it in peripheral biopsies.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Histopathology</span><div class="sg-glossary-def">The study of tissue under a microscope to diagnose disease. &ldquo;Digital pathology&rdquo; converts this process to AI-analyzable images.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Social Determinants of Health (SDOH)</span><div class="sg-glossary-def">Non-medical factors (housing, education, income, neighborhood) that strongly influence health outcomes. Central to Chunara&rsquo;s equity work.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Safety-Net Hospital</span><div class="sg-glossary-def">A hospital that provides care regardless of ability to pay, serving predominantly low-income and uninsured populations. NYC Health + Hospitals is the largest in the U.S.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Advance Care Planning</span><div class="sg-glossary-def">Conversations between patients, families, and clinicians about goals of care, especially near end of life. Aphinyanaphongs&rsquo; AI has been associated with a fivefold increase in these conversations.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Vizient Mortality Index</span><div class="sg-glossary-def">A standardized metric comparing a hospital&rsquo;s actual mortality to expected mortality, adjusting for patient severity. Used to benchmark care quality.</div></div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 9. FURTHER READING -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<section id="further-reading">
+  <h2><span class="sg-section-num">Section 9</span>Further Reading &amp; Courses</h2>
+
+  <h3>Books</h3>
+  <ul class="sg-resource-list">
+    <li><span class="sg-tag sg-tag-guide">Book</span><a href="https://drerictopol.com/portfolio/deep-medicine/" target="_blank">Eric Topol &mdash; <em>Deep Medicine: How AI Can Make Healthcare Human Again</em></a></li>
+    <li><span class="sg-tag sg-tag-guide">Book</span><a href="https://fairmlbook.org/tutorial2.html" target="_blank">Barocas, Hardt &amp; Narayanan &mdash; <em>Fairness and Machine Learning</em> (free online)</a></li>
+  </ul>
+
+  <h3>Free Courses</h3>
+  <ul class="sg-resource-list">
+    <li><span class="sg-tag sg-tag-course">Course</span><a href="https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/" target="_blank">MIT OCW &mdash; Machine Learning for Healthcare (full lecture videos + materials)</a></li>
+    <li><span class="sg-tag sg-tag-course">Course</span><a href="https://www.coursera.org/specializations/ai-for-medicine" target="_blank">Coursera &mdash; AI for Medicine Specialization (deeplearning.ai)</a></li>
+    <li><span class="sg-tag sg-tag-course">Course</span><a href="https://online.stanford.edu/programs/artificial-intelligence-healthcare" target="_blank">Stanford Online &mdash; Artificial Intelligence in Healthcare</a></li>
+  </ul>
+
+  <h3>Institutional Resources</h3>
+  <ul class="sg-resource-list">
+    <li><span class="sg-tag sg-tag-website">Website</span><a href="https://hai.stanford.edu/topics/healthcare" target="_blank">Stanford HAI &mdash; Healthcare &amp; AI Research</a></li>
+    <li><span class="sg-tag sg-tag-website">Website</span><a href="https://www.who.int/publications/i/item/9789240029200" target="_blank">WHO &mdash; Ethics and Governance of AI for Health (guidance document)</a></li>
+    <li><span class="sg-tag sg-tag-website">Website</span><a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device" target="_blank">FDA &mdash; AI/ML-Based Software as a Medical Device</a></li>
+    <li><span class="sg-tag sg-tag-website">Website</span><a href="https://ai.nejm.org/" target="_blank">NEJM AI &mdash; The New England Journal of Medicine&rsquo;s AI journal</a></li>
+    <li><span class="sg-tag sg-tag-website">Website</span><a href="https://www.nature.com/collections/dbfcjjigbi" target="_blank">Nature &mdash; AI in Health Care collection</a></li>
+    <li><span class="sg-tag sg-tag-website">Website</span><a href="https://research.google/teams/health/" target="_blank">Google Health Research</a></li>
+  </ul>
+
+  <h3>Key Review Articles</h3>
+  <ul class="sg-resource-list">
+    <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41591-021-01614-0" target="_blank">AI in health and medicine (Nature Medicine, 2021 &mdash; comprehensive review)</a></li>
+    <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41551-023-01056-8" target="_blank">Algorithm fairness in AI for medicine and healthcare (Nature Biomedical Engineering, 2023)</a></li>
+    <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41746-020-0221-y" target="_blank">Clinical decision support with AI: overview (npj Digital Medicine, 2020)</a></li>
+  </ul>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<footer class="sg-footer">
+  <p>Prepared for the Helix Center Roundtable: AI + Medicine &middot; April 18, 2026 &middot; New York City</p>
+  <p>This guide is intended as background preparation. All linked resources are publicly accessible.</p>
+</footer>
+
+</div>
+
+<a href="/roundtables/medicine-and-ai/" style="display: inline-block; margin: 2rem 0;">&larr; Back to Medicine and AI</a>
