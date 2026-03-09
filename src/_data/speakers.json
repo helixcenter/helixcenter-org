@@ -7,7 +7,7 @@
     "institution": "Princeton",
     "domain": "Psychology & Psychoanalysis",
     "appearances": 1,
-    "achievement": "Nobel Prize in Economic Sciences (2002) · Presidential Medal of Freedom",
+    "achievement": "Nobel Prize in Economic Sciences (2002) \u00b7 Presidential Medal of Freedom",
     "title": "Professor Emeritus, Princeton University",
     "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Kahneman",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/09/unnamed-2.jpg",
@@ -110,7 +110,7 @@
     "institution": "Princeton",
     "domain": "Physics & Cosmology",
     "appearances": 1,
-    "achievement": "Dirac Medal (2002) · Buckley Prize (2010)",
+    "achievement": "Dirac Medal (2002) \u00b7 Buckley Prize (2010)",
     "title": "Albert Einstein Professor, Princeton University",
     "wikipedia": "https://en.wikipedia.org/wiki/Paul_Steinhardt",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/Steinhardt.png",
@@ -162,7 +162,7 @@
     "institution": "MIT",
     "domain": "Physics & Cosmology",
     "appearances": 1,
-    "achievement": "MacArthur Fellow (2013) · Kavli Prize in Astrophysics (2024)",
+    "achievement": "MacArthur Fellow (2013) \u00b7 Kavli Prize in Astrophysics (2024)",
     "title": "Class of 1941 Professor, MIT",
     "wikipedia": "https://en.wikipedia.org/wiki/Sara_Seager",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2023/03/SeagerPhotoCreditJustinKnight-scaled.jpeg",
@@ -201,7 +201,7 @@
     "institution": "MIT",
     "domain": "Technology & Engineering",
     "appearances": 1,
-    "achievement": "National Academy of Engineering · Founded Affective Computing",
+    "achievement": "National Academy of Engineering \u00b7 Founded Affective Computing",
     "title": "Professor, MIT Media Lab",
     "wikipedia": "https://en.wikipedia.org/wiki/Rosalind_Picard",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2023/06/Picard-Rosalind-50over50.png",
@@ -241,7 +241,7 @@
     "institution": "UCL",
     "domain": "Neuroscience & Cognition",
     "appearances": 1,
-    "achievement": "Most-cited neuroscientist in history (h-index 291) · FRS",
+    "achievement": "Most-cited neuroscientist in history (h-index 291) \u00b7 FRS",
     "title": "Professor, University College London",
     "wikipedia": "https://en.wikipedia.org/wiki/Karl_J._Friston",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2015/01/Friston-square.jpg",
@@ -287,13 +287,13 @@
   },
   {
     "rank": 7,
-    "name": "György Buzsáki",
+    "name": "Gy\u00f6rgy Buzs\u00e1ki",
     "slug": "gyrgy-buzski",
     "score": 76,
     "institution": "NYU",
     "domain": "Neuroscience & Cognition",
     "appearances": 1,
-    "achievement": "The Brain Prize (2011) · Gerard Prize (2020)",
+    "achievement": "The Brain Prize (2011) \u00b7 Gerard Prize (2020)",
     "title": "Biggs Professor, NYU Neuroscience Institute",
     "wikipedia": "https://en.wikipedia.org/wiki/Gy%C3%B6rgy_Buzs%C3%A1ki",
     "photo": "https://buzsakilab.com/wp/wp-content/uploads/2017/07/GyruiPortrait.jpg",
@@ -386,7 +386,7 @@
     "institution": "NYU",
     "domain": "Philosophy & Ethics",
     "appearances": 2,
-    "achievement": "Coined 'the hard problem of consciousness' · Guggenheim Fellow",
+    "achievement": "Coined 'the hard problem of consciousness' \u00b7 Guggenheim Fellow",
     "title": "University Professor, NYU",
     "wikipedia": "https://en.wikipedia.org/wiki/David_Chalmers",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2022/09/authorphoto.jpg",
@@ -439,7 +439,7 @@
     "institution": "Harvard",
     "domain": "Creative & Performing Arts",
     "appearances": 1,
-    "achievement": "MacArthur Fellow (2013) · Doris Duke Award",
+    "achievement": "MacArthur Fellow (2013) \u00b7 Doris Duke Award",
     "title": "Franklin D. and Florence Rosenblatt Professor, Harvard",
     "wikipedia": "https://en.wikipedia.org/wiki/Vijay_Iyer",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2015/01/vijay-iyer-JimmyKatzSoloStreet2011-2.jpg",
@@ -497,7 +497,7 @@
     "institution": "Princeton",
     "domain": "Literature & Writing",
     "appearances": 1,
-    "achievement": "MacArthur Fellow (2010) · PEN/Hemingway Award",
+    "achievement": "MacArthur Fellow (2010) \u00b7 PEN/Hemingway Award",
     "title": "Professor of Creative Writing, Princeton University",
     "wikipedia": "https://en.wikipedia.org/wiki/Yiyun_Li",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2019/10/Agence-Opale_Li.jpg",
@@ -554,7 +554,7 @@
     "institution": "Harvard",
     "domain": "Mathematics & Computer Science",
     "appearances": 2,
-    "achievement": "Chern Medal (2022) · National Medal of Science",
+    "achievement": "Chern Medal (2022) \u00b7 National Medal of Science",
     "title": "Gerhard Gade University Professor, Harvard",
     "wikipedia": "https://en.wikipedia.org/wiki/Barry_Mazur",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2018/09/mazur3.jpg",
@@ -600,7 +600,7 @@
     "institution": "Brown",
     "domain": "Physics & Cosmology",
     "appearances": 1,
-    "achievement": "National Medal of Science (2013) · NAS Member",
+    "achievement": "National Medal of Science (2013) \u00b7 NAS Member",
     "title": "Clark Leadership Chair in Science, University of Maryland",
     "wikipedia": "https://en.wikipedia.org/wiki/Sylvester_James_Gates",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2022/09/SJGheadshot-preferred-2019-pdf-541x700.jpg",
@@ -898,7 +898,7 @@
     "institution": "Columbia",
     "domain": "Biology & Medicine",
     "appearances": 2,
-    "achievement": "NAM Member · AAAS Fellow",
+    "achievement": "NAM Member \u00b7 AAAS Fellow",
     "title": "Clyde and Helen Wu Professor of Chemical and Systems Biology, Columbia University",
     "wikipedia": "https://en.wikipedia.org/wiki/Andrea_Califano",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/andreacalifano.jpg",
@@ -951,11 +951,11 @@
     "institution": "Kenyon College",
     "domain": "Artificial Intelligence & Humanities",
     "appearances": 3,
-    "achievement": "Schmidt Sciences HAVI Grant (PI) · NIST AI Safety Institute · NEH Teaching Professorship · Notre Dame-IBM Tech Ethics Lab",
+    "achievement": "Schmidt Sciences HAVI Grant (PI) \u00b7 NIST AI Safety Institute \u00b7 NEH Teaching Professorship \u00b7 Notre Dame-IBM Tech Ethics Lab",
     "title": "Professor of Humanities & Comparative Literature, Kenyon College; Director, IPHS; Executive Board, The Helix Center",
     "wikipedia": "https://en.wikipedia.org/wiki/Katherine_Elkins",
     "photo": "/img/speakers/katherine-elkins.png",
-    "bio": "Katherine Elkins is a Professor of Humanities and Comparative Literature at Kenyon College, where she directs the Integrated Program in Humane Studies (IPHS) — Kenyon's oldest interdisciplinary curriculum. She holds a Ph.D. from UC Berkeley and a B.A. from Yale. In 2016, she and Jon Chun co-founded the world's first interdisciplinary Human-Centered AI curriculum and CoLab at Kenyon College, now approaching its 10th anniversary. Her research spans AI ethics, explainability in large language models, computational narrative analysis, and affective computing. She is the author of The Shapes of Stories: Sentiment Analysis for Narrative (Cambridge University Press, 2022) and has published in PMLA, Poetics Today, Narrative, ICML, Frontiers of Computer Science, and the Journal of Cultural Analytics. Since March 2024, she has served as Principal Investigator for the MLA's participation in the NIST US AI Safety Institute Consortium. In 2025, she was awarded a Schmidt Sciences HAVI grant ($330K) as PI, making Kenyon 1 of 23 worldwide teams developing AI tools for rescuing endangered archives. She also holds a Notre Dame-IBM Tech Ethics Lab grant researching LLM bias in criminal recidivism prediction. Her research has been downloaded 90,000+ times from 4,000+ institutions worldwide, with 700+ citations. She serves on the executive board of The Helix Center.",
+    "bio": "Katherine Elkins is a Professor of Humanities and Comparative Literature at Kenyon College, where she directs the Integrated Program in Humane Studies (IPHS) \u2014 Kenyon's oldest interdisciplinary curriculum. She holds a Ph.D. from UC Berkeley and a B.A. from Yale. In 2016, she and Jon Chun co-founded the world's first interdisciplinary Human-Centered AI curriculum and CoLab at Kenyon College, now approaching its 10th anniversary. Her research spans AI ethics, explainability in large language models, computational narrative analysis, and affective computing. She is the author of The Shapes of Stories: Sentiment Analysis for Narrative (Cambridge University Press, 2022) and has published in PMLA, Poetics Today, Narrative, ICML, Frontiers of Computer Science, and the Journal of Cultural Analytics. Since March 2024, she has served as Principal Investigator for the MLA's participation in the NIST US AI Safety Institute Consortium. In 2025, she was awarded a Schmidt Sciences HAVI grant ($330K) as PI, making Kenyon 1 of 23 worldwide teams developing AI tools for rescuing endangered archives. She also holds a Notre Dame-IBM Tech Ethics Lab grant researching LLM bias in criminal recidivism prediction. Her research has been downloaded 90,000+ times from 4,000+ institutions worldwide, with 700+ citations. She serves on the executive board of The Helix Center.",
     "roundtables": [
       "Emotion",
       "Living in Difficult Times",
@@ -1448,7 +1448,7 @@
     "appearances": 1,
     "achievement": "Pioneer in computational cancer b",
     "title": "Associate Professor in the Departments of Systems Biology and Biomedical Informatics",
-    "wikipedia": "https://en.wikipedia.org/wiki/Raúl_Rabadán",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ra\u00fal_Rabad\u00e1n",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2014/10/Rabadan.jpg",
     "bio": "Dr. Rabadan holds a Ph.D. in Theoretical Physics from Universidad Autonoma de Madrid, Spain. He previously served as the Martin A. and Helen Chooljian Member at The Simons Center for Systems Biology at the Institute for Advanced Study in Princeton, New Jersey. From 2001-2003, he was a fellow at CERN's Theoretical Physics Division in Geneva. He later joined the Institute for Advanced Study's Theoretical Physics Group (2003) and Systems Biology Group (2006). His research interests encompass evolutionary patterns in biological systems, particularly RNA viruses and cancer, next-generation sequencing technologies, pathogen discovery, emerging viruses, and electronic health records data analysis.",
     "roundtables": [
@@ -1469,6 +1469,46 @@
         "url": "https://www.cambridge.org/core/books/understanding-coronavirus/D823065CBCE9BD5360E50D496E962D37",
         "year": "2020",
         "type": "Book"
+      }
+    ]
+  },
+  {
+    "rank": 30,
+    "name": "Tanzeem Choudhury",
+    "slug": "tanzeem-choudhury",
+    "score": 62,
+    "institution": "Cornell Tech",
+    "domain": "Computer Science & AI",
+    "appearances": 1,
+    "achievement": "ACM Fellow (2021); TED Fellow; MIT TR35; NSF CAREER Award; co-founded HealthRhythms and Dapple",
+    "title": "Chief of Health Innovation and Roger and Joelle Burnell Professor, Cornell Tech",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tanzeem_Choudhury",
+    "photo": "",
+    "bio": "Tanzeem Choudhury is Chief of Health Innovation and Burnell Professor at Cornell Tech, where she directs the People-Aware Computing Lab. A pioneer of 'Reality Mining,' she developed the Sociometer at the MIT Media Lab and has since created foundational systems for digital mental health including BeWell, StressSense, and MoodRhythm. She co-founded two health AI companies, HealthRhythms and Dapple, and her recent research explores how large language models can augment clinical psychotherapy and the reliability of ML tools for mental health prediction across diverse populations. She has published over 190 papers with more than 22,000 citations.",
+    "roundtables": [
+      "Medicine and AI"
+    ],
+    "latestDate": "April 18, 2026",
+    "website": "https://tech.cornell.edu/people/tanzeem-choudhury/",
+    "googleScholar": "https://scholar.google.com/citations?user=-pyztDMAAAAJ&hl=en",
+    "sampleWorks": [
+      {
+        "title": "The Mobile Sensing Framework for Behavior Change",
+        "url": "https://pac.cs.cornell.edu/",
+        "year": "2016",
+        "type": "Paper"
+      },
+      {
+        "title": "StudentLife: Assessing Mental Health Across a College Campus",
+        "url": "https://studentlife.cs.dartmouth.edu/",
+        "year": "2014",
+        "type": "Paper"
+      },
+      {
+        "title": "StressSense: Detecting Stress in Unconstrained Acoustic Environments",
+        "url": "https://pac.cs.cornell.edu/",
+        "year": "2012",
+        "type": "Paper"
       }
     ]
   },
@@ -1875,6 +1915,47 @@
     ]
   },
   {
+    "rank": 40,
+    "name": "Rumi Chunara",
+    "slug": "rumi-chunara",
+    "score": 52,
+    "institution": "NYU",
+    "domain": "Computer Science & AI",
+    "appearances": 1,
+    "achievement": "ACM Distinguished Member (2025); MIT TR35; NSF CAREER Award; Gates Foundation Grand Challenges Award",
+    "title": "Associate Professor of Biostatistics and Computer Science & Engineering, NYU; Director, Center for Health Data Science",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rumi_Chunara",
+    "photo": "",
+    "bio": "Rumi Chunara is an Associate Professor of Biostatistics at the NYU School of Global Public Health and of Computer Science and Engineering at NYU Tandon, where she directs the Center for Health Data Science. She pioneered the use of social media data for real-time disease surveillance, demonstrated that AI-based analysis without domain expertise leads to misguided public health interventions (PNAS, 2024), and published research assessing and mitigating algorithmic bias in predictive models at NYC Health + Hospitals (npj Digital Medicine, 2025). Her influential Nature Machine Intelligence paper introduced a framework grounded in the Social Ecological Model for developing equitable health algorithms.",
+    "roundtables": [
+      "Medicine and AI"
+    ],
+    "latestDate": "April 18, 2026",
+    "website": "https://rumichunara.github.io/",
+    "googleScholar": "https://scholar.google.com/citations?user=7NhhkR8AAAAJ&hl=en",
+    "github": "https://github.com/chunaralab",
+    "sampleWorks": [
+      {
+        "title": "A Social Ecological Framework for Health Algorithm Equity",
+        "url": "https://www.nature.com/articles/s42256-021-00344-z",
+        "year": "2021",
+        "type": "Paper"
+      },
+      {
+        "title": "Algorithmic bias mitigation at NYC Health + Hospitals",
+        "url": "https://www.nature.com/articles/s41746-025-01077-4",
+        "year": "2025",
+        "type": "Paper"
+      },
+      {
+        "title": "Telemedicine disparities during COVID-19",
+        "url": "https://academic.oup.com/jamia/article/28/7/1521/6219452",
+        "year": "2021",
+        "type": "Paper"
+      }
+    ]
+  },
+  {
     "rank": 41,
     "name": "Tim Maudlin",
     "slug": "tim-maudlin",
@@ -1934,7 +2015,7 @@
     "name": "Alberto Manguel",
     "slug": "alberto-manguel",
     "score": 50,
-    "institution": "Centro de Estudos da História da Leitura, Lisbon",
+    "institution": "Centro de Estudos da Hist\u00f3ria da Leitura, Lisbon",
     "domain": "Literature & Writing",
     "appearances": 4,
     "achievement": "Guggenheim Fellowship, Director of",
@@ -2090,6 +2171,46 @@
         "url": "https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815",
         "year": "2016",
         "type": "Book"
+      }
+    ]
+  },
+  {
+    "rank": 45,
+    "name": "John F. Crary",
+    "slug": "john-f-crary",
+    "score": 55,
+    "institution": "Mount Sinai",
+    "domain": "Neuroscience & Cognition",
+    "appearances": 1,
+    "achievement": "Defined Primary Age-Related Tauopathy (PART); discovered JADE1 gene; created HistoAge AI; 4 active NIH R01/RF1 grants; 12,700+ citations",
+    "title": "Professor of Pathology, Neuroscience, and AI & Human Health; Vice Chair for AI, Department of Pathology, Icahn School of Medicine at Mount Sinai",
+    "wikipedia": "",
+    "photo": "",
+    "bio": "John F. Crary is a tenured Professor of Pathology, Neuroscience, and Artificial Intelligence and Human Health at the Icahn School of Medicine at Mount Sinai, where he serves as Vice Chair for Artificial Intelligence in the Department of Pathology and founding director of the Neuropathology Brain Bank and Research CoRE. A board-certified neuropathologist, he led the 2014 international consensus defining Primary Age-Related Tauopathy (PART), cited over 1,130 times, and discovered the JADE1 gene as a novel genetic driver of tau pathology. He developed HistoAge, the first AI algorithm to predict biological brain age from histopathology slides, and collaborated on an AI system detecting Parkinson's disease from peripheral biopsies with 99% sensitivity and specificity.",
+    "roundtables": [
+      "Medicine and AI"
+    ],
+    "latestDate": "April 18, 2026",
+    "website": "https://labs.icahn.mssm.edu/crarylab/",
+    "googleScholar": "https://scholar.google.com/citations?user=4lkZ8egAAAAJ&hl=en",
+    "sampleWorks": [
+      {
+        "title": "Primary Age-Related Tauopathy (PART): A Common Pathology Associated with Human Aging",
+        "url": "https://link.springer.com/article/10.1007/s00401-014-1349-0",
+        "year": "2014",
+        "type": "Paper"
+      },
+      {
+        "title": "HistoAge: AI-predicted brain age from histopathology slides",
+        "url": "https://labs.icahn.mssm.edu/crarylab/",
+        "year": "2023",
+        "type": "Paper"
+      },
+      {
+        "title": "JADE1 as a genetic driver of tauopathy (GWAS)",
+        "url": "https://link.springer.com/article/10.1007/s00401-021-02339-z",
+        "year": "2021",
+        "type": "Paper"
       }
     ]
   },
@@ -2463,6 +2584,47 @@
     ]
   },
   {
+    "rank": 55,
+    "name": "Nadav Brandes",
+    "slug": "nadav-brandes",
+    "score": 45,
+    "institution": "NYU",
+    "domain": "Biology & Medicine",
+    "appearances": 1,
+    "achievement": "CRI Irvington Fellow; EMBO Fellow; Nature Genetics paper on 450M missense variant predictions",
+    "title": "Assistant Professor, Center for Human Genetics & Genomics, NYU Grossman School of Medicine",
+    "wikipedia": "",
+    "photo": "",
+    "bio": "Nadav Brandes is an Assistant Professor at NYU Grossman School of Medicine with appointments in the Center for Human Genetics & Genomics and the Department of Biochemistry and Molecular Pharmacology. He was among the first researchers to develop protein language models as global predictors of protein structure and function, and his landmark 2023 Nature Genetics paper used ESM1b to predict the effects of all approximately 450 million possible missense variants in the human proteome. He also created ProteinBERT, a protein language model cited over 640 times, and collaborated with Jennifer Doudna and Carl June on CRISPR-Cas9 safety analysis published in Cell.",
+    "roundtables": [
+      "Medicine and AI"
+    ],
+    "latestDate": "April 18, 2026",
+    "website": "https://brandeslab.org/",
+    "googleScholar": "https://scholar.google.com/citations?user=zLtoq98AAAAJ&hl=en",
+    "github": "https://github.com/nadavbra",
+    "sampleWorks": [
+      {
+        "title": "Genome-wide prediction of disease variant effects with a deep protein language model",
+        "url": "https://www.nature.com/articles/s41588-023-01465-0",
+        "year": "2023",
+        "type": "Paper"
+      },
+      {
+        "title": "ProteinBERT: A universal deep-learning model of protein sequence and function",
+        "url": "https://academic.oup.com/bioinformatics/article/38/8/2102/6502274",
+        "year": "2022",
+        "type": "Paper"
+      },
+      {
+        "title": "CRISPR-Cas9 cytidine and adenosine base editing of splice-sites",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(23)00856-1",
+        "year": "2023",
+        "type": "Paper"
+      }
+    ]
+  },
+  {
     "rank": 56,
     "name": "Tracey Meares",
     "slug": "tracey-meares",
@@ -2470,7 +2632,7 @@
     "institution": "Yale",
     "domain": "Social Sciences",
     "appearances": 1,
-    "achievement": "MacArthur Foundation Board · Founding Director, Justice Collaboratory at Yale",
+    "achievement": "MacArthur Foundation Board \u00b7 Founding Director, Justice Collaboratory at Yale",
     "title": "Walton Hale Hamilton Professor of Law, Yale University",
     "wikipedia": "https://en.wikipedia.org/wiki/Tracey_Meares",
     "photo": "https://law.yale.edu/sites/default/files/styles/content_285x393_/public/images/Admin/Images/Headshots/meares_tracey.jpg?itok=aAhpvtJX",
@@ -2674,6 +2836,46 @@
         "title": "Deep Neural Networks Improve Radiologists' Performance in Breast Cancer Screening",
         "url": "https://en.wikipedia.org/wiki/Kyunghyun_Cho",
         "year": "2019",
+        "type": "Paper"
+      }
+    ]
+  },
+  {
+    "rank": 60,
+    "name": "Yindalon Aphinyanaphongs",
+    "slug": "yindalon-aphinyanaphongs",
+    "score": 48,
+    "institution": "NYU",
+    "domain": "Computer Science & AI",
+    "appearances": 1,
+    "achievement": "Co-created NYUTron (Nature, 2023, 99th percentile altmetrics); 31+ operational AI models at NYU Langone; Ultraviolet HPC #397 on Top500",
+    "title": "Research Professor, Departments of Population Health and Medicine, NYU Grossman School of Medicine",
+    "wikipedia": "",
+    "photo": "",
+    "bio": "Yindalon (Yin) Aphinyanaphongs is a Research Professor at NYU Grossman School of Medicine and director of the Division of Applied AI Technologies, Predictive Analytics Unit, and Operational Data Science at NYU Langone Health. He co-led the development of NYUTron, a clinical large language model trained on 7.25 million patient-care notes published in Nature in 2023. His mortality prediction system produced a fivefold increase in goals-of-care conversations and a 32% reduction in the Vizient Mortality Index (NEJM Catalyst). Under his leadership, NYU Langone has deployed over 31 AI models in operational use and rolled out GenAI Studio, providing HIPAA-compliant generative AI to over 1,000 employees.",
+    "roundtables": [
+      "Medicine and AI"
+    ],
+    "latestDate": "April 18, 2026",
+    "website": "http://www.yinformatics.com/",
+    "googleScholar": "https://scholar.google.com/citations?user=KMT5y3UAAAAJ&hl=en",
+    "sampleWorks": [
+      {
+        "title": "Health system-scale language models are all-purpose prediction engines",
+        "url": "https://www.nature.com/articles/s41586-023-06160-y",
+        "year": "2023",
+        "type": "Paper"
+      },
+      {
+        "title": "AI-driven mortality prediction for advance care planning",
+        "url": "https://catalyst.nejm.org/doi/full/10.1056/CAT.22.0291",
+        "year": "2023",
+        "type": "Paper"
+      },
+      {
+        "title": "Health-system-wide generative AI access",
+        "url": "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocae313/7929610",
+        "year": "2025",
         "type": "Paper"
       }
     ]
@@ -3088,7 +3290,7 @@
     "title": "Professor of Sociology",
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2026/02/Eyal_Gil-525x700.jpg",
-    "bio": "Gil Eyal is a sociologist whose research encompasses science, medicine, professions, intellectuals, and knowledge, particularly as they intersect with political and legal institutions. He co-directs Columbia's Precision Medicine and Society Program and directs The Trust Collaboratory at Columbia University.",
+    "bio": "Born in Israel, Gil Eyal immigrated to the United States in 1991 and earned his PhD in sociology from UCLA in 1997. He is a sociologist whose research encompasses science, medicine, professions, intellectuals, and knowledge, particularly as they intersect with political and legal institutions. He serves on the Provost's Advisory Committee on Academic Freedom at Columbia, co-directs the Precision Medicine and Society Program, and directs The Trust Collaboratory at INCITE.",
     "roundtables": [
       "Where Have All the Isms Gone?: On the Evolution of Knowledge"
     ],
@@ -3119,6 +3321,24 @@
         "url": "https://www.journals.uchicago.edu/doi/10.1086/668448",
         "year": "2013",
         "type": "Paper"
+      },
+      {
+        "title": "The Origins of Postcommunist Elites",
+        "url": "https://www.amazon.com/Origins-Postcommunist-Elites-Eyal/dp/0816634475",
+        "year": "2003",
+        "type": "Book"
+      },
+      {
+        "title": "Making Capitalism without Capitalists",
+        "url": "https://www.amazon.com/Making-Capitalism-without-Capitalists-Ruling/dp/1859842100",
+        "year": "1998",
+        "type": "Book"
+      },
+      {
+        "title": "Oxford Handbook of Expertise and Democratic Politics (co-editor)",
+        "url": "https://global.oup.com/academic/product/the-oxford-handbook-of-expertise-and-democratic-politics-9780198848929",
+        "year": "2023",
+        "type": "Book"
       }
     ]
   },
@@ -3898,7 +4118,7 @@
   },
   {
     "rank": 89,
-    "name": "Martin Hägglund",
+    "name": "Martin H\u00e4gglund",
     "slug": "martin-hgglund",
     "score": 37,
     "institution": "Yale",
@@ -3906,7 +4126,7 @@
     "appearances": 1,
     "achievement": "No known major awards",
     "title": "Professor of Comparative Literature and Humanities, Yale University",
-    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Hägglund",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_H\u00e4gglund",
     "photo": "https://humanities.yale.edu/sites/default/files/styles/2_3_480/public/2024-09/Martin%20Hagglund%20profile.jpg?h=999fed2f&itok=A5IwHBMy",
     "bio": "Humanist scholar at Yale specializing in comparative literature and critical theory.",
     "roundtables": [],
@@ -4657,7 +4877,7 @@
     "achievement": "Other/Interdisciplin",
     "title": "Helen Gould Shepard Professor of Social Science and Director of the Institute for Public Knowledge, NYU",
     "wikipedia": "https://en.wikipedia.org/wiki/Eric_Klinenberg",
-    "photo": "https://www.helixcenter.org/wp-content/uploads/2024/01/©-Miguel-Lopez-Mallach_1-424x700.jpg",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2024/01/\u00a9-Miguel-Lopez-Mallach_1-424x700.jpg",
     "bio": "Eric Klinenberg is the Helen Gould Shepard Professor of Social Science and Director of the Institute for Public Knowledge at New York University. An urban sociologist, he is the author of Heat Wave: A Social Autopsy of Disaster in Chicago, Going Solo, Palaces for the People, and co-author with Aziz Ansari of the #1 New York Times bestseller Modern Romance. His work examines urban life, social infrastructure, and the role of community in American culture.",
     "roundtables": [
       "Covid and Literature"
@@ -5547,7 +5767,7 @@
         "type": "Article"
       },
       {
-        "title": "The Technê Whim: Lin Yutang and the Invention of the Chinese Typewriter",
+        "title": "The Techn\u00ea Whim: Lin Yutang and the Invention of the Chinese Typewriter",
         "url": "https://campuspress.yale.edu/rjohnwilliams/publications/",
         "year": "2010",
         "type": "Article"
@@ -8545,10 +8765,10 @@
     "name": "Jennifer Ratner-Rosenhagen",
     "slug": "jennifer-ratner-rosenhagen",
     "score": 25,
-    "institution": "University",
-    "domain": "Literature & Writing",
+    "institution": "University of Wisconsin-Madison",
+    "domain": "History & Cultural Studies",
     "appearances": 1,
-    "achievement": "Literature & Writing",
+    "achievement": "Morris D. Forkosch Prize for outstanding first book in intellectual history; Merle Curti and Vilas Borghesi Distinguished Achievement Professor",
     "title": "Merle Curti and Vilas Borghesi Distinguished Achievement Professor of History",
     "wikipedia": "https://en.wikipedia.org/wiki/Jennifer_Ratner-Rosenhagen",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2026/02/JRR.png",
@@ -10429,7 +10649,7 @@
   },
   {
     "rank": 241,
-    "name": "Dorothea von Mücke",
+    "name": "Dorothea von M\u00fccke",
     "slug": "dorothea-von-mcke",
     "score": 20,
     "institution": "Columbia",
@@ -14627,7 +14847,7 @@
         "type": "Book"
       },
       {
-        "title": "Empathie: Histoire d'une idée de Platon au post-humain",
+        "title": "Empathie: Histoire d'une id\u00e9e de Platon au post-humain",
         "url": "https://www.unimi.it/en/ugov/person/andrea-pinotti",
         "year": "2016",
         "type": "Book"
@@ -14921,7 +15141,7 @@
   },
   {
     "rank": 360,
-    "name": "François Ansermet",
+    "name": "Fran\u00e7ois Ansermet",
     "slug": "franois-ansermet",
     "score": 14,
     "institution": "University",
@@ -15002,7 +15222,7 @@
   },
   {
     "rank": 362,
-    "name": "Ilya Tëmkin",
+    "name": "Ilya T\u00ebmkin",
     "slug": "ilya-tmkin",
     "score": 14,
     "institution": "Northern Virginia Communi",
@@ -15081,7 +15301,7 @@
   },
   {
     "rank": 364,
-    "name": "Jesús Ilundáin-Agurruza",
+    "name": "Jes\u00fas Ilund\u00e1in-Agurruza",
     "slug": "jess-ilundin-agurruza",
     "score": 14,
     "institution": "Linfield College",
@@ -15619,7 +15839,7 @@
         "type": "Performance"
       },
       {
-        "title": "Two Men Talking — HIV/AIDS and the Power of Storytelling (Open Society Foundations)",
+        "title": "Two Men Talking \u2014 HIV/AIDS and the Power of Storytelling (Open Society Foundations)",
         "url": "https://www.opensocietyfoundations.org/events/two-men-talking-hivaids-and-power-storytelling",
         "year": "2010",
         "type": "Performance"
@@ -15897,7 +16117,7 @@
     "achievement": "Co-chair of the Psychology, Culture, and Religion unit of the American Academy of Religion; faculty and supervisor at the National Institute for the Psychotherapies Training Institute; featured guest expert on the Wabash Center's six-part series 'When Trauma Touches the Teaching Experience'; multiple awards for writing and teaching",
     "title": "Associate Professor of Pastoral Mental Health Counseling",
     "wikipedia": "",
-    "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/DSC_0362_¬AlexKaplanPhoto-1.jpg",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/DSC_0362_\u00acAlexKaplanPhoto-1.jpg",
     "bio": "Lisa M. Cataldo is a scholar of pastoral mental health whose teaching and research integrate trauma studies, relational psychoanalysis, and spirituality. She holds a Master of Divinity and PhD in psychology and religion from Union Theological Seminary. Her work trains students for pastoral and clinical engagements with suffering through intersecting perspectives of trauma, psychoanalysis, and faith.",
     "roundtables": [
       "Altruism and Empathy"
@@ -16324,7 +16544,7 @@
   },
   {
     "rank": 397,
-    "name": "François Quiviger",
+    "name": "Fran\u00e7ois Quiviger",
     "slug": "franois-quiviger",
     "score": 12,
     "institution": "The Warburg Institute",
@@ -16851,13 +17071,13 @@
     "website": "https://carlcofield.com/",
     "sampleWorks": [
       {
-        "title": "The Bacchae (Director, Classical Theatre of Harlem — NYT Critic's Pick)",
+        "title": "The Bacchae (Director, Classical Theatre of Harlem \u2014 NYT Critic's Pick)",
         "url": "https://www.cthnyc.org/dt_team/carl-cofield/",
         "year": "2019",
         "type": "Performance"
       },
       {
-        "title": "Twelfth Night (Director, Classical Theatre of Harlem — AUDELCO Award for Best Director)",
+        "title": "Twelfth Night (Director, Classical Theatre of Harlem \u2014 AUDELCO Award for Best Director)",
         "url": "https://tisch.nyu.edu/grad-acting/news/grad-acting-chair-carl-cofield-directs-classical-theater-of-harl",
         "year": "2022",
         "type": "Performance"
@@ -17377,7 +17597,7 @@
   },
   {
     "rank": 428,
-    "name": "Neşe Devenot",
+    "name": "Ne\u015fe Devenot",
     "slug": "nee-devenot",
     "score": 10,
     "institution": "University",
@@ -18073,7 +18293,7 @@
     "institution": "Kenyon College",
     "domain": "Technology & Engineering",
     "appearances": 1,
-    "achievement": "Schmidt Sciences HAVI Grant · NIST AI Safety Institute Consortium · In-Q-Tel portfolio investment · 2 US Patents",
+    "achievement": "Schmidt Sciences HAVI Grant \u00b7 NIST AI Safety Institute Consortium \u00b7 In-Q-Tel portfolio investment \u00b7 2 US Patents",
     "title": "Co-Founder, Human-Centered AI Lab & Program, Kenyon College; Lead AI Safety Researcher, NIST AISIC (MLA)",
     "wikipedia": "",
     "photo": "/img/speakers/jon-chun.png",
@@ -19137,7 +19357,7 @@
         "type": "Book"
       },
       {
-        "title": "David Smith Sculpture: A Catalogue Raisonné, 1932-1965",
+        "title": "David Smith Sculpture: A Catalogue Raisonn\u00e9, 1932-1965",
         "url": "https://www.amazon.com/David-Smith-Sculpture-Catalogue-1932-1965/dp/0300224117",
         "year": "2021",
         "type": "Book"

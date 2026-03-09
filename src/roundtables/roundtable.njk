@@ -222,12 +222,6 @@ eleventyComputed:
     {% endif %}
     {% set rt = pageRt %}
 
-    {% if rt.url %}
-    <div style="margin-top: 2.5rem;">
-      <a href="{{ rt.url }}" class="btn btn-outline-dark" target="_blank" rel="noopener">View on helixcenter.org &rarr;</a>
-    </div>
-    {% endif %}
-
     {% if rt.transcriptTimestamped or rt.transcript %}
     <div class="rt-transcript" style="margin-top: 3rem;">
       <h2>Transcript</h2>

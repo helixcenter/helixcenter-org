@@ -11,7 +11,9 @@
       "https://www.helixcenter.org/wp-content/uploads/2014/02/Farzad-Bio-Image.png",
       "https://www.helixcenter.org/wp-content/uploads/2026/02/JRR.png"
     ],
-    "audioUrls": []
+    "audioUrls": [
+      "https://media.helixcenter.org/podcasts/audio/260307_Isms.mp3"
+    ]
   },
   "why-we-write": {
     "videoIds": [
@@ -300,7 +302,7 @@
       "https://www.helixcenter.org/wp-content/uploads/2024/01/30177927611_3f630af37d_o.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2024/01/SCritchley.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2024/01/Deming-author-2.jpg",
-      "https://www.helixcenter.org/wp-content/uploads/2024/01/©-Miguel-Lopez-Mallach_1.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2024/01/\u00a9-Miguel-Lopez-Mallach_1.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2024/01/DMerkin.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2024/01/MPisano.jpeg"
     ],
@@ -1717,7 +1719,7 @@
     "imageUrls": [
       "https://www.helixcenter.org/wp-content/uploads/2013/12/altruism.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2013/12/Stephanie-Brown.jpeg",
-      "https://www.helixcenter.org/wp-content/uploads/2013/12/DSC_0362_¬AlexKaplanPhoto-1.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2013/12/DSC_0362_\u00acAlexKaplanPhoto-1.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2013/12/Alan-Leslie.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2013/12/Wynn.jpg"
     ],
@@ -2131,5 +2133,12 @@
     "audioUrls": [
       "http://media.helixcenter.org/podcasts/audio/131013__Aby_Warburg_Art_Neuroscience_and_Psychoanalysis_Day_2-1-Psychosis_Creativity_Binswanger_Warburg.mp3"
     ]
+  },
+  "medicine-and-ai": {
+    "videoIds": [],
+    "imageUrls": [
+      "https://www.helixcenter.org/wp-content/uploads/2026/03/unnamed.jpg"
+    ],
+    "audioUrls": []
   }
 }
