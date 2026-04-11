@@ -3,7 +3,7 @@ layout: layouts/study-guide.njk
 title: "Study Guide: Medicine and AI"
 pageTitle: "Study Guide: Medicine and AI"
 description: "A self-study guide covering AI/ML foundations, clinical medicine, and the five speakers' research domains for the Helix Center Medicine and AI roundtable."
-permalink: "/roundtables/medicine-and-ai/study-guide/"
+permalink: "/roundtables/medicine-and-ai/medicine-ai-study-guide/"
 breadcrumbSection: "Roundtables"
 breadcrumbPage: "Study Guide: Medicine and AI"
 ---
@@ -272,6 +272,11 @@ h2 .sg-section-num {
 <section id="about">
   <h2><span class="sg-section-num">Section 1</span>About This Guide &amp; the Helix Format</h2>
 
+  <div class="sg-callout sg-callout-orange" style="padding: 12px 18px; margin-bottom: 18px;">
+    <div class="sg-callout-label">Verification Notice</div>
+    <p style="margin: 0;">Facts, links, and quantitative claims last verified: <strong>April 11, 2026</strong>. Regulatory counts, citation totals, and organizational metrics may change over time.</p>
+  </div>
+
   <p>This guide is designed for college-educated attendees (MS, PhD, MD, or equivalent) who may be deeply familiar with <em>either</em> AI/machine learning <em>or</em> medicine/clinical practice &mdash; but not both. It provides concise background on the concepts, vocabulary, and research questions you&rsquo;ll need to follow the roundtable discussion productively.</p>
 
   <div class="sg-callout sg-callout-blue">
@@ -286,6 +291,14 @@ h2 .sg-section-num {
     <li><strong>If you&rsquo;re a generalist:</strong> Read straight through &mdash; the guide is designed as a narrative arc from foundations to debate.</li>
     <li><strong>Short on time?</strong> Read Section 5 (speakers) and Section 6 (fault lines) only &mdash; ~15 minutes.</li>
   </ul>
+
+  <div class="sg-download-btn" style="margin-top: 24px;">
+    <a href="/downloads/medicine-ai-study-guide.pdf" download style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 28px; background: var(--sg-primary); color: #fff; border-radius: 6px; font-weight: 600; font-size: 15px; text-decoration: none; border: none; transition: background 0.2s; letter-spacing: 0.3px;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download PDF
+    </a>
+    <span style="margin-left: 12px; font-size: 13px; color: var(--sg-muted);">537 KB &middot; printable version</span>
+  </div>
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════════════ -->
@@ -303,7 +316,7 @@ h2 .sg-section-num {
   <ul>
     <li><strong>Supervised learning:</strong> The model learns from labeled examples (e.g., &ldquo;this tissue slide shows Alzheimer&rsquo;s pathology&rdquo;). Most clinical AI today uses supervised learning.</li>
     <li><strong>Deep learning:</strong> ML using neural networks with many layers. Enables analysis of complex data like images, text, and genomic sequences.</li>
-    <li><strong>Foundation models / Large Language Models (LLMs):</strong> Very large models trained on broad data, then adapted to specific tasks. GPT (text), ESM (proteins), and NYUTron (clinical notes) are examples discussed in this roundtable.</li>
+    <li><strong>Foundation models / Large Language Models (LLMs):</strong> Very large models trained on broad data, then adapted to specific tasks. GPT (text) and ESM (proteins) are generative examples. NYUTron is a BERT-like clinical language model trained on EHR text for predictive tasks &mdash; it is not a general-purpose generative chatbot, though it is sometimes loosely called an &ldquo;LLM.&rdquo;</li>
     <li><strong>Computer vision:</strong> AI that analyzes images &mdash; in medicine, this means radiology, pathology, dermatology, and retinal imaging.</li>
   </ul>
 
@@ -324,7 +337,7 @@ h2 .sg-section-num {
     <li><strong>Model validation:</strong> Testing model performance on new data. Internal validation uses data from the same institution; external validation uses data from different institutions. External validation is the gold standard but rarely done.</li>
     <li><strong>Sensitivity and specificity:</strong> Sensitivity = how well the model catches true positives. Specificity = how well it avoids false positives. These trade off against each other, and the right balance depends on clinical context.</li>
     <li><strong>Black box vs. interpretability:</strong> Many deep learning models can&rsquo;t explain <em>why</em> they made a prediction. This is a major barrier to clinical trust and regulatory approval.</li>
-    <li><strong>Model drift:</strong> Real-world data changes over time (new diseases, new documentation practices, population shifts). Models that worked well at deployment may degrade. Aphinyanaphongs&rsquo; team monitors 31+ models for this.</li>
+    <li><strong>Model drift:</strong> Real-world data changes over time (new diseases, new documentation practices, population shifts). Models that worked well at deployment may degrade. Aphinyanaphongs&rsquo; team monitors more than 30 models for this.</li>
   </ul>
 </section>
 
@@ -387,7 +400,7 @@ h2 .sg-section-num {
 
   <h3>Where AI Is Already in Clinical Use</h3>
   <ul>
-    <li><strong>Radiology:</strong> FDA has cleared 500+ AI devices for medical imaging. Most assist with detection (e.g., flagging suspicious findings on mammograms or CT scans).</li>
+    <li><strong>Radiology:</strong> As of the FDA&rsquo;s March 2026 update (covering authorizations through the end of 2025), radiology accounts for roughly 1,104 of about 1,451 total authorized AI/ML-enabled medical devices (~76%). Most assist with detection (e.g., flagging suspicious findings on mammograms or CT scans). <em>Counts are periodically updated; verify against the <a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices" target="_blank">FDA list</a> before reuse.</em></li>
     <li><strong>Pathology:</strong> Digital pathology is accelerating, with AI tools for tumor detection, grading, and &mdash; as Crary demonstrates &mdash; brain aging.</li>
     <li><strong>Clinical decision support:</strong> EHR-integrated alerts for sepsis, deterioration, and mortality risk (Aphinyanaphongs&rsquo; domain).</li>
     <li><strong>Drug discovery:</strong> AI-assisted molecular design has entered clinical trials, though no AI-discovered drug has yet received full FDA approval.</li>
@@ -403,11 +416,39 @@ h2 .sg-section-num {
     <li><strong>Evidence standards:</strong> The field lacks consensus on what constitutes sufficient evidence for clinical AI deployment. RCTs? Prospective studies? Retrospective validation?</li>
   </ul>
 
+  <div class="sg-callout sg-callout-green">
+    <div class="sg-callout-label">Clinical AI Evidence &amp; Reporting Standards</div>
+    <p>Several reporting frameworks now set the benchmark for evaluating clinical AI evidence:</p>
+    <ul>
+      <li><strong><a href="https://www.equator-network.org/reporting-guidelines/consort-ai/" target="_blank">CONSORT-AI</a> / <a href="https://www.equator-network.org/reporting-guidelines/spirit-ai/" target="_blank">SPIRIT-AI</a></strong> &mdash; for clinical trials involving AI interventions</li>
+      <li><strong><a href="https://www.bmj.com/content/375/bmj-2021-069748" target="_blank">DECIDE-AI</a></strong> &mdash; for early-stage clinical deployment evaluation</li>
+      <li><strong>STARD-AI</strong> &mdash; for diagnostic accuracy studies</li>
+      <li><strong><a href="https://www.tripod-statement.org/" target="_blank">TRIPOD-AI</a> / PROBAST-AI</strong> &mdash; for prediction models and risk-of-bias assessment</li>
+    </ul>
+    <p>These standards are curated by the <a href="https://www.equator-network.org/" target="_blank">EQUATOR Network</a> and referenced in FDA guidance on AI/ML-based software as a medical device.</p>
+  </div>
+
+  <h3>Privacy, Consent &amp; Data Governance</h3>
+  <div class="sg-callout sg-callout-red">
+    <div class="sg-callout-label">Governance Essentials</div>
+    <p>Clinical AI development raises critical governance questions that go beyond model performance:</p>
+    <ul>
+      <li><strong>HIPAA &amp; GDPR:</strong> U.S. and EU frameworks impose strict requirements on how patient data is collected, stored, and shared for AI training and inference.</li>
+      <li><strong>De-identification:</strong> Methods such as Safe Harbor and expert determination aim to protect patient privacy, but re-identification risks grow as datasets are combined.</li>
+      <li><strong>IRB oversight:</strong> Research involving patient data typically requires Institutional Review Board review or documented waivers, even for retrospective studies.</li>
+      <li><strong>Secure enclaves:</strong> Controlled-access computing environments allow AI training on sensitive data without exposing raw records to researchers.</li>
+      <li><strong>Foundation model training:</strong> Training large models on clinical data raises distinct governance and consent questions, particularly when patients did not originally consent to AI use of their records.</li>
+    </ul>
+  </div>
+
   <h3>The Regulatory Landscape</h3>
   <div class="sg-callout sg-callout-blue">
     <div class="sg-callout-label">Key Regulatory Facts</div>
-    <p>The FDA has authorized 950+ AI-enabled medical devices (as of early 2026), mostly in radiology. The agency&rsquo;s 2021 &ldquo;Action Plan&rdquo; for AI/ML-based SaMD proposed a framework for continuously learning systems, but implementation is still evolving. The EU AI Act (2024) classifies medical AI as &ldquo;high-risk&rdquo; with strict requirements. No single global standard exists.</p>
+    <p>As of the FDA&rsquo;s March 2026 update (covering authorizations through the end of 2025), the FDA had authorized about 1,451 AI/ML-enabled medical devices, with radiology accounting for roughly 1,104 (~76%). The agency&rsquo;s 2021 &ldquo;Action Plan&rdquo; for AI/ML-based SaMD proposed a framework for continuously learning systems, but implementation is still evolving. The EU AI Act entered into force in 2024, with obligations phasing in over subsequent years; many medical-AI systems are likely to fall into high-risk categories, creating additional compliance obligations alongside existing medical-device rules. No single global standard exists.</p>
   </div>
+
+  <h3>Post-Market Surveillance &amp; Drift Monitoring</h3>
+  <p>Clinical AI requires ongoing real-world performance monitoring, drift detection, and update governance. For adaptive systems, regulators have emphasized <strong>predetermined change control plans</strong> and post-market surveillance rather than one-time validation alone. The FDA&rsquo;s <a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices" target="_blank">AI/ML SaMD Action Plan</a> outlines the evolving expectations for how deployed models should be monitored and updated over their lifecycle.</p>
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════════════ -->
@@ -422,7 +463,7 @@ h2 .sg-section-num {
   <div class="sg-speaker-card">
     <div class="sg-speaker-role">The Sensor Scientist &mdash; Digital Mental Health &amp; Ubiquitous Computing</div>
     <h3>Tanzeem Choudhury, PhD</h3>
-    <div class="sg-speaker-affiliation">Professor of Information Science, Cornell University; Co-founder, HealthRhythms</div>
+    <div class="sg-speaker-affiliation">Professor of Information Science, Jacobs Technion-Cornell Institute, Cornell Tech &amp; Cornell University; Co-founder, HealthRhythms</div>
 
     <p>Choudhury is a pioneer in using smartphone and wearable sensor data to monitor mental health. Her lab developed systems that detect stress, depression, and behavioral changes through passive sensing (accelerometer, microphone, GPS, typing patterns) without requiring active user input. She co-founded HealthRhythms to translate this research into clinical tools, and her work on the StudentLife dataset is one of the most cited studies in mobile health.</p>
 
@@ -430,7 +471,7 @@ h2 .sg-section-num {
 
     <h4>Preparation Reading</h4>
     <ul class="sg-resource-list">
-      <li><span class="sg-tag sg-tag-video">Talk</span><a href="https://www.tedmed.com/talks/show?id=683108" target="_blank">TEDMED Talk &mdash; Tracking mental health as easily as tracking steps</a></li>
+      <li><span class="sg-tag sg-tag-video">Talk</span><a href="https://www.youtube.com/watch?v=XaM0EICkrI0" target="_blank">Tanzeem Choudhury &mdash; Tracking mental health through mobile sensing (talk)</a></li>
       <li><span class="sg-tag sg-tag-website">Website</span><a href="https://tech.cornell.edu/people/tanzeem-choudhury/" target="_blank">Cornell Tech faculty page</a></li>
     </ul>
   </div>
@@ -459,9 +500,9 @@ h2 .sg-section-num {
     <h3>John F. Crary, MD, PhD</h3>
     <div class="sg-speaker-affiliation">Professor of Pathology, Molecular and Cell-Based Medicine, Neuroscience, and AI &amp; Human Health; Vice Chair for AI, Dept. of Pathology, Icahn School of Medicine at Mount Sinai</div>
 
-    <p>Crary is a board-certified neuropathologist who created HistoAge (the first AI to predict biological brain age from histopathology slides) and co-developed an AI system detecting alpha-synuclein pathology in peripheral biopsy tissue with 99% sensitivity/specificity. His 2014 definition of PART (Primary Age-Related Tauopathy) has 1,130+ citations and changed how the field classifies brain aging. He directs a major Alzheimer&rsquo;s brain bank and has 12,744+ total citations.</p>
+    <p>Crary is a board-certified neuropathologist who created HistoAge (the first AI to predict biological brain age from histopathology slides) and co-developed an AI system detecting alpha-synuclein pathology in peripheral biopsy tissue with reported sensitivity and specificity near 99%. His 2014 definition of PART (Primary Age-Related Tauopathy) is widely cited (over 1,000 citations, Google Scholar, accessed April 2026) and changed how the field classifies brain aging. He directs a major Alzheimer&rsquo;s brain bank.</p>
 
-    <p><strong>Questions he&rsquo;ll raise:</strong> When AI can read a slide with 99% accuracy, what is the role of the human pathologist? How do we validate AI diagnostic tools for tissues we&rsquo;ve never seen before? What does &ldquo;trust&rdquo; mean when the AI sees something the human can&rsquo;t?</p>
+    <p><strong>Questions he&rsquo;ll raise:</strong> When AI can read a slide with near-perfect accuracy, what is the role of the human pathologist? How do we validate AI diagnostic tools for tissues we&rsquo;ve never seen before? What does &ldquo;trust&rdquo; mean when the AI sees something the human can&rsquo;t?</p>
 
     <h4>Preparation Reading</h4>
     <ul class="sg-resource-list">
@@ -476,7 +517,7 @@ h2 .sg-section-num {
     <h3>Rumi Chunara, PhD</h3>
     <div class="sg-speaker-affiliation">Associate Professor of Biostatistics and Computer Science and Engineering, NYU; Director, Center for Health Data Science</div>
 
-    <p>Chunara pioneered social media-based disease surveillance, developed influential frameworks for equitable AI in health (<em>Nature Machine Intelligence</em>, 2021), and has directly measured algorithmic bias at NYC Health + Hospitals. Her 2024 <em>PNAS</em> paper demonstrated that utilizing big data without domain knowledge impacts public health decision-making. She is an ACM Distinguished Member, NSF CAREER awardee, and MIT TR35 honoree with ~7,000+ citations.</p>
+    <p>Chunara pioneered social media-based disease surveillance, developed influential frameworks for equitable AI in health (<em>Nature Machine Intelligence</em>, 2021), and has directly measured algorithmic bias at NYC Health + Hospitals. Her 2024 <em>PNAS</em> paper demonstrated that utilizing big data without domain knowledge impacts public health decision-making. She is an ACM Distinguished Member, NSF CAREER awardee, and MIT TR35 honoree and is widely cited (Google Scholar, accessed April 2026).</p>
 
     <p><strong>Questions she&rsquo;ll raise:</strong> Whose data trains the algorithm, and who is missing? Can fairness be &ldquo;added on&rdquo; after a model is built, or must it be designed in? When AI scales a biased system, who bears the harm?</p>
 
@@ -494,14 +535,14 @@ h2 .sg-section-num {
     <h3>Yindalon (Yin) Aphinyanaphongs, MD, PhD</h3>
     <div class="sg-speaker-affiliation">Research Professor, Dept. of Population Health &amp; Medicine; Director, Division of Applied AI Technologies (DAAIT), NYU Langone Health</div>
 
-    <p>Aphinyanaphongs co-led the development of NYUTron, a clinical LLM trained on 7.25 million clinical notes, published in <em>Nature</em> (2023). His mortality prediction system, deployed as interruptive EHR alerts, has been associated with a fivefold increase in goals-of-care conversations and a reduction in the Vizient Mortality Index. He has deployed 31+ operational AI models at NYU Langone, led the rollout of GenAI Studio (HIPAA-compliant generative AI for 1,000+ applicants), and oversees the Ultraviolet HPC cluster (646 GPUs, ranked #255 on the November 2025 Top500 list).</p>
+    <p>Aphinyanaphongs co-led the development of NYUTron, a BERT-like clinical language model trained on 7.25 million clinical notes, published in <em>Nature</em> (2023). His mortality prediction system, deployed as interruptive EHR alerts, has been associated with a substantial increase in goals-of-care conversations and a reduction in the Vizient Mortality Index. He has deployed more than 30 operational AI models at NYU Langone, led the rollout of GenAI Studio (a HIPAA-compliant generative AI platform with broad internal adoption), and oversees the Ultraviolet HPC cluster, one of the largest academic GPU clusters in the U.S.</p>
 
     <p><strong>Questions he&rsquo;ll raise:</strong> What does it take to move an AI model from publication to production? When is the evidence &ldquo;enough&rdquo; to deploy? What organizational infrastructure sustains clinical AI at scale? Can AI improve not just efficiency but the <em>quality</em> of care conversations?</p>
 
     <h4>Preparation Reading</h4>
     <ul class="sg-resource-list">
       <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41586-023-06160-y" target="_blank">NYUTron: Health system-scale language models (Nature, 2023)</a></li>
-      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://catalyst.nejm.org/doi/abs/10.1056/CAT.20.0655" target="_blank">Mortality risk predictions for advance care planning (NEJM Catalyst)</a></li>
+      <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://catalyst.nejm.org/doi/full/10.1056/CAT.20.0655" target="_blank">Mortality risk predictions for advance care planning (NEJM Catalyst)</a></li>
     </ul>
   </div>
 </section>
@@ -517,7 +558,7 @@ h2 .sg-section-num {
   <div class="sg-callout sg-callout-purple">
     <div class="sg-callout-label">1. Evidence &amp; Deployment</div>
     <p><strong>Core question:</strong> What counts as sufficient evidence to deploy AI in clinical care?</p>
-    <p>Aphinyanaphongs has deployed 31+ models; Chunara has shown that similar models can encode bias in safety-net hospitals. The threshold for &ldquo;enough&rdquo; evidence looks very different depending on whether you prioritize speed of impact or equity of outcomes.</p>
+    <p>Aphinyanaphongs has deployed more than 30 models; Chunara has shown that similar models can encode bias in safety-net hospitals. The threshold for &ldquo;enough&rdquo; evidence looks very different depending on whether you prioritize speed of impact or equity of outcomes.</p>
     <p><strong>Think about:</strong> How many patients need to benefit before deployment is justified? Who decides, and how do you account for patients who might be harmed?</p>
   </div>
 
@@ -533,6 +574,7 @@ h2 .sg-section-num {
     <p><strong>Core question:</strong> How do we prevent AI from scaling existing health disparities?</p>
     <p>Chunara&rsquo;s research shows bias is not hypothetical &mdash; it is measurable in real systems. Choudhury studies whether digital mental health tools work equitably across populations. Aphinyanaphongs deploys at scale across a major urban system.</p>
     <p><strong>Think about:</strong> If a model improves outcomes for 80% of patients but worsens outcomes for a vulnerable 20%, should it be deployed? Who makes that call?</p>
+    <p><strong>Practical transparency tools:</strong> <a href="https://modelcards.withgoogle.com/about" target="_blank">Model Cards</a>, <a href="https://arxiv.org/abs/1803.09010" target="_blank">Datasheets for Datasets</a>, and fairness-audit toolkits such as <a href="https://aif360.mybluemix.net/" target="_blank">AIF360</a> and <a href="https://fairlearn.org/" target="_blank">Fairlearn</a> offer concrete approaches to bias documentation and mitigation.</p>
   </div>
 
   <div class="sg-callout sg-callout-purple">
@@ -609,7 +651,7 @@ h2 .sg-section-num {
 
   <h3>AI &amp; Machine Learning</h3>
   <div class="sg-glossary-grid">
-    <div class="sg-glossary-item"><span class="sg-glossary-term">Large Language Model (LLM)</span><div class="sg-glossary-def">A neural network trained on massive text data to predict and generate language. Clinical LLMs like NYUTron are trained on medical records instead of internet text.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Large Language Model (LLM)</span><div class="sg-glossary-def">A neural network trained on massive text data to predict and generate language. Clinical language models like NYUTron are trained on medical records for predictive tasks; NYUTron specifically is a BERT-like encoder model, distinct from generative chatbot-style LLMs.</div></div>
     <div class="sg-glossary-item"><span class="sg-glossary-term">Protein Language Model</span><div class="sg-glossary-def">A neural network trained on amino acid sequences (instead of words) to learn the &ldquo;grammar&rdquo; of proteins, enabling prediction of how mutations affect function.</div></div>
     <div class="sg-glossary-item"><span class="sg-glossary-term">Foundation Model</span><div class="sg-glossary-def">A large AI model trained on broad data that can be adapted to many downstream tasks. ESM (proteins) and GPT (text) are examples.</div></div>
     <div class="sg-glossary-item"><span class="sg-glossary-term">Computer Vision</span><div class="sg-glossary-def">AI systems that analyze images. In medicine: reading radiology scans, pathology slides, retinal photos, or dermatology images.</div></div>
@@ -633,7 +675,7 @@ h2 .sg-section-num {
     <div class="sg-glossary-item"><span class="sg-glossary-term">Histopathology</span><div class="sg-glossary-def">The study of tissue under a microscope to diagnose disease. &ldquo;Digital pathology&rdquo; converts this process to AI-analyzable images.</div></div>
     <div class="sg-glossary-item"><span class="sg-glossary-term">Social Determinants of Health (SDOH)</span><div class="sg-glossary-def">Non-medical factors (housing, education, income, neighborhood) that strongly influence health outcomes. Central to Chunara&rsquo;s equity work.</div></div>
     <div class="sg-glossary-item"><span class="sg-glossary-term">Safety-Net Hospital</span><div class="sg-glossary-def">A hospital that provides care regardless of ability to pay, serving predominantly low-income and uninsured populations. NYC Health + Hospitals is the largest in the U.S.</div></div>
-    <div class="sg-glossary-item"><span class="sg-glossary-term">Advance Care Planning</span><div class="sg-glossary-def">Conversations between patients, families, and clinicians about goals of care, especially near end of life. Aphinyanaphongs&rsquo; AI has been associated with a fivefold increase in these conversations.</div></div>
+    <div class="sg-glossary-item"><span class="sg-glossary-term">Advance Care Planning</span><div class="sg-glossary-def">Conversations between patients, families, and clinicians about goals of care, especially near end of life. Aphinyanaphongs&rsquo; AI has been associated with a substantial increase in these conversations.</div></div>
     <div class="sg-glossary-item"><span class="sg-glossary-term">Vizient Mortality Index</span><div class="sg-glossary-def">A standardized metric comparing a hospital&rsquo;s actual mortality to expected mortality, adjusting for patient severity. Used to benchmark care quality.</div></div>
   </div>
 </section>
@@ -668,11 +710,18 @@ h2 .sg-section-num {
     <li><span class="sg-tag sg-tag-website">Website</span><a href="https://research.google/teams/health/" target="_blank">Google Health Research</a></li>
   </ul>
 
-  <h3>Key Review Articles</h3>
+  <h3>Clinical Evidence &amp; Governance</h3>
   <ul class="sg-resource-list">
+    <li><span class="sg-tag sg-tag-guide">Guide</span><a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices" target="_blank">FDA &mdash; AI/ML SaMD Action Plan &amp; authorized device list</a></li>
+    <li><span class="sg-tag sg-tag-guide">Guide</span><a href="https://www.equator-network.org/" target="_blank">EQUATOR Network &mdash; reporting guidelines for clinical AI studies (CONSORT-AI, SPIRIT-AI, TRIPOD-AI)</a></li>
     <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41591-021-01614-0" target="_blank">AI in health and medicine (Nature Medicine, 2021 &mdash; comprehensive review)</a></li>
+  </ul>
+
+  <h3>Bias, Fairness &amp; Real-World Implementation</h3>
+  <ul class="sg-resource-list">
     <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41551-023-01056-8" target="_blank">Algorithm fairness in AI for medicine and healthcare (Nature Biomedical Engineering, 2023)</a></li>
     <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s41746-020-0221-y" target="_blank">Clinical decision support with AI: overview (npj Digital Medicine, 2020)</a></li>
+    <li><span class="sg-tag sg-tag-paper">Paper</span><a href="https://www.nature.com/articles/s42256-021-00373-4" target="_blank">ML and algorithmic fairness in public and population health (Nature Machine Intelligence, 2021)</a></li>
   </ul>
 </section>
 

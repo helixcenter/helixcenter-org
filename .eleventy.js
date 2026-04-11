@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/llms-full.txt");
   eleventyConfig.addPassthroughCopy("src/_headers");
   eleventyConfig.addPassthroughCopy("src/4cd4c43c66344f3bb55634644c45e249.txt");
+  eleventyConfig.addPassthroughCopy("src/downloads");
 
   // Filters
   eleventyConfig.addFilter("slug", function(str) {
@@ -76,13 +77,19 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("year", function(dateStr) {
     if (!dateStr) return '';
-    const match = dateStr.match(/(\d{4})/);
+    if (dateStr instanceof Date) return String(dateStr.getFullYear());
+    const match = String(dateStr).match(/(\d{4})/);
     return match ? match[1] : '';
   });
 
   eleventyConfig.addFilter("uniqueValues", function(arr, key) {
     const values = arr.map(item => item[key]).filter(Boolean);
     return [...new Set(values)].sort();
+  });
+
+  eleventyConfig.addFilter("title", function(str) {
+    if (!str) return '';
+    return str.replace(/\b\w/g, c => c.toUpperCase());
   });
 
   eleventyConfig.addFilter("json", function(value) {
