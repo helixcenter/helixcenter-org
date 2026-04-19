@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+title: Institutions
+pageTitle: "Affiliated Institutions"
+description: "65 universities, research centers, museums, and organizations whose scholars have participated in Helix Center roundtable discussions."
+permalink: /institutions/
+breadcrumbSection: "Institutions"
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Institutional Partners</div>
+    <h1>Affiliated Institutions</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">{{ institutions | length }} universities, research centers, and organizations represented across {{ site.stats.seasons }} seasons</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li>Institutions</li></ol>
+</div>
+
+<section>
+  <div class="container">
+    <div class="media-grid" style="margin-top: 1rem;">
+      {% for inst in institutions | sortBy('count', 'desc') %}
+      <a href="/institutions/{{ inst.slug }}/" class="media-card" style="text-decoration: none; color: inherit;">
+        <h4 style="margin: 0 0 0.3rem;">{{ inst.name }}</h4>
+        <div class="media-meta">{{ inst.speakers | length }} speaker{% if inst.speakers.length != 1 %}s{% endif %}</div>
+        {% if inst.description %}
+        <p style="font-size: 0.8rem; color: var(--text-mid); margin-top: 0.5rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">{{ inst.description }}</p>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

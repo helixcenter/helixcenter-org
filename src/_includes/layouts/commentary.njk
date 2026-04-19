@@ -1,0 +1,161 @@
+---
+layout: layouts/base.njk
+---
+
+{% set authorName = author %}
+{% set matchedSpeaker = speakers | findSpeaker(authorName) %}
+{% set matchedAuthor = authors | find('name', authorName) %}
+{% set authorPhoto = "" %}
+{% set authorTitle = "" %}
+{% set authorUrl = "" %}
+{% set authorDomain = "" %}
+{% set authorPhotoPosition = "" %}
+
+{% if matchedSpeaker %}
+  {% set authorPhoto = matchedSpeaker.photo %}
+  {% set authorTitle = matchedSpeaker.title %}
+  {% set authorUrl = matchedSpeaker.name | speakerUrl %}
+  {% set authorDomain = matchedSpeaker.domain %}
+  {% set authorPhotoPosition = matchedSpeaker.photoPosition %}
+{% elif matchedAuthor %}
+  {% set authorPhoto = matchedAuthor.photo %}
+  {% set authorTitle = matchedAuthor.title %}
+  {% set authorDomain = matchedAuthor.domain %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ title | jsonEscape }}",
+  "description": "{{ description | jsonEscape }}",
+  "datePublished": "{{ date | toISODate }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ authorName }}"{% if authorUrl %},
+    "url": "{{ site.url }}{{ authorUrl }}"{% endif %}
+  },
+  "publisher": { "@id": "{{ site.url }}/#organization" },
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "Apologia Blog",
+    "url": "{{ site.url }}/commentaries/"
+  }{% if tags and tags.length %},
+  "keywords": [{% for tag in tags %}{% if tag != "commentary" %}{% if not loop.first %}, {% endif %}"{{ tag }}"{% endif %}{% endfor %}]{% endif %}
+}
+</script>
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Commentary{% if type %} &middot; {{ type | replace("-", " ") | title }}{% endif %}</div>
+    <h1>{{ title }}</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">{{ date | formatDate }}</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/commentaries/">Apologia Blog</a></li>
+    <li>{{ title | truncate(50) }}</li>
+  </ol>
+</div>
+
+<section class="detail-page">
+  <div class="container" style="max-width: 780px;">
+
+    {# Author byline #}
+    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border);">
+      {% if authorPhoto %}
+      <img src="{{ authorPhoto }}" alt="{{ authorName }}" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover;{% if authorPhotoPosition %} object-position: {{ authorPhotoPosition }};{% endif %}" loading="lazy">
+      {% else %}
+      <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--navy); color: var(--cream); display: flex; align-items: center; justify-content: center; font-size: 1rem; font-weight: 600;">{{ authorName | initials }}</div>
+      {% endif %}
+      <div>
+        {% if authorUrl %}
+        <a href="{{ authorUrl }}" style="font-weight: 600; font-size: 1rem; color: var(--navy); text-decoration: none;">{{ authorName }}</a>
+        {% else %}
+        <div style="font-weight: 600; font-size: 1rem; color: var(--navy);">{{ authorName }}</div>
+        {% endif %}
+        {% if authorTitle %}
+        <div style="font-size: 0.85rem; color: var(--text-mid);">{{ authorTitle | truncate(100) }}</div>
+        {% endif %}
+      </div>
+    </div>
+
+    {# Article body #}
+    <div class="detail-body commentary-body" style="font-family: var(--serif); font-size: 1.05rem; line-height: 1.9; color: var(--text);">
+      {{ content | safe }}
+    </div>
+
+    {# Tags #}
+    {% if tags and tags.length %}
+    <div class="tag-list" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+      {% for tag in tags %}
+      {% if tag != "commentary" %}
+      <a href="/roundtables/all/?search={{ tag | urlencode }}" class="tag-pill">{{ tag }}</a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {# Related roundtable #}
+    {% if relatedRoundtable %}
+    {% set relRt = roundtables | find('slug', relatedRoundtable) %}
+    {% if relRt %}
+    <div style="margin-top: 2rem; padding: 1.5rem; background: var(--cream); border-radius: var(--radius-lg); border-left: 4px solid var(--gold);">
+      <div style="font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 0.35rem;">Related Roundtable</div>
+      <a href="/roundtables/{{ relRt.slug }}/" style="font-family: var(--serif); font-size: 1.1rem; font-weight: 600; color: var(--navy); text-decoration: none;">{{ relRt.title }}</a>
+      <div style="font-size: 0.85rem; color: var(--text-mid); margin-top: 0.25rem;">{{ relRt.date }}</div>
+    </div>
+    {% endif %}
+    {% endif %}
+
+    {# Back link #}
+    <div style="margin-top: 2.5rem; text-align: center;">
+      <a href="/commentaries/" class="btn btn-outline-dark">&larr; All Apologia Blog Posts</a>
+    </div>
+  </div>
+</section>
+
+<style>
+.commentary-body h2 {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  color: var(--navy);
+  margin: 2rem 0 1rem;
+}
+.commentary-body h3 {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  color: var(--navy);
+  margin: 1.5rem 0 0.75rem;
+}
+.commentary-body blockquote {
+  border-left: 3px solid var(--gold);
+  margin: 1.5rem 0;
+  padding: 0.5rem 1.25rem;
+  color: var(--text-mid);
+  font-style: italic;
+}
+.commentary-body ol,
+.commentary-body ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+.commentary-body li {
+  margin-bottom: 0.5rem;
+}
+.commentary-body a {
+  color: var(--gold-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.commentary-body img {
+  max-width: 100%;
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+}
+</style>

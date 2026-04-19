@@ -1,0 +1,83 @@
+[
+  {
+    "id": "nobel",
+    "name": "Nobel Laureates",
+    "count": 4,
+    "label": "Nobel Laureates",
+    "detail": "Kahneman, Kandel, Gross & de Duve",
+    "subtitle": "4 Nobel Prize winners have participated in Helix Center roundtables",
+    "speakers": ["Daniel Kahneman", "Eric Kandel", "David J. Gross", "Christian de Duve"]
+  },
+  {
+    "id": "nms",
+    "name": "National Medals of Science",
+    "count": 3,
+    "label": "National Medals of Science",
+    "detail": "America's highest scientific honor",
+    "subtitle": "3 recipients of America's highest scientific honor have participated",
+    "speakers": ["Barry Mazur", "Sylvester James Gates", "Eric Kandel"]
+  },
+  {
+    "id": "macarthur",
+    "name": "MacArthur Fellows",
+    "count": 5,
+    "label": "MacArthur Fellows",
+    "detail": "\"Genius Grant\" recipients",
+    "subtitle": "5 MacArthur \"Genius Grant\" recipients have participated",
+    "speakers": ["Sara Seager", "Vijay Iyer", "Yiyun Li", "Jean Strouse", "Rosanne Cash"]
+  },
+  {
+    "id": "pulitzer",
+    "name": "Pulitzer Prizes",
+    "count": 8,
+    "label": "Pulitzer Prizes",
+    "detail": "In letters, music & journalism",
+    "subtitle": "8 Pulitzer Prize winners have participated",
+    "speakers": ["Percival Everett", "Lloyd Schwartz", "Jean Valentine", "Christopher Cerrone", "Megan Abbott", "Dennis Overbye", "Sushma Subramanian", "Michael Waldholz"]
+  },
+  {
+    "id": "grammy",
+    "name": "Grammy Awards",
+    "count": 3,
+    "label": "Grammy Awards",
+    "detail": "Recording Academy honors",
+    "subtitle": "3 Grammy Award winners have participated",
+    "speakers": ["Rosanne Cash", "Lewis Porter", "Harvey Seifter"]
+  },
+  {
+    "id": "nba",
+    "name": "National Book Awards",
+    "count": 3,
+    "label": "National Book Awards",
+    "detail": "America's premier literary prize",
+    "subtitle": "3 National Book Award winners have participated",
+    "speakers": ["Jean Valentine", "Patrick Rosal", "Mark Polizzotti"]
+  },
+  {
+    "id": "nas",
+    "name": "NAS Members",
+    "count": 10,
+    "label": "NAS Members",
+    "detail": "National Academy of Sciences",
+    "subtitle": "10 members of the National Academy of Sciences have participated",
+    "speakers": ["Eric Kandel", "Sara Seager", "Joseph LeDoux", "Sylvester James Gates", "Katepalli Sreenivasan", "Michael S. Turner", "Wendy Suzuki", "Joseph J. Kohn", "Dennis Overbye", "Alana Quinn"]
+  },
+  {
+    "id": "guggenheim",
+    "name": "Guggenheim Fellows",
+    "count": 26,
+    "label": "Guggenheim Fellows",
+    "detail": "John Simon Guggenheim Foundation",
+    "subtitle": "26 Guggenheim Foundation Fellows have participated",
+    "speakers": ["David Chalmers", "Katepalli Sreenivasan", "Robert Klitzman", "Irene Pepperberg", "Anthony Grafton", "Tim Maudlin", "Alberto Manguel", "Ned Block", "Jean Strouse", "Jean Valentine", "Gil Eyal", "Honor Moore", "Deborah Coen", "Stuart Firestein", "Richard A. Shweder", "Rachel Hadas", "Marc Van De Mieroop", "Dorothea Rockburne", "Peter Pesic", "Barbara Montero", "Xiao-Jing Wang", "Christopher Wood", "Bill Zavatsky", "Alan Richardson", "Mark Polizzotti", "Karl Friston"]
+  },
+  {
+    "id": "pen",
+    "name": "PEN Literary Awards",
+    "count": 5,
+    "label": "PEN Literary Awards",
+    "detail": "International writers' organization",
+    "subtitle": "5 PEN Literary Award winners have participated",
+    "speakers": ["Yiyun Li", "Caleb Scharf", "Nancy Princenthal", "Bill Zavatsky", "Mark Polizzotti"]
+  }
+]

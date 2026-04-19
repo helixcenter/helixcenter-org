@@ -1,0 +1,129 @@
+---
+layout: layouts/base.njk
+title: Apologia Blog
+pageTitle: "Apologia Blog"
+description: "Short essays and reflections by Helix Center speakers, organizers, and guests — exploring the ideas behind our roundtable discussions."
+permalink: /commentaries/
+breadcrumbSection: "Apologia Blog"
+eleventyExcludeFromCollections: true
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Essays & Reflections</div>
+    <h1>Apologia Blog</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">Short essays by speakers, organizers, and guests connected to The Helix Center</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol><li><a href="/">Home</a></li><li>Apologia Blog</li></ol>
+</div>
+
+<section>
+  <div class="container">
+    {% set allCommentaries = collections.commentary | reverse %}
+
+    {% if allCommentaries | length == 0 %}
+    <p style="text-align: center; color: var(--text-mid); padding: 3rem 0; font-family: var(--serif); font-size: 1.1rem;">Apologia Blog posts coming soon.</p>
+    {% else %}
+
+    {# Tag filter chips #}
+    {% set allTags = [] %}
+    {% for post in allCommentaries %}
+      {% for tag in post.data.tags %}
+        {% if tag != "commentary" and tag not in allTags %}
+          {% set allTags = (allTags.push(tag), allTags) %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    {% if allTags | length > 0 %}
+    <div class="tag-list" style="margin-bottom: 2rem; text-align: center;">
+      <a href="/commentaries/" class="tag-pill tag-active" data-filter="all">All</a>
+      {% for tag in allTags | sort %}
+      <a href="#" class="tag-pill" data-filter="{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="listing-grid" id="commentaries-grid">
+      {% for post in allCommentaries %}
+      {% set authorName = post.data.author %}
+      {% set matchedSpeaker = speakers | findSpeaker(authorName) %}
+      {% set matchedAuthor = authors | find('name', authorName) %}
+      <article class="commentary-card" data-tags="{{ post.data.tags | join(',') }}">
+        <a href="{{ post.url }}" style="text-decoration: none; color: inherit; display: block;">
+          <div class="commentary-card-inner">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+              {% if matchedSpeaker and matchedSpeaker.photo %}
+              <img src="{{ matchedSpeaker.photo }}" alt="{{ authorName }}" style="width: 44px; height: 44px; border-radius: 50%; object-fit: cover;{% if matchedSpeaker.photoPosition %} object-position: {{ matchedSpeaker.photoPosition }};{% endif %}" loading="lazy">
+              {% elif matchedAuthor and matchedAuthor.photo %}
+              <img src="{{ matchedAuthor.photo }}" alt="{{ authorName }}" style="width: 44px; height: 44px; border-radius: 50%; object-fit: cover;" loading="lazy">
+              {% else %}
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: var(--cream); display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 600;">{{ authorName | initials }}</div>
+              {% endif %}
+              <div>
+                <div style="font-weight: 600; font-size: 0.9rem; color: var(--navy);">{{ authorName }}</div>
+                <div style="font-size: 0.78rem; color: var(--text-light);">{{ post.data.date | formatDate }}</div>
+              </div>
+            </div>
+            <h3 style="font-family: var(--serif); font-size: 1.15rem; color: var(--navy); margin-bottom: 0.5rem; line-height: 1.4;">{{ post.data.title }}</h3>
+            <p style="font-size: 0.88rem; color: var(--text-mid); line-height: 1.65;">{{ post.data.description | truncate(180) }}</p>
+            {% if post.data.tags %}
+            <div class="tag-list" style="margin-top: 0.75rem;">
+              {% for tag in post.data.tags %}
+              {% if tag != "commentary" %}
+              <span class="tag-pill" style="font-size: 0.7rem; padding: 0.2rem 0.6rem;">{{ tag }}</span>
+              {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<style>
+.commentary-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.commentary-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.commentary-card-inner {
+  padding: 1.5rem;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const pills = document.querySelectorAll('.tag-pill[data-filter]');
+  const cards = document.querySelectorAll('.commentary-card[data-tags]');
+  pills.forEach(pill => {
+    pill.addEventListener('click', e => {
+      e.preventDefault();
+      const filter = pill.dataset.filter;
+      pills.forEach(p => p.classList.remove('tag-active'));
+      pill.classList.add('tag-active');
+      cards.forEach(card => {
+        if (filter === 'all' || card.dataset.tags.split(',').includes(filter)) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>

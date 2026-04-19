@@ -1,0 +1,98 @@
+---
+layout: layouts/base.njk
+title: Awards & Distinctions
+pageTitle: Awards & Distinctions
+description: "Helix Center speakers include Nobel laureates, MacArthur Fellows, Pulitzer Prize winners, Guggenheim Fellows, National Academy members, and many more distinguished scholars."
+permalink: /awards/
+breadcrumbSection: "Speakers"
+breadcrumbPage: "Awards & Distinctions"
+---
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Our Speakers</div>
+    <h1>Awards & Distinctions</h1>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle">The extraordinary honors held by Helix Center participants</p>
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li>Awards & Distinctions</li>
+  </ol>
+</div>
+
+<section class="detail-page">
+  <div class="container">
+    <p style="font-family: var(--serif); font-size: 1.15rem; color: var(--text-mid); max-width: 720px; margin-bottom: 3rem;">
+      Since 2012, The Helix Center has convened <strong>{{ site.stats.speakers }} distinguished speakers</strong>
+      whose collective honors span the highest recognitions across the sciences, arts, and humanities.
+    </p>
+
+    {% for tierGroup in allAwards %}
+    <div class="awards-tier" id="tier-{{ tierGroup.tier }}">
+      <h2 class="awards-tier-heading">{{ tierGroup.tierName }}</h2>
+      <div class="gold-divider" style="margin-left:0; margin-bottom: 2rem;"></div>
+
+      {% for award in tierGroup.awards %}
+      {% if award.count == 1 %}
+      {# ---- Single-winner: compact inline row ---- #}
+      {% set sp = speakers | findSpeaker(award.speakers[0]) %}
+      {% if sp %}
+      <div class="award-single" id="{{ award.id }}">
+        <a href="{{ sp.name | speakerUrl }}" class="award-single-photo-link">
+          {% if sp.photo %}
+          <img src="{{ sp.photo }}" alt="{{ sp.name }}" class="award-single-photo" loading="lazy">
+          {% else %}
+          <div class="award-single-initials">{{ sp.name | initials }}</div>
+          {% endif %}
+        </a>
+        <div class="award-single-info">
+          <span class="award-single-name">{{ award.name }}</span>
+          <span class="award-single-desc">{{ award.description }}</span>
+          <span class="award-single-sep">&mdash;</span>
+          <a href="{{ sp.name | speakerUrl }}" class="award-single-speaker">{{ sp.name }}</a>
+        </div>
+      </div>
+      {% endif %}
+
+      {% else %}
+      {# ---- Multi-winner: heading + grid ---- #}
+      <div class="awards-category" id="{{ award.id }}">
+        <div class="awards-category-header">
+          <h3>{{ award.name }} <span class="awards-count">({{ award.count }})</span></h3>
+          <p class="awards-subtitle">{{ award.description }}</p>
+        </div>
+        <div class="awards-grid">
+          {% for speakerName in award.speakers %}
+          {% set sp = speakers | findSpeaker(speakerName) %}
+          {% if sp %}
+          <a href="{{ sp.name | speakerUrl }}" class="awards-person">
+            {% if sp.photo %}
+            <img src="{{ sp.photo }}" alt="{{ sp.name }}" class="awards-photo" loading="lazy">
+            {% else %}
+            <div class="awards-initials">{{ sp.name | initials }}</div>
+            {% endif %}
+            <div class="awards-person-info">
+              <div class="awards-person-name">{{ sp.name }}</div>
+              {% if sp.institution and sp.institution != "Unknown" %}
+              <div class="awards-person-inst">{{ sp.institution }}</div>
+              {% endif %}
+            </div>
+          </a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+    <div style="margin-top: 3rem; text-align: center;">
+      <a href="/speakers/" class="btn btn-outline-dark">View All {{ site.stats.speakers }} Speakers &rarr;</a>
+    </div>
+  </div>
+</section>

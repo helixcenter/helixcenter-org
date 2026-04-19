@@ -1,0 +1,96 @@
+---
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "/blog/{{ post.slug }}/index.html"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ post.title }}"
+  pageTitle: "{{ post.title }}"
+  description: "{{ post.excerpt | truncate(160) }}"
+  breadcrumbSection: "Blog"
+  breadcrumbPage: "{{ post.title }}"
+  datePublished: "{{ post.date }}"
+  dateModified: "{{ post.modified or post.date }}"
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "{{ site.url }}/blog/{{ post.slug }}/#article",
+  "headline": "{{ post.title | jsonEscape }}",
+  {% if post.subtitle %}"alternativeHeadline": "{{ post.subtitle | jsonEscape }}",{% endif %}
+  "description": "{{ post.excerpt | truncate(300) | jsonEscape }}",
+  "url": "{{ site.url }}/blog/{{ post.slug }}/",
+  "datePublished": "{{ post.date | toISODate }}",
+  "dateModified": "{{ (post.modified or post.date) | toISODate }}",
+  "author": {
+    "@type": "Person",
+    "@id": "{{ site.url }}/speakers/edward-nersessian/#person",
+    "name": "Dr. Edward Nersessian",
+    "jobTitle": "Founder & Director"
+  },
+  "publisher": { "@id": "{{ site.url }}/#organization" },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}/blog/{{ post.slug }}/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "{{ site.url }}/blog/#blog",
+    "name": "From the Director's Desk"
+  },
+  "inLanguage": "en",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".blog-content", "h1"]
+  }
+}
+</script>
+
+<div class="page-header">
+  <div class="container">
+    <div class="section-label">Director's Reflections &middot; {{ post.date | formatDate }}</div>
+    <h1>{{ post.title }}</h1>
+    <div class="gold-divider"></div>
+    {% if post.subtitle %}
+    <p class="section-subtitle" style="font-style: italic;">{{ post.subtitle }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li>{{ post.title | truncate(40) }}</li>
+  </ol>
+</div>
+
+<section class="detail-page">
+  <div class="container">
+    <div class="blog-content detail-body" style="max-width: 720px;">
+      {{ post.body | safe }}
+    </div>
+
+    {% if post.relatedRoundtables and post.relatedRoundtables.length %}
+    <div style="margin-top: 3rem;">
+      <h2>Related Roundtables</h2>
+      <div class="listing-grid" style="margin-top: 1rem;">
+        {% for slug in post.relatedRoundtables %}
+        {% set rt = roundtables | find('slug', slug) %}
+        {% if rt %}
+        {% include "partials/roundtable-card.njk" %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <div style="margin-top: 3rem; text-align: center;">
+      <a href="/blog/" class="btn btn-outline-dark">&larr; Back to Blog</a>
+    </div>
+  </div>
+</section>

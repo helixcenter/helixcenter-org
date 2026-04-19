@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/commentary.njk",
+  "tags": ["commentary"],
+  "permalink": "/commentaries/{{ date | year }}/{{ slug }}/index.html"
+}

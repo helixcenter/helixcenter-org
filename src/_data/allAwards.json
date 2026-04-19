@@ -1,0 +1,347 @@
+[
+  {
+    "tier": 1,
+    "tierName": "Apex Honors",
+    "awards": [
+      {
+        "id": "nobel",
+        "name": "Nobel Prize",
+        "description": "The world's most prestigious scientific and cultural award, established by Alfred Nobel in 1895",
+        "count": 4,
+        "speakers": ["Daniel Kahneman", "Eric Kandel", "David J. Gross", "Christian de Duve"]
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "tierName": "National & International Honors",
+    "awards": [
+      {
+        "id": "nms",
+        "name": "National Medal of Science",
+        "description": "The highest scientific honor bestowed by the United States government",
+        "count": 3,
+        "speakers": ["Eric Kandel", "Barry Mazur", "Sylvester James Gates"]
+      },
+      {
+        "id": "pmf",
+        "name": "Presidential Medal of Freedom",
+        "description": "The highest civilian honor in the United States",
+        "count": 1,
+        "speakers": ["Daniel Kahneman"]
+      },
+      {
+        "id": "kavli",
+        "name": "Kavli Prize",
+        "description": "Biennial award recognizing outstanding research in astrophysics, nanoscience, and neuroscience",
+        "count": 1,
+        "speakers": ["Sara Seager"]
+      },
+      {
+        "id": "balzan",
+        "name": "Balzan Prize",
+        "description": "International prize for achievements in humanities, natural sciences, and culture",
+        "count": 1,
+        "speakers": ["Anthony Grafton"]
+      },
+      {
+        "id": "wolf",
+        "name": "Wolf Prize",
+        "description": "Israeli international prize for outstanding achievements in agriculture, chemistry, mathematics, medicine, physics, and the arts",
+        "count": 1,
+        "speakers": ["Eric Kandel"]
+      },
+      {
+        "id": "lasker",
+        "name": "Lasker Award",
+        "description": "America's most distinguished biomedical research prize, often a precursor to the Nobel",
+        "count": 1,
+        "speakers": ["Eric Kandel"]
+      },
+      {
+        "id": "chern",
+        "name": "Chern Medal",
+        "description": "Awarded every four years for outstanding lifelong achievement in mathematics",
+        "count": 1,
+        "speakers": ["Barry Mazur"]
+      },
+      {
+        "id": "dirac",
+        "name": "Dirac Medal",
+        "description": "Awarded by the International Centre for Theoretical Physics for contributions to theoretical physics",
+        "count": 1,
+        "speakers": ["Paul J. Steinhardt"]
+      },
+      {
+        "id": "brain",
+        "name": "The Brain Prize",
+        "description": "The world's largest prize for neuroscience research, awarded by the Lundbeck Foundation",
+        "count": 1,
+        "speakers": ["György Buzsáki"]
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "tierName": "Major Prizes",
+    "awards": [
+      {
+        "id": "macarthur",
+        "name": "MacArthur Fellowship",
+        "description": "The \"Genius Grant\" — unrestricted fellowships recognizing extraordinary originality and dedication",
+        "count": 5,
+        "speakers": ["Sara Seager", "Vijay Iyer", "Yiyun Li", "Jean Strouse", "Rosanne Cash"]
+      },
+      {
+        "id": "pulitzer",
+        "name": "Pulitzer Prize",
+        "description": "America's foremost award for achievement in journalism, literature, and musical composition",
+        "count": 8,
+        "speakers": ["Percival Everett", "Lloyd Schwartz", "Jean Valentine", "Christopher Cerrone", "Megan Abbott", "Dennis Overbye", "Sushma Subramanian", "Michael Waldholz"]
+      },
+      {
+        "id": "grammy",
+        "name": "Grammy Award",
+        "description": "The Recording Academy's recognition of outstanding achievement in the music industry",
+        "count": 3,
+        "speakers": ["Rosanne Cash", "Lewis Porter", "Harvey Seifter"]
+      },
+      {
+        "id": "nba",
+        "name": "National Book Award",
+        "description": "One of America's most prestigious literary prizes, presented annually since 1950",
+        "count": 3,
+        "speakers": ["Jean Valentine", "Patrick Rosal", "Mark Polizzotti"]
+      },
+      {
+        "id": "nbcc",
+        "name": "National Book Critics Circle Award",
+        "description": "Annual award honoring the finest books published in the United States",
+        "count": 2,
+        "speakers": ["Patrick Rosal", "Dennis Overbye"]
+      },
+      {
+        "id": "edgar",
+        "name": "Edgar Award",
+        "description": "The Mystery Writers of America's award for the best in mystery fiction and nonfiction",
+        "count": 1,
+        "speakers": ["Megan Abbott"]
+      },
+      {
+        "id": "asturias",
+        "name": "Princess of Asturias Award",
+        "description": "Spain's most prestigious prizes, recognizing international achievement in sciences, humanities, and public affairs",
+        "count": 1,
+        "speakers": ["Siri Hustvedt"]
+      },
+      {
+        "id": "jnanpith",
+        "name": "Jnanpith Award",
+        "description": "India's highest literary honor, recognizing outstanding contribution to Indian literature",
+        "count": 1,
+        "speakers": ["Amitav Ghosh"]
+      },
+      {
+        "id": "time100",
+        "name": "TIME 100 Most Influential",
+        "description": "TIME magazine's annual list of the world's most influential people",
+        "count": 1,
+        "speakers": ["Daniela Schiller"]
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "tierName": "Academy Memberships",
+    "awards": [
+      {
+        "id": "nas",
+        "name": "National Academy of Sciences",
+        "description": "Election to America's most distinguished scientific body, established by Abraham Lincoln in 1863",
+        "count": 10,
+        "speakers": ["Eric Kandel", "Sara Seager", "Joseph LeDoux", "Sylvester James Gates", "Katepalli Sreenivasan", "Michael S. Turner", "Wendy Suzuki", "Joseph J. Kohn", "Dennis Overbye", "Alana Quinn"]
+      },
+      {
+        "id": "aaas-elected",
+        "name": "American Academy of Arts and Sciences",
+        "description": "One of America's oldest honorary societies, founded in 1780 by John Adams",
+        "count": 9,
+        "speakers": ["Joseph LeDoux", "Katepalli Sreenivasan", "Ned Block", "Elliot Wolfson", "Jean Strouse", "Karl Joseph Niklas", "Richard A. Shweder", "Liz Phelps", "Michael Novacek"]
+      },
+      {
+        "id": "frs",
+        "name": "Fellow of the Royal Society",
+        "description": "Election to the world's oldest scientific society, founded in London in 1660",
+        "count": 3,
+        "speakers": ["Karl Friston", "Chris Frith", "Uta Frith"]
+      },
+      {
+        "id": "nae",
+        "name": "National Academy of Engineering",
+        "description": "Election to America's most prestigious engineering body",
+        "count": 2,
+        "speakers": ["Rosalind Picard", "Katepalli Sreenivasan"]
+      },
+      {
+        "id": "dbe",
+        "name": "Dame Commander of the Order of the British Empire",
+        "description": "One of the highest honors bestowed by the British Crown for contributions to the arts, sciences, and public life",
+        "count": 1,
+        "speakers": ["Uta Frith"]
+      },
+      {
+        "id": "nam",
+        "name": "National Academy of Medicine",
+        "description": "Election recognizing outstanding professional achievement and commitment to health and medicine",
+        "count": 1,
+        "speakers": ["Andrea Califano"]
+      },
+      {
+        "id": "nai",
+        "name": "National Academy of Inventors",
+        "description": "Election recognizing academic inventors who have demonstrated a prolific spirit of innovation",
+        "count": 1,
+        "speakers": ["Rosalind Picard"]
+      },
+      {
+        "id": "aps",
+        "name": "American Philosophical Society",
+        "description": "America's oldest learned society, founded by Benjamin Franklin in 1743",
+        "count": 1,
+        "speakers": ["Jean Strouse"]
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "tierName": "Fellowships & Grants",
+    "awards": [
+      {
+        "id": "guggenheim",
+        "name": "Guggenheim Fellowship",
+        "description": "Competitive grants awarded on the basis of distinguished achievement and exceptional promise",
+        "count": 26,
+        "speakers": ["David Chalmers", "Katepalli Sreenivasan", "Robert Klitzman", "Irene Pepperberg", "Anthony Grafton", "Tim Maudlin", "Alberto Manguel", "Ned Block", "Jean Strouse", "Jean Valentine", "Gil Eyal", "Honor Moore", "Deborah Coen", "Stuart Firestein", "Richard A. Shweder", "Rachel Hadas", "Marc Van De Mieroop", "Dorothea Rockburne", "Peter Pesic", "Barbara Montero", "Xiao-Jing Wang", "Christopher Wood", "Bill Zavatsky", "Alan Richardson", "Mark Polizzotti", "Karl Friston"]
+      },
+      {
+        "id": "havi",
+        "name": "Schmidt Sciences HAVI Grant",
+        "description": "Funding to advance Human-AI-Vision Initiative research at the intersection of artificial intelligence and the humanities",
+        "count": 19,
+        "speakers": ["Eric Kandel", "Katherine Elkins", "Jon Chun", "Irene Pepperberg", "David Freedberg", "Martha Welch", "Diana Reiss", "Sheldon Solomon", "Ken Paller", "Saeed Tavazoie", "Jeremy Veenstra-VanderWeele", "Miklos Toth", "Rebecca Seal", "Ernesto Reuben", "Ellen Handler Spitz", "Francis X. Shen", "Sushma Subramanian", "Wynn Schwartz", "Ralph Wharton"]
+      },
+      {
+        "id": "fulbright",
+        "name": "Fulbright Fellowship",
+        "description": "The U.S. government's flagship international educational exchange program",
+        "count": 7,
+        "speakers": ["Daniela Schiller", "Patrick Rosal", "Benjamin Radcliff", "Spyros Papapetros", "Louis Rose", "Michelle Woods", "Patricia Taylor"]
+      },
+      {
+        "id": "pen",
+        "name": "PEN Literary Award",
+        "description": "Awards from the international writers' organization defending freedom of expression through literature",
+        "count": 5,
+        "speakers": ["Yiyun Li", "Caleb Scharf", "Nancy Princenthal", "Bill Zavatsky", "Mark Polizzotti"]
+      },
+      {
+        "id": "sloan",
+        "name": "Sloan Research Fellowship",
+        "description": "Awarded to early-career scientists and scholars of outstanding promise by the Alfred P. Sloan Foundation",
+        "count": 4,
+        "speakers": ["Alexis Gambis", "Stuart Firestein", "Xiao-Jing Wang", "George Reeke, Jr."]
+      },
+      {
+        "id": "neh",
+        "name": "NEH Fellowship",
+        "description": "National Endowment for the Humanities fellowships supporting advanced research in the humanities",
+        "count": 4,
+        "speakers": ["Ned Block", "Barbara Montero", "Alan Richardson", "Karen B. Stern"]
+      },
+      {
+        "id": "rockefeller",
+        "name": "Rockefeller Foundation Fellowship",
+        "description": "Grants from one of America's oldest and most influential philanthropic organizations",
+        "count": 3,
+        "speakers": ["Jean Valentine", "Morris Vogel", "Patricia Taylor"]
+      },
+      {
+        "id": "aaas-fellow",
+        "name": "AAAS Fellow",
+        "description": "Election by the American Association for the Advancement of Science for scientifically distinguished efforts",
+        "count": 2,
+        "speakers": ["Andrea Califano", "Michael Novacek"]
+      },
+      {
+        "id": "hhmi",
+        "name": "Howard Hughes Medical Institute Investigator",
+        "description": "HHMI provides long-term flexible funding to outstanding biomedical researchers",
+        "count": 1,
+        "speakers": ["Eric Kandel"]
+      },
+      {
+        "id": "steele",
+        "name": "Steele Prize",
+        "description": "The American Mathematical Society's highest award for mathematical achievement",
+        "count": 1,
+        "speakers": ["Joseph J. Kohn"]
+      },
+      {
+        "id": "gerard",
+        "name": "Gerard Prize",
+        "description": "The Society for Neuroscience's highest honor for outstanding contributions to the field",
+        "count": 1,
+        "speakers": ["György Buzsáki"]
+      },
+      {
+        "id": "dorisduke",
+        "name": "Doris Duke Award",
+        "description": "Recognizing extraordinary performing artists who are at a critical stage in their careers",
+        "count": 1,
+        "speakers": ["Vijay Iyer"]
+      },
+      {
+        "id": "radcliffe",
+        "name": "Radcliffe Fellowship",
+        "description": "Harvard Radcliffe Institute fellowship supporting scholars, scientists, and artists of exceptional promise",
+        "count": 1,
+        "speakers": ["Irene Pepperberg"]
+      },
+      {
+        "id": "buckley",
+        "name": "Buckley Prize",
+        "description": "The American Physical Society's award for outstanding contributions to condensed matter physics",
+        "count": 1,
+        "speakers": ["Paul J. Steinhardt"]
+      },
+      {
+        "id": "nystate-poet",
+        "name": "New York State Poet",
+        "description": "The official poet laureate of the State of New York",
+        "count": 1,
+        "speakers": ["Marie Howe"]
+      },
+      {
+        "id": "pen-hemingway",
+        "name": "PEN/Hemingway Award",
+        "description": "Annual award for a debut novel of exceptional merit by an American author",
+        "count": 1,
+        "speakers": ["Yiyun Li"]
+      },
+      {
+        "id": "nsf-career",
+        "name": "NSF CAREER Award",
+        "description": "The National Science Foundation's most prestigious award for early-career faculty",
+        "count": 1,
+        "speakers": ["Xiao-Jing Wang"]
+      },
+      {
+        "id": "templeton",
+        "name": "Templeton Prize",
+        "description": "One of the world's largest individual awards, honoring contributions to affirming life's spiritual dimension",
+        "count": 1,
+        "speakers": ["John Horgan"]
+      }
+    ]
+  }
+]
