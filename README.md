@@ -1,6 +1,6 @@
 # helixcenter-org
 
-Eleventy source for [helixcenter.org](https://www.helixcenter.org), deployed to Netlify (project `helixcenter`).
+Eleventy source for [helixcenter.org](https://www.helixcenter.org), maintained by [Helix Center, Inc.](https://github.com/helixcenter) and deployed to Netlify (project `helixcenter`).
 
 ## Build
 
@@ -8,6 +8,7 @@ Eleventy source for [helixcenter.org](https://www.helixcenter.org), deployed to 
 npm install
 npm run build         # outputs to _site/
 npx @11ty/eleventy --serve   # local dev
+npm test              # regression suite (tests/run-tests.js + tests/data-integrity.js)
 ```
 
 `npm run build` runs `npx @11ty/eleventy` and minifies CSS/JS.
