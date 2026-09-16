@@ -3,3 +3,5 @@ node_modules/
 package-lock.json
 email_list.json
 .DS_Store
+tests/output/
+reports/

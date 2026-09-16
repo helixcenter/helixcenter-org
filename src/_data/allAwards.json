@@ -7,8 +7,8 @@
         "id": "nobel",
         "name": "Nobel Prize",
         "description": "The world's most prestigious scientific and cultural award, established by Alfred Nobel in 1895",
-        "count": 4,
-        "speakers": ["Daniel Kahneman", "Eric Kandel", "David J. Gross", "Christian de Duve"]
+        "count": 2,
+        "speakers": ["Daniel Kahneman", "Eric Kandel"]
       }
     ]
   },
@@ -172,8 +172,8 @@
         "id": "frs",
         "name": "Fellow of the Royal Society",
         "description": "Election to the world's oldest scientific society, founded in London in 1660",
-        "count": 3,
-        "speakers": ["Karl Friston", "Chris Frith", "Uta Frith"]
+        "count": 1,
+        "speakers": ["Karl Friston"]
       },
       {
         "id": "nae",
@@ -181,13 +181,6 @@
         "description": "Election to America's most prestigious engineering body",
         "count": 2,
         "speakers": ["Rosalind Picard", "Katepalli Sreenivasan"]
-      },
-      {
-        "id": "dbe",
-        "name": "Dame Commander of the Order of the British Empire",
-        "description": "One of the highest honors bestowed by the British Crown for contributions to the arts, sciences, and public life",
-        "count": 1,
-        "speakers": ["Uta Frith"]
       },
       {
         "id": "nam",

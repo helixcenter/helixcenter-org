@@ -2,9 +2,13 @@
 layout: layouts/base.njk
 title: Topics
 pageTitle: "Roundtable Topics"
-description: "Explore {{ topics | length }} interdisciplinary topics covered across {{ roundtables | length }}+ Helix Center roundtable discussions — from neuroscience and philosophy to art, AI, and cosmology."
 permalink: /topics/
 breadcrumbSection: "Topics"
+eleventyComputed:
+  # NOTE: this must be eleventyComputed, not a plain `description:` string.
+  # Eleventy does not template-process front-matter values, so a {{ }} expression
+  # in `description:` renders literally into the meta/og/twitter description tags.
+  description: "Explore {{ topics.length }} interdisciplinary topics covered across {{ roundtables.length }} Helix Center roundtable discussions — from neuroscience and philosophy to art, AI, and cosmology."
 ---
 
 <div class="page-header">
@@ -12,7 +16,7 @@ breadcrumbSection: "Topics"
     <div class="section-label">Explore</div>
     <h1>Roundtable Topics</h1>
     <div class="gold-divider"></div>
-    <p class="section-subtitle">{{ topics | length }} interdisciplinary topics spanning {{ site.stats.seasons }} seasons of inquiry</p>
+    <p class="section-subtitle">{{ topics | length }} interdisciplinary topics spanning {{ stats.seasons }} seasons of inquiry</p>
   </div>
 </div>
 

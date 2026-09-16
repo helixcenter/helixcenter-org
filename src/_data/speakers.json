@@ -7,7 +7,7 @@
     "institution": "Princeton",
     "domain": "Psychology & Psychoanalysis",
     "appearances": 1,
-    "achievement": "Nobel Prize in Economic Sciences (2002) \u00b7 Presidential Medal of Freedom",
+    "achievement": "Nobel Prize in Economic Sciences (2002) · Presidential Medal of Freedom",
     "title": "Professor Emeritus, Princeton University",
     "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Kahneman",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/09/unnamed-2.jpg",
@@ -110,7 +110,7 @@
     "institution": "Princeton",
     "domain": "Physics & Cosmology",
     "appearances": 1,
-    "achievement": "Dirac Medal (2002) \u00b7 Buckley Prize (2010)",
+    "achievement": "Dirac Medal (2002) · Buckley Prize (2010)",
     "title": "Albert Einstein Professor, Princeton University",
     "wikipedia": "https://en.wikipedia.org/wiki/Paul_Steinhardt",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/Steinhardt.png",
@@ -162,7 +162,7 @@
     "institution": "MIT",
     "domain": "Physics & Cosmology",
     "appearances": 1,
-    "achievement": "MacArthur Fellow (2013) \u00b7 Kavli Prize in Astrophysics (2024)",
+    "achievement": "MacArthur Fellow (2013) · Kavli Prize in Astrophysics (2024)",
     "title": "Class of 1941 Professor, MIT",
     "wikipedia": "https://en.wikipedia.org/wiki/Sara_Seager",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2023/03/SeagerPhotoCreditJustinKnight-scaled.jpeg",
@@ -201,7 +201,7 @@
     "institution": "MIT",
     "domain": "Technology & Engineering",
     "appearances": 1,
-    "achievement": "National Academy of Engineering \u00b7 Founded Affective Computing",
+    "achievement": "National Academy of Engineering · Founded Affective Computing",
     "title": "Professor, MIT Media Lab",
     "wikipedia": "https://en.wikipedia.org/wiki/Rosalind_Picard",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2023/06/Picard-Rosalind-50over50.png",
@@ -241,7 +241,7 @@
     "institution": "UCL",
     "domain": "Neuroscience & Cognition",
     "appearances": 1,
-    "achievement": "Most-cited neuroscientist in history (h-index 291) \u00b7 FRS",
+    "achievement": "Most-cited neuroscientist in history (h-index 291) · FRS",
     "title": "Professor, University College London",
     "wikipedia": "https://en.wikipedia.org/wiki/Karl_J._Friston",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2015/01/Friston-square.jpg",
@@ -287,18 +287,20 @@
   },
   {
     "rank": 7,
-    "name": "Gy\u00f6rgy Buzs\u00e1ki",
+    "name": "György Buzsáki",
     "slug": "gyrgy-buzski",
     "score": 76,
     "institution": "NYU",
     "domain": "Neuroscience & Cognition",
     "appearances": 1,
-    "achievement": "The Brain Prize (2011) \u00b7 Gerard Prize (2020)",
+    "achievement": "The Brain Prize (2011) · Gerard Prize (2020)",
     "title": "Biggs Professor, NYU Neuroscience Institute",
     "wikipedia": "https://en.wikipedia.org/wiki/Gy%C3%B6rgy_Buzs%C3%A1ki",
     "photo": "https://buzsakilab.com/wp/wp-content/uploads/2017/07/GyruiPortrait.jpg",
     "bio": "Hungarian neuroscientist, the Biggs Professor of Neuroscience at New York University School of Medicine",
-    "roundtables": [],
+    "roundtables": [
+      "Coding and the New Phenotype: In Search for Lost Time"
+    ],
     "website": "https://buzsakilab.com/wp/buzsaki/",
     "googleScholar": "https://scholar.google.com/citations?user=DVl9E8YAAAAJ&hl=en",
     "sampleWorks": [
@@ -320,7 +322,8 @@
         "year": "2023",
         "type": "Paper"
       }
-    ]
+    ],
+    "latestDate": "October 15, 2022"
   },
   {
     "rank": 8,
@@ -329,7 +332,7 @@
     "score": 75,
     "institution": "NYU",
     "domain": "Neuroscience & Cognition",
-    "appearances": 5,
+    "appearances": 6,
     "achievement": "Karl Spencer Lashley Award, William James",
     "title": "Professor of Neural Science",
     "wikipedia": "https://en.wikipedia.org/wiki/Joseph_E._LeDoux",
@@ -340,7 +343,8 @@
       "Emotion",
       "How Deep Do We Go? Behavior, Mind, and The 4-Billion-Year History of Life",
       "The Topology of Fear",
-      "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2"
+      "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2",
+      "Fear: Wherefore, Whence?"
     ],
     "latestDate": "March 22, 2025",
     "website": "https://www.joseph-ledoux.com/",
@@ -386,7 +390,7 @@
     "institution": "NYU",
     "domain": "Philosophy & Ethics",
     "appearances": 2,
-    "achievement": "Coined 'the hard problem of consciousness' \u00b7 Guggenheim Fellow",
+    "achievement": "Coined 'the hard problem of consciousness' · Guggenheim Fellow",
     "title": "University Professor, NYU",
     "wikipedia": "https://en.wikipedia.org/wiki/David_Chalmers",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2022/09/authorphoto.jpg",
@@ -439,7 +443,7 @@
     "institution": "Harvard",
     "domain": "Creative & Performing Arts",
     "appearances": 1,
-    "achievement": "MacArthur Fellow (2013) \u00b7 Doris Duke Award",
+    "achievement": "MacArthur Fellow (2013) · Doris Duke Award",
     "title": "Franklin D. and Florence Rosenblatt Professor, Harvard",
     "wikipedia": "https://en.wikipedia.org/wiki/Vijay_Iyer",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2015/01/vijay-iyer-JimmyKatzSoloStreet2011-2.jpg",
@@ -497,7 +501,7 @@
     "institution": "Princeton",
     "domain": "Literature & Writing",
     "appearances": 1,
-    "achievement": "MacArthur Fellow (2010) \u00b7 PEN/Hemingway Award",
+    "achievement": "MacArthur Fellow (2010) · PEN/Hemingway Award",
     "title": "Professor of Creative Writing, Princeton University",
     "wikipedia": "https://en.wikipedia.org/wiki/Yiyun_Li",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2019/10/Agence-Opale_Li.jpg",
@@ -554,7 +558,7 @@
     "institution": "Harvard",
     "domain": "Mathematics & Computer Science",
     "appearances": 2,
-    "achievement": "Chern Medal (2022) \u00b7 National Medal of Science",
+    "achievement": "Chern Medal (2022) · National Medal of Science",
     "title": "Gerhard Gade University Professor, Harvard",
     "wikipedia": "https://en.wikipedia.org/wiki/Barry_Mazur",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2018/09/mazur3.jpg",
@@ -600,7 +604,7 @@
     "institution": "Brown",
     "domain": "Physics & Cosmology",
     "appearances": 1,
-    "achievement": "National Medal of Science (2013) \u00b7 NAS Member",
+    "achievement": "National Medal of Science (2013) · NAS Member",
     "title": "Clark Leadership Chair in Science, University of Maryland",
     "wikipedia": "https://en.wikipedia.org/wiki/Sylvester_James_Gates",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2022/09/SJGheadshot-preferred-2019-pdf-541x700.jpg",
@@ -743,16 +747,17 @@
     "score": 67,
     "institution": "Columbia",
     "domain": "Neuroscience & Cognition",
-    "appearances": 1,
+    "appearances": 2,
     "achievement": "NIH MERIT Award, Pioneer in dopamine",
     "title": "Professor of Psychiatry, Neurology, Pharmacology, and at the School of the Arts",
     "wikipedia": "https://en.wikipedia.org/wiki/David_Sulzer",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2022/09/b3145d70-e395-11ea-b94c-313f6b4d624c-467x700.jpg",
     "bio": "Dave Sulzer holds professorships across multiple disciplines at Columbia University and New York State Psychiatric Institute, with a PhD in biology from Columbia. His laboratory has published over 250 studies on synaptic function, particularly of the basal ganglia and dopamine systems, and neuroimmunology, with over 50,000 citations (h-index 198). He founded the Dopamine Society, the Gordon Conference on Parkinson's Disease, and the journal Nature Parkinson's Disease. His honors include awards from the McKnight, Simons, Helmsley, and NARSAD Foundations, along with lectureships at prestigious institutions including the National Institutes of Health, Harvard, and Yale. He has mentored 21 graduate students and 31 postdocs, with many becoming professors at major universities or leaders in biotech and pharmaceuticals. Additionally, Sulzer is a composer and musician who recently published \"Music, Math, and Mind\" through Columbia University Press.",
     "roundtables": [
-      "Coding and the New Phenotype: In Search for Lost Time"
+      "Coding and the New Phenotype: In Search for Lost Time",
+      "Neurodiversity"
     ],
-    "latestDate": "October 15, 2022, 10:00 AM EST",
+    "latestDate": "May 10, 2025",
     "website": "https://www.columbiapsychiatry.org/profile/david-sulzer-phd",
     "googleScholar": "https://scholar.google.com/citations?user=suRNRnAAAAAJ&hl=en",
     "sampleWorks": [
@@ -898,7 +903,7 @@
     "institution": "Columbia",
     "domain": "Biology & Medicine",
     "appearances": 2,
-    "achievement": "NAM Member \u00b7 AAAS Fellow",
+    "achievement": "NAM Member · AAAS Fellow",
     "title": "Clyde and Helen Wu Professor of Chemical and Systems Biology, Columbia University",
     "wikipedia": "https://en.wikipedia.org/wiki/Andrea_Califano",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/andreacalifano.jpg",
@@ -951,19 +956,19 @@
     "institution": "Kenyon College",
     "domain": "Artificial Intelligence & Humanities",
     "appearances": 3,
-    "achievement": "Schmidt Sciences HAVI Grant (PI) \u00b7 NIST AI Safety Institute \u00b7 NEH Teaching Professorship \u00b7 Notre Dame-IBM Tech Ethics Lab",
+    "achievement": "Schmidt Sciences HAVI Grant (PI) · NIST AI Safety Institute · NEH Teaching Professorship · Notre Dame-IBM Tech Ethics Lab",
     "title": "Professor of Humanities & Comparative Literature, Kenyon College; Director, IPHS; Executive Board, The Helix Center",
     "wikipedia": "https://en.wikipedia.org/wiki/Katherine_Elkins",
     "photo": "/img/speakers/katherine-elkins.png",
-    "bio": "Katherine Elkins is a Professor of Humanities and Comparative Literature at Kenyon College, where she directs the Integrated Program in Humane Studies (IPHS) \u2014 Kenyon's oldest interdisciplinary curriculum. She holds a Ph.D. from UC Berkeley and a B.A. from Yale. In 2016, she and Jon Chun co-founded the world's first interdisciplinary Human-Centered AI curriculum and CoLab at Kenyon College, now approaching its 10th anniversary. Her research spans AI ethics, explainability in large language models, computational narrative analysis, and affective computing. She is the author of The Shapes of Stories: Sentiment Analysis for Narrative (Cambridge University Press, 2022) and has published in PMLA, Poetics Today, Narrative, ICML, Frontiers of Computer Science, and the Journal of Cultural Analytics. Since March 2024, she has served as Principal Investigator for the MLA's participation in the NIST US AI Safety Institute Consortium. In 2025, she was awarded a Schmidt Sciences HAVI grant ($330K) as PI, making Kenyon 1 of 23 worldwide teams developing AI tools for rescuing endangered archives. She also holds a Notre Dame-IBM Tech Ethics Lab grant researching LLM bias in criminal recidivism prediction. Her research has been downloaded 90,000+ times from 4,000+ institutions worldwide, with 700+ citations. She serves on the executive board of The Helix Center.",
+    "bio": "Katherine Elkins is a Professor of Humanities and Comparative Literature at Kenyon College, where she directs the Integrated Program in Humane Studies (IPHS) — Kenyon's oldest interdisciplinary curriculum. She holds a Ph.D. from UC Berkeley and a B.A. from Yale. In 2016, she and Jon Chun co-founded the world's first interdisciplinary Human-Centered AI curriculum and CoLab at Kenyon College, now approaching its 10th anniversary. Her research spans AI ethics, explainability in large language models, computational narrative analysis, and affective computing. She is the author of The Shapes of Stories: Sentiment Analysis for Narrative (Cambridge University Press, 2022) and has published in PMLA, Poetics Today, Narrative, ICML, Frontiers of Computer Science, and the Journal of Cultural Analytics. Since March 2024, she has served as Principal Investigator for the MLA's participation in the NIST US AI Safety Institute Consortium. In 2025, she was awarded a Schmidt Sciences HAVI grant ($330K) as PI, making Kenyon 1 of 23 worldwide teams developing AI tools for rescuing endangered archives. She also holds a Notre Dame-IBM Tech Ethics Lab grant researching LLM bias in criminal recidivism prediction. Her research has been downloaded 90,000+ times from 4,000+ institutions worldwide, with 700+ citations. She serves on the executive board of The Helix Center.",
     "roundtables": [
       "Emotion",
       "Living in Difficult Times",
       "Coding and the New Human Phenotype: Are Natural Language Generators for Real?"
     ],
     "latestDate": "September 23, 2023",
-    "website": "https://kenyon.edu/directory/katherine-elkins/",
-    "googleScholar": "https://scholar.google.com/citations?user=EYkvdKEAAAAJ",
+    "website": "https://www.kenyon.edu/directory/kate-elkins/",
+    "googleScholar": "https://scholar.google.com/citations?user=bUSgS6IAAAAJ&hl=en",
     "sampleWorks": [
       {
         "title": "The Shapes of Stories: Sentiment Analysis for Narrative",
@@ -1002,7 +1007,7 @@
       "Populism"
     ],
     "latestDate": "February 20, 2021",
-    "website": "https://sociology.yale.edu/people/jeffrey-alexander",
+    "website": "https://sociology.yale.edu/profile/jeffrey-alexander",
     "googleScholar": "https://scholar.google.com/citations?user=PxY1nWoAAAAJ&hl=en",
     "sampleWorks": [
       {
@@ -1025,7 +1030,7 @@
       },
       {
         "title": "The Performance of Politics: Obama's Victory and the Democratic Struggle for Power",
-        "url": "https://sociology.yale.edu/people/jeffrey-alexander",
+        "url": "https://sociology.yale.edu/profile/jeffrey-alexander",
         "year": "2010",
         "type": "Book"
       },
@@ -1155,7 +1160,7 @@
       },
       {
         "title": "Erasure",
-        "url": "https://www.graywolfpress.org/books/erasure",
+        "url": "",
         "year": "2001",
         "type": "Book"
       },
@@ -1261,7 +1266,7 @@
     ],
     "latestDate": "December 4, 2021",
     "website": "https://www.klitzman.com/",
-    "googleScholar": "https://scholar.google.com/citations?user=aqhbwSMAAAAJ&hl=en",
+    "googleScholar": "",
     "sampleWorks": [
       {
         "title": "Designing Babies: How Technology is Changing the Ways We Create Children",
@@ -1448,7 +1453,7 @@
     "appearances": 1,
     "achievement": "Pioneer in computational cancer b",
     "title": "Associate Professor in the Departments of Systems Biology and Biomedical Informatics",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ra\u00fal_Rabad\u00e1n",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raúl_Rabadán",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2014/10/Rabadan.jpg",
     "bio": "Dr. Rabadan holds a Ph.D. in Theoretical Physics from Universidad Autonoma de Madrid, Spain. He previously served as the Martin A. and Helen Chooljian Member at The Simons Center for Systems Biology at the Institute for Advanced Study in Princeton, New Jersey. From 2001-2003, he was a fellow at CERN's Theoretical Physics Division in Geneva. He later joined the Institute for Advanced Study's Theoretical Physics Group (2003) and Systems Biology Group (2006). His research interests encompass evolutionary patterns in biological systems, particularly RNA viruses and cancer, next-generation sequencing technologies, pathogen discovery, emerging viruses, and electronic health records data analysis.",
     "roundtables": [
@@ -1937,13 +1942,13 @@
     "sampleWorks": [
       {
         "title": "A Social Ecological Framework for Health Algorithm Equity",
-        "url": "https://www.nature.com/articles/s42256-021-00344-z",
+        "url": "https://www.nature.com/articles/s42256-021-00373-4",
         "year": "2021",
         "type": "Paper"
       },
       {
         "title": "Algorithmic bias mitigation at NYC Health + Hospitals",
-        "url": "https://www.nature.com/articles/s41746-025-01077-4",
+        "url": "https://www.nature.com/articles/s41746-025-01732-w",
         "year": "2025",
         "type": "Paper"
       },
@@ -2015,7 +2020,7 @@
     "name": "Alberto Manguel",
     "slug": "alberto-manguel",
     "score": 50,
-    "institution": "Centro de Estudos da Hist\u00f3ria da Leitura, Lisbon",
+    "institution": "Centro de Estudos da História da Leitura, Lisbon",
     "domain": "Literature & Writing",
     "appearances": 4,
     "achievement": "Guggenheim Fellowship, Director of",
@@ -2633,7 +2638,7 @@
     "institution": "Yale",
     "domain": "Social Sciences",
     "appearances": 1,
-    "achievement": "MacArthur Foundation Board \u00b7 Founding Director, Justice Collaboratory at Yale",
+    "achievement": "MacArthur Foundation Board · Founding Director, Justice Collaboratory at Yale",
     "title": "Walton Hale Hamilton Professor of Law, Yale University",
     "wikipedia": "https://en.wikipedia.org/wiki/Tracey_Meares",
     "photo": "https://law.yale.edu/sites/default/files/styles/content_285x393_/public/images/Admin/Images/Headshots/meares_tracey.jpg?itok=aAhpvtJX",
@@ -3025,7 +3030,7 @@
       "Otherness"
     ],
     "latestDate": "November 16, 2024",
-    "website": "https://as.nyu.edu/faculty/jessica-benjamin.html",
+    "website": "",
     "sampleWorks": [
       {
         "title": "The Bonds of Love: Psychoanalysis, Feminism, and the Problem of Domination",
@@ -4120,7 +4125,7 @@
   },
   {
     "rank": 89,
-    "name": "Martin H\u00e4gglund",
+    "name": "Martin Hägglund",
     "slug": "martin-hgglund",
     "score": 37,
     "institution": "Yale",
@@ -4128,10 +4133,12 @@
     "appearances": 1,
     "achievement": "No known major awards",
     "title": "Professor of Comparative Literature and Humanities, Yale University",
-    "wikipedia": "https://en.wikipedia.org/wiki/Martin_H\u00e4gglund",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Hägglund",
     "photo": "https://humanities.yale.edu/sites/default/files/styles/2_3_480/public/2024-09/Martin%20Hagglund%20profile.jpg?h=999fed2f&itok=A5IwHBMy",
     "bio": "Humanist scholar at Yale specializing in comparative literature and critical theory.",
-    "roundtables": [],
+    "roundtables": [
+      "The Search for Immortality"
+    ],
     "website": "https://martinhagglund.se/",
     "googleScholar": "https://scholar.google.com/citations?user=bzXoluQAAAAJ&hl=en",
     "sampleWorks": [
@@ -4153,7 +4160,8 @@
         "year": "2008",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "December 13, 2014"
   },
   {
     "rank": 90,
@@ -4476,7 +4484,7 @@
       "Happiness"
     ],
     "latestDate": "September 24, 2016",
-    "googleScholar": "https://scholar.google.com/citations?user=kmcQMRwAAAAJ&hl=en",
+    "googleScholar": "",
     "sampleWorks": [
       {
         "title": "The Political Economy of Human Happiness: How Voters' Choices Determine the Quality of Life",
@@ -4541,7 +4549,7 @@
     "appearances": 1,
     "achievement": "Award (Wikipedia): Scholar-in-Residence, Smiths",
     "title": "Writer & Speaker",
-    "wikipedia": "https://en.wikipedia.org/wiki/Edward_Tenner",
+    "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2022/11/Tenner-0006-PP-crop-linkedin.jpg",
     "bio": "Edward Tenner is an independent writer and speaker at the intersection of science, design, and culture. He serves as a founding advisor to the Smithsonian's Lemelson Center for the Study of Invention and Innovation. His previous roles include community college instructor, health care studies researcher, executive editor for science and history at Princeton University Press, visiting lecturer at Princeton, fellow of the Woodrow Wilson International Center for Scholars, and visiting scholar at the Institute for Advanced Study and University of Pennsylvania. He holds an A.B. from Princeton University and a Ph.D. in European history from the University of Chicago, and was a junior fellow of the Harvard Society of Fellows. His recent books include \"Why Things Bite Back,\" \"Our Own Devices,\" and \"The Efficiency Paradox\" (all Knopf/Vintage). He has delivered two TED talks.",
     "roundtables": [
@@ -4623,7 +4631,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Stephen_G._Post",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2018/02/unnamed-1.jpg",
     "bio": "Stephen G. Post has held teaching positions at the University of Chicago Medical School, Case Western Reserve University School of Medicine (1988-2008), and currently at Stony Brook University School of Medicine. He is an elected member of the College of Physicians of Philadelphia, the New York Academy of Medicine, and the Royal Society of Medicine in London. Post addressed the U.S. Congress on volunteerism and public health, receiving the Congressional Certificate of Special Recognition for Outstanding Achievement. He received the Kama Book Award in Medical Humanities from World Literacy Canada in 2008. Post co-authored the bestseller \"Why Good Things Happen to Good People: How to Live a Longer, Healthier, Happier Life by the Simple Act of Giving\" (with Jill Neimark). His work \"The Moral Challenge of Alzheimer Disease: Ethical Issues from Diagnosis to Dying\" was designated a \"medical classic of the century\" by the British Medical Journal (2009). He served as Editor-in-Chief of the 5-volume Encyclopedia of Bioethics (2004), which won the American Library Association's \"Best Reference Work\" award.",
-    "roundtables": [],
+    "roundtables": [
+      "Transhumanist Predictions and the Human Predicament"
+    ],
     "website": "https://www.stephengpost.com/",
     "googleScholar": "https://scholar.google.com/citations?hl=en&user=OBy_KXwAAAAJ",
     "sampleWorks": [
@@ -4651,7 +4661,8 @@
         "year": "2011",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "March 10, 2018"
   },
   {
     "rank": 102,
@@ -4724,7 +4735,7 @@
     ],
     "latestDate": "October 21, 2023",
     "website": "https://www.math.columbia.edu/~harris/",
-    "googleScholar": "https://scholar.google.com/citations?user=QN1bH0gAAAAJ&hl=en",
+    "googleScholar": "",
     "sampleWorks": [
       {
         "title": "Mathematics without Apologies: Portrait of a Problematic Vocation",
@@ -4879,7 +4890,7 @@
     "achievement": "Other/Interdisciplin",
     "title": "Helen Gould Shepard Professor of Social Science and Director of the Institute for Public Knowledge, NYU",
     "wikipedia": "https://en.wikipedia.org/wiki/Eric_Klinenberg",
-    "photo": "https://www.helixcenter.org/wp-content/uploads/2024/01/\u00a9-Miguel-Lopez-Mallach_1-424x700.jpg",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2024/01/©-Miguel-Lopez-Mallach_1-424x700.jpg",
     "bio": "Eric Klinenberg is the Helen Gould Shepard Professor of Social Science and Director of the Institute for Public Knowledge at New York University. An urban sociologist, he is the author of Heat Wave: A Social Autopsy of Disaster in Chicago, Going Solo, Palaces for the People, and co-author with Aziz Ansari of the #1 New York Times bestseller Modern Romance. His work examines urban life, social infrastructure, and the role of community in American culture.",
     "roundtables": [
       "Covid and Literature"
@@ -5321,7 +5332,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Robert_Kurzban",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2016/04/DSC_7193.jpg",
     "bio": "Robert Kurzban is an evolutionary psychologist who was a tenured professor at the University of Pennsylvania, where he studied the nature of evolved cognitive adaptations for social life, including cooperation, morality, and mate choice. Trained by John Tooby and Leda Cosmides at UC Santa Barbara's Center for Evolutionary Psychology, he is the author of Why Everyone (Else) Is a Hypocrite: Evolution and the Modular Mind. His research focused on applying evolutionary approaches to understanding human social behavior.",
-    "roundtables": [],
+    "roundtables": [
+      "Fear: Wherefore, Whence?"
+    ],
     "googleScholar": "https://scholar.google.com/citations?user=YK6rUSwAAAAJ&hl=en",
     "sampleWorks": [
       {
@@ -5336,7 +5349,8 @@
         "year": "2014",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "May 7, 2016"
   },
   {
     "rank": 120,
@@ -5512,13 +5526,13 @@
       },
       {
         "title": "Building Character: The Art and Science of Casting",
-        "url": "https://www.stonybrook.edu/commcms/english/people/cook.php",
+        "url": "https://www.stonybrook.edu/experts/profile/amy-cook",
         "year": "2018",
         "type": "Book"
       },
       {
         "title": "Shakespearean Futures: Casting the Bodies of Tomorrow on Shakespeare's Stages Today",
-        "url": "https://www.stonybrook.edu/commcms/english/people/cook.php",
+        "url": "https://www.stonybrook.edu/experts/profile/amy-cook",
         "year": "2020",
         "type": "Book"
       }
@@ -5741,7 +5755,7 @@
     "score": 30,
     "institution": "Yale",
     "domain": "Literature & Writing",
-    "appearances": 4,
+    "appearances": 5,
     "achievement": "Literature & Writing",
     "title": "Associate Professor, English, Film and Media",
     "wikipedia": "",
@@ -5751,7 +5765,8 @@
       "See Memory",
       "The Effects of Media",
       "The Techne of Memory",
-      "Living in Difficult Times"
+      "Living in Difficult Times",
+      "Mindfulness Meditation: Benefits and Dilemmas"
     ],
     "latestDate": "October 4, 2025",
     "website": "https://campuspress.yale.edu/rjohnwilliams/",
@@ -5769,7 +5784,7 @@
         "type": "Article"
       },
       {
-        "title": "The Techn\u00ea Whim: Lin Yutang and the Invention of the Chinese Typewriter",
+        "title": "The Technê Whim: Lin Yutang and the Invention of the Chinese Typewriter",
         "url": "https://campuspress.yale.edu/rjohnwilliams/publications/",
         "year": "2010",
         "type": "Article"
@@ -5823,7 +5838,7 @@
       },
       {
         "title": "The Year of the Puppy: How Dogs Become Themselves",
-        "url": "https://barnard.edu/news/professor-alexandra-horowitz-publishes-new-book-early-canine-development",
+        "url": "https://psychology.barnard.edu/news/professor-alexandra-horowitz-publishes-new-book-early-canine-development",
         "year": "2022",
         "type": "Book"
       }
@@ -5921,7 +5936,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/04/Lutz.jpeg",
     "bio": "Amy Lutz is a historian of medicine and bioethicist whose research focuses on severe intellectual and developmental disability, challenging the social model of disability. She is also the mother of a profoundly autistic son, which informs her advocacy and scholarship.",
-    "roundtables": [],
+    "roundtables": [
+      "Neurodiversity"
+    ],
     "website": "http://www.amysflutz.com/",
     "sampleWorks": [
       {
@@ -5942,7 +5959,8 @@
         "year": "2014",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "May 10, 2025"
   },
   {
     "rank": 134,
@@ -6217,7 +6235,7 @@
       },
       {
         "title": "What Your Doctor May Not Tell You About Alzheimer's Disease",
-        "url": "https://nybrain.org/expert-nyc-neurologist/",
+        "url": "https://www.nybrain.org/",
         "year": "2004",
         "type": "Book"
       }
@@ -6273,7 +6291,7 @@
     ],
     "latestDate": "April 30, 2022",
     "website": "https://math.bu.edu/people/jaeger/jaeger.html",
-    "googleScholar": "https://scholar.google.com/citations?user=80xLWOgAAAAJ",
+    "googleScholar": null,
     "sampleWorks": [
       {
         "title": "Quantum Information: An Overview",
@@ -6833,7 +6851,7 @@
       "Male-Male Competition: Globalization, War, and Violence"
     ],
     "latestDate": "October 27, 2012",
-    "website": "https://anthropology.rutgers.edu/people/non-departmental-grad-faculty-members/111-r-brian-ferguson",
+    "website": "",
     "sampleWorks": [
       {
         "title": "Yanomami Warfare: A Political History",
@@ -6912,7 +6930,7 @@
       "Particle Fever / The Quest"
     ],
     "latestDate": "February 21, 2015",
-    "website": "https://physics.yale.edu/people/sarah-demers",
+    "website": "https://hep.yale.edu/people/faculty/sarah-demers",
     "sampleWorks": [
       {
         "title": "Physics and Dance",
@@ -7071,7 +7089,7 @@
       },
       {
         "title": "Clinical Applications of Music in Neurologic Rehabilitation",
-        "url": "https://www.imnf.org/staff-publications",
+        "url": "https://imnf.org/about-us/meet-our-team/",
         "year": "1998",
         "type": "Book"
       },
@@ -7504,7 +7522,7 @@
     ],
     "latestDate": "April 25, 2015",
     "website": "https://www.math.princeton.edu/people/simon-kochen",
-    "googleScholar": "https://scholar.google.com/citations?user=StzKipcAAAAJ&hl=en",
+    "googleScholar": "",
     "sampleWorks": [
       {
         "title": "The Problem of Hidden Variables in Quantum Mechanics",
@@ -8087,7 +8105,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Fishman",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/MCF-Preferred-Head-Shot-Feb-2013.jpeg",
     "bio": "Mark Fishman is a professor in the Harvard Department of Stem Cell and Regenerative Biology and was the founding President of the Novartis Institutes for BioMedical Research (NIBR) from 2002 to 2016. Previously Chief of Cardiology at Massachusetts General Hospital and Professor of Medicine at Harvard Medical School, he is known for pioneering the use of zebrafish as a model for human disease. He is a member of the National Academy of Medicine and a Fellow of the American Academy of Arts and Sciences.",
-    "roundtables": [],
+    "roundtables": [
+      "Synthetic and Systems Biology: Reinventing the Code of Life"
+    ],
     "website": "https://hscrb.harvard.edu/people/mark-fishman/",
     "sampleWorks": [
       {
@@ -8102,7 +8122,8 @@
         "year": "2002",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "May 11, 2013"
   },
   {
     "rank": 184,
@@ -8202,7 +8223,7 @@
     "score": 26,
     "institution": "Cornell",
     "domain": "Biology & Medicine",
-    "appearances": 2,
+    "appearances": 3,
     "achievement": "Elected member of the National Academy of Medicine; Elected member of the American Society for Clinical Investigation; Elected member of the Association of American Physicians; Interim Dean of Weill Cornell Medicine (2023)",
     "title": "Professor of Psychiatry, Pharmacology, and Neuroscience; former Interim Dean",
     "wikipedia": "",
@@ -8210,7 +8231,8 @@
     "bio": "Dr. Francis Lee is a leading physician-scientist whose research focuses on connecting molecular neuroscience with psychiatry through mechanistic studies of how growth and plasticity factors such as BDNF and endocannabinoids contribute to the pathophysiology and treatment of neuropsychiatric disorders, particularly anxiety disorders. He served as interim dean of Weill Cornell Medicine and interim provost for medical affairs of Cornell University beginning in 2023. He holds professor appointments in psychiatry, pharmacology, and neuroscience.",
     "roundtables": [
       "The Future of Psychiatry",
-      "Genes, Computers, and Medicine"
+      "Genes, Computers, and Medicine",
+      "Fear: Wherefore, Whence?"
     ],
     "latestDate": "November 10, 2018",
     "website": "https://leelab.weill.cornell.edu/",
@@ -8353,7 +8375,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/03/Andrea-R-Jain.jpg",
     "bio": "Andrea R. Jain is a Professor of Religious Studies at Indiana University Indianapolis and editor of the Journal of the American Academy of Religion. A leading scholar of South Asian religions and yoga studies, she is the author of Selling Yoga: From Counterculture to Pop Culture (2014) and Peace Love Yoga: The Politics of Global Spirituality (2020). Her research examines the intersections of capitalism, religion, gender, and spirituality in the contemporary world.",
-    "roundtables": [],
+    "roundtables": [
+      "Mindfulness Meditation: Benefits and Dilemmas"
+    ],
     "website": "https://www.andreajain.com/",
     "googleScholar": "https://scholar.google.com/citations?user=HpvjF9AAAAAJ&hl=en",
     "sampleWorks": [
@@ -8369,7 +8393,8 @@
         "year": "2014",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "April 19, 2025"
   },
   {
     "rank": 190,
@@ -8581,7 +8606,7 @@
       "Women and Science"
     ],
     "latestDate": "April 26, 2014",
-    "website": "https://directory.seas.upenn.edu/tal-rabin/",
+    "website": "https://highlights.cis.upenn.edu/tal-rabin/",
     "googleScholar": "https://scholar.google.com/citations?user=18exh0MAAAAJ&hl=en",
     "sampleWorks": [
       {
@@ -9139,7 +9164,7 @@
     ],
     "latestDate": "November 15, 2014",
     "website": "https://toconnor.org/",
-    "googleScholar": "https://scholar.google.com/citations?user=UKttW0MAAAAJ&hl=en",
+    "googleScholar": "",
     "sampleWorks": [
       {
         "title": "Persons and Causes: The Metaphysics of Free Will",
@@ -9187,7 +9212,7 @@
       "Synchronicity and Other Mind Matter Conjectures"
     ],
     "latestDate": "March 7, 2026",
-    "website": "https://liberalstudies.nyu.edu/about/faculty-listing/farzad-mahootian.html",
+    "website": "",
     "sampleWorks": [
       {
         "title": "Kant, Cassirer, and the Idea of Chemical Element",
@@ -9243,7 +9268,7 @@
     "sampleWorks": [
       {
         "title": "Neuroimaging Studies of Normal Brain Development and Their Relevance for Understanding Childhood Neuropsychiatric Disorders",
-        "url": "https://www.columbiapsychiatry.org/profile/andrew-j-gerber-md",
+        "url": "https://silverhillhospital.org/clinician/andrew-j-gerber/",
         "year": "2008",
         "type": "Paper"
       },
@@ -9881,7 +9906,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/04/Claudia-Lugo-Candelas-7400103-scaled.jpg",
     "bio": "Licensed clinical psychologist specializing in the perinatal programming of risk and resilience for neurodevelopmental disorders. She uses MRI to study structural and functional brain changes in children across development and how prenatal factors affect brain development and mental disorder onset.",
-    "roundtables": [],
+    "roundtables": [
+      "Neurodiversity"
+    ],
     "website": "https://www.columbiapsychiatry.org/research-labs/lugo-lab",
     "googleScholar": "https://scholar.google.com/citations?user=wJZLcU0AAAAJ&hl=en",
     "sampleWorks": [
@@ -9899,11 +9926,12 @@
       },
       {
         "title": "ADHD and Risk for Subsequent Adverse Childhood Experiences: Understanding the Cycle of Adversity",
-        "url": "https://www.acamh.org/journal/jcpp/adhd-aces-lugo%E2%80%90candelas/",
+        "url": "https://www.acamh.org/freeview/adhd-aces-lugo%E2%80%90candelas/",
         "year": "2021",
         "type": "Paper"
       }
-    ]
+    ],
+    "latestDate": "May 10, 2025"
   },
   {
     "rank": 224,
@@ -10651,7 +10679,7 @@
   },
   {
     "rank": 241,
-    "name": "Dorothea von M\u00fccke",
+    "name": "Dorothea von Mücke",
     "slug": "dorothea-von-mcke",
     "score": 20,
     "institution": "Columbia",
@@ -10662,7 +10690,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2014/08/Dorothea-700x467.jpg",
     "bio": "Von Mucke holds a Ph.D. in Comparative Literature from Stanford University and has taught at Columbia since 1988, with visiting professorships in Berlin and Giessen. She specializes in eighteenth-century literature, Romantic literature, and literary theory. Her publications include three books: Virtue and the Veil of Illusion (1991), Body and Text in the Eighteenth Century (1994, co-edited), and The Seduction of the Occult and the Rise of the Fantastic Tale (2003). She co-edited The New History of German Literature (2004) and completed The Practices of the Enlightenment: Aesthetics, Authorship and Audiences, published by Columbia University Press in May 2015.",
-    "roundtables": [],
+    "roundtables": [
+      "Knowledge and Limitations"
+    ],
     "website": "https://germanic.columbia.edu/people/faculty/dorothea-von-mucke",
     "sampleWorks": [
       {
@@ -10683,7 +10713,8 @@
         "year": "1991",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "September 20, 2014"
   },
   {
     "rank": 242,
@@ -11025,14 +11056,15 @@
     "score": 20,
     "institution": "Harvard",
     "domain": "Biology & Medicine",
-    "appearances": 1,
+    "appearances": 2,
     "achievement": "Niclas Oberg Life Watch Award (2016); Leenaards Award (2010); pioneering fMRI research on migraine aura and autism neuroscience",
     "title": "Associate Professor of Radiology, Harvard Medical School; Professor in Experimental Child and Adolescent Psychiatry, University of Gothenburg",
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2016/04/Nouchine_2016.jpeg",
     "bio": "Nouchine Hadjikhani is a neuroscientist whose research focuses on the pathophysiology of migraine and neurodevelopmental disorders, with particular emphasis on autism spectrum disorders. She discovered and characterized the brain area responsible for color vision using fMRI and demonstrated that the aura of migraine was a phenomenon similar to cortical spreading depression, in a groundbreaking paper cited more than 1,700 times. Her work disproving the theory that individuals with autism lack the brain area devoted to face identification has been highly influential in the field.",
     "roundtables": [
-      "Autism and the Mind/Brain"
+      "Autism and the Mind/Brain",
+      "Fear: Wherefore, Whence?"
     ],
     "latestDate": "November 5, 2016",
     "website": "https://www.nmr.mgh.harvard.edu/nouchinelab/",
@@ -11385,7 +11417,7 @@
       "The Future of Psychiatry"
     ],
     "latestDate": "November 10, 2018",
-    "website": "https://gradschool.weill.cornell.edu/faculty/miklos-toth",
+    "website": "https://vivo.weill.cornell.edu/display/cwid-mtoth",
     "sampleWorks": [
       {
         "title": "Increased anxiety of mice lacking the serotonin1A receptor",
@@ -11401,7 +11433,7 @@
       },
       {
         "title": "Epigenetic Neuropharmacology: Drugs Affecting the Epigenome in the Brain",
-        "url": "https://gradschool.weill.cornell.edu/faculty/miklos-toth",
+        "url": "https://vivo.weill.cornell.edu/display/cwid-mtoth",
         "year": "2020",
         "type": "Paper"
       }
@@ -11571,7 +11603,7 @@
       "Cancer: Body & Mind"
     ],
     "latestDate": "October 11, 2014",
-    "website": "https://gradschool.weill.cornell.edu/faculty/selina-chen-kiang",
+    "website": "https://news.weill.cornell.edu/people/dr-selina-chen-kiang",
     "sampleWorks": [
       {
         "title": "Phase 1/2 study of cyclin-dependent kinase (CDK)4/6 inhibitor palbociclib with bortezomib and dexamethasone in relapsed/refractory multiple myeloma",
@@ -11993,7 +12025,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2016/04/image.jpeg",
     "bio": "Eric R. Marcus is a psychiatrist and psychoanalyst who directs the Columbia University Center for Psychoanalytic Training and Research. His research involves symbolic alterations of reality in psychotic and near psychotic phenomena, and psychodynamic social science research using medical student dreams to study the development of medical empathy. He is a distinguished life fellow of the American Psychiatric Association and past president of the Association for Psychoanalytic Medicine.",
-    "roundtables": [],
+    "roundtables": [
+      "Fear: Wherefore, Whence?"
+    ],
     "website": "https://www.columbiapsychiatry.org/profile/eric-r-marcus-md",
     "sampleWorks": [
       {
@@ -12008,7 +12042,8 @@
         "year": "2018",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "May 7, 2016"
   },
   {
     "rank": 278,
@@ -12784,7 +12819,7 @@
       },
       {
         "title": "Disillusioned",
-        "url": "https://www.researchwithrutgers.com/en/publications/disillusioned",
+        "url": "",
         "year": "2020",
         "type": "Paper"
       }
@@ -14136,7 +14171,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2018/02/unnamed.jpg",
     "bio": "Professor Tirosh-Samuelson earned her Ph.D. from Hebrew University in 1978. Her scholarly focus centers on Jewish intellectual history, religion and science, and religious environmentalism. She has authored two award-winning books: Between Worlds: The Life and Work of Rabbi David ben Judah Messer Leon (1991) and Happiness in Premodern Judaism: Virtue, Knowledge and Well-Being in Premodern Judaism (2003). She edited eight volumes including works on Hans Jonas, transhumanism, and human futures. She served as editor-in-chief for a 20-book series on contemporary Jewish philosophers. Her research on religion, science, and technology has been supported by three major grants between 2006-2018, funding symposia, lectures, seminars, and conferences. She participates in the International Society of Science and Religion, serves on Zygon: Journal of Religion and Science's editorial board, and manages the Judaism, Science and Medicine Group.",
-    "roundtables": [],
+    "roundtables": [
+      "Transhumanist Predictions and the Human Predicament"
+    ],
     "website": "https://www.public.asu.edu/~havats/",
     "googleScholar": "https://scholar.google.com/citations?user=_NMcZeMAAAAJ&hl=en",
     "sampleWorks": [
@@ -14158,7 +14195,8 @@
         "year": "1991",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "March 10, 2018"
   },
   {
     "rank": 335,
@@ -14458,7 +14496,7 @@
       "Speak, Memory"
     ],
     "latestDate": "November 7, 2015",
-    "googleScholar": "https://scholar.google.com/citations?user=e1R8sN8AAAAJ&hl=en",
+    "googleScholar": "",
     "sampleWorks": [
       {
         "title": "The Construction of Autobiographical Memories in the Self-Memory System",
@@ -14849,7 +14887,7 @@
         "type": "Book"
       },
       {
-        "title": "Empathie: Histoire d'une id\u00e9e de Platon au post-humain",
+        "title": "Empathie: Histoire d'une idée de Platon au post-humain",
         "url": "https://www.unimi.it/en/ugov/person/andrea-pinotti",
         "year": "2016",
         "type": "Book"
@@ -15143,7 +15181,7 @@
   },
   {
     "rank": 360,
-    "name": "Fran\u00e7ois Ansermet",
+    "name": "François Ansermet",
     "slug": "franois-ansermet",
     "score": 14,
     "institution": "University",
@@ -15154,7 +15192,9 @@
     "wikipedia": "",
     "photo": "https://www.agalma.ch/wp-content/uploads/2015/09/Fran%C3%A7ois-Ansermet-Agalma.jpg",
     "bio": "Francois Ansermet is a psychoanalyst and child psychiatrist who co-founded the Agalma Foundation with neuroscientist Pierre Magistretti to develop research between neuroscience and psychoanalysis. Their collaborative work links neuroplasticity with the psychoanalytic concept of the dynamic unconscious, showing that experiences are physically inscribed through traces in the brain. He is a member of the World Association of Psychoanalysis and the Ecole de la Cause Freudienne.",
-    "roundtables": [],
+    "roundtables": [
+      "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2"
+    ],
     "website": "https://www.agalma.ch/member/prof-francois-ansermet/?lang=en",
     "sampleWorks": [
       {
@@ -15169,7 +15209,8 @@
         "year": "2016",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "October 13, 2013"
   },
   {
     "rank": 361,
@@ -15224,7 +15265,7 @@
   },
   {
     "rank": 362,
-    "name": "Ilya T\u00ebmkin",
+    "name": "Ilya Tëmkin",
     "slug": "ilya-tmkin",
     "score": 14,
     "institution": "Northern Virginia Communi",
@@ -15235,7 +15276,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2017/04/unnamed-6.jpg",
     "bio": "An interdisciplinary scientist examining how evolution works in nature and in human culture in the general framework of the hierarchy theory. He specializes in bivalve mollusks and analyzes ecological, historical, and developmental factors in diversification. His cultural research explores musical instrument design as a model for understanding information transmission mechanisms. He coedited Evolutionary Theory: A Hierarchical Perspective (Chicago University Press, 2016). Academic background includes a doctorate in Biology from NYU and bachelor's degree from Columbia University, with postdoctoral fellowships at the American Museum of Natural History, Smithsonian Institution, and Museum National d'Histoire Naturelle in Paris.",
-    "roundtables": [],
+    "roundtables": [
+      "Complexity and Emergence II: Visions of Cosmic Order, from Particles to People"
+    ],
     "website": "https://nvcc.academia.edu/IlyaTemkin",
     "sampleWorks": [
       {
@@ -15256,7 +15299,8 @@
         "year": "2016",
         "type": "Paper"
       }
-    ]
+    ],
+    "latestDate": "May 20, 2017"
   },
   {
     "rank": 363,
@@ -15271,7 +15315,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/04/Eigsti-portrait.jpeg",
     "bio": "Inge-Marie Eigsti is a clinical psychologist whose research centers on language, communication, and brain development in autism, addressing how complex behavioral constructs such as social communication abilities are linked to mechanistic neurocognitive processes. She directs the Connecticut Autism and Language Lab (CALL) and leads an NIH R01-funded study unraveling the complexities of language abilities in individuals with autism spectrum disorder.",
-    "roundtables": [],
+    "roundtables": [
+      "Neurodiversity"
+    ],
     "website": "https://eigsti.psy.uconn.edu/",
     "googleScholar": "https://scholar.google.com/citations?user=vSMjw2cAAAAJ&hl=en",
     "sampleWorks": [
@@ -15299,11 +15345,12 @@
         "year": "2016",
         "type": "Paper"
       }
-    ]
+    ],
+    "latestDate": "May 10, 2025"
   },
   {
     "rank": 364,
-    "name": "Jes\u00fas Ilund\u00e1in-Agurruza",
+    "name": "Jesús Ilundáin-Agurruza",
     "slug": "jess-ilundin-agurruza",
     "score": 14,
     "institution": "Linfield College",
@@ -15314,7 +15361,9 @@
     "wikipedia": "",
     "photo": "https://www.linfield.edu/assets/images/bio_images/jilunda.jpg",
     "bio": "Jesus Ilundain-Agurruza is a philosopher whose research spans philosophy of sport, phenomenology, and comparative philosophy, drawing on philosophy of mind, aesthetics, applied ethics, and Asian philosophy. He is the author of Holism and the Cultivation of Excellence in Sports and Performance: Skillful Striving (Routledge, 2016) and has published widely on comparative philosophy and martial arts.",
-    "roundtables": [],
+    "roundtables": [
+      "Life and Movement"
+    ],
     "website": "https://www.linfield.edu/faculty/jilunda.html",
     "googleScholar": "https://scholar.google.com/citations?user=2bTMMnYAAAAJ&hl=en",
     "sampleWorks": [
@@ -15336,7 +15385,8 @@
         "year": "2014",
         "type": "Paper"
       }
-    ]
+    ],
+    "latestDate": "October 26, 2012"
   },
   {
     "rank": 365,
@@ -15841,7 +15891,7 @@
         "type": "Performance"
       },
       {
-        "title": "Two Men Talking \u2014 HIV/AIDS and the Power of Storytelling (Open Society Foundations)",
+        "title": "Two Men Talking — HIV/AIDS and the Power of Storytelling (Open Society Foundations)",
         "url": "https://www.opensocietyfoundations.org/events/two-men-talking-hivaids-and-power-storytelling",
         "year": "2010",
         "type": "Performance"
@@ -15975,7 +16025,7 @@
       "Otherness"
     ],
     "latestDate": "November 16, 2024",
-    "website": "https://www.rhodes.edu/bio/jasper-st-bernard",
+    "website": "",
     "sampleWorks": [
       {
         "title": "'To Shine the Light of Truth': Ubuntu and the Lynching Era in America (chapter in Ubuntu: Interdisciplinary Conversations Across Continents)",
@@ -16119,7 +16169,7 @@
     "achievement": "Co-chair of the Psychology, Culture, and Religion unit of the American Academy of Religion; faculty and supervisor at the National Institute for the Psychotherapies Training Institute; featured guest expert on the Wabash Center's six-part series 'When Trauma Touches the Teaching Experience'; multiple awards for writing and teaching",
     "title": "Associate Professor of Pastoral Mental Health Counseling",
     "wikipedia": "",
-    "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/DSC_0362_\u00acAlexKaplanPhoto-1.jpg",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/DSC_0362_¬AlexKaplanPhoto-1.jpg",
     "bio": "Lisa M. Cataldo is a scholar of pastoral mental health whose teaching and research integrate trauma studies, relational psychoanalysis, and spirituality. She holds a Master of Divinity and PhD in psychology and religion from Union Theological Seminary. Her work trains students for pastoral and clinical engagements with suffering through intersecting perspectives of trauma, psychoanalysis, and faith.",
     "roundtables": [
       "Altruism and Empathy"
@@ -16239,7 +16289,7 @@
       },
       {
         "title": "Dark Matter (McKinney Visiting Artist Series, Indiana University)",
-        "url": "https://eskenazi.indiana.edu/events/speaker-series/mckinney-series/upcoming-events/2026-04-03-patricia-olynyk.html",
+        "url": "https://samfoxschool.washu.edu/people/faculty/60-patricia-olynyk",
         "year": "2026",
         "type": "Exhibition"
       }
@@ -16409,7 +16459,7 @@
       "The Changing Nature of Free Will"
     ],
     "latestDate": "April 25, 2015",
-    "website": "https://utsnyc.edu/blog/faculty/brigitte-kahl/",
+    "website": "",
     "sampleWorks": [
       {
         "title": "Galatians Re-Imagined: Reading with the Eyes of the Vanquished",
@@ -16546,7 +16596,7 @@
   },
   {
     "rank": 397,
-    "name": "Fran\u00e7ois Quiviger",
+    "name": "François Quiviger",
     "slug": "franois-quiviger",
     "score": 12,
     "institution": "The Warburg Institute",
@@ -16557,7 +16607,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2013/12/Francois_Quiviger.jpg",
     "bio": "Francois Quiviger earned his Ph.D. from the Warburg Institute in London, where he serves as curator of digital resources, librarian, and researcher. His scholarly focus encompasses early modern European academies, mythology, and Renaissance material culture alongside art and art theory. His 2010 publication, \"The Sensory World of Italian Renaissance Art\" (London, Chicago), examines how sensation functioned in Renaissance thought and practice, exploring connections to mental imagery and Renaissance artists' techniques for making touch, sound, and scent perceptible to audiences' minds.",
-    "roundtables": [],
+    "roundtables": [
+      "Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1"
+    ],
     "website": "https://warburg.sas.ac.uk/people/francois-quiviger",
     "sampleWorks": [
       {
@@ -16572,7 +16624,8 @@
         "year": "2019",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "October 12, 2013"
   },
   {
     "rank": 398,
@@ -16720,7 +16773,7 @@
       "Synchronicity and Other Mind Matter Conjectures"
     ],
     "latestDate": "April 12, 2014",
-    "website": "https://www.pacifica.edu/faculty/joseph-cambray/joseph_cambray/",
+    "website": "https://www.pacifica.edu/pacifica-news/dr-joseph-cambray-reflections-on-lionel-corbetts-legacy/",
     "sampleWorks": [
       {
         "title": "Synchronicity: Nature and Psyche in an Interconnected Universe",
@@ -16977,7 +17030,7 @@
       "The Techne of Memory"
     ],
     "latestDate": "March 18, 2023",
-    "website": "https://victorialoustalot.com/",
+    "website": "",
     "sampleWorks": [
       {
         "title": "This Is How You Say Goodbye: A Daughter's Memoir",
@@ -17073,13 +17126,13 @@
     "website": "https://carlcofield.com/",
     "sampleWorks": [
       {
-        "title": "The Bacchae (Director, Classical Theatre of Harlem \u2014 NYT Critic's Pick)",
+        "title": "The Bacchae (Director, Classical Theatre of Harlem — NYT Critic's Pick)",
         "url": "https://www.cthnyc.org/dt_team/carl-cofield/",
         "year": "2019",
         "type": "Performance"
       },
       {
-        "title": "Twelfth Night (Director, Classical Theatre of Harlem \u2014 AUDELCO Award for Best Director)",
+        "title": "Twelfth Night (Director, Classical Theatre of Harlem — AUDELCO Award for Best Director)",
         "url": "https://tisch.nyu.edu/grad-acting/news/grad-acting-chair-carl-cofield-directs-classical-theater-of-harl",
         "year": "2022",
         "type": "Performance"
@@ -17435,7 +17488,7 @@
       "Embodied AI"
     ],
     "latestDate": "October 22, 2016",
-    "website": "https://research.ibm.com/people/jeff-kephart",
+    "website": "",
     "googleScholar": "https://scholar.google.com/citations?user=9Mh6OuQAAAAJ&hl=en",
     "sampleWorks": [
       {
@@ -17599,7 +17652,7 @@
   },
   {
     "rank": 428,
-    "name": "Ne\u015fe Devenot",
+    "name": "Neşe Devenot",
     "slug": "nee-devenot",
     "score": 10,
     "institution": "University",
@@ -17610,7 +17663,9 @@
     "wikipedia": "",
     "photo": "https://wolfhumanities.upenn.edu/sites/default/files/ndevenot.jpg",
     "bio": "Nese Devenot is a scholar working at the intersections of health humanities, psychedelic bioethics, and comparative literature. They have been contributing to the interdisciplinary field of Psychedelic Studies since 2010 and are recognized as a leading voice on the ethics and policy dimensions of psychedelic research and therapy.",
-    "roundtables": [],
+    "roundtables": [
+      "Psychedelics"
+    ],
     "website": "https://krieger.jhu.edu/writing-program/directory/nese-devenot/",
     "sampleWorks": [
       {
@@ -17637,7 +17692,8 @@
         "year": "2021",
         "type": "Paper"
       }
-    ]
+    ],
+    "latestDate": "March 12, 2022"
   },
   {
     "rank": 429,
@@ -18269,7 +18325,7 @@
       },
       {
         "title": "Wrens Fly Through This Opened Window",
-        "url": "https://saddleroadpress.com/amy-holman.html",
+        "url": "",
         "year": "2010",
         "type": "Book"
       },
@@ -18295,7 +18351,7 @@
     "institution": "Kenyon College",
     "domain": "Technology & Engineering",
     "appearances": 1,
-    "achievement": "Schmidt Sciences HAVI Grant \u00b7 NIST AI Safety Institute Consortium \u00b7 In-Q-Tel portfolio investment \u00b7 2 US Patents",
+    "achievement": "Schmidt Sciences HAVI Grant · NIST AI Safety Institute Consortium · In-Q-Tel portfolio investment · 2 US Patents",
     "title": "Co-Founder, Human-Centered AI Lab & Program, Kenyon College; Lead AI Safety Researcher, NIST AISIC (MLA)",
     "wikipedia": "",
     "photo": "/img/speakers/jon-chun.png",
@@ -18305,7 +18361,7 @@
     ],
     "latestDate": "November 19, 2022",
     "website": "https://github.com/jon-chun",
-    "googleScholar": "https://scholar.google.com/citations?user=l-iUHQMAAAAJ",
+    "googleScholar": "",
     "sampleWorks": [
       {
         "title": "Can GPT-3 Pass a Writer's Turing Test?",
@@ -18600,7 +18656,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/03/Catherine-Wikholm.jpeg",
     "bio": "Dr. Wikholm holds HCPC registration and BPS Chartered status. She specialises in child, adolescent and young adult mental health and previously served in the NHS. She co-authored The Buddha Pill: Can Meditation Change You?",
-    "roundtables": [],
+    "roundtables": [
+      "Mindfulness Meditation: Benefits and Dilemmas"
+    ],
     "website": "https://www.catherinewikholm.com/",
     "sampleWorks": [
       {
@@ -18609,7 +18667,8 @@
         "year": "2015",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "April 19, 2025"
   },
   {
     "rank": 459,
@@ -18700,7 +18759,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2023/01/GD.png",
     "bio": "George Denfield is a psychiatrist, psychotherapist, and neuroscientist whose research focuses on understanding the biological basis of the mind and consciousness. He completed his Ph.D. in neuroscience studying how changes in internal brain states such as attention affect neuronal responses to sensory stimuli, and his work on neuronal variability and attention was published in Nature Communications.",
-    "roundtables": [],
+    "roundtables": [
+      "The Body and Psychosis"
+    ],
     "googleScholar": "https://scholar.google.com/citations?user=dfcd8TUAAAAJ&hl=en",
     "sampleWorks": [
       {
@@ -18721,7 +18782,8 @@
         "year": "2024",
         "type": "Paper"
       }
-    ]
+    ],
+    "latestDate": "February 11, 2023"
   },
   {
     "rank": 463,
@@ -18966,7 +19028,7 @@
       "Status"
     ],
     "latestDate": "June 8, 2019",
-    "website": "https://www.tayarishapoe.com/",
+    "website": "",
     "sampleWorks": [
       {
         "title": "Selah and the Spades",
@@ -19359,7 +19421,7 @@
         "type": "Book"
       },
       {
-        "title": "David Smith Sculpture: A Catalogue Raisonn\u00e9, 1932-1965",
+        "title": "David Smith Sculpture: A Catalogue Raisonné, 1932-1965",
         "url": "https://www.amazon.com/David-Smith-Sculpture-Catalogue-1932-1965/dp/0300224117",
         "year": "2021",
         "type": "Book"
@@ -19401,7 +19463,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/03/David-Forbes.webp",
     "bio": "David Forbes is an Emeritus faculty member in the Urban Education Doctoral Program at the City University of New York (CUNY) Graduate Center. He teaches and writes on critical and integral approaches to mindfulness in education and helped form the CUNY Mindfulness and Contemplative Studies network. He is the author of Mindfulness and Its Discontents: Education, Self, and Social Transformation and co-editor of the Handbook of Mindfulness: Culture, Context, and Social Engagement.",
-    "roundtables": [],
+    "roundtables": [
+      "Mindfulness Meditation: Benefits and Dilemmas"
+    ],
     "sampleWorks": [
       {
         "title": "Mindfulness and Its Discontents: Education, Self, and Social Transformation",
@@ -19427,7 +19491,8 @@
         "year": "",
         "type": "Paper"
       }
-    ]
+    ],
+    "latestDate": "April 19, 2025"
   },
   {
     "rank": 485,
@@ -19739,7 +19804,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Epstein_(author)",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/03/Mark-Epstein.jpeg",
     "bio": "Mark Epstein is a psychiatrist and bestselling author who has written extensively on the intersection of Buddhism and psychotherapy. A graduate of Harvard College and Harvard Medical School, he has practiced vipassana meditation since 1974 and authored numerous influential books including 'Thoughts without a Thinker,' 'The Trauma of Everyday Life,' and 'The Zen of Therapy.'",
-    "roundtables": [],
+    "roundtables": [
+      "Mindfulness Meditation: Benefits and Dilemmas"
+    ],
     "website": "https://www.markepsteinmd.com/",
     "sampleWorks": [
       {
@@ -19790,7 +19857,8 @@
         "year": "2022",
         "type": "Book"
       }
-    ]
+    ],
+    "latestDate": "April 19, 2025"
   },
   {
     "rank": 495,
@@ -19953,7 +20021,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/04/Sherkow.jpg",
     "bio": "Susan P. Sherkow is a psychiatrist and psychoanalyst who is a leading authority on the psychoanalytic treatment of children with autism spectrum disorder. She founded the Sherkow Center for Child Development and Autism Spectrum Disorder in 2012 and has published extensively on developmental psychoanalysis.",
-    "roundtables": [],
+    "roundtables": [
+      "Neurodiversity"
+    ],
     "sampleWorks": [
       {
         "title": "Autism Spectrum Disorder: Perspectives from Psychoanalysis and Neuroscience",
@@ -19973,7 +20043,8 @@
         "year": "2009",
         "type": "Paper"
       }
-    ]
+    ],
+    "latestDate": "May 10, 2025"
   },
   {
     "rank": 502,
@@ -20039,7 +20110,9 @@
     "wikipedia": "",
     "photo": "https://www.helixcenter.org/wp-content/uploads/2025/09/Tomlinson.jpeg",
     "bio": "Dr. Tomlinson is a psychoanalyst in private practice and Asst. Clinical Professor of Psychiatry at Columbia University, where he has taught at the Center for Psychoanalytic Theory and Research for over two decades and directs the Freud curriculum. He designs and teaches courses on Freud and psychoanalysis to graduate and undergraduate students at Columbia's Psychoanalytic Studies Program. His scholarly work focuses on Freud, psychoanalytic history, and eighteenth-century German psychology development. He has also translated German-language works on psychoanalysis, art, and music.",
-    "roundtables": [],
+    "roundtables": [
+      "Resurgence of Freud"
+    ],
     "sampleWorks": [
       {
         "title": "Sandor Rado and the Fate of the Berlin Model in New York",
@@ -20059,7 +20132,8 @@
         "year": "1997",
         "type": "Article"
       }
-    ]
+    ],
+    "latestDate": "September 20, 2025"
   },
   {
     "rank": 504,
@@ -20189,5 +20263,236 @@
         "type": "Paper"
       }
     ]
+  },
+  {
+    "rank": 95,
+    "name": "Claudia Brodsky",
+    "slug": "claudia-brodsky",
+    "score": 38,
+    "institution": "Princeton",
+    "domain": "Literature & Writing",
+    "appearances": 1,
+    "achievement": "de Karman Fellowship for Outstanding Achievement in the Humanities; Elias Boudinot Bicentennial Prize Preceptorship",
+    "title": "Professor of Comparative Literature, Princeton University",
+    "wikipedia": "",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2026/09/Claudia-Brodsky.jpeg",
+    "bio": "Claudia Brodsky is a professor of comparative literature at Princeton University, where she has taught since 1985. She earned her B.A. magna cum laude from Harvard and her Ph.D. with distinction in comparative literature from Yale, studying under figures including Paul de Man, Jacques Derrida, and Harold Bloom. She was elected Directeur de Programme at the Collège International de Philosophie in Paris and has held Humboldt Faculty and Howard Fellowships. She has advised over forty Ph.D. students across comparative literature, German, Spanish and Portuguese, and architecture.",
+    "roundtables": [
+      "It's About TIME"
+    ],
+    "latestDate": "September 19, 2026",
+    "website": "",
+    "googleScholar": ""
+  },
+  {
+    "rank": 115,
+    "name": "Jacob Barandes",
+    "slug": "jacob-barandes",
+    "score": 35,
+    "institution": "Harvard",
+    "domain": "Philosophy & Ethics",
+    "appearances": 1,
+    "achievement": "Faculty Affiliate, Harvard Black Hole Initiative; Fellow, John Bell Institute",
+    "title": "Philosopher of Physics, Harvard University (Dept. of Philosophy and Dept. of Physics)",
+    "wikipedia": "",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2026/09/JacobBarandesCurrentPortraitForBios.png",
+    "bio": "Jacob Barandes is a philosopher of physics at Harvard University, with faculty appointments in both the Department of Philosophy and the Department of Physics. His research spans quantum foundations, causation, probability, spacetime, and laws of nature, with particular interest in interpretations of quantum theory and the measurement problem. He is a Faculty Affiliate with Harvard's Black Hole Initiative and a Fellow of the John Bell Institute, and he founded the annual New England Workshop on the History and Philosophy of Physics as well as the Boston Network for History and Philosophy of Physics.",
+    "roundtables": [
+      "It's About TIME"
+    ],
+    "latestDate": "September 19, 2026",
+    "website": "http://jacobbarandes.com/",
+    "googleScholar": ""
+  },
+  {
+    "rank": 60,
+    "name": "Barry Loewer",
+    "slug": "barry-loewer",
+    "score": 46,
+    "institution": "Rutgers",
+    "domain": "Philosophy & Ethics",
+    "appearances": 1,
+    "achievement": "Co-PI, major Philosophy of Cosmology project; former chair and graduate director, Rutgers Philosophy",
+    "title": "Professor of Philosophy, Rutgers University",
+    "wikipedia": "",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2026/09/Barry-Loewer.jpeg",
+    "bio": "Barry Loewer is a professor of philosophy at Rutgers University, where he has taught since 1989 and served as chair and graduate director. He earned his Ph.D. at Stanford, writing a dissertation on modality and the semantics of names with Jaakko Hintikka, and began his career at the University of South Carolina, where he began a long collaboration with David Albert on the philosophy of quantum mechanics and statistical mechanics. He and Albert currently co-direct a major project in the philosophy of cosmology, and he teaches courses in philosophy of science and philosophical logic.",
+    "roundtables": [
+      "It's About TIME"
+    ],
+    "latestDate": "September 19, 2026",
+    "website": "",
+    "googleScholar": ""
+  },
+  {
+    "rank": 240,
+    "name": "Maria Balcells",
+    "slug": "maria-balcells",
+    "score": 27,
+    "institution": "Bucknell",
+    "domain": "Philosophy & Ethics",
+    "appearances": 1,
+    "achievement": "Former Vice President, Philosophy of Time Society",
+    "title": "Associate Professor of Philosophy, Bucknell University",
+    "wikipedia": "",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2026/09/Balcells-Photo-1.jpg",
+    "bio": "Maria Balcells is an associate professor of philosophy at Bucknell University. Her work centers on the tension between our experience of a dynamic world in which time passes and an image of time consistent with our best science, in which events exist equally and eternally across spacetime. She draws on cognitive science, physics, and Indigenous philosophies in this research and has served as vice-president of the Philosophy of Time Society. She received her Ph.D. from the University of Illinois at Chicago and her B.A. from Rutgers University.",
+    "roundtables": [
+      "It's About TIME"
+    ],
+    "latestDate": "September 19, 2026",
+    "website": "",
+    "googleScholar": ""
+  },
+  {
+    "rank": 48,
+    "name": "Lila Davachi",
+    "slug": "lila-davachi",
+    "score": 49,
+    "institution": "Yale",
+    "domain": "Neuroscience & Cognition",
+    "appearances": 1,
+    "achievement": "Cognitive Neuroscience Society Young Investigator Award; elected to the Society of Experimental Psychologists",
+    "title": "Professor of Psychology, Yale University",
+    "wikipedia": "",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2026/09/Lila-_pic-scaled.jpg",
+    "bio": "Lila Davachi is a cognitive neuroscientist and professor of psychology at Yale University whose work explores how the brain transforms everyday experience into lasting memory. She earned her Ph.D. in neuroscience from Yale, training under Patricia Goldman-Rakic, and previously held positions at Columbia University and the Nathan Kline Institute. Her research on event segmentation shows how the brain divides continuous experience into meaningful units, and she has also advanced understanding of spontaneous memory replay. Her honors include the Cognitive Neuroscience Society's Young Investigator Award and Columbia's Lenfest Distinguished Faculty Award.",
+    "roundtables": [
+      "It's About TIME"
+    ],
+    "latestDate": "September 19, 2026",
+    "website": "",
+    "googleScholar": ""
+  },
+  {
+    "rank": 42,
+    "name": "Rita Charon",
+    "slug": "rita-charon",
+    "score": 51,
+    "institution": "Columbia",
+    "domain": "Biology & Medicine",
+    "appearances": 1,
+    "achievement": "Founding figure of narrative medicine; founding chair, Columbia Dept. of Medical Humanities and Ethics",
+    "title": "Bernard Schoenberg Professor of Social Medicine; Professor of Medicine; founding chair, Dept. of Medical Humanities and Ethics, Columbia University",
+    "wikipedia": "",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2026/03/1.jpg",
+    "bio": "Rita Charon is a general internist and literary scholar and one of the founders of the field of narrative medicine. She completed her M.D. at Harvard and her Ph.D. in English at Columbia, where she is the Bernard Schoenberg Professor of Social Medicine, Professor of Medicine, and founding chair of the Department of Medical Humanities and Ethics. Her research in narrative medicine has been supported by the NIH, the NEH, and numerous private foundations, and she has authored, co-authored, or co-edited four books on the subject. She lectures and teaches internationally and publishes in leading medical and literary journals.",
+    "roundtables": [
+      "Reading and The Brain"
+    ],
+    "latestDate": "May 16, 2026",
+    "website": "",
+    "googleScholar": ""
+  },
+  {
+    "rank": 210,
+    "name": "Emily Finn",
+    "slug": "emily-finn",
+    "score": 31,
+    "institution": "Dartmouth",
+    "domain": "Neuroscience & Cognition",
+    "appearances": 1,
+    "achievement": "Cognitive Neuroscience Society Young Investigator Award (2025); Janet Taylor Spence Award, APS (2026)",
+    "title": "Assistant Professor, Dept. of Psychological and Brain Sciences, Dartmouth College",
+    "wikipedia": "",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2026/03/esf_headshot_5x7.jpg",
+    "bio": "Emily Finn is an assistant professor in the Department of Psychological and Brain Sciences at Dartmouth College. Her lab studies how within- and across-individual variability in brain activity relates to variability in subjective experience, especially in naturalistic and narrative-like conditions. She completed her Ph.D. in neuroscience at Yale and her postdoctoral training at the National Institute of Mental Health, after earning a B.A. in linguistics, also from Yale. She has received the Cognitive Neuroscience Society Young Investigator Award (2025) and the Janet Taylor Spence Award for transformative early-career contributions from the Association for Psychological Science (2026).",
+    "roundtables": [
+      "Reading and The Brain"
+    ],
+    "latestDate": "May 16, 2026",
+    "website": "",
+    "googleScholar": ""
+  },
+  {
+    "rank": 65,
+    "name": "Nadine Gaab",
+    "slug": "nadine-gaab",
+    "score": 44,
+    "institution": "Harvard",
+    "domain": "Neuroscience & Cognition",
+    "appearances": 1,
+    "achievement": "2024 Translation Award, Intl. Society of Mind, Brain, and Education; 2023 World Literacy Foundation Research Award",
+    "title": "Silvana and Christopher Pascucci Professor in Learning Differences, Harvard Graduate School of Education; Director, GaabLab",
+    "wikipedia": "",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2026/03/Portrait_gaab_2024-scaled.jpg",
+    "bio": "Nadine Gaab is the Silvana and Christopher Pascucci Professor in Learning Differences at the Harvard Graduate School of Education and director of the GaabLab. Her research examines typical and atypical learning trajectories from infancy to adolescence, with an emphasis on language and reading development within a learning-disabilities framework, drawing on cognitive neuroscience, developmental psychology, and education policy. She is the 2024 recipient of the Translation Award from the International Society of Mind, Brain, and Education and the 2023 Academic Research Recognition Award from the World Literacy Foundation, among other honors for her advocacy on behalf of children with reading disabilities. She is also co-founder of EarlyBird Education, a gamified EdTech platform for identifying children at risk for language-based learning disabilities.",
+    "roundtables": [
+      "Reading and The Brain"
+    ],
+    "latestDate": "May 16, 2026",
+    "website": "http://www.gaablab.com",
+    "googleScholar": ""
+  },
+  {
+    "rank": 58,
+    "name": "Susan Neuman",
+    "slug": "susan-neuman",
+    "score": 45,
+    "institution": "NYU",
+    "domain": "Other/Interdisciplinary",
+    "appearances": 1,
+    "achievement": "Member, Reading Hall of Fame; Fellow, American Educational Research Association; former U.S. Asst. Secretary of Education",
+    "title": "Professor of Teaching and Learning, New York University",
+    "wikipedia": "",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2026/03/Susan_Neuman.jpg",
+    "bio": "Susan B. Neuman is a professor of teaching and learning at New York University specializing in childhood education and early literacy development. She previously served as the U.S. Assistant Secretary for Elementary and Secondary Education under George W. Bush, and her research interests include early childhood policy, curriculum, and early reading instruction for preK through grade 3 children living in poverty. She has authored over 100 articles and 12 books, and she is a member of the Reading Hall of Fame and a Fellow of the American Educational Research Association.",
+    "roundtables": [
+      "Reading and The Brain"
+    ],
+    "latestDate": "May 16, 2026",
+    "website": "",
+    "googleScholar": ""
+  },
+  {
+    "rank": 120,
+    "name": "Josh Aronson",
+    "slug": "josh-aronson",
+    "score": 32,
+    "institution": "Independent",
+    "domain": "Creative & Performing Arts",
+    "appearances": 1,
+    "achievement": "Academy Award nomination (Sound & Fury); multiple film festival awards",
+    "title": "Producer/Director/Writer, Documentary Filmmaker",
+    "bio": "Josh Aronson is a documentary filmmaker who began his career as a still photographer for Time Life before directing commercials, music videos, and television pilots. He directed the Oscar-nominated Sound & Fury, followed by The Opposite Sex and Beautiful Daughters for Showtime, and the feature documentary Bullrider. His music films for PBS include Feelin' No Pain, Playing for Real, Orchestra of Exiles, and Talent Has Hunger. He is the founder of Harmony Project Hudson, an after-school music education program, and co-founder of Telluride Musicfest.",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2018/11/josh-smaller.jpg",
+    "roundtables": [
+      "The Animal Human Continuum"
+    ],
+    "latestDate": "October 12, 2018"
+  },
+  {
+    "rank": 175,
+    "name": "Elizabeth Hess",
+    "slug": "elizabeth-hess",
+    "score": 27,
+    "institution": "Independent",
+    "domain": "Literature & Writing",
+    "appearances": 1,
+    "achievement": "Author of Nim Chimpsky: The Chimp Who Would be Human, basis for the film Project Nim",
+    "title": "Author, Animal Studies",
+    "bio": "Elizabeth Hess is the author of two books on animals: Lost and Found: Dogs, Cats and Everyday Heroes (1998) and Nim Chimpsky: The Chimp Who Would be Human (2008), one of the only biographies of an animal and the basis for the documentary film Project Nim. She is currently writing about the American Pit Bull Terrier and about the first primate research laboratory in New York. Hess is Vice Chair of the Animal Legal Defense Fund and a member of the Advisory Board of Out of the Pits.",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2018/11/3-1.jpg",
+    "roundtables": [
+      "The Animal Human Continuum"
+    ],
+    "latestDate": "October 12, 2018"
+  },
+  {
+    "rank": 110,
+    "name": "James Serpell",
+    "slug": "james-serpell",
+    "score": 33,
+    "institution": "University of Pennsylvania",
+    "domain": "Biology & Medicine",
+    "appearances": 1,
+    "achievement": "Creator, Canine Behavioral Assessment and Research Questionnaire (C-BARQ)",
+    "title": "Marie A. Moore Chair of Animal Ethics & Welfare, School of Veterinary Medicine, University of Pennsylvania",
+    "bio": "James Serpell holds the Marie A. Moore Chair of Animal Ethics & Welfare at the School of Veterinary Medicine, University of Pennsylvania (BA Zoology, University College London; PhD Animal Behavior, University of Liverpool). His research focuses on the behavior and welfare of dogs and cats, the development of human attitudes to animals, and the history of human-animal relationships. He has published more than 180 articles and book chapters and is author, editor, or co-editor of several books including The Domestic Dog (1995 & 2016). He created the widely-used Canine Behavioral Assessment and Research Questionnaire (C-BARQ).",
+    "photo": "https://www.helixcenter.org/wp-content/uploads/2018/11/unnamed-4.jpg",
+    "roundtables": [
+      "The Animal Human Continuum"
+    ],
+    "latestDate": "October 12, 2018"
   }
 ]

@@ -6,7 +6,7 @@
     "style": "lg",
     "css": "font-variant:small-caps;",
     "logo": "",
-    "count": 53,
+    "count": 54,
     "speakers": [
       "Akeel Bilgrami",
       "Alex Abdo",
@@ -54,6 +54,7 @@
       "Ralph Wharton",
       "Raul Rabadan",
       "Richard Betts",
+      "Rita Charon",
       "Robert Klitzman",
       "Saeed Tavazoie",
       "Siri Hustvedt",
@@ -64,7 +65,7 @@
     ],
     "marquee": true,
     "marqueeOrder": 0,
-    "description": "53 Helix Center participants from Columbia University spanning Biology & Medicine, History & Cultural Studies, Journalism & Media, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Philosophy & Ethics, Physics & Cosmology, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Kenneth Miller, Michael Harris, Siri Hustvedt, and 50 others."
+    "description": "54 Helix Center participants from Columbia University spanning Biology & Medicine, History & Cultural Studies, Journalism & Media, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Philosophy & Ethics, Physics & Cosmology, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Kenneth Miller, Michael Harris, Siri Hustvedt, and 51 others."
   },
   {
     "name": "New York University",
@@ -73,7 +74,7 @@
     "style": "sm",
     "css": "font-weight:700; letter-spacing:0.12em;",
     "logo": "",
-    "count": 48,
+    "count": 49,
     "speakers": [
       "Aaditya Rangan",
       "Alberto Bisin",
@@ -118,6 +119,7 @@
       "Paula McDowell",
       "R. Luke DuBois",
       "Ray Dougherty",
+      "Susan Neuman",
       "Tim Maudlin",
       "Tom Carew",
       "Tyler Volk",
@@ -126,7 +128,7 @@
     ],
     "marquee": true,
     "marqueeOrder": 1,
-    "description": "48 Helix Center participants from New York University spanning Biology & Medicine, History & Cultural Studies, Journalism & Media, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Other/Interdisciplinary, Philosophy & Ethics, Physics & Cosmology, Psychology & Psychoanalysis, Social Sciences, Technology & Engineering. Notable speakers include Joseph LeDoux, Cristina Alberini, Farzad Mahootian, and 45 others."
+    "description": "49 Helix Center participants from New York University spanning Biology & Medicine, History & Cultural Studies, Journalism & Media, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Other/Interdisciplinary, Philosophy & Ethics, Physics & Cosmology, Psychology & Psychoanalysis, Social Sciences, Technology & Engineering. Notable speakers include Joseph LeDoux, Cristina Alberini, Farzad Mahootian, and 46 others."
   },
   {
     "name": "Princeton University",
@@ -135,11 +137,12 @@
     "style": "lg",
     "css": "font-style:italic;",
     "logo": "",
-    "count": 24,
+    "count": 25,
     "speakers": [
       "Andrew Guess",
       "Anthony Grafton",
       "Brigid Doherty",
+      "Claudia Brodsky",
       "Daniel Kahneman",
       "David Bellos",
       "Edgar Choueiri",
@@ -164,7 +167,7 @@
     ],
     "marquee": true,
     "marqueeOrder": 2,
-    "description": "24 Helix Center participants from Princeton University spanning Biology & Medicine, Creative & Performing Arts, History & Cultural Studies, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Philosophy & Ethics, Physics & Cosmology, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Edgar Choueiri, Joseph Kohn, Andrew Guess, and 21 others."
+    "description": "25 Helix Center participants from Princeton University spanning Biology & Medicine, Creative & Performing Arts, History & Cultural Studies, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Philosophy & Ethics, Physics & Cosmology, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Edgar Choueiri, Joseph Kohn, Andrew Guess, and 22 others."
   },
   {
     "name": "Cornell University",
@@ -209,7 +212,7 @@
     "style": "lg",
     "css": "",
     "logo": "",
-    "count": 18,
+    "count": 19,
     "speakers": [
       "Alex Kwan",
       "Christopher Wood",
@@ -220,6 +223,7 @@
       "James Berger",
       "Jeffrey Alexander",
       "Jonathan Kramnick",
+      "Lila Davachi",
       "Martin Hägglund",
       "Nancy Princenthal",
       "Paul Fry",
@@ -232,7 +236,7 @@
     ],
     "marquee": true,
     "marqueeOrder": 3,
-    "description": "18 Helix Center participants from Yale University spanning History & Cultural Studies, Literature & Writing, Neuroscience & Cognition, Philosophy & Ethics, Physics & Cosmology, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Priyamvada Natarajan, R. John Williams, Jonathan Kramnick, and 15 others."
+    "description": "19 Helix Center participants from Yale University spanning History & Cultural Studies, Literature & Writing, Neuroscience & Cognition, Philosophy & Ethics, Physics & Cosmology, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Priyamvada Natarajan, R. John Williams, Jonathan Kramnick, and 16 others."
   },
   {
     "name": "Rutgers University",
@@ -241,9 +245,10 @@
     "style": "lg",
     "css": "",
     "logo": "",
-    "count": 13,
+    "count": 14,
     "speakers": [
       "Alan Leslie",
+      "Barry Loewer",
       "Jack Z. Bratich",
       "John McGann",
       "Katalin Balog",
@@ -259,7 +264,7 @@
     ],
     "marquee": true,
     "marqueeOrder": 7,
-    "description": "13 Helix Center participants from Rutgers University spanning Biology & Medicine, Creative & Performing Arts, Journalism & Media, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Philosophy & Ethics, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Alan Leslie, Jack Z. Bratich, John McGann, and 10 others."
+    "description": "14 Helix Center participants from Rutgers University spanning Biology & Medicine, Creative & Performing Arts, Journalism & Media, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Philosophy & Ethics, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Alan Leslie, Jack Z. Bratich, John McGann, and 11 others."
   },
   {
     "name": "Harvard University",
@@ -268,15 +273,17 @@
     "style": "lg",
     "css": "font-variant:small-caps;",
     "logo": "",
-    "count": 12,
+    "count": 14,
     "speakers": [
       "Barry Mazur",
       "David Silbersweig",
       "Irene Pepperberg",
+      "Jacob Barandes",
       "Jeffrey Miron",
       "Joyce Chaplin",
       "Kathryn Hall",
       "Liz Phelps",
+      "Nadine Gaab",
       "Nouchine Hadjikhani",
       "Paul Harris",
       "Sara Lazar",
@@ -285,7 +292,7 @@
     ],
     "marquee": true,
     "marqueeOrder": 4,
-    "description": "12 Helix Center participants from Harvard University spanning Biology & Medicine, Creative & Performing Arts, History & Cultural Studies, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Barry Mazur, Paul Harris, David Silbersweig, and 9 others."
+    "description": "14 Helix Center participants from Harvard University spanning Biology & Medicine, Creative & Performing Arts, History & Cultural Studies, Literature & Writing, Mathematics & Computer Science, Neuroscience & Cognition, Philosophy & Ethics, Psychology & Psychoanalysis, Social Sciences. Notable speakers include Barry Mazur, Paul Harris, David Silbersweig, and 11 others."
   },
   {
     "name": "City University of New York",
@@ -361,16 +368,17 @@
     "style": "lg",
     "css": "",
     "logo": "",
-    "count": 4,
+    "count": 5,
     "speakers": [
       "Anjan Chatterjee",
+      "James Serpell",
       "Robert Kurzban",
       "Stephanie Dick",
       "Tal Rabin"
     ],
     "marquee": true,
     "marqueeOrder": 13,
-    "description": "4 Helix Center participants from University of Pennsylvania spanning History & Cultural Studies, Mathematics & Computer Science, Neuroscience & Cognition, Psychology & Psychoanalysis. Notable speakers include Anjan Chatterjee, Robert Kurzban, Stephanie Dick, Tal Rabin."
+    "description": "5 Helix Center participants from University of Pennsylvania spanning Biology & Medicine, History & Cultural Studies, Mathematics & Computer Science, Neuroscience & Cognition, Psychology & Psychoanalysis. Notable speakers include Anjan Chatterjee, Robert Kurzban, Stephanie Dick, Tal Rabin, and 1 other."
   },
   {
     "name": "Icahn School of Medicine at Mount Sinai",
@@ -1161,13 +1169,14 @@
     "style": "lg",
     "css": "font-style:italic;",
     "logo": "",
-    "count": 1,
+    "count": 2,
     "speakers": [
-      "Darrin McMahon"
+      "Darrin McMahon",
+      "Emily Finn"
     ],
     "marquee": true,
     "marqueeOrder": 37,
-    "description": "1 Helix Center participant from Dartmouth College spanning History & Cultural Studies. Notable speakers include Darrin McMahon."
+    "description": "2 Helix Center participants from Dartmouth College spanning History & Cultural Studies, Neuroscience & Cognition. Notable speakers include Darrin McMahon and 1 other."
   },
   {
     "name": "Vanderbilt University",
@@ -1228,5 +1237,21 @@
     "marquee": false,
     "marqueeOrder": 999,
     "description": "1 Helix Center participant from Democracy Now! spanning Journalism & Media. Notable speakers include Nermeen Shaikh."
+  },
+  {
+    "name": "Bucknell University",
+    "slug": "bucknell-university",
+    "shortName": "Bucknell",
+    "style": "lg",
+    "css": "",
+    "logo": "",
+    "count": 2,
+    "speakers": [
+      "John Hunter",
+      "Maria Balcells"
+    ],
+    "marquee": false,
+    "marqueeOrder": 999,
+    "description": "2 Helix Center participants from Bucknell University spanning Other/Interdisciplinary, Philosophy & Ethics. Notable speakers include Maria Balcells and John Hunter."
   }
 ]

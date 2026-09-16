@@ -2,7 +2,7 @@
   "name": "The Helix Center for Interdisciplinary Investigation",
   "shortName": "The Helix Center",
   "url": "https://www.helixcenter.org",
-  "description": "A 501(c)(3) nonprofit that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 507 distinguished scholars across 13 disciplines. Founded 2012 in New York City.",
+  "description": "A 501(c)(3) nonprofit that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and hundreds of distinguished scholars across the sciences, humanities, and arts. Founded 2012 in New York City.",
   "founder": "Dr. Edward Nersessian",
   "founded": "2012",
   "address": {
@@ -15,24 +15,12 @@
   "social": {
     "facebook": "https://www.facebook.com/TheHelixCenter",
     "twitter": "https://twitter.com/HelixCenter",
-    "youtube": "https://www.youtube.com/@TheHelixCenter",
+    "youtube": "https://www.youtube.com/@helixcenter",
     "instagram": "https://www.instagram.com/thehelixcenter/",
     "podcast": "https://podcasts.apple.com/us/podcast/the-helix-center/id1093679041",
     "linkedin": "https://www.linkedin.com/company/the-helix-center",
     "wikidata": "https://www.wikidata.org/wiki/Q138509067",
     "rss": "/feed/index.xml"
-  },
-  "stats": {
-    "speakers": 507,
-    "roundtables": "134+",
-    "nobelLaureates": 4,
-    "macarthurFellows": 5,
-    "seasons": 14,
-    "wikipediaNotable": 229,
-    "institutions": "50+",
-    "disciplines": 13,
-    "podcastEpisodes": 136,
-    "youtubeVideos": 54
   },
   "institutions": [
     "Columbia", "NYU", "Princeton", "Yale", "Harvard",

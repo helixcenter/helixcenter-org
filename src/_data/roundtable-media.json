@@ -1,4 +1,29 @@
 {
+  "its-about-time": {
+    "videoIds": [],
+    "imageUrls": [
+      "https://www.helixcenter.org/wp-content/uploads/2026/09/gjon-mili-ballerina-1024x773-1.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2026/09/Claudia-Brodsky.jpeg",
+      "https://www.helixcenter.org/wp-content/uploads/2026/09/JacobBarandesCurrentPortraitForBios.png",
+      "https://www.helixcenter.org/wp-content/uploads/2026/09/Barry-Loewer.jpeg",
+      "https://www.helixcenter.org/wp-content/uploads/2026/09/Balcells-Photo-1.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2026/09/Lila-_pic-scaled.jpg"
+    ],
+    "audioUrls": []
+  },
+  "reading-and-the-brain": {
+    "videoIds": [],
+    "imageUrls": [
+      "https://www.helixcenter.org/wp-content/uploads/2026/03/graphic_reading_sans_serif.png",
+      "https://www.helixcenter.org/wp-content/uploads/2026/03/1.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2026/03/esf_headshot_5x7.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2026/03/Portrait_gaab_2024-scaled.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2026/03/Susan_Neuman.jpg"
+    ],
+    "audioUrls": [
+      "https://media.helixcenter.org/podcasts/audio/260516_Reading.mp3"
+    ]
+  },
   "where-have-all-the-isms-gone-on-the-evolution-of-knowledge": {
     "videoIds": [
       "eby-kQ0uLhg"
@@ -302,7 +327,7 @@
       "https://www.helixcenter.org/wp-content/uploads/2024/01/30177927611_3f630af37d_o.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2024/01/SCritchley.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2024/01/Deming-author-2.jpg",
-      "https://www.helixcenter.org/wp-content/uploads/2024/01/\u00a9-Miguel-Lopez-Mallach_1.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2024/01/©-Miguel-Lopez-Mallach_1.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2024/01/DMerkin.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2024/01/MPisano.jpeg"
     ],
@@ -1719,7 +1744,7 @@
     "imageUrls": [
       "https://www.helixcenter.org/wp-content/uploads/2013/12/altruism.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2013/12/Stephanie-Brown.jpeg",
-      "https://www.helixcenter.org/wp-content/uploads/2013/12/DSC_0362_\u00acAlexKaplanPhoto-1.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2013/12/DSC_0362_¬AlexKaplanPhoto-1.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2013/12/Alan-Leslie.jpg",
       "https://www.helixcenter.org/wp-content/uploads/2013/12/Wynn.jpg"
     ],
@@ -2139,6 +2164,19 @@
     "imageUrls": [
       "https://www.helixcenter.org/wp-content/uploads/2026/03/unnamed.jpg"
     ],
-    "audioUrls": []
+    "audioUrls": [
+      "https://media.helixcenter.org/podcasts/audio/260418_MedicineAI.mp3"
+    ]
+  },
+  "animal-consciousness": {
+    "imageUrls": [
+      "https://www.helixcenter.org/wp-content/uploads/2018/10/unnamed-3.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2018/11/josh-smaller.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2018/11/3-1.jpg",
+      "https://www.helixcenter.org/wp-content/uploads/2018/11/unnamed-4.jpg"
+    ],
+    "audioUrls": [
+      "https://media.helixcenter.org/podcasts/audio/181215_The_Animal_Human_Continuum.mp3"
+    ]
   }
 }

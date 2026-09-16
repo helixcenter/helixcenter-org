@@ -2,11 +2,11 @@
   {
     "id": "nobel",
     "name": "Nobel Laureates",
-    "count": 4,
+    "count": 2,
     "label": "Nobel Laureates",
-    "detail": "Kahneman, Kandel, Gross & de Duve",
-    "subtitle": "4 Nobel Prize winners have participated in Helix Center roundtables",
-    "speakers": ["Daniel Kahneman", "Eric Kandel", "David J. Gross", "Christian de Duve"]
+    "detail": "Kahneman & Kandel",
+    "subtitle": "2 Nobel Prize winners have participated in Helix Center roundtables",
+    "speakers": ["Daniel Kahneman", "Eric Kandel"]
   },
   {
     "id": "nms",

@@ -1,22 +1,22 @@
 # The Helix Center for Interdisciplinary Investigation
 
-> A 501(c)(3) nonprofit in New York City that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 507 distinguished scholars across the sciences, humanities, and arts. Founded in 2012 by Dr. Edward Nersessian.
+> A 501(c)(3) nonprofit in New York City that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 523 distinguished scholars across the sciences, humanities, and arts. Founded in 2012 by Dr. Edward Nersessian.
 
 Wikidata: https://www.wikidata.org/wiki/Q138509067
 
 For a comprehensive listing of all roundtables, speakers, and institutions, see [llms-full.txt](https://www.helixcenter.org/llms-full.txt).
 
-The Helix Center convenes leading thinkers from different disciplines to explore questions that no single field can answer alone. Its signature format is the "Theaetetus Table," named for the Platonic dialogue investigating the nature of knowledge: five participants -- leaders in their respective fields -- gather for extempore (unscripted) interdisciplinary discussion. Over 14 seasons, the Center has hosted 134+ roundtable discussions featuring 507 speakers from 50+ institutions including Columbia, NYU, Princeton, Yale, Harvard, MIT, Cornell, Oxford, Cambridge, and UCL. Participants include 4 Nobel laureates, 5 MacArthur Fellows, and 229 Wikipedia-notable scholars. All events are free and open to the public, held at The Marianne & Nicholas Young Auditorium, 247 East 82nd Street, New York, NY 10028.
+The Helix Center convenes leading thinkers from different disciplines to explore questions that no single field can answer alone. Its signature format is the "Theaetetus Table," named for the Platonic dialogue investigating the nature of knowledge: five participants -- leaders in their respective fields -- gather for extempore (unscripted) interdisciplinary discussion. Over 14 seasons, the Center has hosted 138+ roundtable discussions featuring 523 speakers from 66+ institutions including Columbia, NYU, Princeton, Yale, Harvard, MIT, Cornell, Oxford, Cambridge, and UCL. Participants include 4 Nobel laureates, 5 MacArthur Fellows, and 229 Wikipedia-notable scholars. All events are free and open to the public, held at The Marianne & Nicholas Young Auditorium, 247 East 82nd Street, New York, NY 10028.
 
 Notable participants include Daniel Kahneman (Nobel Prize in Economics), Eric Kandel (Nobel Prize in Physiology or Medicine), David J. Gross (Nobel Prize in Physics), Karl Friston (most-cited neuroscientist in history), David Chalmers (formulated "the hard problem of consciousness"), Sara Seager (MacArthur Fellow, Kavli Prize in Astrophysics), Rosalind Picard (founder of Affective Computing), Percival Everett (Pulitzer Prize), and Vijay Iyer (MacArthur Fellow).
 
 ## Main Pages
 
 - [About The Helix Center](https://www.helixcenter.org/about/): History, mission, philosophy, and the Theaetetus Table format
-- [Roundtables](https://www.helixcenter.org/roundtables/): Archive of 134+ interdisciplinary roundtable discussions spanning 14 seasons (2012-present)
-- [Speakers](https://www.helixcenter.org/speakers/): Directory of 507 distinguished scholars, scientists, and artists who have participated
-- [Disciplines](https://www.helixcenter.org/disciplines/): The 13 academic disciplines covered across roundtables
-- [Media](https://www.helixcenter.org/media/): 54 YouTube videos and 136 podcast episodes, all free to access
+- [Roundtables](https://www.helixcenter.org/roundtables/): Archive of 138+ interdisciplinary roundtable discussions spanning 14 seasons (2012-present)
+- [Speakers](https://www.helixcenter.org/speakers/): Directory of 523 distinguished scholars, scientists, and artists who have participated
+- [Disciplines](https://www.helixcenter.org/disciplines/): The 15 academic disciplines covered across roundtables
+- [Media](https://www.helixcenter.org/media/): 54 YouTube videos and 138 podcast episodes, all free to access
 - [FAQ](https://www.helixcenter.org/faq/): Frequently asked questions about attending and participating
 - [Leadership](https://www.helixcenter.org/leadership/): Board of Directors, Executive Committee, Board of Advisors, and program teams
 - [Donate](https://www.helixcenter.org/donate/): Support the mission; all contributions are tax-deductible under 501(c)(3) status
@@ -24,23 +24,26 @@ Notable participants include Daniel Kahneman (Nobel Prize in Economics), Eric Ka
 
 ## Disciplines
 
-- [Literature & Writing](https://www.helixcenter.org/disciplines/literature-writing/): 82 speakers including Yiyun Li, Siri Hustvedt, Percival Everett
-- [Biology & Medicine](https://www.helixcenter.org/disciplines/biology-medicine/): 70 speakers including Andrea Califano, Robert Klitzman, Raul Rabadan
-- [Neuroscience & Cognition](https://www.helixcenter.org/disciplines/neuroscience-cognition/): 53 speakers including Eric Kandel, Karl Friston, Gyorgy Buzsaki
-- [Philosophy & Ethics](https://www.helixcenter.org/disciplines/philosophy-ethics/): 53 speakers including David Chalmers, Michael S. Turner, Joel David Hamkins
+- [Literature & Writing](https://www.helixcenter.org/disciplines/literature-writing/): 83 speakers including Yiyun Li, Siri Hustvedt, Percival Everett
+- [Biology & Medicine](https://www.helixcenter.org/disciplines/biology-medicine/): 73 speakers including Andrea Califano, Robert Klitzman, Raul Rabadan
+- [Neuroscience & Cognition](https://www.helixcenter.org/disciplines/neuroscience-cognition/): 57 speakers including Eric Kandel, Karl Friston, György Buzsáki
+- [Philosophy & Ethics](https://www.helixcenter.org/disciplines/philosophy-ethics/): 56 speakers including David Chalmers, Michael S. Turner, Joel David Hamkins
 - [Psychology & Psychoanalysis](https://www.helixcenter.org/disciplines/psychology-psychoanalysis/): 50 speakers including Daniel Kahneman, Peter Loewenberg, Jessica Benjamin
-- [Creative & Performing Arts](https://www.helixcenter.org/disciplines/creative-performing-arts/): 38 speakers including Vijay Iyer, Suzanne Anker, John Kress
+- [Creative & Performing Arts](https://www.helixcenter.org/disciplines/creative-performing-arts/): 39 speakers including Vijay Iyer, Suzanne Anker, John Kress
 - [Social Sciences](https://www.helixcenter.org/disciplines/social-sciences/): 33 speakers including Jeffrey Alexander, Liah Greenfeld, Tracey Meares
-- [History & Cultural Studies](https://www.helixcenter.org/disciplines/history-cultural-studies/): 32 speakers including Anthony Grafton, David Freedberg, Deborah Coen
+- [History & Cultural Studies](https://www.helixcenter.org/disciplines/history-cultural-studies/): 33 speakers including Anthony Grafton, David Freedberg, Deborah Coen
 - [Physics & Cosmology](https://www.helixcenter.org/disciplines/physics-cosmology/): 24 speakers including Paul J. Steinhardt, Sara Seager, Sylvester James Gates
 - [Mathematics & Computer Science](https://www.helixcenter.org/disciplines/mathematics-computer-science/): 24 speakers including Barry Mazur, Graciela Chichilnisky, Thomas Callister Hales
+- [Other/Interdisciplinary](https://www.helixcenter.org/disciplines/otherinterdisciplinary/): 18 speakers including Carol Mandel, Simon Deng, Tarah Rhoda
 - [Journalism & Media](https://www.helixcenter.org/disciplines/journalism-media/): 15 speakers including R. Luke DuBois, Adam Kirsch, David Lichtenstein
 - [Technology & Engineering](https://www.helixcenter.org/disciplines/technology-engineering/): 14 speakers including Rosalind Picard, Katepalli Sreenivasan, Adrian Bejan
+- [Computer Science & AI](https://www.helixcenter.org/disciplines/computer-science-ai/): 3 speakers including Tanzeem Choudhury, Rumi Chunara, Yindalon Aphinyanaphongs
+- [Artificial Intelligence & Humanities](https://www.helixcenter.org/disciplines/artificial-intelligence-humanities/): 1 speaker including Katherine Elkins
 
 ## Social & Media Channels
 
 - [YouTube](https://www.youtube.com/@TheHelixCenter): Video recordings of roundtable discussions
-- [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-helix-center/id1093679041): 136 podcast episodes
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-helix-center/id1093679041): 138 podcast episodes
 - [Facebook](https://www.facebook.com/TheHelixCenter): Updates and event announcements
 - [Instagram](https://www.instagram.com/thehelixcenter/): Photos and event highlights
 - [LinkedIn](https://www.linkedin.com/company/the-helix-center): Professional network presence

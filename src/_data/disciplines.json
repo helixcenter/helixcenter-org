@@ -1,7 +1,7 @@
 [
   {
     "name": "Literature & Writing",
-    "count": 82,
+    "count": 83,
     "topSpeakers": [
       "Yiyun Li",
       "Siri Hustvedt",
@@ -12,7 +12,7 @@
   },
   {
     "name": "Biology & Medicine",
-    "count": 70,
+    "count": 73,
     "topSpeakers": [
       "Andrea Califano",
       "Robert Klitzman",
@@ -23,7 +23,7 @@
   },
   {
     "name": "Neuroscience & Cognition",
-    "count": 53,
+    "count": 57,
     "topSpeakers": [
       "Eric Kandel",
       "Karl Friston",
@@ -34,7 +34,7 @@
   },
   {
     "name": "Philosophy & Ethics",
-    "count": 53,
+    "count": 56,
     "topSpeakers": [
       "David Chalmers",
       "Michael S. Turner",
@@ -56,7 +56,7 @@
   },
   {
     "name": "Creative & Performing Arts",
-    "count": 38,
+    "count": 39,
     "topSpeakers": [
       "Vijay Iyer",
       "Suzanne Anker",
@@ -78,7 +78,7 @@
   },
   {
     "name": "History & Cultural Studies",
-    "count": 32,
+    "count": 33,
     "topSpeakers": [
       "Anthony Grafton",
       "David Freedberg",
@@ -111,7 +111,7 @@
   },
   {
     "name": "Other/Interdisciplinary",
-    "count": 17,
+    "count": 18,
     "topSpeakers": [
       "Carol Mandel",
       "Simon Deng",
@@ -150,5 +150,16 @@
     ],
     "slug": "artificial-intelligence-humanities",
     "description": "An emerging field at the intersection of AI and humanistic inquiry, examining how machine learning and natural language processing transform literary analysis, philosophical investigation, and our understanding of creativity and cognition."
+  },
+  {
+    "name": "Computer Science & AI",
+    "count": 3,
+    "topSpeakers": [
+      "Tanzeem Choudhury",
+      "Rumi Chunara",
+      "Yindalon Aphinyanaphongs"
+    ],
+    "slug": "computer-science-ai",
+    "description": "Computer scientists bring machine learning and health data science directly into clinical and public-health practice. Tanzeem Choudhury builds mobile sensing systems for mental health, Rumi Chunara studies algorithmic fairness in population health, and Yindalon Aphinyanaphongs deploys operational AI models across a major hospital system, grounding roundtables on medicine and AI in deployed, evidence-based systems."
   }
 ]

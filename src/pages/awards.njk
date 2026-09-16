@@ -27,7 +27,7 @@ breadcrumbPage: "Awards & Distinctions"
 <section class="detail-page">
   <div class="container">
     <p style="font-family: var(--serif); font-size: 1.15rem; color: var(--text-mid); max-width: 720px; margin-bottom: 3rem;">
-      Since 2012, The Helix Center has convened <strong>{{ site.stats.speakers }} distinguished speakers</strong>
+      Since 2012, The Helix Center has convened <strong>{{ stats.speakers }} distinguished speakers</strong>
       whose collective honors span the highest recognitions across the sciences, arts, and humanities.
     </p>
 
@@ -39,8 +39,8 @@ breadcrumbPage: "Awards & Distinctions"
       {% for award in tierGroup.awards %}
       {% if award.count == 1 %}
       {# ---- Single-winner: compact inline row ---- #}
-      {% set sp = speakers | findSpeaker(award.speakers[0]) %}
-      {% if sp %}
+      {#- requireSpeaker: an unresolved award name is a data bug, not something to skip. -#}
+      {% set sp = speakers | requireSpeaker(award.speakers[0], "awards.njk single: " + award.id) %}
       <div class="award-single" id="{{ award.id }}">
         <a href="{{ sp.name | speakerUrl }}" class="award-single-photo-link">
           {% if sp.photo %}
@@ -56,7 +56,6 @@ breadcrumbPage: "Awards & Distinctions"
           <a href="{{ sp.name | speakerUrl }}" class="award-single-speaker">{{ sp.name }}</a>
         </div>
       </div>
-      {% endif %}
 
       {% else %}
       {# ---- Multi-winner: heading + grid ---- #}
@@ -67,8 +66,7 @@ breadcrumbPage: "Awards & Distinctions"
         </div>
         <div class="awards-grid">
           {% for speakerName in award.speakers %}
-          {% set sp = speakers | findSpeaker(speakerName) %}
-          {% if sp %}
+          {% set sp = speakers | requireSpeaker(speakerName, "awards.njk grid: " + award.id) %}
           <a href="{{ sp.name | speakerUrl }}" class="awards-person">
             {% if sp.photo %}
             <img src="{{ sp.photo }}" alt="{{ sp.name }}" class="awards-photo" loading="lazy">
@@ -82,7 +80,6 @@ breadcrumbPage: "Awards & Distinctions"
               {% endif %}
             </div>
           </a>
-          {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -92,7 +89,7 @@ breadcrumbPage: "Awards & Distinctions"
     {% endfor %}
 
     <div style="margin-top: 3rem; text-align: center;">
-      <a href="/speakers/" class="btn btn-outline-dark">View All {{ site.stats.speakers }} Speakers &rarr;</a>
+      <a href="/speakers/" class="btn btn-outline-dark">View All {{ stats.speakers }} Speakers &rarr;</a>
     </div>
   </div>
 </section>

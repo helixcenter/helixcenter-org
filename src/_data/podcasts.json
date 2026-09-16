@@ -1,5 +1,21 @@
 [
   {
+    "title": "Reading and The Brain",
+    "date": "May 16, 2026",
+    "duration": "1:47:49",
+    "audioUrl": "https://media.helixcenter.org/podcasts/audio/260516_Reading.mp3",
+    "roundtableLink": "https://www.helixcenter.org/roundtables/reading-and-the-brain/",
+    "description": "This roundtable discussion will consider the power of words as evidenced by brain imaging; child development; storytelling in medical settings; reading in community, and, in this age of screens and AI, the ability to nurture critical thinking habits."
+  },
+  {
+    "title": "Medicine and AI",
+    "date": "April 18, 2026",
+    "duration": "1:22:09",
+    "audioUrl": "https://media.helixcenter.org/podcasts/audio/260418_MedicineAI.mp3",
+    "roundtableLink": "https://www.helixcenter.org/roundtables/medicine-and-ai/",
+    "description": "The roundtable examines how artificial intelligence is transforming medicine -- from protein language models that predict genomic variant effects to clinical large language models deployed across hospital systems."
+  },
+  {
     "title": "Why We Write",
     "date": "February 21, 2026",
     "duration": "1:34:15",
@@ -619,7 +635,7 @@
     "title": "The Animal Human Continuum",
     "date": "December 15, 2018",
     "duration": "1:37:28",
-    "audioUrl": "http://media.helixcenter.org/podcasts/audio/181215_The_Animal_Human_Continuum.mp3",
+    "audioUrl": "https://media.helixcenter.org/podcasts/audio/181215_The_Animal_Human_Continuum.mp3",
     "roundtableLink": "https://www.helixcenter.org/roundtables/animal-consciousness/",
     "description": "Ancient Egyptians placed animal and bird heads on divinities’ bodies, in an embracing worldview wherein both gods and beasts extend and transcend the human ken. In his scientific extension of this ancient mythology, Darwin’s 1872 The Expression of the Emotions in Man and Animals explored non-human sentience."
   },

@@ -1,13 +1,13 @@
 # The Helix Center for Interdisciplinary Investigation — Complete Reference
 
-> A 501(c)(3) nonprofit in New York City that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 507 distinguished scholars across the sciences, humanities, and arts. Founded in 2012 by Dr. Edward Nersessian.
+> A 501(c)(3) nonprofit in New York City that hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 519 distinguished scholars across the sciences, humanities, and arts. Founded in 2012 by Dr. Edward Nersessian.
 
 This is the comprehensive companion to llms.txt. It lists every roundtable, speaker, and institution on the site.
 
 ## Site Statistics
 
-- 134 roundtable discussions (2012–2026, 15 seasons)
-- 506 speakers from 65 institutions
+- 137 roundtable discussions (2012–2026, 15 seasons)
+- 519 speakers from 66 institutions
 - 112 full transcripts (~1.9 million words)
 - 126 YouTube video recordings
 - 239 Wikipedia-notable participants
@@ -15,7 +15,22 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 ## All Roundtables
 
-### 2026 Season (2 roundtables)
+### 2026 Season (5 roundtables)
+
+- [It's About TIME](https://www.helixcenter.org/roundtables/its-about-time/) (September 19, 2026)
+  The roundtable explores the nature of time's arrow -- from David Albert's account of a low-entropy universe unfolding through statistical mechanics toward ever more probable states, to Henri Bergson's...
+  Speakers: Claudia Brodsky, Jacob Barandes, Barry Loewer, Maria Balcells, Lila Davachi
+  Tags: philosophy of time, philosophy of physics, entropy, statistical mechanics, metaphysics, memory, consciousness, quantum foundations
+
+- [Reading and The Brain](https://www.helixcenter.org/roundtables/reading-and-the-brain/) (May 16, 2026)
+  This roundtable discussion will consider the power of words as evidenced by brain imaging; child development; storytelling in medical settings; reading in community, and, in this age of screens and...
+  Speakers: Rita Charon, Emily Finn, Nadine Gaab, Susan Neuman
+  Tags: reading, literacy, neuroscience, child development, narrative medicine, education, artificial intelligence, critical thinking
+
+- [Medicine and AI](https://www.helixcenter.org/roundtables/medicine-and-ai/) (April 18, 2026)
+  The roundtable examines how artificial intelligence is transforming medicine -- from protein language models that predict genomic variant effects to clinical large language models deployed across...
+  Speakers: Tanzeem Choudhury, Nadav Brandes, John F. Crary, Rumi Chunara, Yindalon Aphinyanaphongs
+  Tags: algorithms, Artificial Intelligence, clinical, consciousness, medicine, science
 
 - [Where Have All the Isms Gone?: On the Evolution of Knowledge](https://www.helixcenter.org/roundtables/where-have-all-the-isms-gone-on-the-evolution-of-knowledge/) (March 7, 2026) [video]
   The roundtable examines how intellectual movements and paradigms have historically organized knowledge within disciplines -- from functionalism and structuralism in anthropology to postmodernism in...
@@ -41,17 +56,17 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Resurgence of Freud](https://www.helixcenter.org/roundtables/resurgence-of-freud/) (September 20, 2025) [video, transcript]
   The event explores why Freud's theories experienced declining influence through the 20th century with advances in psychotropic medications and neurobiology, yet continues to resurface in contemporary...
-  Speakers: Stephen Dames, Ben Kafka, Cassie Kaufmann, David Russell, W. Craig Tomlinson (William C. Tomlinson)
+  Speakers: Stephen Dames, Ben Kafka, Cassie Kaufmann, David Russell, W. Craig Tomlinson
   Tags: psychoanalysis, Freud, psychiatry, mental health, talk therapy, humanities, anti-humanism, artificial intelligence
 
 - [Neurodiversity](https://www.helixcenter.org/roundtables/neurodiversity/) (May 10, 2025) [video, transcript]
   The roundtable explores how "neurodiversity recognizes variations in neurological function" while challenging deficit-based thinking. It examines empathetic approaches to supporting individuals with...
-  Speakers: Inge-Marie Eigsti, Ph.D., Claudia Lugo-Candelas, Ph.D., Amy Lutz, Ph.D., Susan Sherkow, M.D., David Sulzer, Ph.D.
+  Speakers: Inge-Marie Eigsti, Claudia Lugo-Candelas, Amy Lutz, Susan Sherkow, David Sulzer
   Tags: acceptance, differences, empathy, neurodiversity, support, variation
 
 - [Mindfulness Meditation: Benefits and Dilemmas](https://www.helixcenter.org/roundtables/mindfulness-meditation-benefits-and-dilemmas/) (April 19, 2025) [video, transcript]
   Mindfulness meditation is one of the most popular contemplative techniques in the world. Recently, however, a number of influential criticisms of the practice have emerged, many of which frame the...
-  Speakers: Mark Epstein, M.D., David Forbes, PhD, Andrea Jain, Ph.D., Tim McHenry, Catherine Wikholm, PhD, R. John Williams, PhD
+  Speakers: Mark Epstein, David Forbes, Andrea Jain, Tim McHenry, Catherine Wikholm, R. John Williams
   Tags: anxiety, commodification, meditation, mindfulness, trauma, wellbeing
 
 - [Music and Mind](https://www.helixcenter.org/roundtables/music-and-mind/) (March 22, 2025) [video, transcript]
@@ -145,7 +160,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [The Body and Psychosis](https://www.helixcenter.org/roundtables/the-body-and-psychosis/) (February 11, 2023) [video, transcript]
   The roundtable explored how "4E Cognition" frames thought and behavior as "embodied, embedded, enactive & extended," drawing on philosophers like Merleau-Ponty and Heidegger. It examined how the body...
-  Speakers: Elias Dakwar, George Denfield, MD, Vittorio Gallese, Siri Hustvedt, Gail Weiss
+  Speakers: Elias Dakwar, George Denfield, Vittorio Gallese, Siri Hustvedt, Gail Weiss
   Tags: 4E Cognition, consciousness, embodiment, psychosis, reality, social interactions
 
 ### 2022 Season (10 roundtables)
@@ -167,7 +182,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Coding and the New Phenotype: In Search for Lost Time](https://www.helixcenter.org/roundtables/coding-and-the-new-phenotype-in-search-for-lost-time/) (October 15, 2022, 10:00 AM EST) [video, transcript]
   The roundtable explores "how we discover codes, bearers of meaning, and how we reconstruct that meaning in archeology & paleoanthropology, in psychoanalysis, and in neuroscience research on memory."
-  Speakers: Gyorgy Buzsaki, Michael Novacek, Karen B. Stern, David Sulzer, Marc Van De Mieroop
+  Speakers: György Buzsáki, Michael Novacek, Karen B. Stern, David Sulzer, Marc Van De Mieroop
   Tags: archaeology, coding, meaning, neuroscience, paleoanthropology, psychoanalysis
 
 - [Coding and the Human Phenotype: Manipulated Perception? Fakery, Authenticity, and the Birth of NFTs](https://www.helixcenter.org/roundtables/coding-and-the-human-phenotype-manipulated-perception-fakery-authenticity-and-the-birth-of-nfts/) (October 15, 2022) [video, transcript]
@@ -187,7 +202,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Psychedelics](https://www.helixcenter.org/roundtables/psychedelics/) (March 12, 2022) [video, transcript]
   The roundtable explores how psychedelics -- substances that "manifest the mind" -- alter cognition, perception, emotion, and behavior. The discussion covers historical use in tribal ceremonies and...
-  Speakers: Patricia Dailey, Elias Dakwar, Nese Devenot, Alex Kwan, Stephen Ross
+  Speakers: Patricia Dailey, Elias Dakwar, Neşe Devenot, Alex Kwan, Stephen Ross
   Tags: Mental health disorders, Micro-dosing, Neuroplasticity, Pain management, Psychedelics, Terminal states
 
 - [People & Things in Motion: Economics and the Future](https://www.helixcenter.org/roundtables/people-things-in-motion-economics-and-the-future/) (February 26, 2022) [video, transcript]
@@ -285,7 +300,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
   Speakers: Larry Amsel, Cheryl Corcoran, Andrew Gerber, Kenneth Miller, John Murray, Aaditya Rangan
   Tags: Analogies, Applications, Beauty, Intuitions, Mathematics, Unifying force
 
-### 2018 Season (8 roundtables)
+### 2018 Season (9 roundtables)
 
 - [The Beauty and Unity of Mathematics](https://www.helixcenter.org/roundtables/the-beauty-and-unity-of-mathematics/) (December 1, 2018) [video, transcript]
   The roundtable explores mathematical proof and verification. "Proof, in the form of step by step deduction, following the rules of logical reasoning, is the ultimate test of validity in mathematics."...
@@ -296,6 +311,11 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
   Psychoanalysis ushered a new era of understanding psychiatric conditions which lasted half a century. The advent of psychopharmacology moved the focus back to the importance of diagnosis and...
   Speakers: Michael First, Laura Hirshbein, Francis Lee, Robert Michels, Miklos Toth
   Tags: Diagnosis, Etiology, Medical treatment, Mental health, Psychoanalysis, Psychopharmacology
+
+- [The Animal Human Continuum](https://www.helixcenter.org/roundtables/animal-consciousness/) (October 12, 2018)
+  This roundtable explores the continuity between human and animal minds, examining emotions, consciousness, and behavior across species through perspectives from documentary film, animal ethics, and cultural history. It considers the ethical implications of how we understand...
+  Speakers: Josh Aronson, Elizabeth Hess, James Serpell
+  Tags: Animal behavior, Animal ethics, Consciousness, Emotion, Human-animal bonding, Neuroscience, Documentary film, Animal welfare
 
 - [Creative Turbulence (Roundtable)](https://www.helixcenter.org/roundtables/creative-turbulence-roundtable/) (June 14, 2018) [video, transcript]
   The roundtable culminated a Creative Turbulence art exhibition displayed at the New York Psychoanalytic Institute (June 9-16, 2018). It brought together artists and scientists to explore "the last...
@@ -314,7 +334,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Transhumanist Predictions and the Human Predicament](https://www.helixcenter.org/roundtables/transhumanist-predictions-and-the-human-predicament/) (March 10, 2018) [video, transcript]
   The rapid development of technology in the modern era has inspired a movement known as transhumanism. Envisioned is a near future in which human bodies and minds will be transformed and enhanced...
-  Speakers: William Grassie, Stephen Post, Ph.D., Francesca Rossi, Lee Silver, Hava Tirosh-Samuelson, Ph.D.
+  Speakers: William Grassie, Stephen Post, Francesca Rossi, Lee Silver, Hava Tirosh-Samuelson
   Tags: Artificial Intelligence, Genomics, Nanotechnology, Prosthetic Devices, Technological Singularity, Transhumanism
 
 - [Mind Matters: Past, Present, and Future](https://www.helixcenter.org/roundtables/mind-matters-past-present-and-future/) (February 10, 2018) [video, transcript]
@@ -364,7 +384,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Complexity and Emergence II: Visions of Cosmic Order, from Particles to People](https://www.helixcenter.org/roundtables/complexity-and-emergence-ii-visions-of-cosmic-order-from-particles-to-people/) (May 20, 2017) [video, transcript]
   The roundtable explores "what principles of order underlie the ascent of complexity, from the simplest particles of physics heralding the birth of the universe, through biological forms, to the...
-  Speakers: William Grassie, David Grinspoon, Tim Maudlin, Ilya Temkin, Tyler Volk
+  Speakers: William Grassie, David Grinspoon, Tim Maudlin, Ilya Tëmkin, Tyler Volk
   Tags: Complexity, Consciousness, Cosmic order, Culture, Emergence, Innovation
 
 - [Design in Nature](https://www.helixcenter.org/roundtables/design-in-nature/) (April 22, 2017) [video, transcript]
@@ -419,7 +439,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Fear: Wherefore, Whence?](https://www.helixcenter.org/roundtables/fear-wherefore-whence/) (May 7, 2016) [video]
   The roundtable explores the nature of fear and anxiety across multiple dimensions. Opening with classical quotes from Sophocles and Leviticus, it examines neurobiological, physiological, behavioral,...
-  Speakers: Nouchine Hadjikhani, MD, PhD, Robert Kurzban, PhD, Joseph LeDoux, PhD, Francis Lee, MD, PhD, Eric R. Marcus, MD
+  Speakers: Nouchine Hadjikhani, Robert Kurzban, Joseph LeDoux, Francis Lee, Eric R. Marcus
   Tags: fear, origins, reasons
 
 - [Understanding Genius II: Women](https://www.helixcenter.org/roundtables/understanding-genius-ii-women/) (March 26, 2016) [video, transcript]
@@ -525,7 +545,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [The Search for Immortality](https://www.helixcenter.org/roundtables/the-search-for-immortality/) (December 13, 2014) [video, transcript]
   The roundtable explores humanity's pursuit of transcending mortality through philosophy, science, and spirituality. Drawing from Plato's Phaedo, it examines how awareness of death shapes our lives...
-  Speakers: Martin Hagglund, Chris Impey, Adam Kirsch, Sheldon Solomon, Polly Young-Eisendrath
+  Speakers: Martin Hägglund, Chris Impey, Adam Kirsch, Sheldon Solomon, Polly Young-Eisendrath
   Tags: afterlife, mortality, philosophy, science, spirituality, transcendence
 
 - [French Surrealism: A Revolution of the Mind](https://www.helixcenter.org/roundtables/french-surrealism-a-revolution-of-the-mind/) (December 6, 2014) [video]
@@ -550,7 +570,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Knowledge and Limitations](https://www.helixcenter.org/roundtables/knowledge-and-limitations/) (September 20, 2014) [video, transcript]
   The roundtable explores fundamental questions about human knowledge: "What do we know about the universe and how do we know it?" Drawing from John Locke's inquiry into knowledge's extent and...
-  Speakers: Joseph Kohn, Tim Maudlin, Priyamvada Natarajan, Dorothea von Mucke
+  Speakers: Joseph Kohn, Tim Maudlin, Priyamvada Natarajan, Dorothea von Mücke
   Tags: empirical theory, knowledge, limitations, metaphysics, natural laws, universe
 
 - [Responses: Poetry with Jean Valentine and Patrick Rosal](https://www.helixcenter.org/roundtables/responses-poetry-with-jean-valentine-and-patrick-rosal/) (June 14, 2014)
@@ -615,7 +635,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Synthetic and Systems Biology: Reinventing the Code of Life](https://www.helixcenter.org/roundtables/synthetic-and-systems-biology-reinventing-the-code-of-life/) (May 11, 2013) [video, transcript]
   The roundtable explores how synthetic and systems biology enable DNA reengineering at unprecedented pace. These interdisciplinary fields combine biology, engineering, computer science, and...
-  Speakers: Andrea Califano, Mark Fishman, M.D., Michael Hecht, Christopher Mason, Saeed Tavazoie, Michael Waldholz
+  Speakers: Andrea Califano, Mark Fishman, Michael Hecht, Christopher Mason, Saeed Tavazoie, Michael Waldholz
   Tags: Biomedical Research, Genetics, Medical Innovation, Promethean Man, Synthetic Biology, Systems Biology
 
 - [Ignorance and Curiosity](https://www.helixcenter.org/roundtables/ignorance-and-curiosity/) (April 27, 2013) [video, transcript]
@@ -650,12 +670,12 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 1](https://www.helixcenter.org/roundtables/aby-warburg-art-neuroscience-and-psychoanalysis-day-1/) (October 12, 9:00 AM - 4:15 PM, 2013) [video, transcript]
   The symposium explores Warburg's intellectual preoccupations including "memory, both in relation to different forms of artistic creation and in anticipation of concepts related to neuroplasticity and...
-  Speakers: Anjan Chatterjee, Georges Didi-Huberman, David Freedberg, Vittorio Gallese, Thomas DaCosta Kaufmann, Ludovica Lumer, Edward Nersessian, Andrea Pinotti, Francois Quiviger, Dorothea Rockburne, Christopher Wood
+  Speakers: Anjan Chatterjee, Georges Didi-Huberman, David Freedberg, Vittorio Gallese, Thomas DaCosta Kaufmann, Ludovica Lumer, Edward Nersessian, Andrea Pinotti, François Quiviger, Dorothea Rockburne, Christopher Wood
   Tags: neuroaesthetics, neuroplasticity, memory, image importance, interdisciplinary thinking, Aby Warburg's ideas
 
 - [Aby Warburg: Art, Neuroscience, and Psychoanalysis: Day 2](https://www.helixcenter.org/roundtables/aby-warburg-art-neuroscience-and-psychoanalysis-day-2/) (October 13, 9:30 AM - 4:15 PM, 2013) [video, transcript]
   Continuation of the two-day symposium examining Warburg's concepts including memory in relation to artistic creation, neuroplasticity, and neuroesthetics. Focus areas include "the significance and...
-  Speakers: Francois Ansermet, Cristina Alberini, Siri Hustvedt, Christopher Johnson, Joseph LeDoux, Peter Loewenberg, Pierre Magistretti, Spyros Papapetros, Robert Penzer, Louis Rose
+  Speakers: François Ansermet, Cristina Alberini, Siri Hustvedt, Christopher Johnson, Joseph LeDoux, Peter Loewenberg, Pierre Magistretti, Spyros Papapetros, Robert Penzer, Louis Rose
   Tags: Aby Warburg's Ideas, Image importance, Interdisciplinary thinking, Memory, Neuroaesthetics, Neuroplasticity
 
 ### 2012 Season (8 roundtables)
@@ -672,7 +692,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 - [Life and Movement](https://www.helixcenter.org/roundtables/life-and-movement/) (October 26, 2012) [video, transcript]
   The roundtable explored how "evolution, coordination dynamics, sports, social interactions, and aesthetics help us understand movement and life." Key topics included distinguishing "movement and...
-  Speakers: Jesus Ilundain-Agurruza, Albert A. Johnstone, J. A. Scott Kelso, Maxine Sheets-Johnstone
+  Speakers: Jesús Ilundáin-Agurruza, Albert A. Johnstone, J. A. Scott Kelso, Maxine Sheets-Johnstone
   Tags: Aesthetics, Coordination Dynamics, Evolution, Kinesthesia, Social Interactions, Sports
 
 - [Collaborations: Jazz and Poetry](https://www.helixcenter.org/roundtables/collaborations-jazz-and-poetry/) (October 14, 2012) [video, transcript]
@@ -1450,17 +1470,17 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 
 ## Affiliated Institutions
 
-- [Columbia University](https://www.helixcenter.org/institutions/columbia-university/) (53 speakers)
-- [New York University](https://www.helixcenter.org/institutions/new-york-university/) (48 speakers)
-- [Princeton University](https://www.helixcenter.org/institutions/princeton-university/) (24 speakers)
+- [Columbia University](https://www.helixcenter.org/institutions/columbia-university/) (54 speakers)
+- [New York University](https://www.helixcenter.org/institutions/new-york-university/) (49 speakers)
+- [Princeton University](https://www.helixcenter.org/institutions/princeton-university/) (25 speakers)
 - [Cornell University](https://www.helixcenter.org/institutions/cornell-university/) (22 speakers)
-- [Yale University](https://www.helixcenter.org/institutions/yale-university/) (18 speakers)
-- [Rutgers University](https://www.helixcenter.org/institutions/rutgers-university/) (13 speakers)
-- [Harvard University](https://www.helixcenter.org/institutions/harvard-university/) (12 speakers)
+- [Yale University](https://www.helixcenter.org/institutions/yale-university/) (19 speakers)
+- [Rutgers University](https://www.helixcenter.org/institutions/rutgers-university/) (14 speakers)
+- [Harvard University](https://www.helixcenter.org/institutions/harvard-university/) (14 speakers)
 - [City University of New York](https://www.helixcenter.org/institutions/city-university-of-new-york/) (12 speakers)
 - [Massachusetts Institute of Technology](https://www.helixcenter.org/institutions/massachusetts-institute-of-technology/) (9 speakers)
+- [University of Pennsylvania](https://www.helixcenter.org/institutions/university-of-pennsylvania/) (5 speakers)
 - [University College London](https://www.helixcenter.org/institutions/university-college-london/) (4 speakers)
-- [University of Pennsylvania](https://www.helixcenter.org/institutions/university-of-pennsylvania/) (4 speakers)
 - [Icahn School of Medicine at Mount Sinai](https://www.helixcenter.org/institutions/icahn-school-of-medicine-at-mount-sinai/) (4 speakers)
 - [Stony Brook University](https://www.helixcenter.org/institutions/stony-brook-university/) (4 speakers)
 - [Boston University](https://www.helixcenter.org/institutions/boston-university/) (4 speakers)
@@ -1490,6 +1510,7 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 - [Fordham University](https://www.helixcenter.org/institutions/fordham-university/) (2 speakers)
 - [Northeastern University](https://www.helixcenter.org/institutions/northeastern-university/) (2 speakers)
 - [Barnard College](https://www.helixcenter.org/institutions/barnard-college/) (2 speakers)
+- [Dartmouth College](https://www.helixcenter.org/institutions/dartmouth-college/) (2 speakers)
 - [Kenyon College](https://www.helixcenter.org/institutions/kenyon-college/) (1 speakers)
 - [Memorial Sloan Kettering Cancer Center](https://www.helixcenter.org/institutions/memorial-sloan-kettering-cancer-center/) (1 speakers)
 - [University of California, Berkeley](https://www.helixcenter.org/institutions/university-of-california-berkeley/) (1 speakers)
@@ -1510,24 +1531,25 @@ This is the comprehensive companion to llms.txt. It lists every roundtable, spea
 - [Georgia Institute of Technology](https://www.helixcenter.org/institutions/georgia-institute-of-technology/) (1 speakers)
 - [Ohio State University](https://www.helixcenter.org/institutions/ohio-state-university/) (1 speakers)
 - [Drexel University](https://www.helixcenter.org/institutions/drexel-university/) (1 speakers)
-- [Dartmouth College](https://www.helixcenter.org/institutions/dartmouth-college/) (1 speakers)
 - [Vanderbilt University](https://www.helixcenter.org/institutions/vanderbilt-university/) (1 speakers)
 - [WNYC / WQXR](https://www.helixcenter.org/institutions/wnyc-wqxr/) (1 speakers)
 - [Skidmore College](https://www.helixcenter.org/institutions/skidmore-college/) (1 speakers)
 - [Democracy Now!](https://www.helixcenter.org/institutions/democracy-now/) (1 speakers)
+- [Bucknell University](https://www.helixcenter.org/institutions/bucknell-university/) (2 speakers)
 
 ## Disciplines
 
 - [Artificial Intelligence & Humanities](https://www.helixcenter.org/disciplines/artificial-intelligence-and-humanities/) (1 speakers)
-- [Biology & Medicine](https://www.helixcenter.org/disciplines/biology-and-medicine/) (70 speakers)
-- [Creative & Performing Arts](https://www.helixcenter.org/disciplines/creative-and-performing-arts/) (38 speakers)
-- [History & Cultural Studies](https://www.helixcenter.org/disciplines/history-and-cultural-studies/) (32 speakers)
+- [Biology & Medicine](https://www.helixcenter.org/disciplines/biology-and-medicine/) (73 speakers)
+- [Computer Science & AI](https://www.helixcenter.org/disciplines/computer-science-and-ai/) (3 speakers)
+- [Creative & Performing Arts](https://www.helixcenter.org/disciplines/creative-and-performing-arts/) (39 speakers)
+- [History & Cultural Studies](https://www.helixcenter.org/disciplines/history-and-cultural-studies/) (33 speakers)
 - [Journalism & Media](https://www.helixcenter.org/disciplines/journalism-and-media/) (15 speakers)
-- [Literature & Writing](https://www.helixcenter.org/disciplines/literature-and-writing/) (82 speakers)
+- [Literature & Writing](https://www.helixcenter.org/disciplines/literature-and-writing/) (83 speakers)
 - [Mathematics & Computer Science](https://www.helixcenter.org/disciplines/mathematics-and-computer-science/) (24 speakers)
-- [Neuroscience & Cognition](https://www.helixcenter.org/disciplines/neuroscience-and-cognition/) (53 speakers)
-- [Other/Interdisciplinary](https://www.helixcenter.org/disciplines/otherinterdisciplinary/) (17 speakers)
-- [Philosophy & Ethics](https://www.helixcenter.org/disciplines/philosophy-and-ethics/) (53 speakers)
+- [Neuroscience & Cognition](https://www.helixcenter.org/disciplines/neuroscience-and-cognition/) (57 speakers)
+- [Other/Interdisciplinary](https://www.helixcenter.org/disciplines/otherinterdisciplinary/) (18 speakers)
+- [Philosophy & Ethics](https://www.helixcenter.org/disciplines/philosophy-and-ethics/) (56 speakers)
 - [Physics & Cosmology](https://www.helixcenter.org/disciplines/physics-and-cosmology/) (24 speakers)
 - [Psychology & Psychoanalysis](https://www.helixcenter.org/disciplines/psychology-and-psychoanalysis/) (50 speakers)
 - [Social Sciences](https://www.helixcenter.org/disciplines/social-sciences/) (33 speakers)

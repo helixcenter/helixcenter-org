@@ -2,8 +2,11 @@
 layout: layouts/base.njk
 title: Interdisciplinary Roundtable Discussions in NYC
 pageTitle: Where the World's Leading Minds Converge
-description: "The Helix Center hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and 507 distinguished scholars across 13 disciplines. Founded 2012 in New York City."
 permalink: /
+eleventyComputed:
+  # Computed, not a literal string: front matter is not template-processed, and
+  # the hard-coded "507 scholars / 13 disciplines" here had gone stale.
+  description: "The Helix Center hosts free interdisciplinary roundtable discussions bringing together Nobel laureates, MacArthur Fellows, and {{ stats.speakers }} distinguished scholars across {{ stats.disciplines }} disciplines. Founded 2012 in New York City."
 ---
 
 <script type="application/ld+json">
@@ -18,7 +21,9 @@ permalink: /
     "@type": "ImageObject",
     "url": "{{ site.url }}/img/helix-center-og.jpg"
   },
-  "description": "{{ site.description }}",
+  {#- Use the computed page description (stats-driven), not site.json's literal,
+      which still hard-codes the stale "507 scholars / 13 disciplines". -#}
+  "description": "{{ description | jsonEscape }}",
   "foundingDate": "2012-01-01",
   "founder": {
     "@type": "Person",
@@ -129,7 +134,7 @@ permalink: /
         and pioneering thinkers from every discipline for unrehearsed intellectual exchange.
       </p>
       <p class="hero-description">
-        Since 2012, The Helix Center has hosted {{ site.stats.speakers }} of the world's most distinguished scholars,
+        Since 2012, The Helix Center has hosted {{ stats.speakers }} of the world's most distinguished scholars,
         scientists, artists, and public intellectuals for free interdisciplinary roundtable discussions
         at the {{ site.address.venue }} on Manhattan's Upper East Side. Every event
         is free, open to the public, and archived for the world.
@@ -159,19 +164,19 @@ permalink: /
   <div class="container">
     <div class="impact-strip">
       <div class="impact-item">
-        <div class="impact-number">{{ site.stats.speakers }}</div>
+        <div class="impact-number">{{ stats.speakers }}</div>
         <div class="impact-label">Speakers</div>
       </div>
       <div class="impact-item">
-        <div class="impact-number">{{ site.stats.seasons }}</div>
+        <div class="impact-number">{{ stats.seasons }}</div>
         <div class="impact-label">Years</div>
       </div>
       <div class="impact-item">
-        <div class="impact-number">{{ site.stats.roundtables }}</div>
+        <div class="impact-number">{{ stats.roundtables }}</div>
         <div class="impact-label">Roundtables</div>
       </div>
       <div class="impact-item">
-        <div class="impact-number">{{ site.stats.institutions }}</div>
+        <div class="impact-number">{{ stats.institutions }}</div>
         <div class="impact-label">Institutions</div>
       </div>
       <div class="impact-item">
@@ -198,8 +203,8 @@ permalink: /
           has grown into one of New York City's most distinctive intellectual institutions.
         </p>
         <p>
-          Over {{ site.stats.seasons }} seasons, The Helix Center has convened <strong>{{ site.stats.speakers }} distinguished speakers</strong>
-          from <strong>{{ site.stats.institutions }} institutions</strong> &mdash; including Columbia, NYU, Princeton, Yale, Harvard,
+          Over {{ stats.seasons }} seasons, The Helix Center has convened <strong>{{ stats.speakers }} distinguished speakers</strong>
+          from <strong>{{ stats.institutions }} institutions</strong> &mdash; including Columbia, NYU, Princeton, Yale, Harvard,
           MIT, Oxford, Cambridge, and University College London &mdash; for its signature
           <strong>Theaetetus Table</strong> roundtable discussions. These extempore (unscripted) conversations
           bring five experts from different fields together to explore a single question at the boundaries
@@ -215,14 +220,14 @@ permalink: /
           <div class="principle-icon">&#8734;</div>
           <div>
             <h4>Interdisciplinary by Design</h4>
-            <p>Every roundtable unites voices from multiple fields &mdash; {{ site.stats.disciplines }} disciplines from neuroscience to poetry, physics to psychoanalysis.</p>
+            <p>Every roundtable unites voices from multiple fields &mdash; {{ stats.disciplines }} disciplines from neuroscience to poetry, physics to psychoanalysis.</p>
           </div>
         </div>
         <div class="principle">
           <div class="principle-icon">&#9733;</div>
           <div>
             <h4>Exceptional Caliber</h4>
-            <p>Our {{ site.stats.speakers }} speakers include {{ site.stats.nobelLaureates }} Nobel laureates, {{ site.stats.macarthurFellows }} MacArthur Fellows, National Medal of Science recipients, and the most-cited neuroscientist in history.</p>
+            <p>Our {{ stats.speakers }} speakers include {{ stats.nobelLaureates }} Nobel laureates, {{ stats.macarthurFellows }} MacArthur Fellows, National Medal of Science recipients, and the most-cited neuroscientist in history.</p>
           </div>
         </div>
         <div class="principle">
@@ -236,7 +241,7 @@ permalink: /
           <div class="principle-icon">&#9825;</div>
           <div>
             <h4>Free &amp; Open to All</h4>
-            <p>Every event &mdash; in person or via live stream &mdash; is free. Our entire {{ site.stats.roundtables }} roundtable archive is freely accessible online.</p>
+            <p>Every event &mdash; in person or via live stream &mdash; is free. Our entire {{ stats.roundtables }} roundtable archive is freely accessible online.</p>
           </div>
         </div>
       </div>
@@ -376,7 +381,7 @@ permalink: /
     <h2 class="text-center">Featured Speakers</h2>
     <div class="gold-divider"></div>
     <p class="section-subtitle text-center">
-      From a community of {{ site.stats.speakers }} scholars, scientists, and artists across {{ site.stats.institutions }} leading institutions,
+      From a community of {{ stats.speakers }} scholars, scientists, and artists across {{ stats.institutions }} leading institutions,
       these are among our most distinguished participants.
       <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--text-light); font-style: normal;">Roundtables curated by <a href="/speakers/edward-nersessian/" style="color: var(--gold-dark); text-decoration: none;">Dr. Edward Nersessian</a>, Founder &amp; Director</span>
     </p>
@@ -387,7 +392,7 @@ permalink: /
       {% endfor %}
     </div>
     <div class="text-center" style="margin-top: 2.5rem;">
-      <a href="/speakers/" class="btn btn-outline-dark">View All {{ site.stats.speakers }} Speakers &rarr;</a>
+      <a href="/speakers/" class="btn btn-outline-dark">View All {{ stats.speakers }} Speakers &rarr;</a>
     </div>
   </div>
 </section>
@@ -417,35 +422,45 @@ permalink: /
     <h2 class="text-center">Featured Roundtable Discussions</h2>
     <div class="gold-divider"></div>
     <p class="section-subtitle text-center">
-      A curated selection from over {{ site.stats.roundtables }} archived discussions &mdash; every one free to watch.
+      A curated selection from over {{ stats.roundtables }} archived discussions &mdash; every one free to watch.
     </p>
 
+    {#- Both cards are data-driven. The featured card previously hard-coded
+        "Medicine and AI / April 18" and kept advertising it as upcoming long after
+        the event; it now tracks whatever `nextUpcoming` returns, and is simply
+        omitted when nothing is scheduled. -#}
+    {%- set featuredRt = roundtables | nextUpcoming %}
+    {%- set latestVideoRt = roundtables | latestVideo %}
     <div class="video-grid">
+      {%- if featuredRt %}
       <div class="video-card featured">
         <div class="video-thumbnail" style="padding-top:0;">
-          <img src="https://www.helixcenter.org/wp-content/uploads/2026/03/unnamed.jpg" alt="Medicine and AI — upcoming Helix Center roundtable" style="width:100%; height:100%; object-fit:cover; display:block; aspect-ratio:16/9;">
-          <a href="/roundtables/medicine-and-ai/" style="position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; background:linear-gradient(transparent 40%, rgba(10,22,40,0.7)); text-decoration:none; padding:1.5rem;">
-            <span style="background:var(--gold); color:var(--navy); font-family:var(--sans); font-size:0.72rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.35rem 1rem; border-radius:3px;">Upcoming Event &middot; April 18</span>
+          <img src="{{ featuredRt.imageFile }}" alt="{{ featuredRt.title }} — upcoming Helix Center roundtable" style="width:100%; height:100%; object-fit:cover; display:block; aspect-ratio:16/9;">
+          <a href="/roundtables/{{ featuredRt.slug }}/" style="position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; background:linear-gradient(transparent 40%, rgba(10,22,40,0.7)); text-decoration:none; padding:1.5rem;">
+            <span style="background:var(--gold); color:var(--navy); font-family:var(--sans); font-size:0.72rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.35rem 1rem; border-radius:3px;">Upcoming Event &middot; {{ featuredRt.date | eventMonth }} {{ featuredRt.date | eventDay }}</span>
           </a>
         </div>
         <div class="video-info">
-          <div class="video-topic">Upcoming &middot; April 2026</div>
-          <div class="video-title">Medicine and AI</div>
-          <div class="video-desc">How should clinicians evaluate AI tools trained on millions of patient records? Can algorithmic fairness frameworks prevent health disparities from being encoded into predictive models?</div>
-          <div class="video-meta">Saturday, April 18, 2026 &middot; 2:30 PM EST &middot; Free admission</div>
+          <div class="video-topic">Upcoming &middot; {{ featuredRt.date | eventMonth }} {{ featuredRt.date | eventYear }}</div>
+          <div class="video-title">{{ featuredRt.title }}</div>
+          <div class="video-desc">{{ featuredRt.description | truncate(220) }}</div>
+          <div class="video-meta">{{ featuredRt.date | eventWeekday }}, {{ featuredRt.date | eventMonth }} {{ featuredRt.date | eventDay }}, {{ featuredRt.date | eventYear }} &middot; {{ featuredRt.date | eventTime }} EST &middot; Free admission</div>
         </div>
       </div>
+      {%- endif %}
 
+      {%- if latestVideoRt %}
       <div class="video-card">
         <div class="video-thumbnail">
-          <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/eby-kQ0uLhg?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy" title="Where Have All the Isms Gone? — Helix Center Roundtable"></iframe>
+          <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/{{ latestVideoRt.videoId }}?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy" title="{{ latestVideoRt.title }} — Helix Center Roundtable"></iframe>
         </div>
         <div class="video-info">
-          <div class="video-topic">Intellectual History &middot; March 2026</div>
-          <div class="video-title">Where Have All the Isms Gone?: On the Evolution of Knowledge</div>
-          <div class="video-desc">How intellectual movements and paradigms have historically organized knowledge &mdash; and what has replaced postmodernism and post-structuralism.</div>
+          <div class="video-topic">Latest Video &middot; {{ latestVideoRt.date | eventMonth }} {{ latestVideoRt.date | eventYear }}</div>
+          <div class="video-title">{{ latestVideoRt.title }}</div>
+          <div class="video-desc">{{ latestVideoRt.description | truncate(220) }}</div>
         </div>
       </div>
+      {%- endif %}
 
       <div class="video-card">
         <div class="video-thumbnail">
@@ -470,7 +485,7 @@ permalink: /
 <section id="disciplines" class="cream fade-in">
   <div class="container">
     <div class="section-label text-center">Interdisciplinary Breadth</div>
-    <h2 class="text-center">{{ site.stats.disciplines }} Disciplines, One Conversation</h2>
+    <h2 class="text-center">{{ stats.disciplines }} Disciplines, One Conversation</h2>
     <div class="gold-divider"></div>
     <p class="section-subtitle text-center">
       The Helix Center's roundtables bridge every major field of human inquiry &mdash;
@@ -504,7 +519,7 @@ permalink: /
       In the tradition of the great European salons and the founding seminars of the Institute for
       Advanced Study, The Helix Center creates conditions for genuine intellectual surprise &mdash;
       where a neuroscientist's insight reframes a philosopher's question, where a poet's language
-      unlocks a physicist's intuition. Our {{ site.stats.roundtables }} archived roundtables form an unparalleled resource
+      unlocks a physicist's intuition. Our {{ stats.roundtables }} archived roundtables form an unparalleled resource
       for educators, researchers, students, and the intellectually curious public &mdash; spanning
       consciousness, AI and ethics, the nature of creativity, cosmology, memory, beauty, free will,
       psychoanalysis, mathematics, and far beyond.
@@ -574,13 +589,13 @@ permalink: /
         <h3>For Prospective Speakers</h3>
         <p>
           The Helix Center invites distinguished scholars, scientists, artists, and public intellectuals
-          to participate in our Theaetetus Table roundtables. Our panelists have included {{ site.stats.nobelLaureates }} Nobel laureates,
-          {{ site.stats.macarthurFellows }} MacArthur Fellows, National Medal of Science recipients, and leading voices across every discipline.
+          to participate in our Theaetetus Table roundtables. Our panelists have included {{ stats.nobelLaureates }} Nobel laureates,
+          {{ stats.macarthurFellows }} MacArthur Fellows, National Medal of Science recipients, and leading voices across every discipline.
         </p>
         <ul>
           <li>Unrehearsed, intellectually rigorous conversation with peers from other fields</li>
           <li>Professionally produced video recording shared freely with global audiences</li>
-          <li>A legacy archive joining {{ site.stats.speakers }} of the world's leading minds</li>
+          <li>A legacy archive joining {{ stats.speakers }} of the world's leading minds</li>
           <li>The intimate setting of the {{ site.address.venue }}</li>
           <li>An engaged live audience and active post-discussion Q&amp;A</li>
         </ul>
@@ -595,7 +610,7 @@ permalink: /
         <ul>
           <li>Attend in person &mdash; free, no ticket required (first-come seating)</li>
           <li>Watch live streams of every roundtable</li>
-          <li>Access our complete video archive of {{ site.stats.roundtables }} past discussions</li>
+          <li>Access our complete video archive of {{ stats.roundtables }} past discussions</li>
           <li>Engage in Q&amp;A with panelists after each roundtable</li>
           <li>Subscribe for notifications of upcoming events</li>
         </ul>
@@ -605,40 +620,48 @@ permalink: /
 </section>
 
 <!-- UPCOMING EVENT -->
+{#- Data-driven, not hard-coded. `nextUpcoming` requires BOTH status "Future Event"
+    and a date >= today, so a stale status can never re-advertise a past event as
+    upcoming (the previous hard-coded block still showed "Medicine and AI",
+    April 18 2026, five months after the fact). Falls back to the latest past
+    roundtable with "Watch the latest" framing when nothing is scheduled. -#}
+{%- set upcomingRt = roundtables | nextUpcoming %}
+{%- set isUpcoming = upcomingRt %}
+{%- if not upcomingRt %}{% set upcomingRt = roundtables | latestPast %}{% endif %}
+{%- if upcomingRt %}
 <section id="upcoming" class="fade-in">
   <div class="container">
-    <div class="section-label text-center">Next Event</div>
-    <h2 class="text-center">Upcoming Roundtable</h2>
+    <div class="section-label text-center">{% if isUpcoming %}Next Event{% else %}Most Recent{% endif %}</div>
+    <h2 class="text-center">{% if isUpcoming %}Upcoming Roundtable{% else %}Watch the Latest Roundtable{% endif %}</h2>
     <div class="gold-divider"></div>
 
     <div class="upcoming-event">
       <div>
-        <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Medicine and AI</h3>
+        <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">{{ upcomingRt.title }}</h3>
         <p style="font-family: var(--serif); font-size: 1.02rem; color: var(--text-mid); line-height: 1.75; margin-bottom: 1.5rem;">
-          How is artificial intelligence transforming medicine &mdash; from protein language models that predict
-          genomic variant effects to clinical large language models deployed across hospital systems? The panel
-          explores questions of trust, evidence, and equity in AI-driven patient care.
+          {{ upcomingRt.description | truncate(340) }}
         </p>
         <p style="font-size: 0.9rem; color: var(--text-mid); margin-bottom: 0.35rem;">
           <strong>Location:</strong> {{ site.address.venue }}<br>
           {{ site.address.street }}, {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}
         </p>
         <p style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 1.5rem;">
-          Free and open to the public &middot; Live stream available
+          {% if isUpcoming %}Free and open to the public &middot; Live stream available{% else %}Free to watch &middot; Archived in full{% endif %}
         </p>
         <div style="text-align: center;">
-          <a href="/roundtables/medicine-and-ai/" class="btn btn-gold">Learn More</a>
+          <a href="/roundtables/{{ upcomingRt.slug }}/" class="btn btn-gold">{% if isUpcoming %}Learn More{% else %}Watch Now{% endif %}</a>
         </div>
       </div>
       <div class="event-date">
-        <div class="event-month">April</div>
-        <div class="event-day">18</div>
-        <div class="event-month">2026</div>
-        <div class="event-time">Saturday &middot; 2:30 PM</div>
+        <div class="event-month">{{ upcomingRt.date | eventMonth }}</div>
+        <div class="event-day">{{ upcomingRt.date | eventDay }}</div>
+        <div class="event-month">{{ upcomingRt.date | eventYear }}</div>
+        <div class="event-time">{{ upcomingRt.date | eventWeekday }} &middot; {{ upcomingRt.date | eventTime }}</div>
       </div>
     </div>
   </div>
 </section>
+{%- endif %}
 
 {# Registration modal #}
 <div class="register-modal-overlay" id="register-modal-overlay">
@@ -646,12 +669,12 @@ permalink: /
     <button class="register-modal-close" aria-label="Close">&times;</button>
     <h2>Attend This Roundtable</h2>
     <h3 style="font-family: var(--serif); font-weight: 400; font-size: 1.05rem; color: var(--gold-dark); margin-bottom: 1.5rem;">
-      Medicine and AI
+      {{ upcomingRt.title if upcomingRt else site.shortName }}
     </h3>
 
     <div class="register-details">
       <div class="register-detail-row">
-        <strong>Date:</strong> Saturday, April 18, 2026 &middot; 2:30 PM EST
+        <strong>Date:</strong> {% if upcomingRt %}{{ upcomingRt.date | eventWeekday }}, {{ upcomingRt.date | eventMonth }} {{ upcomingRt.date | eventDay }}, {{ upcomingRt.date | eventYear }} &middot; {{ upcomingRt.date | eventTime }} EST{% else %}To be announced{% endif %}
       </div>
       <div class="register-detail-row">
         <strong>Location:</strong> {{ site.address.venue }}<br>
@@ -675,9 +698,9 @@ permalink: /
     </div>
 
     <div style="text-align: center; margin-top: 2rem;">
-      <a href="https://www.eventbrite.com/o/the-helix-center-8028498869" class="btn btn-gold" target="_blank" rel="noopener" style="padding: 0.85rem 2.5rem; font-size: 0.9rem;">
+      <span class="btn btn-gold" style="padding: 0.85rem 2.5rem; font-size: 0.9rem;">
         Reserve on Eventbrite &rarr;
-      </a>
+      </span>
       <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 0.75rem;">
         Registration is free but encouraged to help us plan seating.
       </p>
@@ -701,9 +724,9 @@ permalink: /
           founded in 2012</strong> in New York City. It hosts free, public interdisciplinary roundtable
           discussions called "Theaetetus Tables" that bring together five distinguished scholars,
           scientists, and artists from different fields for unrehearsed intellectual exchange. Over
-          <strong>{{ site.stats.seasons }} seasons</strong>, it has featured <strong>{{ site.stats.speakers }} speakers</strong> from institutions
+          <strong>{{ stats.seasons }} seasons</strong>, it has featured <strong>{{ stats.speakers }} speakers</strong> from institutions
           including Columbia, NYU, Princeton, Yale, Harvard, and MIT &mdash; with participants including
-          <strong>Nobel laureates Daniel Kahneman, Eric Kandel, David J. Gross, and Christian de Duve</strong>, MacArthur Fellows Sara Seager,
+          <strong>Nobel laureates Daniel Kahneman and Eric Kandel</strong>, MacArthur Fellows Sara Seager,
           Vijay Iyer, and Yiyun Li, and National Medal of Science recipients Sylvester James Gates and Barry Mazur.
         </p>
       </details>
@@ -712,7 +735,7 @@ permalink: /
         <p class="faq-answer">
           Yes. <strong>All Helix Center events are completely free and open to the public.</strong> You can attend
           in person at {{ site.address.venue }} ({{ site.address.street }}, {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}) or
-          watch via free live stream. All <strong>{{ site.stats.roundtables }} past roundtables</strong> are archived and freely viewable
+          watch via free live stream. All <strong>{{ stats.roundtables }} past roundtables</strong> are archived and freely viewable
           on the website and <a href="{{ site.social.youtube }}">YouTube channel</a>.
         </p>
       </details>
@@ -729,8 +752,8 @@ permalink: /
       <details class="faq-item">
         <summary>Who are some notable speakers who have participated?</summary>
         <p class="faq-answer">
-          The Helix Center's <strong>{{ site.stats.speakers }} speakers</strong> include: Nobel laureates <strong>Daniel Kahneman</strong>
-          (Economics, 2002), <strong>Eric Kandel</strong> (Medicine, 2000), and <strong>David J. Gross</strong> (Physics, 2004); MacArthur Fellows
+          The Helix Center's <strong>{{ stats.speakers }} speakers</strong> include: Nobel laureates <strong>Daniel Kahneman</strong>
+          (Economics, 2002) and <strong>Eric Kandel</strong> (Medicine, 2000); MacArthur Fellows
           <strong>Sara Seager</strong> (astrophysics), <strong>Vijay Iyer</strong> (music),
           and <strong>Yiyun Li</strong> (literature);
           National Medal of Science recipients <strong>Sylvester James Gates</strong> and <strong>Barry Mazur</strong>;
@@ -781,8 +804,10 @@ permalink: /
   </div>
   <div class="stat-modal-list">
     {% for speakerName in award.speakers %}
-    {% set sp = speakers | findSpeaker(speakerName) %}
-    {% if sp %}
+    {#- requireSpeaker (not findSpeaker): an award name that does not resolve is a
+        data bug. It used to be swallowed by an `{% if sp %}` guard, which is how
+        the "4 Nobel Laureates" card came to list only 2 people. Now it fails the build. -#}
+    {% set sp = speakers | requireSpeaker(speakerName, "index.njk award modal: " + award.id) %}
     <a href="{{ sp.name | speakerUrl }}" class="stat-modal-person">
       {% if sp.photo %}<img src="{{ sp.photo }}" alt="{{ sp.name }}" class="stat-modal-photo">{% else %}<div class="stat-modal-initials">{{ sp.name | initials }}</div>{% endif %}
       <div>
@@ -791,7 +816,6 @@ permalink: /
         <div class="stat-modal-inst">{% if sp.institution and sp.institution != "Unknown" %}{{ sp.institution }}{% endif %}</div>
       </div>
     </a>
-    {% endif %}
     {% endfor %}
   </div>
 </template>
@@ -809,7 +833,7 @@ permalink: /
       <div class="trust-divider"></div>
       <div><div class="trust-item-label">Admission</div><div class="trust-item-value">Always Free</div></div>
       <div class="trust-divider"></div>
-      <div><div class="trust-item-label">Archive</div><div class="trust-item-value">{{ site.stats.roundtables }} Roundtables</div></div>
+      <div><div class="trust-item-label">Archive</div><div class="trust-item-value">{{ stats.roundtables }} Roundtables</div></div>
     </div>
   </div>
 </section>

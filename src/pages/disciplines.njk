@@ -1,16 +1,19 @@
 ---
 layout: layouts/base.njk
 title: Disciplines
-pageTitle: "13 Disciplines, One Conversation"
-description: "The Helix Center's roundtables bridge 13 academic disciplines from neuroscience to poetry, physics to psychoanalysis."
 permalink: /disciplines/
 breadcrumbSection: "Disciplines"
+eleventyComputed:
+  # Computed, not literals: front matter is not template-processed, and the
+  # hard-coded "13" here was already stale against disciplines.json.
+  pageTitle: "{{ stats.disciplines }} Disciplines, One Conversation"
+  description: "The Helix Center's roundtables bridge {{ stats.disciplines }} academic disciplines from neuroscience to poetry, physics to psychoanalysis."
 ---
 
 <div class="page-header">
   <div class="container">
     <div class="section-label">Interdisciplinary Breadth</div>
-    <h1>13 Disciplines, One Conversation</h1>
+    <h1>{{ stats.disciplines }} Disciplines, One Conversation</h1>
     <div class="gold-divider"></div>
     <p class="section-subtitle">The Helix Center's roundtables bridge every major field of human inquiry</p>
   </div>

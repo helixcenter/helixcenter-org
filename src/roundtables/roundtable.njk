@@ -57,10 +57,11 @@ eleventyComputed:
   }
   {% if rt.speakers and rt.speakers.length %},
   "performer": [{% for name in rt.speakers %}{% if loop.index0 > 0 %},{% endif %}
+    {%- set perf = speakers | findSpeaker(name) %}
     {
       "@type": "Person",
-      "name": "{{ name }}",
-      "url": "{{ site.url }}{{ name | speakerUrl }}"
+      "name": "{{ name }}"{% if perf %},
+      "url": "{{ site.url }}{{ perf.name | speakerUrl }}"{% endif %}
     }{% endfor %}
   ]{% endif %}
 }
