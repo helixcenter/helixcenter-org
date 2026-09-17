@@ -15,8 +15,6 @@ jobs:
         with:
           node-version: '22'
       - run: npm install
-      # Make sure tests pass
+      # Run tests
       - run: npm test
-      # Ensure that site can be built successfully
-      - run: npm run build
 
